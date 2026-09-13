@@ -1,0 +1,2826 @@
+{
+  "status": "column_chart_formal_identities_passed",
+  "variables": [
+    "c0",
+    "d0",
+    "c1",
+    "d1",
+    "c2",
+    "d2",
+    "c3",
+    "d3"
+  ],
+  "determinant": {
+    "degree": 3,
+    "terms": [
+      {
+        "powers": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "1"
+      }
+    ]
+  },
+  "axis_width_numerators": [
+    {
+      "axis": 0,
+      "vertex_pair": [
+        0,
+        1
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-2"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 0,
+      "vertex_pair": [
+        0,
+        2
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-2"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 0,
+      "vertex_pair": [
+        0,
+        3
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-2"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 0,
+      "vertex_pair": [
+        1,
+        2
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-2"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 0,
+      "vertex_pair": [
+        1,
+        3
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 0,
+      "vertex_pair": [
+        2,
+        3
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 1,
+      "vertex_pair": [
+        0,
+        1
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 1,
+      "vertex_pair": [
+        0,
+        2
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 1,
+      "vertex_pair": [
+        0,
+        3
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 1,
+      "vertex_pair": [
+        1,
+        2
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 1,
+      "vertex_pair": [
+        1,
+        3
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 1,
+      "vertex_pair": [
+        2,
+        3
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 2,
+      "vertex_pair": [
+        0,
+        1
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 2,
+      "vertex_pair": [
+        0,
+        2
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 2,
+      "vertex_pair": [
+        0,
+        3
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 2,
+      "vertex_pair": [
+        1,
+        2
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 2,
+      "vertex_pair": [
+        1,
+        3
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          }
+        ]
+      }
+    },
+    {
+      "axis": 2,
+      "vertex_pair": [
+        2,
+        3
+      ],
+      "numerator": {
+        "degree": 2,
+        "terms": [
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1"
+          }
+        ]
+      }
+    }
+  ],
+  "coordinate_gauges": [
+    {
+      "degree": 1,
+      "terms": [
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "degree": 1,
+      "terms": [
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "degree": 1,
+      "terms": [
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        }
+      ]
+    }
+  ],
+  "target_width": "17/5",
+  "gauge_strict_lower": "37/102",
+  "determinant_strict_lower": "50653/3183624",
+  "sample": {
+    "facet_matrix": [
+      [
+        "0",
+        "9/10",
+        "1/20",
+        "1/20"
+      ],
+      [
+        "9/10",
+        "0",
+        "1/20",
+        "17/20"
+      ],
+      [
+        "1/20",
+        "1/20",
+        "0",
+        "1/10"
+      ],
+      [
+        "1/20",
+        "1/20",
+        "9/10",
+        "0"
+      ]
+    ],
+    "determinant": "9/250",
+    "coordinate_gauges": [
+      "2/5",
+      "9/10",
+      "1/10"
+    ]
+  },
+  "scope": "Formal chart identities and necessary cuts, not infeasibility or a width theorem."
+}

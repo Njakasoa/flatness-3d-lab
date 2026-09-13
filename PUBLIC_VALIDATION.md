@@ -90,3 +90,24 @@ unchanged baseline/contact pipelines were not rerun; the new optional SMT
 queries retain their original records and were not repeated for publication.
 Neither UNKNOWN outcome is an infeasibility certificate. Public text and
 local Markdown links were checked and the complete manifest refreshed.
+
+## Observer-guard update validation
+
+From committed source e84400e, all nine stages of
+`reproduce_observer_guards.py` passed in the public copy. The six new exact
+certificate files match source bytes after replay; all 21 previously public
+certificates retain their archived hashes. Independent checkers reject 44
+mutations and whole-witness substitutions, run under Python `-O`, and verify
+the strict integer endpoint regression. See the command-by-command receipt
+in [observer_validation.json](results/observer_validation.json).
+
+The geometry core and the previously validated baseline/contact pipelines
+are unchanged. This publication replay runs no numerical search and no solver
+query. Archived nonlinear targets remain UNKNOWN; archived linear implication
+checks are distinct evidence and do not establish a width bound.
+
+All public Markdown links resolve. The text scan found no private machine
+paths or known credential patterns. The SHA-256 manifest covers all public
+files except itself, and a deliberately corrupted expected hash is rejected.
+The new figures are explanatory; classification inputs and the six gauge
+hypotheses remain explicit in the linked written proofs.

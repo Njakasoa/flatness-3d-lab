@@ -20,9 +20,9 @@ A search finding no newer theorem is not a proof that none exists.
 The 2026 one-point planar flatness paper concerns Flt(2,1), not Flt(3,0).
 Do not describe it as resolving this project's conjecture. No publication,
 priority claim, contact with authors, or external release is authorized by the
-scientific results alone. The maintainer separately authorized GitHub publication
-of the baseline and this internally reviewed structural update; see
-[PUBLICATION.md](PUBLICATION.md). External novelty remains unverified, and no
+scientific results alone. The user separately authorized GitHub publication of
+the reproducible baseline, completed in the curated public checkout. New
+research remains local while proof and novelty reviews are completed; no
 external peer review or journal/arXiv submission has occurred.
 
 The new tetrahedral refinement audit is proofs/CONTACT_MINIMA_LITERATURE.md.
@@ -47,5 +47,26 @@ and a strict inverse sign pattern. These specialize established matrix
 arguments; no novelty claim is made. Their role here is to preserve all
 boundary cases while simplifying the feasibility model. Complementary-minor
 identities yield a thirteen-variable cubic encoding. This is an algebraic
-reformulation, not a new width theorem, and its solver implementation remains
-a next step. The two additional eight-variable queries returned UNKNOWN.
+reformulation, not a new width theorem, and its solver implementation was subsequently completed in the observer update. The two additional eight-variable queries returned UNKNOWN.
+
+
+## Complete observer guards and gauge truncation
+
+Date: 2026-09-13. The twelve-line contact criterion is an internally verified
+application of known observer methods and the five-point width-one theorem.
+Averkov–Schymura, Complexity of linear relaxations in integer programming,
+Lemma 6.4, is a close antecedent: observers lie on neighboring lattice lines
+plus a finite exceptional set. Blanco–Santos 1409.6701v3 supplies the empty
+five-vertex width-one input. Neither underlying principle is new.
+
+The boundary-contact specialization, exact 1456/484 determinant-two list,
+and subsequent six-edge-gauge truncation to 64/20 are explicit verified
+results of this lab. The general nonunimodular version has at most 96 guards
+under the six gauge hypotheses. No priority is established for these
+specializations or convex-combination bounds. Narrow and 2025–2026 web
+queries did not constitute an exhaustive novelty audit. CLAIM-0005 records
+sources and limitations. The continuous width optimization remains open.
+
+Two exact pair witnesses above 19/6, one with exactly 4 contacts, and two
+nonhollow false high-width samples are certification/control results;
+no optimum or global bound is asserted.

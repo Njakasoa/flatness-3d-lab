@@ -5,7 +5,7 @@ Canonical repository: https://github.com/Njakasoa/flatness-3d-lab.
 
 The user explicitly authorized publishing this lab on their GitHub account
 following Njakasoa/ihara-a2-lab. This curated export derives from scientific
-source revision 38fbeef, following the continuous-family update at 9de72cf,
+source revision e84400e, following the pair update at 38fbeef, the continuous-family update at 9de72cf,
 the contact reduction at da24c58
 and the first public baseline at b456770.
 SOURCE_MANIFEST.json records the full revision and
@@ -53,3 +53,13 @@ from committed source 38fbeef. Two additional eight-variable solver records
 remain UNKNOWN; the cubic model is a written formulation in this snapshot.
 This checkpoint preserves the existing public history and excludes ongoing
 uncommitted research. No new global bound or class elimination is claimed.
+
+## Observer-guard update
+
+Published the reviewed twelve-line boundary-contact criterion, the general
+conditional 96-point bound, the exact determinant-two 64/20 guard list,
+pair witnesses, false partial-screen controls, independent verifiers and
+nine-stage reproduction. Source checkpoint: e84400e847c116809df46785c041197d4acb3ea6.
+The column cubic formulation is implemented. All nonlinear target queries
+retain their original UNKNOWN results. Prior observer methods are explicitly
+credited; external novelty and width optimization remain unresolved.

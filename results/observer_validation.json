@@ -1,0 +1,68 @@
+{
+  "status": "all_nine_stages_passed",
+  "commands": [
+    {
+      "command": "python -m experiments.pair_column_identities",
+      "returncode": 0,
+      "elapsed_seconds": 0.5726057769998079
+    },
+    {
+      "command": "python -m experiments.certify_det2_pair_column",
+      "returncode": 0,
+      "elapsed_seconds": 0.09927914400032023
+    },
+    {
+      "command": "python -m experiments.certify_det2_pair_four_contacts",
+      "returncode": 0,
+      "elapsed_seconds": 0.08703201500065916
+    },
+    {
+      "command": "python -O tests/replay_det2_pair_column_independent.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.23938519800049107
+    },
+    {
+      "command": "python -m experiments.det2_partial_box_counterexamples",
+      "returncode": 0,
+      "elapsed_seconds": 0.2582856079998237
+    },
+    {
+      "command": "python -m experiments.det2_observer_lines",
+      "returncode": 0,
+      "elapsed_seconds": 0.1590652989998489
+    },
+    {
+      "command": "python -O tests/replay_det2_observer_lines_independent.py",
+      "returncode": 0,
+      "elapsed_seconds": 1.6802208859999155
+    },
+    {
+      "command": "python -m experiments.det2_observer_gauge_guards",
+      "returncode": 0,
+      "elapsed_seconds": 0.1176879029999327
+    },
+    {
+      "command": "python -O tests/replay_det2_gauge_guards_independent.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.1986945779999587
+    }
+  ],
+  "six_exact_certificates_byte_identical": true,
+  "certificate_sha256": {
+    "pair_column_identities": "b43c3d56538774860efa96fa43188eae694b86fe046365ede8a6e913990f1fd0",
+    "det2_pair_column": "1be491db5780c10d6a91e3e45e5f7317207dfc702cb0cb7b1fe4dfe6d81b3f1b",
+    "det2_pair_four_contacts": "9cb64ba88f07472c7ea1ba3f2daca739db7d7b3b795a588215e029fe15ef021c",
+    "det2_partial_box_counterexamples": "0c64103145b9a1e5ec619c37cab005f8bd645be2d1d0b20a24cf11b78360a69d",
+    "det2_observer_lines": "5ef6d9319a83c714adba565a69b42b4714f4ec3449ec126b66768dff33b60e03",
+    "det2_observer_gauge_guards": "3d30e4f3cf568be632acf09943852b5ec8e77d842e37c3d38a84a02f0c16e8cc"
+  },
+  "independent_corruptions_rejected": {
+    "two_pair_witnesses": 24,
+    "whole_witness_substitutions": 2,
+    "observer_lines": 8,
+    "gauge_guards": 10
+  },
+  "strict_integer_endpoint_regression": "passed",
+  "new_solver_queries_run": 0,
+  "scope": "Exact incremental replay and independent implementation checks. Theorems use cited classification inputs; no class width bound or external priority is established."
+}

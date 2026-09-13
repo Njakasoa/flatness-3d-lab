@@ -1,0 +1,270 @@
+{
+  "status": "unknown",
+  "target": "17/5",
+  "maximum_checks": 6,
+  "timeout_ms_per_check": 15000,
+  "scope": "Partial hollow relaxation; SAT is not a hollow certificate, UNKNOWN is not elimination.",
+  "steps": [
+    {
+      "status": "sat",
+      "elapsed_seconds": 0.05342370799962737,
+      "assertion_count": 67,
+      "statistics": {
+        "random seed": 20260913,
+        "nlsat conflicts": 25,
+        "nlsat propagations": 244,
+        "nlsat restarts": 1,
+        "nlsat stages": 47,
+        "levelwise calls": 25,
+        "num allocs": 3067804,
+        "rlimit count": 42318,
+        "max memory": 20.12,
+        "memory": 19.93,
+        "time": 0.047
+      },
+      "model": {
+        "parameters": {
+          "c": [
+            "(/ 511.0 1024.0)",
+            "(/ 3.0 4.0)",
+            "(/ 47.0 64.0)",
+            "(/ 95.0 128.0)"
+          ],
+          "d": [
+            "(/ 1.0 2.0)",
+            "(/ 1.0 8.0)",
+            "(/ 1.0 4.0)",
+            "(/ 1.0 4.0)"
+          ]
+        },
+        "F": [
+          [
+            "0.0",
+            "(/ 3.0 4.0)",
+            "(/ 1.0 4.0)",
+            "(/ 1.0 4.0)"
+          ],
+          [
+            "(/ 511.0 1024.0)",
+            "0.0",
+            "(/ 1.0 64.0)",
+            "(/ 1.0 128.0)"
+          ],
+          [
+            "(/ 1.0 2.0)",
+            "(/ 1.0 8.0)",
+            "0.0",
+            "(/ 95.0 128.0)"
+          ],
+          [
+            "(/ 1.0 1024.0)",
+            "(/ 1.0 8.0)",
+            "(/ 47.0 64.0)",
+            "0.0"
+          ]
+        ],
+        "delta": "(/ 46841.0 262144.0)",
+        "S": [
+          [
+            "(/ 71.0 32768.0)",
+            "(/ 11883.0 32768.0)",
+            "(- (/ 149.0 32768.0))",
+            "(- (/ 277.0 32768.0))"
+          ],
+          [
+            "(/ 141091.0 524288.0)",
+            "(/ 48223.0 524288.0)",
+            "(- (/ 48033.0 524288.0))",
+            "(- (/ 49057.0 524288.0))"
+          ],
+          [
+            "(- (/ 24017.0 524288.0))",
+            "(- (/ 8461.0 524288.0))",
+            "(/ 8179.0 524288.0)",
+            "(/ 135923.0 524288.0)"
+          ],
+          [
+            "(- (/ 1533.0 32768.0))",
+            "(- (/ 8513.0 32768.0))",
+            "(/ 8495.0 32768.0)",
+            "(/ 703.0 32768.0)"
+          ]
+        ],
+        "T": [
+          [
+            "(/ 568.0 46841.0)",
+            "(/ 95064.0 46841.0)",
+            "(- (/ 1192.0 46841.0))",
+            "(- (/ 2216.0 46841.0))"
+          ],
+          [
+            "(/ 141091.0 93682.0)",
+            "(/ 48223.0 93682.0)",
+            "(- (/ 48033.0 93682.0))",
+            "(- (/ 49057.0 93682.0))"
+          ],
+          [
+            "(- (/ 24017.0 93682.0))",
+            "(- (/ 8461.0 93682.0))",
+            "(/ 8179.0 93682.0)",
+            "(/ 135923.0 93682.0)"
+          ],
+          [
+            "(- (/ 12264.0 46841.0))",
+            "(- (/ 68104.0 46841.0))",
+            "(/ 67960.0 46841.0)",
+            "(/ 5624.0 46841.0)"
+          ]
+        ],
+        "V": [
+          [
+            "(/ 141091.0 46841.0)",
+            "(/ 58537.0 46841.0)",
+            "(/ 116563.0 93682.0)"
+          ],
+          [
+            "(/ 48223.0 46841.0)",
+            "(/ 19881.0 46841.0)",
+            "(- (/ 87985.0 93682.0))"
+          ],
+          [
+            "(- (/ 48033.0 46841.0))",
+            "(- (/ 19927.0 46841.0))",
+            "(/ 87887.0 93682.0)"
+          ],
+          [
+            "(- (/ 49057.0 46841.0))",
+            "(/ 43433.0 46841.0)",
+            "(- (/ 37809.0 93682.0))"
+          ]
+        ]
+      },
+      "exact_parameters_saved": true,
+      "active_width_directions": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "smt2_file": "results/det2_pair_lazy_width_step_0.smt2",
+      "exact_F": [
+        [
+          "0",
+          "3/4",
+          "1/4",
+          "1/4"
+        ],
+        [
+          "511/1024",
+          "0",
+          "1/64",
+          "1/128"
+        ],
+        [
+          "1/2",
+          "1/8",
+          "0",
+          "95/128"
+        ],
+        [
+          "1/1024",
+          "1/8",
+          "47/64",
+          "0"
+        ]
+      ],
+      "exact_vertices": [
+        [
+          "141091/46841",
+          "58537/46841",
+          "116563/93682"
+        ],
+        [
+          "48223/46841",
+          "19881/46841",
+          "-87985/93682"
+        ],
+        [
+          "-48033/46841",
+          "-19927/46841",
+          "87887/93682"
+        ],
+        [
+          "-49057/46841",
+          "43433/46841",
+          "-37809/93682"
+        ]
+      ],
+      "finite_minimum_width": "78464/46841",
+      "minimizing_retained_direction": [
+        0,
+        1,
+        0
+      ],
+      "exact_active_width_checks_passed": true,
+      "all_37_target_tests_passed": false
+    },
+    {
+      "status": "unknown",
+      "elapsed_seconds": 15.041014987999915,
+      "assertion_count": 68,
+      "statistics": {
+        "conflicts": 52,
+        "decisions": 1393,
+        "propagations": 486,
+        "binary propagations": 20,
+        "final checks": 51,
+        "added eqs": 56,
+        "mk clause": 554,
+        "mk clause binary": 22,
+        "del clause": 457,
+        "minimized lits": 3,
+        "num checks": 1,
+        "mk bool var": 1274,
+        "random seed": 20260913,
+        "arith eq adapter": 59,
+        "arith-lower": 448,
+        "arith-upper": 644,
+        "arith-fixed-eqs": 9,
+        "arith-offset-eqs": 2,
+        "arith-conflicts": 406,
+        "arith-bound-propagations-lp": 136,
+        "arith-diseq": 151,
+        "arith-make-feasible": 851,
+        "arith-max-columns": 283,
+        "arith-max-rows": 239,
+        "arith-horner-calls": 12,
+        "arith-horner-cross-nested-forms": 109,
+        "arith-grobner-calls": 36,
+        "arith-nla-lemmas": 366,
+        "arith-nra-calls": 13,
+        "arith-nla-throttled-lemmas": 2,
+        "levelwise calls": 1,
+        "nlsat conflicts": 12,
+        "nlsat propagations": 180,
+        "nlsat stages": 17,
+        "nlsat decisions": 2,
+        "rlimit count": 616356,
+        "max memory": 55.02,
+        "memory": 51.68,
+        "num allocs": 26817028051.0,
+        "time": 15.04
+      },
+      "reason_unknown": "canceled",
+      "active_width_directions": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "smt2_file": "results/det2_pair_lazy_width_step_1.smt2"
+    }
+  ]
+}

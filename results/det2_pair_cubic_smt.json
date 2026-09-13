@@ -1,0 +1,916 @@
+{
+  "status": "thirteen_variable_cubic_bounded_smt_relaxation_probe",
+  "branch": "determinant_2_two_plus_two_sigma_(01)(23)",
+  "encoding": "13_variable_cubic_complementary_minor_pair_model",
+  "solver": {
+    "name": "z3",
+    "version": "5.1.0",
+    "logic": "QF_NRA",
+    "timeout_ms_per_call": 30000,
+    "random_seed": 20260913,
+    "solver_calls": 3
+  },
+  "variable_count": 13,
+  "variables": {
+    "affine_pair_parameters": [
+      "a_0",
+      "a_1",
+      "a_2",
+      "a_3",
+      "b_0",
+      "b_1",
+      "b_2",
+      "b_3"
+    ],
+    "inverse_column_sums": [
+      "r_0",
+      "r_1",
+      "r_2",
+      "r_3"
+    ],
+    "determinant": "delta",
+    "total": 13
+  },
+  "contact_vertices_ambient": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "contact_barycentric_formula": [
+    "lambda0=1+X/2-Y-Z",
+    "lambda1=X/2",
+    "lambda2=Y-X/2",
+    "lambda3=Z-X/2"
+  ],
+  "affine_parameters": {
+    "independent": [
+      "a_0",
+      "a_1",
+      "a_2",
+      "a_3",
+      "b_0",
+      "b_1",
+      "b_2",
+      "b_3"
+    ],
+    "row_formula": "A_i,sigma(i)=a_i; A_i,first_remaining(i)=b_i; A_i,second_remaining(i)=1-a_i-b_i",
+    "sigma": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "remaining_columns": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "branch_constraints": {
+    "A": "affine 4x4, A_ii=0, each row sums to 1, off-diagonals positive",
+    "designated_closed_inequalities": [
+      "a_0=A_01>=1/2",
+      "a_1=A_10>=1/2",
+      "a_2=A_23>=1/2",
+      "a_3=A_32>=1/2"
+    ],
+    "invertibility": "sum_i a_i>2 and delta=det(A)>0",
+    "lift": "A^T*r=ones and r_j>0",
+    "signed_adjugate": "S=adj(A), with pair-chart within-group positive and cross-group negative signs",
+    "denominator_identity": "C_j=delta*r_j; V_j=N_j/C_j",
+    "reconstruction": "T_ij=S_ij/C_j; N_j=(2*S_1j,S_1j+S_2j,S_1j+S_3j); V_j=N_j/C_j",
+    "domain": "-62*delta*r_j<=S_ij<=63*delta*r_j and the same bounds for Y/Z subset sums",
+    "canonical_symmetry": [
+      "a_0>=a_1",
+      "a_0>=a_2",
+      "a_0>=a_3",
+      "a_2>=a_3"
+    ]
+  },
+  "directions": [
+    {
+      "u": [
+        0,
+        0,
+        1
+      ],
+      "contact_width": 1
+    },
+    {
+      "u": [
+        0,
+        1,
+        -2
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        0,
+        1,
+        -1
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        0,
+        1,
+        0
+      ],
+      "contact_width": 1
+    },
+    {
+      "u": [
+        0,
+        1,
+        1
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        0,
+        1,
+        2
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        0,
+        2,
+        -1
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        0,
+        2,
+        1
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        -3,
+        -2
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        -3,
+        -1
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        -3,
+        0
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        -2,
+        -3
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        -2,
+        -2
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        1,
+        -2,
+        -1
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        1,
+        -2,
+        0
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        1,
+        -2,
+        1
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        -1,
+        -3
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        -1,
+        -2
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        1,
+        -1,
+        -1
+      ],
+      "contact_width": 1
+    },
+    {
+      "u": [
+        1,
+        -1,
+        0
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        1,
+        -1,
+        1
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        0,
+        -3
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        0,
+        -2
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        1,
+        0,
+        -1
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        1,
+        0,
+        0
+      ],
+      "contact_width": 2
+    },
+    {
+      "u": [
+        1,
+        0,
+        1
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        1,
+        -2
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        1,
+        -1
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        1,
+        1,
+        0
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        2,
+        -3,
+        -3
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        2,
+        -3,
+        -2
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        2,
+        -3,
+        -1
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        2,
+        -2,
+        -3
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        2,
+        -2,
+        -1
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        2,
+        -1,
+        -3
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        2,
+        -1,
+        -2
+      ],
+      "contact_width": 3
+    },
+    {
+      "u": [
+        2,
+        -1,
+        -1
+      ],
+      "contact_width": 3
+    }
+  ],
+  "width_encoding": {
+    "direction_count": 37,
+    "unordered_vertex_pair_count": 6,
+    "Q_polynomial_count": 222,
+    "identity": "u.(V_j-V_k)=Q_jk(u)/(delta*r_j*r_k), j<k",
+    "target": "17/5",
+    "cleared_target": "5*abs(Q_jk)>17*delta*r_j*r_k",
+    "maximum_Q_degree": 2
+  },
+  "finite_hollowness_box": {
+    "lo": [
+      -2,
+      -2,
+      -2
+    ],
+    "hi": [
+      3,
+      3,
+      3
+    ],
+    "original_point_count": 216,
+    "tautological_clause_count": 176,
+    "retained_clause_count": 40,
+    "encoding": "exact closed-row-triangle extrema; impossible row atoms omitted"
+  },
+  "positive_pinned_query": {
+    "description": "same dominant 2/3, other 1/6 matrix pinned at control threshold 1; expected SAT",
+    "status": "sat",
+    "elapsed_seconds": 0.008530614000392234,
+    "assertion_count": 180,
+    "statistics": {
+      "random seed": 20260913,
+      "solve-eqs-steps": 34,
+      "solve-eqs-elim-vars": 13,
+      "num allocs": 5927117,
+      "rlimit count": 106946,
+      "max memory": 20.58,
+      "memory": 20.46,
+      "time": 0.008
+    },
+    "model": {
+      "parameters": {
+        "a": [
+          "(/ 2.0 3.0)",
+          "(/ 2.0 3.0)",
+          "(/ 2.0 3.0)",
+          "(/ 2.0 3.0)"
+        ],
+        "b": [
+          "(/ 1.0 6.0)",
+          "(/ 1.0 6.0)",
+          "(/ 1.0 6.0)",
+          "(/ 1.0 6.0)"
+        ],
+        "r": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ],
+        "delta": "(/ 4.0 27.0)"
+      },
+      "A": [
+        [
+          "0.0",
+          "(/ 2.0 3.0)",
+          "(/ 1.0 6.0)",
+          "(/ 1.0 6.0)"
+        ],
+        [
+          "(/ 2.0 3.0)",
+          "0.0",
+          "(/ 1.0 6.0)",
+          "(/ 1.0 6.0)"
+        ],
+        [
+          "(/ 1.0 6.0)",
+          "(/ 1.0 6.0)",
+          "0.0",
+          "(/ 2.0 3.0)"
+        ],
+        [
+          "(/ 1.0 6.0)",
+          "(/ 1.0 6.0)",
+          "(/ 2.0 3.0)",
+          "0.0"
+        ]
+      ],
+      "determinant": "(/ 4.0 27.0)",
+      "S": [
+        [
+          "(/ 1.0 27.0)",
+          "(/ 7.0 27.0)",
+          "(- (/ 2.0 27.0))",
+          "(- (/ 2.0 27.0))"
+        ],
+        [
+          "(/ 7.0 27.0)",
+          "(/ 1.0 27.0)",
+          "(- (/ 2.0 27.0))",
+          "(- (/ 2.0 27.0))"
+        ],
+        [
+          "(- (/ 2.0 27.0))",
+          "(- (/ 2.0 27.0))",
+          "(/ 1.0 27.0)",
+          "(/ 7.0 27.0)"
+        ],
+        [
+          "(- (/ 2.0 27.0))",
+          "(- (/ 2.0 27.0))",
+          "(/ 7.0 27.0)",
+          "(/ 1.0 27.0)"
+        ]
+      ],
+      "C": [
+        "(/ 4.0 27.0)",
+        "(/ 4.0 27.0)",
+        "(/ 4.0 27.0)",
+        "(/ 4.0 27.0)"
+      ],
+      "T": [
+        [
+          "(/ 1.0 4.0)",
+          "(/ 7.0 4.0)",
+          "(- (/ 1.0 2.0))",
+          "(- (/ 1.0 2.0))"
+        ],
+        [
+          "(/ 7.0 4.0)",
+          "(/ 1.0 4.0)",
+          "(- (/ 1.0 2.0))",
+          "(- (/ 1.0 2.0))"
+        ],
+        [
+          "(- (/ 1.0 2.0))",
+          "(- (/ 1.0 2.0))",
+          "(/ 1.0 4.0)",
+          "(/ 7.0 4.0)"
+        ],
+        [
+          "(- (/ 1.0 2.0))",
+          "(- (/ 1.0 2.0))",
+          "(/ 7.0 4.0)",
+          "(/ 1.0 4.0)"
+        ]
+      ],
+      "N": [
+        [
+          "(/ 14.0 27.0)",
+          "(/ 5.0 27.0)",
+          "(/ 5.0 27.0)"
+        ],
+        [
+          "(/ 2.0 27.0)",
+          "(- (/ 1.0 27.0))",
+          "(- (/ 1.0 27.0))"
+        ],
+        [
+          "(- (/ 4.0 27.0))",
+          "(- (/ 1.0 27.0))",
+          "(/ 5.0 27.0)"
+        ],
+        [
+          "(- (/ 4.0 27.0))",
+          "(/ 5.0 27.0)",
+          "(- (/ 1.0 27.0))"
+        ]
+      ],
+      "V": [
+        [
+          "(/ 7.0 2.0)",
+          "(/ 5.0 4.0)",
+          "(/ 5.0 4.0)"
+        ],
+        [
+          "(/ 1.0 2.0)",
+          "(- (/ 1.0 4.0))",
+          "(- (/ 1.0 4.0))"
+        ],
+        [
+          "(- 1.0)",
+          "(- (/ 1.0 4.0))",
+          "(/ 5.0 4.0)"
+        ],
+        [
+          "(- 1.0)",
+          "(/ 5.0 4.0)",
+          "(- (/ 1.0 4.0))"
+        ]
+      ]
+    },
+    "exact_parameters_saved": true,
+    "reconstruction_validation": {
+      "passed": true,
+      "checked": [
+        "A",
+        "T",
+        "V"
+      ],
+      "A": [
+        [
+          "0",
+          "2/3",
+          "1/6",
+          "1/6"
+        ],
+        [
+          "2/3",
+          "0",
+          "1/6",
+          "1/6"
+        ],
+        [
+          "1/6",
+          "1/6",
+          "0",
+          "2/3"
+        ],
+        [
+          "1/6",
+          "1/6",
+          "2/3",
+          "0"
+        ]
+      ],
+      "T": [
+        [
+          "1/4",
+          "7/4",
+          "-1/2",
+          "-1/2"
+        ],
+        [
+          "7/4",
+          "1/4",
+          "-1/2",
+          "-1/2"
+        ],
+        [
+          "-1/2",
+          "-1/2",
+          "1/4",
+          "7/4"
+        ],
+        [
+          "-1/2",
+          "-1/2",
+          "7/4",
+          "1/4"
+        ]
+      ],
+      "V": [
+        [
+          "7/2",
+          "5/4",
+          "5/4"
+        ],
+        [
+          "1/2",
+          "-1/4",
+          "-1/4"
+        ],
+        [
+          "-1",
+          "-1/4",
+          "5/4"
+        ],
+        [
+          "-1",
+          "5/4",
+          "-1/4"
+        ]
+      ]
+    }
+  },
+  "negative_pinned_query": {
+    "description": "same pinned matrix at target threshold 17/5; expected UNSAT",
+    "status": "unsat",
+    "elapsed_seconds": 0.008698042000105488,
+    "assertion_count": 180,
+    "statistics": {
+      "random seed": 20260913,
+      "solve-eqs-steps": 34,
+      "solve-eqs-elim-vars": 13,
+      "num allocs": 19518161,
+      "rlimit count": 220314,
+      "max memory": 24.22,
+      "memory": 24.1,
+      "time": 0.008
+    }
+  },
+  "main_query": {
+    "description": "unconstrained thirteen-variable cubic relaxation at target with only [-2,3]^3 hollow exclusions",
+    "status": "unknown",
+    "elapsed_seconds": 31.444816473000174,
+    "assertion_count": 172,
+    "statistics": {
+      "random seed": 20260913,
+      "solve-eqs-steps": 100,
+      "solve-eqs-elim-vars": 4,
+      "nlsat conflicts": 18,
+      "nlsat propagations": 277,
+      "nlsat stages": 29,
+      "levelwise calls": 53,
+      "nlsat decisions": 82,
+      "rlimit count": 11757022,
+      "max memory": 778.85,
+      "memory": 83.87,
+      "num allocs": 32828551061.0,
+      "time": 31.444
+    },
+    "reason_unknown": "timeout"
+  },
+  "query_parse": {
+    "passed": true,
+    "assertion_count": 172,
+    "declared_real_variable_count": 13,
+    "declared_real_variables": [
+      "a_0",
+      "b_0",
+      "a_1",
+      "b_1",
+      "a_2",
+      "b_2",
+      "a_3",
+      "b_3",
+      "delta",
+      "r_0",
+      "r_1",
+      "r_2",
+      "r_3"
+    ],
+    "actual_max_polynomial_degree": 3,
+    "logic": "QF_NRA"
+  },
+  "control_reconstruction": {
+    "passed": true,
+    "determinant": "4/27",
+    "A": [
+      [
+        "0",
+        "2/3",
+        "1/6",
+        "1/6"
+      ],
+      [
+        "2/3",
+        "0",
+        "1/6",
+        "1/6"
+      ],
+      [
+        "1/6",
+        "1/6",
+        "0",
+        "2/3"
+      ],
+      [
+        "1/6",
+        "1/6",
+        "2/3",
+        "0"
+      ]
+    ],
+    "C": [
+      "4/27",
+      "4/27",
+      "4/27",
+      "4/27"
+    ],
+    "S": [
+      [
+        "1/27",
+        "7/27",
+        "-2/27",
+        "-2/27"
+      ],
+      [
+        "7/27",
+        "1/27",
+        "-2/27",
+        "-2/27"
+      ],
+      [
+        "-2/27",
+        "-2/27",
+        "1/27",
+        "7/27"
+      ],
+      [
+        "-2/27",
+        "-2/27",
+        "7/27",
+        "1/27"
+      ]
+    ],
+    "T": [
+      [
+        "1/4",
+        "7/4",
+        "-1/2",
+        "-1/2"
+      ],
+      [
+        "7/4",
+        "1/4",
+        "-1/2",
+        "-1/2"
+      ],
+      [
+        "-1/2",
+        "-1/2",
+        "1/4",
+        "7/4"
+      ],
+      [
+        "-1/2",
+        "-1/2",
+        "7/4",
+        "1/4"
+      ]
+    ],
+    "N": [
+      [
+        "14/27",
+        "5/27",
+        "5/27"
+      ],
+      [
+        "2/27",
+        "-1/27",
+        "-1/27"
+      ],
+      [
+        "-4/27",
+        "-1/27",
+        "5/27"
+      ],
+      [
+        "-4/27",
+        "5/27",
+        "-1/27"
+      ]
+    ],
+    "V": [
+      [
+        "7/2",
+        "5/4",
+        "5/4"
+      ],
+      [
+        "1/2",
+        "-1/4",
+        "-1/4"
+      ],
+      [
+        "-1",
+        "-1/4",
+        "5/4"
+      ],
+      [
+        "-1",
+        "5/4",
+        "-1/4"
+      ]
+    ],
+    "expected_control_vertices": [
+      [
+        "7/2",
+        "5/4",
+        "5/4"
+      ],
+      [
+        "1/2",
+        "-1/4",
+        "-1/4"
+      ],
+      [
+        "-1",
+        "-1/4",
+        "5/4"
+      ],
+      [
+        "-1",
+        "5/4",
+        "-1/4"
+      ]
+    ]
+  },
+  "smt2_file": "results/det2_pair_cubic_smt.smt2",
+  "scope": {
+    "interpretation": "SAT supplies a necessary-model candidate only; UNKNOWN is not an exclusion; any SAT candidate needs full exact hollow certification.",
+    "finite_box_limit": "The retained 40 clauses come from the [-2,3]^3 necessary relaxation and are not a complete hollowness check.",
+    "vertex_bound": "The cleared adjugate bounds encode the proved rational barycentric and ambient bounds [-62,63], including Y/Z subset sums.",
+    "run_history": "Exactly three solver checks were run: pinned W=1 SAT, pinned W=17/5 UNSAT, and one unpinned W=17/5 query with a 30 second solver timeout."
+  },
+  "elapsed_seconds": 32.74550619199999
+}

@@ -22,28 +22,28 @@
       "sha256": "96242f1080dc718b1553428ac296d66a04ba30dae8890acbd8c238b303ec3dd6"
     },
     "NEXT.md": {
-      "bytes": 3152,
-      "sha256": "1ed50512b92ec189210e59de0d8424ae4ac46e63ca410ade4cd16c88b232c540"
+      "bytes": 3696,
+      "sha256": "706b7e3ecd8d2beb4ab3c3f55ab4f575725213e246e0b8c7ac040b83368fcad9"
     },
     "NORMALIZATION.md": {
       "bytes": 2734,
       "sha256": "f03de491797472c84153de23ad188d90f756996b7d0b86bb4e7bb8d77ec849df"
     },
     "NOVELTY_LOG.md": {
-      "bytes": 3527,
-      "sha256": "e3bfc7a08feeb92f3ae6cbf5bc7374c29006ba801273bbd00bce8fcbbbf54ded"
+      "bytes": 4757,
+      "sha256": "da508f447bef2d8274df7d5e68b48fc6d0ae690a5ee5dd688df3782c9228cd8f"
     },
     "PUBLICATION.md": {
-      "bytes": 2927,
-      "sha256": "36685f763be324da8982939f302849b29deb40e63561e7d116f14380ebedf724"
+      "bytes": 3508,
+      "sha256": "797d2c0067d2960324415136d5a1a5158d7e6c16704c084ec07b09ad881ffbe5"
     },
     "PUBLIC_VALIDATION.md": {
-      "bytes": 5411,
-      "sha256": "6dce9628a3c48e3ddba7a457c2fe34c73c851bae6d2f641d711acc070109dbc4"
+      "bytes": 6595,
+      "sha256": "076db0462287a244cee3277ef92dd02f8cbea707ef2eb4e0299248da31c25ed4"
     },
     "README.md": {
-      "bytes": 13018,
-      "sha256": "2882a60416866d8b2685116df2e00cbbd0380acabbffeb635eef4f58abf1a069"
+      "bytes": 15357,
+      "sha256": "28c4f5fea9a60c8e3c3c372f8774e425ea87a602e8abf518c7afd7c27aab9d9d"
     },
     "STATE_OF_THE_ART.md": {
       "bytes": 16202,
@@ -85,6 +85,26 @@
       "bytes": 7868,
       "sha256": "b8c2df1efeba918b3e6da43e54793e893fe777a2cd11a18d06d733230a17de2b"
     },
+    "certificates/det2_observer_gauge_guards.json": {
+      "bytes": 22820,
+      "sha256": "3d30e4f3cf568be632acf09943852b5ec8e77d842e37c3d38a84a02f0c16e8cc"
+    },
+    "certificates/det2_observer_lines.json": {
+      "bytes": 294436,
+      "sha256": "5ef6d9319a83c714adba565a69b42b4714f4ec3449ec126b66768dff33b60e03"
+    },
+    "certificates/det2_pair_column.json": {
+      "bytes": 12093,
+      "sha256": "1be491db5780c10d6a91e3e45e5f7317207dfc702cb0cb7b1fe4dfe6d81b3f1b"
+    },
+    "certificates/det2_pair_four_contacts.json": {
+      "bytes": 10673,
+      "sha256": "9cb64ba88f07472c7ea1ba3f2daca739db7d7b3b795a588215e029fe15ef021c"
+    },
+    "certificates/det2_partial_box_counterexamples.json": {
+      "bytes": 23272,
+      "sha256": "0c64103145b9a1e5ec619c37cab005f8bd645be2d1d0b20a24cf11b78360a69d"
+    },
     "certificates/discovery_15217.json": {
       "bytes": 11854,
       "sha256": "69fa36640a7129f09f2420918cf13ba39bc0c74299b04cb4430e89e3951b200e"
@@ -125,6 +145,10 @@
       "bytes": 5008,
       "sha256": "7162e5ead5574260cbf9e0357aafc9893f1fa7f08db51bf8d7176f2e2149b8ec"
     },
+    "certificates/pair_column_identities.json": {
+      "bytes": 47623,
+      "sha256": "b43c3d56538774860efa96fa43188eae694b86fe046365ede8a6e913990f1fd0"
+    },
     "certificates/pair_cubic_width_identities.json": {
       "bytes": 31332,
       "sha256": "96a9dd9b058e9647a7feff97e4c9e9269d840c6a775890a4f3df6bbec97e4937"
@@ -156,6 +180,10 @@
     "claims/CLAIM-0004.md": {
       "bytes": 3187,
       "sha256": "97b311e363305a3b3d891c9bcd574381dd0b75da7d616f6936bd80ca37513513"
+    },
+    "claims/CLAIM-0005.md": {
+      "bytes": 7385,
+      "sha256": "611b6eeaf2240a9ff2f55a974cf89f4545680bb34df8c01199d19cba2efe3ae3"
     },
     "contacts/CONTACT_SIGNATURE.md": {
       "bytes": 1714,
@@ -189,6 +217,14 @@
       "bytes": 2293,
       "sha256": "0cf40524f2c2c9ac9deaf08090c9d5c5101d109c48032e4a8f71d871e203acb5"
     },
+    "experiments/certify_det2_pair_column.py": {
+      "bytes": 15125,
+      "sha256": "cad0a98e4336559d93f11d29abbedabc3bf5a3f6dacc8f741954355cdfd82a50"
+    },
+    "experiments/certify_det2_pair_four_contacts.py": {
+      "bytes": 1827,
+      "sha256": "bff444a5a95f6e6f30539323ea20114beb9e070ef6a7b2008ea364d1e9b5b254"
+    },
     "experiments/certify_discovery.py": {
       "bytes": 3310,
       "sha256": "147ce5f8c921e5cab8b489259ad64c769579340d4a0088d52ca2dc66f1e157f6"
@@ -221,6 +257,10 @@
       "bytes": 25918,
       "sha256": "261ef9751e904d616da240b982c4d1329c80934a7b7248f44c12c7b05874129d"
     },
+    "experiments/det2_column_search.py": {
+      "bytes": 25665,
+      "sha256": "bf61b0ae92351ecb14aaf8d4c7843d8cbc12bdd52e2f5c4d8d370620e36c9025"
+    },
     "experiments/det2_cycle_relaxation.py": {
       "bytes": 3046,
       "sha256": "c2454b49aa70721a4897c859475135d4379ad628123de734684417cce0f4144f"
@@ -229,9 +269,49 @@
       "bytes": 3207,
       "sha256": "db3d0c0adebd4de07ffa4ac292e9cb089986a67188d98a948c18946770fd37c9"
     },
+    "experiments/det2_gauge_guard_implications.py": {
+      "bytes": 13832,
+      "sha256": "a101bc1db9876982711e037ded8b5a366319d867ff8fd996811d717b2615ca13"
+    },
+    "experiments/det2_observer_gauge_guards.py": {
+      "bytes": 3666,
+      "sha256": "2499105c24ad51909e926bd135e125cbafccb3c46ff55dedd096319c69c9e4f6"
+    },
+    "experiments/det2_observer_implications.py": {
+      "bytes": 13093,
+      "sha256": "a9ea32e28461ffa703b52edfd058a63b811af8963fb15368d2f1fdf91dbc9785"
+    },
+    "experiments/det2_observer_lines.py": {
+      "bytes": 5480,
+      "sha256": "1ab46fd042eb903f1fba47db8f19d80568cdf58b2ea9e45e0d895f26748ad3ca"
+    },
     "experiments/det2_pair_branch.py": {
       "bytes": 14210,
       "sha256": "b80df7453d2038fbbe63207e64e699a5dd4660359d555f019b548fa99a64d9cf"
+    },
+    "experiments/det2_pair_column_smt.py": {
+      "bytes": 20191,
+      "sha256": "896eae5b0844e95f9315faf416f191fe55bf3d4b3005b54e2dba0849f81f6cae"
+    },
+    "experiments/det2_pair_complete_smt.py": {
+      "bytes": 4489,
+      "sha256": "987bc7185a0f3479814f7de9924aa724cafa2d221ad32b3b34438547ee994ad3"
+    },
+    "experiments/det2_pair_cubic_smt.py": {
+      "bytes": 22685,
+      "sha256": "3b420e50d1ef42799984c135b7a839478686cd096b19d6efcae2a235b6418822"
+    },
+    "experiments/det2_pair_gauge_complete_smt.py": {
+      "bytes": 4466,
+      "sha256": "13b76302cc72ccc52586e6c08218d7eb5526b39f6b4941baa6db547d35e7ad4d"
+    },
+    "experiments/det2_pair_lattice_closure.py": {
+      "bytes": 23600,
+      "sha256": "63c25c03a2e980affd421fb3b99b75f65a7a512e40b69274feae68c3704286b0"
+    },
+    "experiments/det2_pair_lazy_width.py": {
+      "bytes": 5034,
+      "sha256": "96c98d19f7686d2156e492159b9d294df6f011bbaf8b0dcebe2d18dc717eadea"
     },
     "experiments/det2_pair_smt.py": {
       "bytes": 15305,
@@ -241,6 +321,10 @@
       "bytes": 18314,
       "sha256": "c9295e16bc5467214fd02406604a52f331af091cab911c739de5f3a7401e5bd7"
     },
+    "experiments/det2_partial_box_counterexamples.py": {
+      "bytes": 4071,
+      "sha256": "4c506316d15a3ea91b16e1e8843d3e947cc4f0d0957e74868bef1a024bb74dd1"
+    },
     "experiments/discovery.py": {
       "bytes": 8377,
       "sha256": "0cc4831f2f3c9ec6d4632fff1de302c50a5718ce60d6921d54e42a4ace1f13e4"
@@ -249,9 +333,17 @@
       "bytes": 2819,
       "sha256": "16f30530a40a2cc6c65d36fa2fbe8750cef5b714b5d22c385fc7c726c527f1d8"
     },
+    "experiments/figure_observer_guards.py": {
+      "bytes": 2197,
+      "sha256": "531cb00ead9366e662f2f3d393a6769ca748b0a34877375b9d88964800745ee7"
+    },
     "experiments/figures.py": {
       "bytes": 4289,
       "sha256": "283c11176dd81430383cd9b0d92d79d94d8967ce7d81a84b679677c84e0cdecf"
+    },
+    "experiments/pair_column_identities.py": {
+      "bytes": 3861,
+      "sha256": "5b9d35020e7fa54272ee4cced1f3f1192b1edeca8edaf2e5d9c55c270e474520"
     },
     "experiments/pair_cubic_width_identities.py": {
       "bytes": 3255,
@@ -329,9 +421,25 @@
       "bytes": 3947,
       "sha256": "300f4bce5d29b70f791f214b2fb57be179c2f06f13f026ed8e6ffd2d42a70d85"
     },
+    "proofs/DET2_OBSERVER_GAUGE_GUARDS.md": {
+      "bytes": 4629,
+      "sha256": "b510470054735b92e3477b0c298936f3e2f464acc80d56a2e5984fd48ad28c97"
+    },
+    "proofs/DET2_OBSERVER_LINES.md": {
+      "bytes": 10527,
+      "sha256": "a393007619f20e0353faf97ba9225afa073b024a6f6d8ebdd5f0f6ccfe6bc98b"
+    },
+    "proofs/DET2_OBSERVER_REVIEW.md": {
+      "bytes": 15589,
+      "sha256": "d75560d2bcacd605e36d225b026951fea92fdfe56dd41dc180ac44e52adb80e7"
+    },
     "proofs/DET2_PAIR_BRANCH.md": {
       "bytes": 5164,
       "sha256": "5df4fbc29ff9d2aa537e8162aabc5645f07c168f160fa3e85227eeb7c34f82d3"
+    },
+    "proofs/DET2_PAIR_WITNESSES.md": {
+      "bytes": 4151,
+      "sha256": "9ac348ae8bbc8aae817b21d87c60bf6d3ec98d218bc311f6bb972376501e453a"
     },
     "proofs/FLATNESS_2D_RECONSTRUCTION.md": {
       "bytes": 7563,
@@ -345,9 +453,17 @@
       "bytes": 6608,
       "sha256": "ae01ff9e5b9ecd49c83f35210df70b1dd79201000ff4d4c11cd3cc0b8e8dc5cb"
     },
+    "proofs/PAIR_COLUMN_FORMULATION.md": {
+      "bytes": 7021,
+      "sha256": "543014a0de9f3d11dd23ac1a77d4efa598c873b9c2a4efb9253cc6b6ea9fbcb5"
+    },
     "proofs/PAIR_CUBIC_FORMULATION.md": {
       "bytes": 3632,
       "sha256": "470c3dd6dbe73d94ea74e93845f0aab45fcd9cba2464d6b42d03c4758a09e4bd"
+    },
+    "proofs/PAIR_LATTICE_CLOSURE.md": {
+      "bytes": 4464,
+      "sha256": "c4c9aec7595b152020b7df446332b605f305c532f271eba228e827e5c9eb8ce0"
     },
     "proofs/PAIR_MATRIX_STRUCTURE.md": {
       "bytes": 5398,
@@ -370,8 +486,8 @@
       "sha256": "c062a6ddbbd0b65eae8f3f2d1456e9bf4fc6a4ca647fa8cfbbfd51e8538ec683"
     },
     "publication/README.md": {
-      "bytes": 1143,
-      "sha256": "916ac7cd47b894e9ed2f9b0228c645ce87b745ee191c50e5c0c9b1156bc22598"
+      "bytes": 1501,
+      "sha256": "42582db235393ae87b03cb68eccb47882c068d59ac11b3e6cf33c8a2a46fddfb"
     },
     "publication/RIGHTS.md": {
       "bytes": 877,
@@ -396,6 +512,10 @@
     "reproduce_contact_reduction.py": {
       "bytes": 2059,
       "sha256": "c63ba8f5469132d3ae8e9c6dc25d7720c99d21745c10f3b78c39f2f272d08e27"
+    },
+    "reproduce_observer_guards.py": {
+      "bytes": 3122,
+      "sha256": "9458553280f6216730471832f1cd39efaeaf0d0390eccf20a79724a026d2f1a9"
     },
     "requirements.lock": {
       "bytes": 327,
@@ -425,6 +545,14 @@
       "bytes": 5663,
       "sha256": "2edf2da237d80357b6d60f99a6e50e58740b9f75df53adfc3e8d6993c83627b9"
     },
+    "results/DET2_GAUGE_MODEL_REVIEW.md": {
+      "bytes": 4436,
+      "sha256": "cb66a472554a08269af81665f4a4d4e34c78aecd751bd4a8c363d64b0e4d2ed2"
+    },
+    "results/DET2_PAIR_COLUMN_REVIEW.md": {
+      "bytes": 7181,
+      "sha256": "875ae13d9205539f75392a39167b4179b727af544a3381a6b0d38f506318951b"
+    },
     "results/DET2_WITNESS_ASTRA_REVIEW.md": {
       "bytes": 5835,
       "sha256": "aff34e76ce87a0ff2dcce1cf8bbe23123a37fe5b105f0d00feabf6e0f06d24cf"
@@ -432,6 +560,10 @@
     "results/INTEGER_PROGRAMMING_CONTEXT.md": {
       "bytes": 1247,
       "sha256": "ac34bfb4914b68b16571b67101e29bc883776282e90230453d6bd343e5f46ba5"
+    },
+    "results/PAIR_COLUMN_MODEL_REVIEW.md": {
+      "bytes": 4641,
+      "sha256": "3c7b9d1ca859838c8d3ea1ba17f16bda3d08c87603bbad42f17a31e565885d4e"
     },
     "results/PAIR_CUBIC_MODEL_REVIEW.md": {
       "bytes": 3815,
@@ -501,6 +633,10 @@
       "bytes": 561486,
       "sha256": "36af154e0b0c1770d4cbbef8a35daab381ee7d4ae5d8a96c31608ff308cc7dbc"
     },
+    "results/det2_column_search.json": {
+      "bytes": 98633,
+      "sha256": "3f7afa2d4b245ae651973a037e568c8a101b7ad9bd4a22a928d9f747ea13a7c4"
+    },
     "results/det2_cycle_independent.json": {
       "bytes": 10546,
       "sha256": "27c72430b0bbf6ec9f3f8f2fd0ce596a12fe20ab4955a24c244a9e0cc10e5995"
@@ -509,9 +645,65 @@
       "bytes": 62488,
       "sha256": "2564ac1416ad5687e34a953aca5051ba778850c073fc941e911f44a07426f9f7"
     },
+    "results/det2_gauge_guard_implications.json": {
+      "bytes": 95157,
+      "sha256": "6a8a29ec97e1a801206913b1966dabf4a614d8f4d4d3e7a059c8d8c6dee52826"
+    },
+    "results/det2_observer_implications.json": {
+      "bytes": 1240720,
+      "sha256": "02e5e8f8aace790d2bfe3c3cffdc3cddae66084c3113aa4cd039b607abc94ab9"
+    },
     "results/det2_pair_branch.json": {
       "bytes": 4545,
       "sha256": "b829e4fea1cf49578e051ac854ecdab55fbd9a970526fe5823edb7ed94ed8f82"
+    },
+    "results/det2_pair_column_smt.json": {
+      "bytes": 14430,
+      "sha256": "d8d654537711a0afdaf93b98915ab3902d726a8e623516f6712b13378c27eff2"
+    },
+    "results/det2_pair_column_smt.smt2": {
+      "bytes": 163289,
+      "sha256": "e6cf8a78fc4eb81ff7c7f99b8719c40278d0626e83b2b087f819daed8359f9cb"
+    },
+    "results/det2_pair_complete_smt.json": {
+      "bytes": 6733,
+      "sha256": "0e92a68af69ba774080ab588e785c36179515e5e448f98d19f533ed5ce269ad8"
+    },
+    "results/det2_pair_complete_smt.smt2": {
+      "bytes": 548628,
+      "sha256": "b033b7cec69e355328d7007b6fafe81bb68a075b6baad6731a66e3d2ac6e2c8b"
+    },
+    "results/det2_pair_cubic_smt.json": {
+      "bytes": 15223,
+      "sha256": "cbaf549bfd18c08d8e399ff2ee8b9034e392c8d2032b1a9d5e8c1ca114589001"
+    },
+    "results/det2_pair_cubic_smt.smt2": {
+      "bytes": 132856,
+      "sha256": "76812ab3926fce508f7c6f1acaa4cc2be00f4709e2010ff62d0c40e0fa3fbede"
+    },
+    "results/det2_pair_gauge_complete_smt.json": {
+      "bytes": 6811,
+      "sha256": "f6afd7e77d27e418168071ab66855cde277a7dfa422ef4e9c304976c623e1aff"
+    },
+    "results/det2_pair_gauge_complete_smt.smt2": {
+      "bytes": 155908,
+      "sha256": "b29fed116db661ed4b590d9cbccf73663f8a7fa2a21f3f10ca3562a7233d23c5"
+    },
+    "results/det2_pair_lattice_closure.json": {
+      "bytes": 62761,
+      "sha256": "8084c55b52a7cc6f97ad3ae05d97527730eaded9b40e5548fadd0b18b0d5ced2"
+    },
+    "results/det2_pair_lazy_width.json": {
+      "bytes": 6466,
+      "sha256": "f41a9f7f0c47d1a48e901f516e6247d5de00bff03cf7c4abc16f85a56b0aaf35"
+    },
+    "results/det2_pair_lazy_width_step_0.smt2": {
+      "bytes": 33821,
+      "sha256": "66919e0b5cecba464f65812a132a4116046ff86727c2563306b11299eef7036a"
+    },
+    "results/det2_pair_lazy_width_step_1.smt2": {
+      "bytes": 37109,
+      "sha256": "7de7979cb1f3ec42decb84b3f1f04328b96d0cfab5b870ee4d65f010338d2218"
     },
     "results/det2_pair_smt.json": {
       "bytes": 7683,
@@ -568,6 +760,18 @@
     "results/near_extremizers.jsonl": {
       "bytes": 34220744,
       "sha256": "fbd025d6eac9839f89fdf01c09b761c337750d8cbcff57f91f3874d992a6cefa"
+    },
+    "results/observer_guards.pdf": {
+      "bytes": 24988,
+      "sha256": "9b0a166c9a2a9f2d5a5ccd172a7deabb39dd0627e326ee4002aadba8f94ae680"
+    },
+    "results/observer_guards.png": {
+      "bytes": 337646,
+      "sha256": "e0277b68726934b209ef35c1de0de7759dcc2d0300cacc6d35cb19b445b4f7fb"
+    },
+    "results/observer_validation.json": {
+      "bytes": 2518,
+      "sha256": "44312b0ed1393c9142dcba1a182cfd7ea9229d613b9a984d49d8e4aacb961f2f"
     },
     "results/pair_model_validation.json": {
       "bytes": 2096,
@@ -709,6 +913,18 @@
       "bytes": 24880,
       "sha256": "f76fe572f2fb5d7bafc57650ef73e6921aeb90c94cecd6ec77c049e4228f8189"
     },
+    "tests/replay_det2_gauge_guards_independent.py": {
+      "bytes": 6910,
+      "sha256": "3a99d98bf2bf6cb8f6c5d3bef79cdd78589b82702b04f278356fd57b6d5ee355"
+    },
+    "tests/replay_det2_observer_lines_independent.py": {
+      "bytes": 6105,
+      "sha256": "a5509110a2223ec2635c3b6bdd66238c9e4a05d1cfd097b8ec0b2815961061c8"
+    },
+    "tests/replay_det2_pair_column_independent.py": {
+      "bytes": 10963,
+      "sha256": "4a9a1700e183d1310c89ba3a538f406a30cf076e42143393ae7328c899260ce3"
+    },
     "tests/replay_pair_matrix_independent.py": {
       "bytes": 5371,
       "sha256": "54a765d1b279d0c1f155aaf331b856b41d3031b268f94cf56a7881be2dfaac0d"
@@ -727,5 +943,5 @@
     }
   },
   "repository": "https://github.com/Njakasoa/flatness-3d-lab",
-  "source_revision": "38fbeef6d874bac927624ec3d39a70de1f6cbf60"
+  "source_revision": "e84400e847c116809df46785c041197d4acb3ea6"
 }

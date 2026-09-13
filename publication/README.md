@@ -25,3 +25,9 @@ python reproduce_contact_reduction.py
 ```
 
 No journal/arXiv submission or external peer review is claimed.
+
+The subsequent CLAIM-0005 supplies a reviewed boundary-contact observer-line
+criterion and conditional finite guard sets. The public companion includes
+proofs, exact data, figures and independent replay. Run
+`python reproduce_observer_guards.py` from the repository root with the
+baseline dependencies. No manuscript submission or novelty claim is implied.

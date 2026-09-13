@@ -1,0 +1,4942 @@
+{
+  "status": "observer_gauge_qf_lra_implications",
+  "certificates": {
+    "gauge_path": "certificates/det2_observer_gauge_guards.json",
+    "observer_path": "certificates/det2_observer_lines.json",
+    "gauge_point_count": 64,
+    "gauge_pair_nontrivial_count": 20,
+    "gauge_pair_tautological_count": 44,
+    "observer_pair_nontrivial_count": 484,
+    "observer_pair_tautological_count": 972,
+    "gauge_pair_signature_counts": {
+      "(0, 1, 3)": 5,
+      "(0, 1, 2)": 5,
+      "(0, 2, 3)": 5,
+      "(1, 2, 3)": 5
+    }
+  },
+  "gauge_encoding": {
+    "beta": "37/102",
+    "edge_directions": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ],
+    "ell_definition": "ell(X,Y,Z)=(X/2-Y-Z,X/2,Y-X/2,Z-X/2)",
+    "proper_subset_disjunct_count_per_edge": 14,
+    "strict_cut": "Or(sum_{i in I}(F*ell(v))_i > 37/102) over all nonempty proper I",
+    "gauge_clause_count": 6,
+    "pair_guard_clause_count": 20
+  },
+  "solver": {
+    "logic": "QF_LRA",
+    "name": "z3",
+    "variables": [
+      "c_0",
+      "c_1",
+      "c_2",
+      "c_3",
+      "d_0",
+      "d_1",
+      "d_2",
+      "d_3"
+    ],
+    "variable_count": 8,
+    "per_query_timeout_ms": 10000,
+    "global_wall_cap_seconds": 120.0,
+    "push_pop_negation": true,
+    "nra_atoms": false,
+    "antecedent_assertion_count": 43,
+    "domain": "strict off-diagonal positivity, pair dominance, column sums one, and D=sum(c)>2",
+    "antecedent_satisfiability": {
+      "status": "sat",
+      "elapsed_seconds": 0.00869551199957641
+    }
+  },
+  "candidate_implications": {
+    "candidate_count": 484,
+    "status_counts": {
+      "unsat": 484
+    },
+    "exact_implication_count": 484,
+    "sat_missing_guard_count": 0,
+    "unknown_count": 0,
+    "records": [
+      {
+        "point": [
+          -121,
+          -60,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.005120914000144694,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -121,
+          1,
+          -60
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003941779000342649,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -119,
+          -59,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003089296000325703,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -119,
+          1,
+          -59
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00253110299945547,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -117,
+          -58,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003196232999471249,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -117,
+          1,
+          -58
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0027634309999484685,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -115,
+          -57,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002325878999727138,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -115,
+          1,
+          -57
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0025190420001308667,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -113,
+          -56,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024903260000428418,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -113,
+          1,
+          -56
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002238584000224364,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -111,
+          -55,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018205839996880968,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -111,
+          1,
+          -55
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001973169999473612,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -109,
+          -54,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024216240008172463,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -109,
+          1,
+          -54
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018940460004159831,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -107,
+          -53,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00155253899993113,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -107,
+          1,
+          -53
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017184369999085902,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -105,
+          -52,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0032442530000480474,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -105,
+          1,
+          -52
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014113659999566153,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -103,
+          -51,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018314159997316892,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -103,
+          1,
+          -51
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018991569995705504,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -101,
+          -50,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001891465999506181,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -101,
+          1,
+          -50
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013177900000300724,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -99,
+          -49,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018172239997511497,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -99,
+          1,
+          -49
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0022827220000181114,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -97,
+          -48,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001717498000289197,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -97,
+          1,
+          -48
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001397163999172335,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -95,
+          -47,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015991669997674762,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -95,
+          1,
+          -47
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017600629998923978,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -93,
+          -46,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014169659998515272,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -93,
+          1,
+          -46
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001594135999766877,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -91,
+          -45,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014854279997962294,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -91,
+          1,
+          -45
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002175393000470649,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -89,
+          -44,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001474286000302527,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -89,
+          1,
+          -44
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002206109999860928,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -87,
+          -43,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002149218999875302,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -87,
+          1,
+          -43
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024653509999552625,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -85,
+          -42,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018776430006255396,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -85,
+          1,
+          -42
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016273109995381674,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -83,
+          -41,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014644940001744544,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -83,
+          1,
+          -41
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018279460000485415,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -81,
+          -40,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015911550008240738,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -81,
+          1,
+          -40
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00222940200001176,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -79,
+          -39,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018745940005828743,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -79,
+          1,
+          -39
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015699129999120487,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -77,
+          -38,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001811281999835046,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -77,
+          1,
+          -38
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020659550000345916,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -75,
+          -37,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0021034510000390583,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -75,
+          1,
+          -37
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00286484800017206,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -73,
+          -36,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016342429998985608,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -73,
+          1,
+          -36
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002129745999809529,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -71,
+          -35,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003211627999917255,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -71,
+          1,
+          -35
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020254579994798405,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -69,
+          -34,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020552329997372,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -69,
+          1,
+          -34
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016547469995202846,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -67,
+          -33,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013409740004135529,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -67,
+          1,
+          -33
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002192215999457403,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -65,
+          -32,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015787140000611544,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -65,
+          1,
+          -32
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014927890006219968,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -63,
+          -31,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002542753999478009,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -63,
+          1,
+          -31
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0022155009992275154,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -61,
+          -30,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015739739992568502,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -61,
+          1,
+          -30
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00215355999989697,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -59,
+          -29,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018913149997388246,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -59,
+          1,
+          -29
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002007245000640978,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -57,
+          -28,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014035939993846114,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -57,
+          1,
+          -28
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0021114519995535375,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -55,
+          -27,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001430139000149211,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -55,
+          1,
+          -27
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018454479995853035,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -53,
+          -26,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012020809999739868,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -53,
+          1,
+          -26
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017634249998081941,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -51,
+          -25,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013186400001359289,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -51,
+          1,
+          -25
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012628309996216558,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -49,
+          -24,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014757159997316194,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -49,
+          1,
+          -24
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019106990002910607,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -47,
+          -23,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014377100005731336,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -47,
+          1,
+          -23
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020060849992660224,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -45,
+          -22,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019319329994686996,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -45,
+          1,
+          -22
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0022171410000737524,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -43,
+          -21,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014104559995757882,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -43,
+          1,
+          -21
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002232042999821715,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -41,
+          -20,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020081359998584958,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -41,
+          1,
+          -20
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019167999998899177,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -39,
+          -19,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001729409000290616,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -39,
+          1,
+          -19
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020780670001840917,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -37,
+          -18,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016790500003480702,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -37,
+          1,
+          -18
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002348672000152874,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -35,
+          -17,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014859180000712513,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -35,
+          1,
+          -17
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0023200679997898987,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -33,
+          -16,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001402924000103667,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -33,
+          1,
+          -16
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014455210002779495,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -31,
+          -15,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018166930003644666,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -31,
+          1,
+          -15
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002956722999442718,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -29,
+          -14,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015472079994651722,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -29,
+          1,
+          -14
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002276969999911671,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -27,
+          -13,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017589950002729893,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -27,
+          1,
+          -13
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017652149999776157,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -25,
+          -12,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017118659998232033,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -25,
+          1,
+          -12
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015633909997632145,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -23,
+          -11,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017969350001294515,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -23,
+          1,
+          -11
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0023728859996481333,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -21,
+          -10,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0021949760002826224,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -21,
+          1,
+          -10
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015355610003098263,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -19,
+          -9,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001679349999903934,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -19,
+          1,
+          -9
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018911059996753465,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -17,
+          -8,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002274971000588266,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -17,
+          1,
+          -8
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001741030000630417,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -15,
+          -7,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019931320002797293,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -15,
+          1,
+          -7
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020410010001796763,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -13,
+          -6,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017908489999172161,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -13,
+          1,
+          -6
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012773930002367706,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -11,
+          -5,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002374665999923309,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -11,
+          1,
+          -5
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013756489997831522,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -9,
+          -4,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0023346600000877515,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -9,
+          1,
+          -4
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012938869995196,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -7,
+          -3,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0029057560004730476,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -7,
+          1,
+          -3
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014527930006806855,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -5,
+          -2,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0008357990000149584,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -5,
+          1,
+          -2
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0007398929992632475,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -3,
+          -1,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0006869150001875823,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -3,
+          1,
+          -1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0006567099999301718,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.000678473000334634,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          2
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0006916050006111618,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          3
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0006831939999756287,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          4
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016474949998155353,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          5
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019420140006332076,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          6
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002849626999704924,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          7
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001786188000551192,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          8
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017738960004862747,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          9
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015002099999037455,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          10
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014596139999412117,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          11
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015670820002924302,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          12
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012423780008248286,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          13
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011067950008509797,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          14
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012405869993017404,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          15
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011272379997535609,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          16
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00119713000003685,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          17
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0026060350000989274,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          18
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001369919999888225,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          19
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018746539999483502,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          20
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015028110001367168,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          21
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017698249994282378,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          22
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019884920002368744,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          23
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014463420002357452,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          24
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001681040000221401,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          25
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018933159999505733,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          26
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018665520001377445,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          27
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017917400000442285,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          28
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018485680002413574,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          29
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001664827999775298,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          30
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015683820001868298,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          31
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014447119992837543,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          32
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015508090000366792,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          33
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002349121999941417,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          34
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020526629996311385,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          35
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013753499997619656,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          36
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0022299629999906756,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          37
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001762683999913861,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          38
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015101730004971614,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          39
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016252710001936066,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          40
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001475576999837358,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          41
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018412970002827933,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          42
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013859420005246648,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          43
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014988599996286212,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          44
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019831210001939326,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          45
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014575029999832623,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          46
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001625491999220685,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          47
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013917930000388878,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          48
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002065603999653831,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          49
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013879919997634715,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          50
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016026670000428567,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          51
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00195639100002154,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          52
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013847809996150318,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          53
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014494320002995664,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          54
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013396940003076452,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          55
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001547409000522748,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          56
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018692730000111624,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          57
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015219490005620173,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          58
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016230310002356418,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          59
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001636392999898817,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          60
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014035639997018734,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          0,
+          61
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017754659993443056,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          1,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.000716890000148851,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          2,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0006788740001866245,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          3,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0006630610005231574,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          4,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002485195000190288,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          5,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011414210002840264,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          6,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00107862999993813,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          7,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013736400005655014,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          8,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011708060001183185,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          9,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015347669996117475,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          10,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017047539995473926,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          11,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012130029999752878,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          12,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015605210001012892,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          13,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001169205000223883,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          14,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0009909360005622148,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          15,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001311519000410044,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          16,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013313519993971568,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          17,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013240809994385927,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          18,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017401510003764997,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          19,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016503070000908338,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          20,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013612980001198594,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          21,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011529329995028093,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          22,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001429579000614467,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          23,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014177269995343522,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          24,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012241640006322996,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          25,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011656549995677778,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          26,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020713559997602715,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          27,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013631070005430956,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          28,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016029979997256305,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          29,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017171970002891612,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          30,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012451580005290452,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          31,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014953990003050421,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          32,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014421610003410024,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          33,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011754059996746946,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          34,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018538599997555139,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          35,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013761489999524201,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          36,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013367430001380853,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          37,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013365229997361894,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          38,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014030649999767775,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          39,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013180799996916903,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          40,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017899820004458888,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          41,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00138101100037602,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          42,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001561820999995689,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          43,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001317440999628161,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          44,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012902749995191698,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          45,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016127989993037772,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          46,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011578230005397927,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          47,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017536229997858754,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          48,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015210840001600445,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          49,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017447110003558919,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          50,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013359229997149669,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          51,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001607219000106852,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          52,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013010780003241962,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          53,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015153639997151913,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          54,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013882520006518462,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          55,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014095149999775458,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          56,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013325219997568638,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          57,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012662609997278196,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          58,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00131204900026205,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          59,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015253640003720648,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          60,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013491350000549573,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          -1,
+          61,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001480587000514788,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -60,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020939809992341907,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -59,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014940700002625817,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -58,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013869809999960125,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -57,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020240280000507482,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -56,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020550030003505526,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -55,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012111819996789563,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -54,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018661309995877673,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -53,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001642463999814936,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -52,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002030878999903507,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -51,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001369868999972823,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -50,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014244379999581724,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -49,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014727669995409087,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -48,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013984439992782427,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -47,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017359200001010322,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -46,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012637709996852209,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -45,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016852460003065062,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -44,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017011890004141605,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -43,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017834479995144648,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -42,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020013650000691996,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -41,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017384299999321229,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -40,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016793009999673814,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -39,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014316500000859378,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -38,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019482150000840193,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -37,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017169069997180486,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -36,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018008959996222984,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -35,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0027237300000706455,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -34,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018013600001722807,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -33,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014849079998384696,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -32,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001865692000137642,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -31,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001762904000315757,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -30,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015762940001877723,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -29,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013448250001601991,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -28,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014634939998359187,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -27,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016917020002438221,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -26,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012753529999827151,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -25,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015784939996592584,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -24,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013542160004362813,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -23,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015359970002464252,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -22,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012996169998586993,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -21,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014397400000234484,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -20,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012310649999562884,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -19,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013792010004181066,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -18,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013600570000562584,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -17,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015415679999932763,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -16,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013210099996285862,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -15,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016329820000464679,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -14,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013034779994995915,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -13,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014933800002836506,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -12,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014453009998760535,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -11,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0014986099995439872,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -10,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017034849997799029,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -9,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015560499996354338,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -8,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017659960003584274,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -7,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015086319999682019,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -6,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0012742829994749627,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -5,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013500750001185224,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -4,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018142330000046059,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -3,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0013391729999057134,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -2,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0006748830001015449,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          -1,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.000745284000004176,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -60
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024435069999526604,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -59
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004153392999796779,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -58
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002312036999683187,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -57
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002198038000642555,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -56
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002237642999716627,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -55
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015064919998621917,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -54
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0027031310000893427,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -53
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017633639999985462,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -52
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003739894999853277,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -51
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004829927000173484,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -50
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024019709999265615,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -49
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002637780999975803,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -48
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003798634000304446,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -47
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0026591940004436765,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -46
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020381109998197644,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -45
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002447639999445528,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -44
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016582870002821437,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -43
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0028421639999578474,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -42
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003703768999912427,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -41
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0032575389996054582,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -40
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0038715820001016255,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -39
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020802670005650725,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -38
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0020732259999931557,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -37
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002431696000712691,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -36
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002164991999961785,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -35
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002661694000380521,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -34
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001810052000109863,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -33
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001668449000135297,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -32
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015733230002297205,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -31
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002041601000200899,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -30
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018536289999246947,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -29
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002259976999994251,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -28
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024162730005627964,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -27
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002844685000127356,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -26
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0026194779993602424,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -25
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0027880259995072265,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -24
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0031239319996529957,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -23
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0023050649997458095,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -22
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002296482999554428,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -21
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002891182999519515,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -20
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0026374299995950423,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -19
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004160896000030334,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -18
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0027231439999013674,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -17
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0030682630003866507,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -16
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003083304999563552,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -15
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002835674000380095,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -14
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002355493999857572,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -13
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003975554000135162,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -12
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002955303999442549,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -11
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002848095999979705,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -10
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0021556199999395176,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -9
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002495116999853053,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -8
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0033630420002737083,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -7
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0029922200001237798,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -6
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019931429997086525,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -5
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0028817109996452928,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -4
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00191334899955109,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -3
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00227790000008099,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -2
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00190601800022705,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          -1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011748560000341968,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          1,
+          0,
+          0
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001068159000169544,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          3,
+          1,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011849089996758266,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          5,
+          1,
+          2
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0010849909995158669,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          5,
+          2,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011631940005827346,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          7,
+          1,
+          3
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0010591369991743704,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          7,
+          3,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0011285880000286852,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          9,
+          1,
+          4
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.006138779999673716,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          9,
+          4,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0045671219995711,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          11,
+          1,
+          5
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0023291799998332863,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          11,
+          5,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001800160999664513,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          13,
+          1,
+          6
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0029554040002039983,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          13,
+          6,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0030918769998606876,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          15,
+          1,
+          7
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002086367999254435,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          15,
+          7,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0023153860001912108,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          17,
+          1,
+          8
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002366656000049261,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          17,
+          8,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018979679998665233,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          19,
+          1,
+          9
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003563364999536134,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          19,
+          9,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.001581733999955759,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          21,
+          1,
+          10
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003209596000488091,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          21,
+          10,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0034040780001305393,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          23,
+          1,
+          11
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002587443000265921,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          23,
+          11,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004569144000015513,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          25,
+          1,
+          12
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004307909000090149,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          25,
+          12,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002624348000608734,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          27,
+          1,
+          13
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0032529130003240425,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          27,
+          13,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003795419999732985,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          29,
+          1,
+          14
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002225812999313348,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          29,
+          14,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0025084130002142047,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          31,
+          1,
+          15
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002477017999808595,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          31,
+          15,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0034721000001809443,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          33,
+          1,
+          16
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024957169998742756,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          33,
+          16,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0023605149999639252,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          35,
+          1,
+          17
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0034455559998605167,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          35,
+          17,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002748749000602402,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          37,
+          1,
+          18
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002311035999809974,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          37,
+          18,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0028347029992801254,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          39,
+          1,
+          19
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0026266690001648385,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          39,
+          19,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002559288000156812,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          41,
+          1,
+          20
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002420814999823051,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          41,
+          20,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0027598219994615647,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          43,
+          1,
+          21
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002747759000158112,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          43,
+          21,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003713699999934761,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          45,
+          1,
+          22
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0034077589998560143,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          45,
+          22,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0034343750003245077,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          47,
+          1,
+          23
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0039234360001501045,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          47,
+          23,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004383200999654946,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          49,
+          1,
+          24
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0033104320000347798,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          49,
+          24,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002788546000374481,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          51,
+          1,
+          25
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003236741000364418,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          51,
+          25,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0021810640000694548,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          53,
+          1,
+          26
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002770612999484001,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          53,
+          26,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0030588899999202113,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          55,
+          1,
+          27
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0027554240004974417,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          55,
+          27,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024980119997053407,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          57,
+          1,
+          28
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0037086510001245188,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          57,
+          28,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024804450004012324,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          59,
+          1,
+          29
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0026981099999829894,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          59,
+          29,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002641840999785927,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          61,
+          1,
+          30
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002485635000084585,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          61,
+          30,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019281610002508387,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          63,
+          1,
+          31
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024790549996396294,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          63,
+          31,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002792207000311464,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          65,
+          1,
+          32
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003023025000402413,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          65,
+          32,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0023230679998960113,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          67,
+          1,
+          33
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0026215280004180386,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          67,
+          33,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0026534419994277414,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          69,
+          1,
+          34
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0037755000003016903,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          69,
+          34,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0022505870001623407,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          71,
+          1,
+          35
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002605970000331581,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          71,
+          35,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0028769749997081817,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          73,
+          1,
+          36
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003417310999793699,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          73,
+          36,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0034657989999686833,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          75,
+          1,
+          37
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0021629419998134836,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          75,
+          37,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003862251000100514,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          77,
+          1,
+          38
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002805494000313047,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          77,
+          38,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003663821999907668,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          79,
+          1,
+          39
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003025165000508423,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          79,
+          39,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004086562999873422,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          81,
+          1,
+          40
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0047622350002711755,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          81,
+          40,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003638318000412255,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          83,
+          1,
+          41
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003601990999413829,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          83,
+          41,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0035231179999755113,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          85,
+          1,
+          42
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003375485000105982,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          85,
+          42,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004535227999440394,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          87,
+          1,
+          43
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002419314000690065,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          87,
+          43,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003338086999974621,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          89,
+          1,
+          44
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0030760440004087286,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          89,
+          44,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0027962570002273424,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          91,
+          1,
+          45
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0024036720005824463,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          91,
+          45,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002473032999660063,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          93,
+          1,
+          46
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003436018000684271,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          93,
+          46,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002421793999928923,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          95,
+          1,
+          47
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002480525000464695,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          95,
+          47,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002701611000702542,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          97,
+          1,
+          48
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002728854999986652,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          97,
+          48,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0028761800003849203,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          99,
+          1,
+          49
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0029832680002073175,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          99,
+          49,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0022776409996367875,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          101,
+          1,
+          50
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003270256000178051,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          101,
+          50,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.00271571400026005,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          103,
+          1,
+          51
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0019678389999171486,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          103,
+          51,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0031728300000395393,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          105,
+          1,
+          52
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002793417000248155,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          105,
+          52,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0015801340005054954,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          107,
+          1,
+          53
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0022052379999877303,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          107,
+          53,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003032207000615017,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          109,
+          1,
+          54
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0017349010004181764,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          109,
+          54,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003918284000064887,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          111,
+          1,
+          55
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0037005179992775084,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          111,
+          55,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.005561369000133709,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          113,
+          1,
+          56
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.005485777000103553,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          113,
+          56,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004025922999971954,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          115,
+          1,
+          57
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0028048880003552767,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          115,
+          57,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003446646000156761,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          117,
+          1,
+          58
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0032424310002170387,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          117,
+          58,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.004097721000107413,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          119,
+          1,
+          59
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002285901000504964,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          119,
+          59,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002794627000184846,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          121,
+          1,
+          60
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0016235610000876477,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          121,
+          60,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.002418263000436127,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          123,
+          1,
+          61
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.0018310360001123627,
+        "timeout_ms": 10000
+      },
+      {
+        "point": [
+          123,
+          61,
+          1
+        ],
+        "status": "unsat",
+        "elapsed_seconds": 0.003882425000483636,
+        "timeout_ms": 10000
+      }
+    ]
+  },
+  "scope": {
+    "finite_crosscheck_only": true,
+    "no_hollow_conclusion": true,
+    "no_global_width_bound": true,
+    "no_3_4_bound": true,
+    "sat_witnesses_are_missing_guards": true
+  },
+  "elapsed_seconds": 1.1328211130003183
+}

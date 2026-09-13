@@ -70,20 +70,49 @@ implementation checks all equality-boundary patterns, the eight relevant
 symmetries and two deliberately corrupted certificates. Positive inverse
 column sums remain a separate boundedness condition.
 
-Eighteen complementary-minor identities give a thirteen-variable formulation
-whose constraints have degree at most three. In this public checkpoint, this
-cubic formulation is reviewed mathematics awaiting solver implementation.
-The original SMT experiment and two implemented eight-variable formulations
-all returned **UNKNOWN (timeout)** on their target queries. They eliminate
-no family; the two additional formulations passed positive and negative
-pinned controls.
+The cubic formulation is now implemented in a column-normalized chart with
+eight variables. Exact identities and independently verified pair witnesses
+support it. All bounded nonlinear target queries remain **UNKNOWN (timeout)**;
+no contact family has been eliminated.
 
 - [Matrix proof](proofs/PAIR_MATRIX_STRUCTURE.md), [exact certificate](certificates/pair_matrix_structure.json), and [independent replay](tests/replay_pair_matrix_independent.py)
-- [Cubic formulation](proofs/PAIR_CUBIC_FORMULATION.md), [identities](certificates/pair_cubic_width_identities.json), and [internal review](results/PAIR_CUBIC_MODEL_REVIEW.md)
-- [Recorded validation and solver scope](results/pair_model_validation.json)
+- [Column formulation](proofs/PAIR_COLUMN_FORMULATION.md), [exact identities](certificates/pair_column_identities.json), and [encoding review](results/DET2_GAUGE_MODEL_REVIEW.md)
 
-This release exports committed, reviewed source revision **38fbeef**.
-Ongoing local experiments are outside this public checkpoint.
+## Complete finite hollowness tests
+
+For an empty lattice contact tetrahedron P of normalized volume d > 1, and
+a compact full-dimensional convex body K containing P with all four contact
+vertices on its boundary, hollowness can be tested on **at most twelve lattice
+lines determined by P**. This specializes known observer and five-point
+classification methods; mathematical novelty remains unconfirmed.
+
+If the gauge of K − K on each of the six primitive contact edges exceeds
+**37/102**, at most **96 lattice points** suffice for any such P. For
+P = conv(0, (2,1,1), (0,1,0), (0,0,1)), the exact list has **64 points**.
+In the positive pair-dominant facet chart, 44 exclusions are automatic,
+leaving **20 explicit clauses**. All six edge-gauge assumptions are essential
+to this finite test. With only the volume bound vol(K) < 21, the larger
+1,456-point list applies, leaving 484 pair clauses.
+
+- [Precise statement and limitations — CLAIM-0005](claims/CLAIM-0005.md)
+- [Twelve-line proof](proofs/DET2_OBSERVER_LINES.md) and [gauge truncation](proofs/DET2_OBSERVER_GAUGE_GUARDS.md)
+- [Exact 64-point certificate](certificates/det2_observer_gauge_guards.json), [independent verifier](tests/replay_det2_gauge_guards_independent.py), and [internal mathematical review](proofs/DET2_OBSERVER_REVIEW.md)
+
+Two independently certified hollow pair witnesses have width > 19/6; one
+has precisely four lattice contacts. Two separate nonhollow examples of
+width > 7/2 expose the old partial-box screen's missing interior points.
+These are controls, not improved flatness bounds. See [the witness proof](proofs/DET2_PAIR_WITNESSES.md).
+
+The complete eight-variable cubic model combines 37 width directions, 20
+hollowness clauses and six edge gauges at target 17/5. Its target query timed
+out; exact positive and negative pinned controls passed. A separate exact
+linear-arithmetic check confirms that the 20 clauses plus six gauges imply
+all 484 clauses of the larger model. This does not settle width optimization.
+
+![The 64 lattice guards and 20 explicit pair exclusions](results/observer_guards.png)
+
+This update exports reviewed scientific source **e84400e**.
+See [public-copy validation](PUBLIC_VALIDATION.md) for reproduction evidence.
 
 ## Verified baseline
 
@@ -206,6 +235,18 @@ Replay the additional matrix and cubic identities using the baseline dependencie
 .venv/bin/python tests/replay_pair_matrix_independent.py
 .venv/bin/python -m experiments.pair_cubic_width_identities
 ```
+
+Replay the column identities, pair witnesses and complete observer guards:
+
+```sh
+.venv/bin/python reproduce_observer_guards.py
+```
+
+This runs nine exact stages, including independent verifiers under Python
+`-O`, 44 rejected mutations/substitutions and a strict-endpoint regression.
+All six new exact certificate files must reproduce byte for byte. No numerical
+search or solver query is run. The complete optional target model is
+`experiments.det2_pair_gauge_complete_smt`; its archived outcome is UNKNOWN.
 
 The optional `experiments.det2_adjugate_smt` and
 `experiments.det2_pair_structured_smt` modules reproduce the two additional
