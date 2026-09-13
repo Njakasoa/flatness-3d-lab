@@ -1,0 +1,56 @@
+{
+  "status": "passed_for_stated_scope",
+  "matrix_certificate": {
+    "forest_terms": 45,
+    "adjugate_entries": 16,
+    "independent_implementation": "tests/replay_pair_matrix_independent.py",
+    "boundary_masks": 16,
+    "centralizer_permutations": 8,
+    "weak_order_test_tuples": 256,
+    "affine_lattice_maps": 24,
+    "mutation_guards": 2
+  },
+  "cubic_width_identities": {
+    "formal_axis_pair_identities": 18,
+    "determinant_degree": 3,
+    "quotient_degree_at_most": 2,
+    "model_maximum_degree": 3,
+    "independent_review": "results/PAIR_CUBIC_MODEL_REVIEW.md"
+  },
+  "solver_records": {
+    "det2_adjugate_smt": {
+      "positive_pinned_query": {
+        "status": "sat",
+        "elapsed_seconds": 0.012334739999914746
+      },
+      "negative_pinned_query": {
+        "status": "unsat",
+        "elapsed_seconds": 0.009185893999983819
+      },
+      "main_query": {
+        "status": "unknown",
+        "elapsed_seconds": 31.541786301000002
+      }
+    },
+    "det2_pair_structured_smt": {
+      "positive_pinned_query": {
+        "status": "sat",
+        "elapsed_seconds": 0.006302904999984094
+      },
+      "negative_pinned_query": {
+        "status": "unsat",
+        "elapsed_seconds": 0.003691412000080163
+      },
+      "main_query": {
+        "status": "unknown",
+        "elapsed_seconds": 31.479203489999918
+      }
+    }
+  },
+  "run_history_note": "The structure-assisted script was executed twice. Its main query was unchanged; an explicit negative-control guard was added between runs. The final JSON archives the second run (UNKNOWN). This repeated main solve was unnecessary; future control-only hardening should not rerun an unchanged target.",
+  "scope": "No infeasibility certificate or pair-class width bound. The thirteen-variable cubic model has not yet been implemented in a solver.",
+  "certificate_sha256": {
+    "certificates/pair_matrix_structure.json": "abbb507eccc730d917842706308ed8b3ae5986578b911fb7d1f9ce099940d5f2",
+    "certificates/pair_cubic_width_identities.json": "96a9dd9b058e9647a7feff97e4c9e9269d840c6a775890a4f3df6bbec97e4937"
+  }
+}

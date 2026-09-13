@@ -63,11 +63,27 @@ for both witnesses, including deliberate certificate mutations.
 - [Finite algebraic model above width 17/5](proofs/DET2_FINITE_ALGEBRAIC_REDUCTION.md): two blocker-permutation branches, 37 complete width directions, and a proved finite lattice-exclusion box
 - [Pair-branch exploration](proofs/DET2_PAIR_BRANCH.md), [cube-contact analysis](proofs/CUBE_CONTACT_CLASS.md), and [primary-source notes](references/EIGHT_FACET_RESEARCH_SOURCES.md)
 
-The first bounded SMT experiment tested only a necessary relaxation of the
-pair branch. Its positive control passed; the target query returned
-**UNKNOWN (timeout)**. It eliminates no family. The reviewed eight-variable
-reformulation is written mathematics and has not yet been implemented in the
-solver. See the [recorded query and scope](results/det2_pair_smt.json).
+The pair branch now has a formally checked matrix description: a 45-term
+rooted-forest determinant expansion identifies its singular boundary, and
+16 adjugate identities establish the inverse sign pattern. An independent
+implementation checks all equality-boundary patterns, the eight relevant
+symmetries and two deliberately corrupted certificates. Positive inverse
+column sums remain a separate boundedness condition.
+
+Eighteen complementary-minor identities give a thirteen-variable formulation
+whose constraints have degree at most three. In this public checkpoint, this
+cubic formulation is reviewed mathematics awaiting solver implementation.
+The original SMT experiment and two implemented eight-variable formulations
+all returned **UNKNOWN (timeout)** on their target queries. They eliminate
+no family; the two additional formulations passed positive and negative
+pinned controls.
+
+- [Matrix proof](proofs/PAIR_MATRIX_STRUCTURE.md), [exact certificate](certificates/pair_matrix_structure.json), and [independent replay](tests/replay_pair_matrix_independent.py)
+- [Cubic formulation](proofs/PAIR_CUBIC_FORMULATION.md), [identities](certificates/pair_cubic_width_identities.json), and [internal review](results/PAIR_CUBIC_MODEL_REVIEW.md)
+- [Recorded validation and solver scope](results/pair_model_validation.json)
+
+This release exports committed, reviewed source revision **38fbeef**.
+Ongoing local experiments are outside this public checkpoint.
 
 ## Verified baseline
 
@@ -183,7 +199,18 @@ baseline dependencies:
 .venv/bin/python -m experiments.det2_pair_smt
 ```
 
-This reruns a bounded solver experiment, not a proof of infeasibility.
+Replay the additional matrix and cubic identities using the baseline dependencies:
+
+```sh
+.venv/bin/python -m experiments.pair_matrix_structure
+.venv/bin/python tests/replay_pair_matrix_independent.py
+.venv/bin/python -m experiments.pair_cubic_width_identities
+```
+
+The optional `experiments.det2_adjugate_smt` and
+`experiments.det2_pair_structured_smt` modules reproduce the two additional
+bounded solver experiments. Their archived results are timeouts, not proofs
+of infeasibility.
 
 The core exact geometry uses only the standard library. SymPy supports the
 independent checks; SciPy supports exploration; Matplotlib produces figures.

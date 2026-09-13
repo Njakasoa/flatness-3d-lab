@@ -38,3 +38,14 @@ The cube-contact axis-width proposal encounters Lassak's inscribed-parallelotope
 conjecture; his established mixed width/chord inequality supplies a necessary
 condition instead. An additional 2008 source credits Howe's eight-point
 extension principle. See references/EIGHT_FACET_RESEARCH_SOURCES.md.
+
+
+## Pair matrix and lower-degree model
+
+The bipartite pair matrix admits an exact rooted-forest determinant expansion
+and a strict inverse sign pattern. These specialize established matrix
+arguments; no novelty claim is made. Their role here is to preserve all
+boundary cases while simplifying the feasibility model. Complementary-minor
+identities yield a thirteen-variable cubic encoding. This is an algebraic
+reformulation, not a new width theorem, and its solver implementation remains
+a next step. The two additional eight-variable queries returned UNKNOWN.

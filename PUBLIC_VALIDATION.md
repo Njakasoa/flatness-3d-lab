@@ -73,3 +73,20 @@ are internal AI-assisted reviews with their correction closures preserved.
 All Markdown links resolve locally, the public text has no private machine
 paths or credential-pattern findings, and archived baseline certificates
 retain their previous hashes. The complete snapshot manifest was refreshed.
+
+## Pair-model update validation
+
+From committed source 38fbeef, three incremental commands passed in the public
+copy: the matrix identity generator, the independent SymPy checker under
+Python `-O`, and the complementary-minor identity generator. Both new
+certificates reproduce source bytes exactly; all 19 previously published
+certificates retain their hashes. The independent checker verifies 45
+determinant terms, 16 adjugates, 16 boundary patterns, eight symmetries,
+256 weak order tuples and 24 affine lattice maps; two mutations are rejected.
+The cubic generator verifies all 18 formal axis/pair identities.
+
+See [the incremental receipt](results/pair_public_validation.json). The
+unchanged baseline/contact pipelines were not rerun; the new optional SMT
+queries retain their original records and were not repeated for publication.
+Neither UNKNOWN outcome is an infeasibility certificate. Public text and
+local Markdown links were checked and the complete manifest refreshed.

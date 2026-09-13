@@ -5,7 +5,8 @@ Canonical repository: https://github.com/Njakasoa/flatness-3d-lab.
 
 The user explicitly authorized publishing this lab on their GitHub account
 following Njakasoa/ihara-a2-lab. This curated export derives from scientific
-source revision 9de72cf, following the contact reduction at da24c58
+source revision 38fbeef, following the continuous-family update at 9de72cf,
+the contact reduction at da24c58
 and the first public baseline at b456770.
 SOURCE_MANIFEST.json records the full revision and
 exported byte hashes. The original research history is not pushed to this public repository.
@@ -43,3 +44,12 @@ match source bytes. The recorded SMT target returned UNKNOWN after its time
 limit. The eight-variable reformulation is mathematical work awaiting solver
 implementation. No class elimination, new global bound, or external novelty
 is claimed. Machine-specific raw logs remain excluded.
+
+## Pair-model update
+
+Published the reviewed matrix-structure proof, exact determinant and adjugate
+certificates, independent checker and cubic complementary-minor identities
+from committed source 38fbeef. Two additional eight-variable solver records
+remain UNKNOWN; the cubic model is a written formulation in this snapshot.
+This checkpoint preserves the existing public history and excludes ongoing
+uncommitted research. No new global bound or class elimination is claimed.

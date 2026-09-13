@@ -168,3 +168,13 @@ probe after the auxiliary-variable model times out, not a proved bound.
 The exact domain constants, 37 directions and all 24 contact-permutation
 maps are reproduced by `python -m experiments.det2_finite_domain` in
 [det2_finite_domain.json](../certificates/det2_finite_domain.json).
+
+## Subsequent implementation checkpoint
+
+The eight-variable formulation and a version using pair-specific matrix
+structure have now been implemented. Both pinned controls passed in each
+script, but each unpinned target query timed out. The pair matrix structure
+and exact boundary normalization are in PAIR_MATRIX_STRUCTURE.md. The next
+representation, derived in PAIR_CUBIC_FORMULATION.md, has thirteen variables
+and polynomial degree at most three. No branch elimination follows from
+any of the recorded timeouts.

@@ -22,28 +22,28 @@
       "sha256": "96242f1080dc718b1553428ac296d66a04ba30dae8890acbd8c238b303ec3dd6"
     },
     "NEXT.md": {
-      "bytes": 2199,
-      "sha256": "ebf4a5f8257801f8e8d85f1c07a7b022d620daa304954fcd56ed7d096fe38713"
+      "bytes": 3152,
+      "sha256": "1ed50512b92ec189210e59de0d8424ae4ac46e63ca410ade4cd16c88b232c540"
     },
     "NORMALIZATION.md": {
       "bytes": 2734,
       "sha256": "f03de491797472c84153de23ad188d90f756996b7d0b86bb4e7bb8d77ec849df"
     },
     "NOVELTY_LOG.md": {
-      "bytes": 2964,
-      "sha256": "588c8128ebde7258fc94d2920cac17194240c797e49ace6f7ce2e32536d8bdc1"
+      "bytes": 3527,
+      "sha256": "e3bfc7a08feeb92f3ae6cbf5bc7374c29006ba801273bbd00bce8fcbbbf54ded"
     },
     "PUBLICATION.md": {
-      "bytes": 2409,
-      "sha256": "554e90342f3c54e45fe3a9c15eeda541b8188cdd624c666ef0f218b42fced389"
+      "bytes": 2927,
+      "sha256": "36685f763be324da8982939f302849b29deb40e63561e7d116f14380ebedf724"
     },
     "PUBLIC_VALIDATION.md": {
-      "bytes": 4428,
-      "sha256": "61358e9c9d1dd26075e195efbe8b1c0dbf9a9878bf11d37bb0cb853c95c5435b"
+      "bytes": 5411,
+      "sha256": "6dce9628a3c48e3ddba7a457c2fe34c73c851bae6d2f641d711acc070109dbc4"
     },
     "README.md": {
-      "bytes": 11517,
-      "sha256": "01b4e31d68406c72e1fb506a942c851ccb430312f58324010cc1fb97850d1198"
+      "bytes": 13018,
+      "sha256": "2882a60416866d8b2685116df2e00cbbd0380acabbffeb635eef4f58abf1a069"
     },
     "STATE_OF_THE_ART.md": {
       "bytes": 16202,
@@ -124,6 +124,14 @@
     "certificates/local_hessian.json": {
       "bytes": 5008,
       "sha256": "7162e5ead5574260cbf9e0357aafc9893f1fa7f08db51bf8d7176f2e2149b8ec"
+    },
+    "certificates/pair_cubic_width_identities.json": {
+      "bytes": 31332,
+      "sha256": "96a9dd9b058e9647a7feff97e4c9e9269d840c6a775890a4f3df6bbec97e4937"
+    },
+    "certificates/pair_matrix_structure.json": {
+      "bytes": 58194,
+      "sha256": "abbb507eccc730d917842706308ed8b3ae5986578b911fb7d1f9ce099940d5f2"
     },
     "certificates/planar_control.json": {
       "bytes": 7031,
@@ -209,6 +217,10 @@
       "bytes": 8003,
       "sha256": "67271701409247b6db3d3cd6d04c46237d9f29be828fde25c846dc8de8e08d0e"
     },
+    "experiments/det2_adjugate_smt.py": {
+      "bytes": 25918,
+      "sha256": "261ef9751e904d616da240b982c4d1329c80934a7b7248f44c12c7b05874129d"
+    },
     "experiments/det2_cycle_relaxation.py": {
       "bytes": 3046,
       "sha256": "c2454b49aa70721a4897c859475135d4379ad628123de734684417cce0f4144f"
@@ -225,6 +237,10 @@
       "bytes": 15305,
       "sha256": "162457ba74ef12c605fe86cbcb66d46da3364f5d9a6f9b46a8898c7f92a5ab0f"
     },
+    "experiments/det2_pair_structured_smt.py": {
+      "bytes": 18314,
+      "sha256": "c9295e16bc5467214fd02406604a52f331af091cab911c739de5f3a7401e5bd7"
+    },
     "experiments/discovery.py": {
       "bytes": 8377,
       "sha256": "0cc4831f2f3c9ec6d4632fff1de302c50a5718ce60d6921d54e42a4ace1f13e4"
@@ -236,6 +252,14 @@
     "experiments/figures.py": {
       "bytes": 4289,
       "sha256": "283c11176dd81430383cd9b0d92d79d94d8967ce7d81a84b679677c84e0cdecf"
+    },
+    "experiments/pair_cubic_width_identities.py": {
+      "bytes": 3255,
+      "sha256": "59414e4dc9ddc8bef09ba909e2f20f22077d51cef4180a0cdf7d5135caccc95b"
+    },
+    "experiments/pair_matrix_structure.py": {
+      "bytes": 6314,
+      "sha256": "6edfee37514fb6015d06966875a277d571e885c02a1dfce34274e01361a10a17"
     },
     "experiments/planar_control.py": {
       "bytes": 8833,
@@ -298,8 +322,8 @@
       "sha256": "85972de1de3a6689b2bb60cc587c78dc451de4c82418acb071da7811ae92c487"
     },
     "proofs/DET2_FINITE_ALGEBRAIC_REDUCTION.md": {
-      "bytes": 7629,
-      "sha256": "c409629ebabadd45fdbc110d348d1d3bc542be20013a84e66adbe94d666229d2"
+      "bytes": 8146,
+      "sha256": "60776ef485b64a92fad1d2b6cbd3817d765ca03682b6264f5dc826f47e64b1a2"
     },
     "proofs/DET2_FOUR_CONTACT_OBSTRUCTION.md": {
       "bytes": 3947,
@@ -320,6 +344,14 @@
     "proofs/MAXIMAL_REDUCTION.md": {
       "bytes": 6608,
       "sha256": "ae01ff9e5b9ecd49c83f35210df70b1dd79201000ff4d4c11cd3cc0b8e8dc5cb"
+    },
+    "proofs/PAIR_CUBIC_FORMULATION.md": {
+      "bytes": 3632,
+      "sha256": "470c3dd6dbe73d94ea74e93845f0aab45fcd9cba2464d6b42d03c4758a09e4bd"
+    },
+    "proofs/PAIR_MATRIX_STRUCTURE.md": {
+      "bytes": 5398,
+      "sha256": "14b8ca6fe1d9195f0d08680785e1a685e29a62e63c3d10c2dea2c4e61dae88c1"
     },
     "proofs/SQUARE_CONTACT_ANALYSIS.md": {
       "bytes": 8792,
@@ -401,6 +433,14 @@
       "bytes": 1247,
       "sha256": "ac34bfb4914b68b16571b67101e29bc883776282e90230453d6bd343e5f46ba5"
     },
+    "results/PAIR_CUBIC_MODEL_REVIEW.md": {
+      "bytes": 3815,
+      "sha256": "753b1a595af9f72238d745dd67ac9a0c8e76ccfe793eaef6b0534b7cbf84bcd5"
+    },
+    "results/PAIR_MATRIX_STRUCTURE_REVIEW.md": {
+      "bytes": 5888,
+      "sha256": "0c8fc6c429adfac9f994d1ea0ff0e6d9162abbca263622e26e5cef60429e098b"
+    },
     "results/active_directions_contacts.png": {
       "bytes": 267543,
       "sha256": "f08125482c2017f21d4c04dd4df4ab30be7f9c9e31fca56fe3b668616f558496"
@@ -453,6 +493,14 @@
       "bytes": 22480,
       "sha256": "48bd621685d245d332cb04449e1a0bc54587547dd2689cffacb4122d44c23dd5"
     },
+    "results/det2_adjugate_smt.json": {
+      "bytes": 13382,
+      "sha256": "9ab46f4f152e83bedcf83502e7e798f090fc67c43fed8b53e0e5680f20869492"
+    },
+    "results/det2_adjugate_smt.smt2": {
+      "bytes": 561486,
+      "sha256": "36af154e0b0c1770d4cbbef8a35daab381ee7d4ae5d8a96c31608ff308cc7dbc"
+    },
     "results/det2_cycle_independent.json": {
       "bytes": 10546,
       "sha256": "27c72430b0bbf6ec9f3f8f2fd0ce596a12fe20ab4955a24c244a9e0cc10e5995"
@@ -472,6 +520,14 @@
     "results/det2_pair_smt.smt2": {
       "bytes": 165251,
       "sha256": "bee3348f3427a99c1fdbd9cb0982e5998f5fc7840e6a6b9264c136faffbac9a4"
+    },
+    "results/det2_pair_structured_smt.json": {
+      "bytes": 14263,
+      "sha256": "5ce8e0a6d2ddcf4b1c8af277f025bc5b205e09f16dd99375677ebef530099751"
+    },
+    "results/det2_pair_structured_smt.smt2": {
+      "bytes": 486635,
+      "sha256": "7af63d608c0c19a8510774bb597540ad8994bf90ca0c31d459cfef2f41222ec5"
     },
     "results/det2_public_validation.json": {
       "bytes": 1047,
@@ -512,6 +568,14 @@
     "results/near_extremizers.jsonl": {
       "bytes": 34220744,
       "sha256": "fbd025d6eac9839f89fdf01c09b761c337750d8cbcff57f91f3874d992a6cefa"
+    },
+    "results/pair_model_validation.json": {
+      "bytes": 2096,
+      "sha256": "7a8865eeae3085107e0aca7469da5250a103a3bbdd49a5d3644f110534b09655"
+    },
+    "results/pair_public_validation.json": {
+      "bytes": 550,
+      "sha256": "e7a350f07d371d10f2226a80c167316888defa83be0cdcb1156bbc1622422bce"
     },
     "results/square_contacts.json": {
       "bytes": 9643,
@@ -645,6 +709,10 @@
       "bytes": 24880,
       "sha256": "f76fe572f2fb5d7bafc57650ef73e6921aeb90c94cecd6ec77c049e4228f8189"
     },
+    "tests/replay_pair_matrix_independent.py": {
+      "bytes": 5371,
+      "sha256": "54a765d1b279d0c1f155aaf331b856b41d3031b268f94cf56a7881be2dfaac0d"
+    },
     "tests/test_canonical.py": {
       "bytes": 837,
       "sha256": "f2cf411aad13bedbd4e4683f606be35890a31efdf4fbaf9bbf67d03b3e1350e0"
@@ -659,5 +727,5 @@
     }
   },
   "repository": "https://github.com/Njakasoa/flatness-3d-lab",
-  "source_revision": "9de72cf976d5a6ec181baec906f8e0215cd284bb"
+  "source_revision": "38fbeef6d874bac927624ec3d39a70de1f6cbf60"
 }

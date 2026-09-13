@@ -1,0 +1,14 @@
+{
+  "source_revision": "38fbeef6d874bac927624ec3d39a70de1f6cbf60",
+  "status": "passed_for_stated_scope",
+  "commands": [
+    "python -m experiments.pair_matrix_structure",
+    "python -O tests/replay_pair_matrix_independent.py",
+    "python -m experiments.pair_cubic_width_identities"
+  ],
+  "new_certificates_reproduced_byte_for_byte": 2,
+  "previous_certificates_unchanged": 19,
+  "matrix_mutations_rejected": 2,
+  "solver_queries_rerun": false,
+  "scope": "Incremental exact replay; no new bound, branch elimination or external novelty claim."
+}
