@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "solver_queries_run": 0,
+  "classes": [
+    {
+      "class_index": 6,
+      "height_orbits": 6,
+      "automorphisms": 2,
+      "height_variables": 12,
+      "with_volume_variables": 13,
+      "full_width_variables": 21,
+      "maximum_degree": 2,
+      "pin_false_constraint_counts": [
+        0,
+        11
+      ]
+    },
+    {
+      "class_index": 7,
+      "height_orbits": 5,
+      "automorphisms": 4,
+      "height_variables": 12,
+      "with_volume_variables": 13,
+      "full_width_variables": 21,
+      "maximum_degree": 2,
+      "pin_false_constraint_counts": [
+        0,
+        11
+      ]
+    }
+  ],
+  "scope": "Exact encoding, symmetry and pinned arithmetic audit. No infeasibility proof."
+}

@@ -1,0 +1,1286 @@
+{
+  "scope": "Negates a direction-sensitive sufficient width bound under the stated gauges and complete observer constraints. SAT is an obstruction to this intermediate criterion, not a high-width claim.",
+  "z3_version": "5.1.0",
+  "results": [
+    {
+      "class_index": 6,
+      "determinant": 7,
+      "status": "sat",
+      "elapsed_seconds": 0.22581490300035512,
+      "timeout_ms": 10000,
+      "beta": "37/102",
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          7,
+          0,
+          2
+        ],
+        [
+          7,
+          1,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ]
+      ],
+      "guard_count": 20,
+      "height_covector": [
+        0,
+        1,
+        0
+      ],
+      "height_values": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "derangement_count": 9,
+      "F": [
+        [
+          "0",
+          "1/5406",
+          "704/2703",
+          "2114/2703"
+        ],
+        [
+          "1/5406",
+          "0",
+          "2767/5406",
+          "553/5406"
+        ],
+        [
+          "80/2703",
+          "883/901",
+          "0",
+          "625/5406"
+        ],
+        [
+          "5245/5406",
+          "107/5406",
+          "1231/5406",
+          "0"
+        ]
+      ],
+      "matching_checks": [
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "minimum_equal_height_sum": "313/2703",
+          "minimum_cross_height_sum": "1/2703",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "minimum_equal_height_sum": "4229/5406",
+          "minimum_cross_height_sum": "616/2703",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "minimum_equal_height_sum": "313/2703",
+          "minimum_cross_height_sum": "18/901",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "minimum_equal_height_sum": "713/5406",
+          "minimum_cross_height_sum": "161/5406",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "minimum_equal_height_sum": "713/5406",
+          "minimum_cross_height_sum": "89/1802",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "minimum_equal_height_sum": "479/901",
+          "minimum_cross_height_sum": "89/1802",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "minimum_equal_height_sum": "1384/2703",
+          "minimum_cross_height_sum": "313/2703",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "minimum_equal_height_sum": "2899/2703",
+          "minimum_cross_height_sum": "37/102",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "minimum_equal_height_sum": "8065/5406",
+          "minimum_cross_height_sum": "6995/5406",
+          "criterion_holds": false
+        }
+      ],
+      "exact_body": {
+        "invertible": true,
+        "determinant": "28045529953/78994731708",
+        "vertices": [
+          [
+            {
+              "a": "-4589360690/4006504279",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "-3505155775/8013008558",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "4177006288/4006504279",
+              "b": "0",
+              "d": 2
+            }
+          ],
+          [
+            {
+              "a": "2724173440/4006504279",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "17551484525/8013008558",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "-2014636880/4006504279",
+              "b": "0",
+              "d": 2
+            }
+          ],
+          [
+            {
+              "a": "28635758536/4006504279",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "8182124279/8013008558",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "8180597986/4006504279",
+              "b": "0",
+              "d": 2
+            }
+          ],
+          [
+            {
+              "a": "-874060160/4006504279",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "-252944017/8013008558",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "-249167024/4006504279",
+              "b": "0",
+              "d": 2
+            }
+          ]
+        ],
+        "volume": {
+          "a": "13165788618/4006504279",
+          "b": "0",
+          "d": 2
+        },
+        "hollow": {
+          "status": "certified_hollow",
+          "hollow": true,
+          "integer_box": [
+            [
+              -1,
+              7
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "points_checked": 81,
+          "interior_points": [],
+          "boundary_points": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              3,
+              1,
+              1
+            ],
+            [
+              4,
+              1,
+              1
+            ],
+            [
+              7,
+              1,
+              2
+            ]
+          ],
+          "facets": [
+            {
+              "normal": [
+                {
+                  "a": "-19551415284/4006504279",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "58654245852/4006504279",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "76642132410/4006504279",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              "offset": {
+                "a": "76642132410/4006504279",
+                "b": "0",
+                "d": 2
+              },
+              "vertex_ids": [
+                0,
+                1,
+                2
+              ],
+              "lattice_contacts": [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  3,
+                  1,
+                  1
+                ]
+              ],
+              "relative_interior_contacts": [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  3,
+                  1,
+                  1
+                ]
+              ]
+            },
+            {
+              "normal": [
+                {
+                  "a": "-9118148832/4006504279",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "2337986880/4006504279",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-6794774370/4006504279",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              "offset": {
+                "a": "2337986880/4006504279",
+                "b": "0",
+                "d": 2
+              },
+              "vertex_ids": [
+                0,
+                1,
+                3
+              ],
+              "lattice_contacts": [
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "relative_interior_contacts": [
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            },
+            {
+              "normal": [
+                {
+                  "a": "8080667154/4006504279",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-40417948188/4006504279",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-8066054736/4006504279",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              "offset": {
+                "a": "14612418/4006504279",
+                "b": "0",
+                "d": 2
+              },
+              "vertex_ids": [
+                0,
+                2,
+                3
+              ],
+              "lattice_contacts": [
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  7,
+                  1,
+                  2
+                ]
+              ],
+              "relative_interior_contacts": [
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  7,
+                  1,
+                  2
+                ]
+              ]
+            },
+            {
+              "normal": [
+                {
+                  "a": "20588896962/4006504279",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-20574284544/4006504279",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-61781303304/4006504279",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              "offset": {
+                "a": "0",
+                "b": "0",
+                "d": 2
+              },
+              "vertex_ids": [
+                1,
+                2,
+                3
+              ],
+              "lattice_contacts": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  4,
+                  1,
+                  1
+                ]
+              ],
+              "relative_interior_contacts": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  4,
+                  1,
+                  1
+                ]
+              ]
+            }
+          ]
+        },
+        "width": {
+          "status": "certified_lattice_width",
+          "width": {
+            "a": "10195234866/4006504279",
+            "b": "0",
+            "d": 2
+          },
+          "minimizing_directions_mod_sign": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "direction_count": 47,
+          "upper_certificate": {
+            "direction": [
+              0,
+              0,
+              1
+            ],
+            "value": {
+              "a": "10195234866/4006504279",
+              "b": "0",
+              "d": 2
+            }
+          },
+          "lower_certificate": {
+            "checked_minimum": {
+              "a": "10195234866/4006504279",
+              "b": "0",
+              "d": 2
+            },
+            "all_box_directions_checked": true
+          },
+          "search_bound": {
+            "initial_upper": {
+              "a": "10195234866/4006504279",
+              "b": "0",
+              "d": 2
+            },
+            "basis_vertex_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "D_inverse": [
+              [
+                {
+                  "a": "-553/5406",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "104/901",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "223/901",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              [
+                {
+                  "a": "461/901",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-80/2703",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-669/901",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              [
+                {
+                  "a": "92/901",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "155/1802",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-5245/5406",
+                  "b": "0",
+                  "d": 2
+                }
+              ]
+            ],
+            "coordinate_bounds": [
+              1,
+              3,
+              2
+            ],
+            "proof": "q_i=<u,v_i-v_0>, |q_i|<=w(K,u)<=W; u=D^-1 q implies |u_j|<=W sum_i |D^-1_ji|. Outside this box width>W."
+          }
+        },
+        "maximum_permutation_trace": "2923/901",
+        "minimum_total_off_permutation_mass": "681/901"
+      }
+    },
+    {
+      "class_index": 7,
+      "determinant": 8,
+      "status": "sat",
+      "elapsed_seconds": 0.09824076699987927,
+      "timeout_ms": 10000,
+      "beta": "37/102",
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          8,
+          0,
+          3
+        ],
+        [
+          8,
+          1,
+          2
+        ],
+        [
+          8,
+          1,
+          3
+        ]
+      ],
+      "guard_count": 20,
+      "height_covector": [
+        0,
+        1,
+        0
+      ],
+      "height_values": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "derangement_count": 9,
+      "F": [
+        [
+          "0",
+          "82/119",
+          "23/5712",
+          "1243/5712"
+        ],
+        [
+          "23/5712",
+          "0",
+          "5249/5712",
+          "37/204"
+        ],
+        [
+          "23/5712",
+          "2531/14280",
+          "0",
+          "3433/5712"
+        ],
+        [
+          "2833/2856",
+          "1909/14280",
+          "55/714",
+          "0"
+        ]
+      ],
+      "matching_checks": [
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "minimum_equal_height_sum": "72/119",
+          "minimum_cross_height_sum": "463/5712",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "minimum_equal_height_sum": "211/952",
+          "minimum_cross_height_sum": "463/5712",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "minimum_equal_height_sum": "1311/9520",
+          "minimum_cross_height_sum": "23/2856",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "minimum_equal_height_sum": "353/1904",
+          "minimum_cross_height_sum": "463/5712",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "minimum_equal_height_sum": "1311/9520",
+          "minimum_cross_height_sum": "23/2856",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "minimum_equal_height_sum": "211/952",
+          "minimum_cross_height_sum": "1311/9520",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "minimum_equal_height_sum": "3033/1904",
+          "minimum_cross_height_sum": "7369/5712",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "minimum_equal_height_sum": "5177/28560",
+          "minimum_cross_height_sum": "353/1904",
+          "criterion_holds": false
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "minimum_equal_height_sum": "31307/28560",
+          "minimum_cross_height_sum": "537/1360",
+          "criterion_holds": false
+        }
+      ],
+      "exact_body": {
+        "invertible": true,
+        "determinant": "-474942521/1386645120",
+        "vertices": [
+          [
+            {
+              "a": "255190063705/19947585882",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "33769027255/19947585882",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "43159513864/9973792941",
+              "b": "0",
+              "d": 2
+            }
+          ],
+          [
+            {
+              "a": "-1149902135/19947585882",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "21560101351/19947585882",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "-188831288/9973792941",
+              "b": "0",
+              "d": 2
+            }
+          ],
+          [
+            {
+              "a": "-92050670135/19947585882",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "-18733226297/19947585882",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "1024951576/9973792941",
+              "b": "0",
+              "d": 2
+            }
+          ],
+          [
+            {
+              "a": "378329185/19947585882",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "-11475137/19947585882",
+              "b": "0",
+              "d": 2
+            },
+            {
+              "a": "-3394064/9973792941",
+              "b": "0",
+              "d": 2
+            }
+          ]
+        ],
+        "volume": {
+          "a": "1848860160/474942521",
+          "b": "0",
+          "d": 2
+        },
+        "hollow": {
+          "status": "certified_hollow",
+          "hollow": true,
+          "integer_box": [
+            [
+              -4,
+              12
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "points_checked": 170,
+          "interior_points": [],
+          "boundary_points": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              8,
+              1,
+              3
+            ]
+          ],
+          "facets": [
+            {
+              "normal": [
+                {
+                  "a": "-4204991616/474942521",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "10149310080/474942521",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "11003825280/474942521",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              "offset": {
+                "a": "11003825280/474942521",
+                "b": "0",
+                "d": 2
+              },
+              "vertex_ids": [
+                0,
+                1,
+                2
+              ],
+              "lattice_contacts": [
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "relative_interior_contacts": [
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ]
+            },
+            {
+              "normal": [
+                {
+                  "a": "2237664576/474942521",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "44667840/474942521",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-6622492800/474942521",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              "offset": {
+                "a": "44667840/474942521",
+                "b": "0",
+                "d": 2
+              },
+              "vertex_ids": [
+                0,
+                1,
+                3
+              ],
+              "lattice_contacts": [
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "relative_interior_contacts": [
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            },
+            {
+              "normal": [
+                {
+                  "a": "2011994880/474942521",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-10149310080/474942521",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-1967327040/474942521",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              "offset": {
+                "a": "44667840/474942521",
+                "b": "0",
+                "d": 2
+              },
+              "vertex_ids": [
+                0,
+                2,
+                3
+              ],
+              "lattice_contacts": [
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  8,
+                  1,
+                  3
+                ]
+              ],
+              "relative_interior_contacts": [
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  8,
+                  1,
+                  3
+                ]
+              ]
+            },
+            {
+              "normal": [
+                {
+                  "a": "-44667840/474942521",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-44667840/474942521",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-2414005440/474942521",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              "offset": {
+                "a": "0",
+                "b": "0",
+                "d": 2
+              },
+              "vertex_ids": [
+                1,
+                2,
+                3
+              ],
+              "lattice_contacts": [
+                [
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "relative_interior_contacts": [
+                [
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ]
+        },
+        "width": {
+          "status": "certified_lattice_width",
+          "width": {
+            "a": "1250053656/474942521",
+            "b": "0",
+            "d": 2
+          },
+          "minimizing_directions_mod_sign": [
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "direction_count": 161,
+          "upper_certificate": {
+            "direction": [
+              0,
+              1,
+              0
+            ],
+            "value": {
+              "a": "1250053656/474942521",
+              "b": "0",
+              "d": 2
+            }
+          },
+          "lower_certificate": {
+            "checked_minimum": {
+              "a": "1250053656/474942521",
+              "b": "0",
+              "d": 2
+            },
+            "all_box_directions_checked": true
+          },
+          "search_bound": {
+            "initial_upper": {
+              "a": "1250053656/474942521",
+              "b": "0",
+              "d": 2
+            },
+            "basis_vertex_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "D_inverse": [
+              [
+                {
+                  "a": "-37/204",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-823/4080",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "5413/14280",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              [
+                {
+                  "a": "871/952",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-23/5712",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-871/952",
+                  "b": "0",
+                  "d": 2
+                }
+              ],
+              [
+                {
+                  "a": "1013/5712",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "1705/2856",
+                  "b": "0",
+                  "d": 2
+                },
+                {
+                  "a": "-2833/2856",
+                  "b": "0",
+                  "d": 2
+                }
+              ]
+            ],
+            "coordinate_bounds": [
+              2,
+              4,
+              4
+            ],
+            "proof": "q_i=<u,v_i-v_0>, |q_i|<=w(K,u)<=W; u=D^-1 q implies |u_j|<=W sum_i |D^-1_ji|. Outside this box width>W."
+          }
+        },
+        "maximum_permutation_trace": "653/204",
+        "minimum_total_off_permutation_mass": "163/204"
+      }
+    }
+  ]
+}

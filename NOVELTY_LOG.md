@@ -105,3 +105,13 @@ The maintainer authorized GitHub publication of scientific checkpoint
 archived complete models are included in this public update. Earlier local-only
 status notes describe their research-session dates. External priority and
 peer review remain unconfirmed. See PUBLICATION.md and PUBLIC_VALIDATION.md.
+
+## 2026-09-14 — three further facet-contact exclusions
+
+CLAIM-0007 and CLAIM-0008 give w<=17/5 for the prescribed P7, P8 and first
+determinant-five facet-contact tetrahedra. The geometry has independent
+internal review and all 67 linear refutations have reference-bound Ethos
+checks. Restricted class bounds do not improve the global flatness bound.
+The audits in proofs/HEIGHT_EXCLUSION_LITERATURE.md and
+proofs/DET5_CLASS4_LITERATURE.md found no equivalent result in their bounded
+primary-source search; priority remains unconfirmed.

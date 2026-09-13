@@ -133,3 +133,46 @@ export. Public Markdown links resolve, and the text scan found no private
 machine paths or known credential patterns. The snapshot manifest is refreshed
 and checked, including rejection of an intentionally corrupted expected hash.
 The ongoing uncommitted research is excluded from this release.
+
+## Three further contact-class exclusions — 2026-09-14
+
+Public source checkpoint: f0920819acba3521f244d2510a3d9f901e4ea0fa.
+The exact theorem statements are CLAIM-0007 and CLAIM-0008. At candidate
+width, 58 necessary full contact types remain; the global bound is unchanged.
+
+Fresh public-copy checks passed:
+
+- `reproduce_height_cover.py`: rank arithmetic, normalized-height encodings,
+  all 113 archived interval encodings, exact 62-leaf coverage and independent
+  input/proof hash binding; zero satisfiability queries.
+- `reproduce_det5_class4.py`: all nine exact guard lists, five full-square
+  proof/input/reference bindings, and the explicit 58-survivor list.
+- `tests/audit_det5_height_independent.py`: 98 archived formulas, five
+  complete and three partial charts; eight rejected mutations, zero queries.
+- `tests/replay_det5_height_witness_independent.py`: both rational hollow
+  witnesses, complete widths and difference minima; three rejected mutations.
+- Actual external Ethos kernel checking of all **67 CPC refutations** in
+  the public copy, with referenced assumptions and final false conclusions.
+  Both campaigns rejected their four negative controls. Fresh receipts:
+  [62-proof check](results/public_height_ethos_validation.json) and
+  [five-proof check](results/public_det5_ethos_validation.json).
+
+The independent guard checker rejects ten mutations; the height-rank
+checker rejects seven and the height-cover audit rejects five.
+The archived proof-producer receipts and all 30 previously published
+certificate files remain byte-identical. New scientific payloads match the
+committed source, apart from two reproduction receipts whose runtime/mode
+fields were refreshed. No numerical search or satisfiability query was rerun.
+The unchanged baseline and contraction suites retain their earlier validation.
+
+The separate publication review found the theorem scope and counts correct,
+all local Markdown link targets present, no credential/private-path leak,
+and no redistributed third-party paper. Partial class-5 searches remain
+explicitly incomplete and are excluded from the theorem count. The source
+manifest is refreshed over all public files; its checker and deliberate
+hash-corruption control pass. Code/documentation license and primary-paper
+attribution remain unchanged.
+
+Fresh kernel checking establishes the archived linear refutations relative
+to the pinned CPC signature. Geometry-to-SMT soundness has written proofs
+and independent internal review; no external human review is claimed.

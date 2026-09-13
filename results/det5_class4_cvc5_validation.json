@@ -1,0 +1,354 @@
+{
+  "status": "PASS",
+  "class_index": 4,
+  "contact_points": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "cvc5_version": "1.3.4",
+  "independent_full_matrix_encoding": true,
+  "gauge_vectors": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      1
+    ],
+    [
+      5,
+      1,
+      0
+    ],
+    [
+      5,
+      1,
+      1
+    ]
+  ],
+  "guard_count": 40,
+  "leaves": [
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.465371004998815,
+      "proof_nodes": 7203,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 12,
+        "ProofRule.AND_INTRO": 538,
+        "ProofRule.ARITH_MULT_NEG": 200,
+        "ProofRule.ARITH_MULT_POS": 71,
+        "ProofRule.ARITH_POLY_NORM": 441,
+        "ProofRule.ARITH_POLY_NORM_REL": 124,
+        "ProofRule.ARITH_SUM_UB": 112,
+        "ProofRule.ASSUME": 719,
+        "ProofRule.CHAIN_M_RESOLUTION": 57,
+        "ProofRule.CNF_AND_NEG": 3,
+        "ProofRule.CONG": 475,
+        "ProofRule.CONTRA": 54,
+        "ProofRule.DSL_REWRITE": 399,
+        "ProofRule.EQ_RESOLVE": 792,
+        "ProofRule.EVALUATE": 253,
+        "ProofRule.IMPLIES_ELIM": 16,
+        "ProofRule.MODUS_PONENS": 538,
+        "ProofRule.NARY_CONG": 406,
+        "ProofRule.NOT_AND": 96,
+        "ProofRule.REFL": 330,
+        "ProofRule.REORDERING": 104,
+        "ProofRule.RESOLUTION": 3,
+        "ProofRule.SCOPE": 184,
+        "ProofRule.SYMM": 193,
+        "ProofRule.TRANS": 1019,
+        "ProofRule.TRUE_ELIM": 57
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "class_index": 4,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "covered_area": "1",
+      "input_sha256": "5cbb66f0a298e9c333d751e22f208bd0272d3aed7b1e13089745d702a1c92064",
+      "proof_sha256": "81c96a7d8c8de87f43de6cd23e43576e4a2d7139e4e9ee09d689794fced202cb",
+      "compressed_proof_sha256": "c4347e0f71d2d4112fc80572c5b2f0215e11e565257219df34a098a80fc9e451",
+      "proof_bytes": 755704
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.4393285349997313,
+      "proof_nodes": 5795,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 11,
+        "ProofRule.AND_INTRO": 396,
+        "ProofRule.ARITH_MULT_NEG": 170,
+        "ProofRule.ARITH_MULT_POS": 41,
+        "ProofRule.ARITH_POLY_NORM": 355,
+        "ProofRule.ARITH_POLY_NORM_REL": 112,
+        "ProofRule.ARITH_SUM_UB": 89,
+        "ProofRule.ASSUME": 530,
+        "ProofRule.CHAIN_M_RESOLUTION": 47,
+        "ProofRule.CNF_AND_NEG": 8,
+        "ProofRule.CONG": 401,
+        "ProofRule.CONTRA": 43,
+        "ProofRule.DSL_REWRITE": 333,
+        "ProofRule.EQ_RESOLVE": 642,
+        "ProofRule.EVALUATE": 191,
+        "ProofRule.IMPLIES_ELIM": 18,
+        "ProofRule.MODUS_PONENS": 396,
+        "ProofRule.NARY_CONG": 335,
+        "ProofRule.NOT_AND": 71,
+        "ProofRule.REFL": 301,
+        "ProofRule.REORDERING": 83,
+        "ProofRule.RESOLUTION": 8,
+        "ProofRule.SCOPE": 152,
+        "ProofRule.SYMM": 153,
+        "ProofRule.TRANS": 861,
+        "ProofRule.TRUE_ELIM": 41
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "class_index": 4,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "covered_area": "1",
+      "input_sha256": "be5a5c53d62f31c165ef519c956a93273f8b711f649344549b955bc6d61087b0",
+      "proof_sha256": "74f4d2860cfe277e30fb2932e04dbcd491a13b57ca9e516cee4b67e3381c8c14",
+      "compressed_proof_sha256": "7b4501588f2fadfb3ff1b21685d65ba8a7c0fff32a4d389e36456c85a99ccf4c",
+      "proof_bytes": 607042
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 0.9193629309993412,
+      "proof_nodes": 5900,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 13,
+        "ProofRule.AND_INTRO": 438,
+        "ProofRule.ARITH_MULT_NEG": 162,
+        "ProofRule.ARITH_MULT_POS": 45,
+        "ProofRule.ARITH_POLY_NORM": 373,
+        "ProofRule.ARITH_POLY_NORM_REL": 117,
+        "ProofRule.ARITH_SUM_UB": 93,
+        "ProofRule.ASSUME": 608,
+        "ProofRule.CHAIN_M_RESOLUTION": 42,
+        "ProofRule.CNF_AND_NEG": 2,
+        "ProofRule.CONG": 381,
+        "ProofRule.CONTRA": 44,
+        "ProofRule.DSL_REWRITE": 345,
+        "ProofRule.EQ_RESOLVE": 645,
+        "ProofRule.EVALUATE": 184,
+        "ProofRule.IMPLIES_ELIM": 12,
+        "ProofRule.MODUS_PONENS": 438,
+        "ProofRule.NARY_CONG": 329,
+        "ProofRule.NOT_AND": 81,
+        "ProofRule.REFL": 245,
+        "ProofRule.REORDERING": 82,
+        "ProofRule.RESOLUTION": 2,
+        "ProofRule.SCOPE": 151,
+        "ProofRule.SYMM": 159,
+        "ProofRule.TRANS": 871,
+        "ProofRule.TRUE_ELIM": 31
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "class_index": 4,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "covered_area": "1",
+      "input_sha256": "234b65281b3ba5c3713eba347b6fbda2d6ce889ac901240cd43231c0a99a6564",
+      "proof_sha256": "a21094822d4b2ac4412fd85db6fef0a5a36c4eb33b8c335fd386cdf930e069b7",
+      "compressed_proof_sha256": "1880f5d490a099d02172f84198ec6934aa92c09b052cd59e4f4c9436807134ba",
+      "proof_bytes": 612768
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.6553131269993173,
+      "proof_nodes": 5279,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 14,
+        "ProofRule.AND_INTRO": 379,
+        "ProofRule.ARITH_MULT_NEG": 150,
+        "ProofRule.ARITH_MULT_POS": 38,
+        "ProofRule.ARITH_POLY_NORM": 325,
+        "ProofRule.ARITH_POLY_NORM_REL": 113,
+        "ProofRule.ARITH_SUM_UB": 80,
+        "ProofRule.ASSUME": 526,
+        "ProofRule.CHAIN_M_RESOLUTION": 50,
+        "ProofRule.CNF_AND_NEG": 7,
+        "ProofRule.CONG": 341,
+        "ProofRule.CONTRA": 36,
+        "ProofRule.DSL_REWRITE": 324,
+        "ProofRule.EQ_RESOLVE": 563,
+        "ProofRule.EVALUATE": 165,
+        "ProofRule.IMPLIES_ELIM": 16,
+        "ProofRule.MODUS_PONENS": 379,
+        "ProofRule.NARY_CONG": 289,
+        "ProofRule.NOT_AND": 64,
+        "ProofRule.REFL": 250,
+        "ProofRule.REORDERING": 69,
+        "ProofRule.RESOLUTION": 7,
+        "ProofRule.SCOPE": 134,
+        "ProofRule.SYMM": 147,
+        "ProofRule.TRANS": 774,
+        "ProofRule.TRUE_ELIM": 32
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "class_index": 4,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "covered_area": "1",
+      "input_sha256": "76f2f7f70c5f9157dd8fcb192292bce1401a895138a3dcf9bb979e9af408ee74",
+      "proof_sha256": "61cd8d7d9cfbce635a70f4ae291da77b5937f10e93bdcfd671c83e47e3f3130d",
+      "compressed_proof_sha256": "e2daaf6d0c8bc98a5611103f03a1eba7c83d15a0ca491bd57d41cc0c99b16b5d",
+      "proof_bytes": 549352
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.1012083949990483,
+      "proof_nodes": 5060,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 6,
+        "ProofRule.AND_ELIM": 11,
+        "ProofRule.AND_INTRO": 327,
+        "ProofRule.ARITH_MULT_NEG": 133,
+        "ProofRule.ARITH_MULT_POS": 38,
+        "ProofRule.ARITH_POLY_NORM": 319,
+        "ProofRule.ARITH_POLY_NORM_REL": 108,
+        "ProofRule.ARITH_SUM_UB": 73,
+        "ProofRule.ASSUME": 465,
+        "ProofRule.CHAIN_M_RESOLUTION": 42,
+        "ProofRule.CNF_AND_NEG": 5,
+        "ProofRule.CONG": 371,
+        "ProofRule.CONTRA": 41,
+        "ProofRule.DSL_REWRITE": 301,
+        "ProofRule.EQ_RESOLVE": 540,
+        "ProofRule.EVALUATE": 169,
+        "ProofRule.IMPLIES_ELIM": 13,
+        "ProofRule.MODUS_PONENS": 327,
+        "ProofRule.NARY_CONG": 310,
+        "ProofRule.NOT_AND": 60,
+        "ProofRule.REFL": 244,
+        "ProofRule.REORDERING": 63,
+        "ProofRule.RESOLUTION": 5,
+        "ProofRule.SCOPE": 129,
+        "ProofRule.SYMM": 156,
+        "ProofRule.TRANS": 771,
+        "ProofRule.TRUE_ELIM": 33
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "class_index": 4,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "covered_area": "1",
+      "input_sha256": "0d06896d0535630b3d24de9443d88a1d9bf5d72fc84bed15ce8d0c39ea32bb77",
+      "proof_sha256": "c8edbd3dc203cb1379ffaca7eb88776004925928b4eecb69e7ee7087734bd1d5",
+      "compressed_proof_sha256": "ddccc91d98cebd22756a43c5dcaae97bf6b20ab32f54acd3b689cd7e7011f684",
+      "proof_bytes": 527340
+    }
+  ],
+  "scope": "Five exact full-square outer-relaxation refutations for class 4 only. The full 12-entry matrix encoding is independent of the discovery experiments. Geometry and height-orbit coverage require their separate audit; class 5 is not included."
+}

@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "rank": [
+    {
+      "class_index": 6,
+      "rank_gap": "4/357",
+      "minor_bounds": [
+        "37/36414",
+        "12/49"
+      ],
+      "control_Y_width": "10528320150/4006504279",
+      "control_detF": "28045529953/78994731708"
+    },
+    {
+      "class_index": 7,
+      "rank_gap": "23/102",
+      "minor_bounds": [
+        "851/41616",
+        "1/4"
+      ],
+      "control_Y_width": "1250053656/474942521",
+      "control_detF": "-474942521/1386645120"
+    }
+  ],
+  "directional_models": [
+    {
+      "class_index": 6,
+      "width": "10195234866/4006504279",
+      "integer_points_checked": 81,
+      "width_directions_checked": 47,
+      "total_leakage": "681/901",
+      "global_difference_minimum": "327/901",
+      "minimum_vectors": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "difference_box_bounds": [
+        8,
+        2,
+        2
+      ]
+    },
+    {
+      "class_index": 7,
+      "width": "1250053656/474942521",
+      "integer_points_checked": 170,
+      "width_directions_checked": 161,
+      "total_leakage": "163/204",
+      "global_difference_minimum": "2677/7140",
+      "minimum_vectors": [
+        [
+          3,
+          0,
+          1
+        ]
+      ],
+      "difference_box_bounds": [
+        17,
+        2,
+        4
+      ]
+    }
+  ],
+  "rejected_mutations": 7,
+  "solver_queries_run": 0
+}

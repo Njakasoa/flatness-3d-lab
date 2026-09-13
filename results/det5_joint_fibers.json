@@ -1,0 +1,664 @@
+{
+  "scope": "Exact midpoint fibers of pending simultaneous Y/U height boxes. UNSAT excludes only a fiber; SAT needs exact invertibility and body checks and does not imply large global width.",
+  "source_sha256": "24facccb6a4184f4f2371ac01aa2c2db4610d1eee92fa4965ce6400b0b9dea7f",
+  "source_query_count": 217,
+  "class_index": 5,
+  "beta": "183/500",
+  "target": "17/5",
+  "z3_version": "5.1.0",
+  "maximum_queries": 16,
+  "queries": [
+    {
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        2
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_00.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.00571657500040601,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        1,
+        0
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_01.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.013236411999969278,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_02.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.004272922000382096,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        1,
+        2
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_03.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.018552428999100812,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        1,
+        3
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_04.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.012377311000818736,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        0,
+        1
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_05.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.004641265000827843,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        0,
+        1
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_06.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.0047995160002756165,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_07.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.004235148999214289,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_08.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.014687361001051613,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        2,
+        0
+      ],
+      "source_node": "r011",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "3/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_09.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.01726969400078815,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        0,
+        2
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_10.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.004170784000962158,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        1
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_11.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.004823236999072833,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        0,
+        2
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_12.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.004775940999024897,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        1,
+        0
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_13.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.004300599999623955,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        3,
+        0
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_14.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.004791905001184205,
+      "timeout_ms": 1000
+    },
+    {
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        1,
+        3
+      ],
+      "source_node": "r001",
+      "source_box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "midpoint": [
+        "1/4",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "path": "results/det5_joint_fiber_15.smt2",
+      "status": "unsat",
+      "elapsed_seconds": 0.004254731999026262,
+      "timeout_ms": 1000
+    }
+  ],
+  "read_only_audit": {
+    "source_sha256_matches": true,
+    "source_archive_unchanged": true,
+    "distinct_exact_fibers": 16,
+    "all_midpoints_in_archived_pending_boxes": true,
+    "archived_assertions_match_constructor": true,
+    "all_maximum_polynomial_degrees": 1,
+    "constraint_counts": [
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136
+    ],
+    "solver_queries_during_audit": 0,
+    "limitation": "Exact equal-height fibers are only points of the four-dimensional charts; no neighborhood or cover is certified."
+  }
+}

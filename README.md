@@ -5,10 +5,48 @@ hollow convex bodies, lattice contacts and exact width certificates,
 maintained by [Njakasoa](https://github.com/Njakasoa).
 
 **Status: exact reproductions, an explicit contact-configuration reduction and
-two restricted tetrahedral width bounds,
+five restricted tetrahedral width bounds,
 internally reviewed with AI assistance. Novelty remains unconfirmed.
 No new global bound, solution of the flatness
 conjecture, external peer review or journal/arXiv submission is claimed.**
+
+## Latest result: three further contact classes excluded
+
+For a compact full-dimensional hollow **real tetrahedron** K with one
+prescribed lattice point in the relative interior of each of its four facets,
+the following full contact hulls force **w(K) ≤ 17/5 = 3.4**:
+
+| Contact hull, up to affine lattice equivalence | Complete proof cover |
+|---|---|
+| conv(0, (5,1,1), e2, e3) | Five full height squares |
+| conv(0, (7,1,2), e2, e3) | Six charts, part of the 62-rectangle cover |
+| conv(0, (8,1,3), e2, e3) | Five charts, part of the 62-rectangle cover |
+
+Each linear relaxation has a separately encoded cvc5 refutation, checked
+by the external Ethos proof checker with its assumptions bound to the archived
+input. There are **67 checked refutations** in total. The geometry-to-formula
+arguments and symmetry coverage have independent internal reviews.
+External software checking is not external human peer review.
+
+Together with the two analytic containment bounds below, this reduces the
+original list of 63 necessary configurations to **58 at width at least
+2 + √2**: five tetrahedral types, 52 larger spatial contact hulls and the
+planar square. The list above the original lower threshold remains 62.
+The contact hypothesis is essential: larger surrounding polytopes are not
+excluded just because they contain one of these tetrahedra.
+
+- [Determinant-five theorem — CLAIM-0008](claims/CLAIM-0008.md), [certification](proofs/DET5_CLASS4_CERTIFICATION.md), [geometric review](proofs/DET5_HEIGHT_REVIEW.md), and [priority audit](proofs/DET5_CLASS4_LITERATURE.md)
+- [Determinant-seven/eight theorem — CLAIM-0007](claims/CLAIM-0007.md), [proof](proofs/HEIGHT_RANK_AND_VOLUME.md), [independent review](proofs/HEIGHT_RANK_REVIEW.md), and [priority audit](proofs/HEIGHT_EXCLUSION_LITERATURE.md)
+- [External-checker setup and trust boundary](proofs/HEIGHT_ETHOS_REPRODUCTION.md)
+
+The other determinant-five class, conv(0,(5,1,2),e2,e3), remains open.
+An independently certified hollow example has Y-width about 3.42967 but
+full lattice width about 2.68674; it disproves a one-direction intermediate
+approach. Joint two-direction exploration is incomplete and supplies no
+class exclusion. See [exact witnesses and research status](proofs/DET5_RESEARCH_STATUS.md).
+No improved global flatness bound or established novelty is claimed.
+
+![Exact height cover for the determinant-seven/eight classes](results/height_cover.png)
 
 ## Two tetrahedral containment classes excluded
 
@@ -28,7 +66,7 @@ The determinant-13 proof has an independent internal mathematical review;
 the parameterized extension and both arithmetic applications have independent
 exact checks. The bounds are not claimed sharp and external novelty is unconfirmed.
 
-Consequently, the original 63 necessary **full facet-contact hulls** reduce to
+These two analytic bounds alone reduce the original 63 necessary **full facet-contact hulls** to
 **62 above (11/7)(1 + 2/√3)** and **61 at width at least 2 + √2**.
 At the latter threshold, eight tetrahedral types, 52 spatial hulls with five
 to eight contacts, and the planar square remain. Larger contact hulls are
@@ -43,8 +81,9 @@ tetrahedron assumption is essential.
 An exact weighted refinement checks 123 candidates across 41 separating
 vector pairs. It gives the determinant-eight bound (13 + 24/√3)/7 ≈ 3.8366294943,
 which removes no further class. Two exactly hollow counterexamples disprove
-a proposed total-leakage shortcut. The complete determinant-seven/eight
-cubic targets both remain **UNKNOWN (timeout)**; they supply no exclusion.
+a proposed total-leakage shortcut. The earlier complete determinant-seven/eight
+cubic targets remain archived as **UNKNOWN (timeout)**. The later height-cover
+proofs above exclude these contact classes independently of those queries.
 See [weighted bounds and counterexamples](proofs/WEIGHTED_CONTRACTION_AND_TRACE_LIMIT.md)
 and [complete models with encoding audit](proofs/NONUNIMODULAR_COMPLETE_MODELS.md).
 
@@ -150,8 +189,9 @@ all 484 clauses of the larger model. This does not settle width optimization.
 
 ![The 64 lattice guards and 20 explicit pair exclusions](results/observer_guards.png)
 
-This update exports committed scientific source **9072ef0**.
-Ongoing uncommitted experiments are excluded.
+This update exports the committed height-cover and determinant-five checkpoint.
+Its exact revision is recorded in SOURCE_MANIFEST.json; partial experiments are
+labelled explicitly and are not counted as proofs.
 See [public-copy validation](PUBLIC_VALIDATION.md) for reproduction evidence.
 
 ## Verified baseline
@@ -307,6 +347,22 @@ weighted/trace checker adds four rejected mutations and independently verifies
 full hollowness, lattice width and difference minima for its counterexamples.
 With optional Z3 installed, `python3 tests/audit_nonunimodular_encoding.py`
 checks the archived cubic encodings without calling the solver.
+
+Replay the three new contact-class exclusions:
+
+```sh
+.venv/bin/python -m pip install -r experiments/requirements-smt.txt -r experiments/requirements-cvc5.txt
+.venv/bin/python reproduce_height_cover.py
+python3 reproduce_det5_class4.py
+python3 tests/replay_det5_height_witness_independent.py
+```
+
+The first replay checks geometry, all 113 archived encodings, exact coverage
+and the 62 proof/input payload bindings without a solver query. The
+class-4 default replay uses the standard library to check its archived
+proof/input bindings and count certificate. Actual proof-kernel replay
+requires the pinned Ethos/cvc5 sources from the [setup guide](proofs/HEIGHT_ETHOS_REPRODUCTION.md).
+The public-copy receipt distinguishes fresh kernel checking from hash checks.
 
 The core exact geometry uses only the standard library. SymPy supports the
 independent checks; SciPy supports exploration; Matplotlib produces figures.

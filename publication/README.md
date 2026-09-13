@@ -46,3 +46,23 @@ Run `python reproduce_contraction.py`, followed by
 encoding audit `python tests/audit_nonunimodular_encoding.py` runs no solver.
 The written proofs and exact artifacts are the publication deliverable for
 this update; no separate manuscript or external review is claimed.
+
+## Current result: 58 necessary candidate contact configurations
+
+[CLAIM-0007](../claims/CLAIM-0007.md) and
+[CLAIM-0008](../claims/CLAIM-0008.md) add three facet-contact exclusions.
+Their hypotheses are narrower than the preceding containment bounds.
+The public snapshot includes 67 CPC refutations, independent encoders,
+complete covers and fresh external Ethos receipts. See the
+[latest validation](../PUBLIC_VALIDATION.md) and
+[checker setup](../proofs/HEIGHT_ETHOS_REPRODUCTION.md).
+
+```sh
+python reproduce_height_cover.py
+python reproduce_det5_class4.py
+python tests/replay_det5_height_witness_independent.py
+```
+
+The first command needs the optional pinned Z3 and cvc5 Python packages.
+These default replays audit archived data and proof bindings. Actual proof
+kernel replay requires Ethos and the pinned signatures.

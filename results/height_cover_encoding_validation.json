@@ -1,0 +1,613 @@
+{
+  "status": "PASS",
+  "archive_sha256": "97cff58c2bc9519a5d1642de725b503369da6764dd36481a552bb06196215021",
+  "solver_queries_run": 0,
+  "unsat_outcomes_verified": false,
+  "query_count": 113,
+  "unsat_labelled_leaf_count": 62,
+  "charts": [
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        1
+      ],
+      "queries": 3,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 2,
+      "fully_subdivided_unknown_ancestors": 0
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "queries": 29,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 15,
+      "fully_subdivided_unknown_ancestors": 1
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        3
+      ],
+      "queries": 5,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 3,
+      "fully_subdivided_unknown_ancestors": 0
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        0
+      ],
+      "queries": 3,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 2,
+      "fully_subdivided_unknown_ancestors": 0
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "queries": 9,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 5,
+      "fully_subdivided_unknown_ancestors": 0
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "queries": 15,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 8,
+      "fully_subdivided_unknown_ancestors": 0
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "queries": 11,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 6,
+      "fully_subdivided_unknown_ancestors": 0
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "queries": 11,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 6,
+      "fully_subdivided_unknown_ancestors": 0
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        3
+      ],
+      "queries": 5,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 3,
+      "fully_subdivided_unknown_ancestors": 0
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "queries": 11,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 6,
+      "fully_subdivided_unknown_ancestors": 0
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "queries": 11,
+      "covered_area": "1",
+      "unsat_labelled_leaves": 6,
+      "fully_subdivided_unknown_ancestors": 1
+    }
+  ],
+  "mutations": [
+    {
+      "mutation": "missing covering leaf",
+      "rejected": true,
+      "reason": "missing covering node: r0"
+    },
+    {
+      "mutation": "gap in closed interval cover",
+      "rejected": true,
+      "reason": "exact closed dyadic box: r0"
+    },
+    {
+      "mutation": "deleted gauge",
+      "rejected": true,
+      "reason": "assertion-set mismatch: missing=1, extra=0"
+    },
+    {
+      "mutation": "extra contradictory assertion",
+      "rejected": true,
+      "reason": "assertion-set mismatch: missing=0, extra=1"
+    },
+    {
+      "mutation": "overrestrictive product envelope",
+      "rejected": true,
+      "reason": "assertion-set mismatch: missing=1, extra=1"
+    }
+  ],
+  "archived_files": [
+    {
+      "path": "results/height_interval_6_0_1_r.smt2",
+      "sha256": "dd742fa784650ed203e8ff93dd6369d9710891b5344d0ea7aba4df1fa65ced7c"
+    },
+    {
+      "path": "results/height_interval_6_0_1_r0.smt2",
+      "sha256": "a5e1fa3e675dda6430f0378748dff0ee95dec1eff5449b7d97dc9537990cf533"
+    },
+    {
+      "path": "results/height_interval_6_0_1_r1.smt2",
+      "sha256": "47234edb3550b5df6ec68f224c2ca9f1880857e7b71e3c7b5cf96b6f17d8171a"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r.smt2",
+      "sha256": "e45a485e8ee3adf9ceffbb4107d1fbae7646fbb57f721b947ab7dd1b176760e3"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r0.smt2",
+      "sha256": "e9e6bdcb2f86f84beab75f05918683b87365fbb6d6b864d71d04569d641192bb"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r1.smt2",
+      "sha256": "b2acfa53121b232919fd4b91c76b1f67017c43af376029a0f22079d6e92ee92d"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r00.smt2",
+      "sha256": "4d357996d13247ca28394d7e1d3087ea2974a7bb2604de0b45f1588eb1fba74d"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r01.smt2",
+      "sha256": "34bf07d77a1f13dc03ce47ec9cc48c6eee422d8f071d0919bb3c8f0c579623b2"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r10.smt2",
+      "sha256": "88570d45cbec7153992e5a0cfff1429204f7cd85df6fed6e6d72dfd0f3c0fd06"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r11.smt2",
+      "sha256": "60a50b1a802eee754f167ec7d191e928c17b8d20e648581b00ace948f7c93a2f"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r000.smt2",
+      "sha256": "a06724e2126a072ea18cbd9ba8efe3db795585968adf12cdb69c3e426776a636"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r001.smt2",
+      "sha256": "99e90dd939fab7f33c56f46fa8823be65dc95fb22049aafecf4948333bb743ff"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r100.smt2",
+      "sha256": "fe6cd60a704e278dc272448606abc7edb664565a4ce702b03b8e12d8426bfdee"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r101.smt2",
+      "sha256": "5658d1f494afe653d79ee1e6f986d56fc4d856ba3a5375776a24112322d13b63"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r0010.smt2",
+      "sha256": "c1b59cb3d8c06b49106989bae4789762a60f636beceb23300ddf26d7624ee043"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r0011.smt2",
+      "sha256": "f5caea1dc0303ea0ae29235e708c843151d19d0825d87b6409c993e33a753cb2"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r1000.smt2",
+      "sha256": "1aecf9f3e317ce4ae7bde4ce6cc761d791f8675b264cc2a20f9c1cc5e9f726c2"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r1001.smt2",
+      "sha256": "ab2cddbb3dc1a738542f73a716184dbbacd658c7de612a12e9fd78c9f9b19cfd"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r1010.smt2",
+      "sha256": "f32c253124839cb00588ad0b5b6c45433e11562c05d0506706ebb4d645aa5590"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r1011.smt2",
+      "sha256": "f9a457c110e4a27fe49c7f9f3e1d0761dda2a078aff6d7c104f7cf69a08ad4f7"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r00100.smt2",
+      "sha256": "d8dd5a1ecde97fd2a7f7ac11834d61714f313e66dd666dc7348a41fae43720c2"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r00101.smt2",
+      "sha256": "f7dde45a9dbfef03124342779521112fb3b9f169bf5e0625cc4d4f6e40e9bc25"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r10000.smt2",
+      "sha256": "7153f9ad8317ab57f8fe702af7a0c81cb52290230cac468153ae23005bf8bd59"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r10001.smt2",
+      "sha256": "b8360f88eb5f077341ff05a92c3051e04be03c6be2173cae13109f0744d05ab4"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r10010.smt2",
+      "sha256": "abbb61c84cbe5d21484db6fa3029685ed3f9a45d80935e00b79039dd13f8328d"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r10011.smt2",
+      "sha256": "971443068f40cd91b2d3758fff1130a8f0e17d25910aebf4a2b28afbcbb33532"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r001010.smt2",
+      "sha256": "663ce9c3abcc1666eaca90c63bc20cf3aa6c40810afc83313296013875aad2fb"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r001011.smt2",
+      "sha256": "cecccccf6bbbedca5acc2da49d87a62c3b8051f288a58cb6a653b81f373b9d4e"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r100000.smt2",
+      "sha256": "3a425624a1c047526f9f6e7b9f9bc7f9a60e05ebdf9c1b90234b156e1e51040e"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r100001.smt2",
+      "sha256": "6c170c18d7bb514c1397fdb63221a17bdeb7ba346b43bb5bccd7e5d79cf48723"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r100010.smt2",
+      "sha256": "00e5a3ddec6a6e8b789878564326d8d3ae0b16a1ee9d00e072af278911a23ba4"
+    },
+    {
+      "path": "results/height_interval_6_0_2_r100011.smt2",
+      "sha256": "b8d444ce581256af68a80d7bddcb417b0ebe2725c29693b39188c6ba2128d21f"
+    },
+    {
+      "path": "results/height_interval_6_0_3_r.smt2",
+      "sha256": "c81e70ff9f861b10f275c791edbed64b57c403b5edde8fad12e88903acb16b42"
+    },
+    {
+      "path": "results/height_interval_6_0_3_r0.smt2",
+      "sha256": "0137cda4d00964187f76d57a22711d889b8411765f321e915e1525c9447c83a8"
+    },
+    {
+      "path": "results/height_interval_6_0_3_r1.smt2",
+      "sha256": "dd29a2632689791b56c44b8fa1eebeb497aae01a192b77e0891f06a52e019a82"
+    },
+    {
+      "path": "results/height_interval_6_0_3_r10.smt2",
+      "sha256": "e2a2ad48112255c09a40deb14373cc3b8debcc29f526a17bfc45db0ee4d27e63"
+    },
+    {
+      "path": "results/height_interval_6_0_3_r11.smt2",
+      "sha256": "4b8ac1d5a6b009a2f3c6f3e0ff0c113a9d01f5d811d85bc2d6e0b770200c35cb"
+    },
+    {
+      "path": "results/height_interval_6_1_0_r.smt2",
+      "sha256": "b0ac647bcbb1dc15b54cef92a1ee750808f88b6070bc7b548541b07c6b962ba6"
+    },
+    {
+      "path": "results/height_interval_6_1_0_r0.smt2",
+      "sha256": "4a5d53e2823dfd2585437942caa36d4fdfbe66d1b4f801cbed769f2f947ba870"
+    },
+    {
+      "path": "results/height_interval_6_1_0_r1.smt2",
+      "sha256": "62bdd0e993be572a05bf8739e9a39df36778ea383c22b88a9cf65b78e4dea35a"
+    },
+    {
+      "path": "results/height_interval_6_1_2_r.smt2",
+      "sha256": "8961579a60577610103751a430a5f25de2fbcd838cf2929a34b42b749a75196d"
+    },
+    {
+      "path": "results/height_interval_6_1_2_r0.smt2",
+      "sha256": "715a32c6e21227b6c28b1a08061384584727a0bc01497b271d78defaca50bef5"
+    },
+    {
+      "path": "results/height_interval_6_1_2_r1.smt2",
+      "sha256": "7cff2dff88332e7eab23a95115c279247f0124b68ed09cd54a2f51b1e2e3af69"
+    },
+    {
+      "path": "results/height_interval_6_1_2_r10.smt2",
+      "sha256": "4703b1875c841f75d23e26607155c76418187ff0dda822d0290c21e6b4d390ba"
+    },
+    {
+      "path": "results/height_interval_6_1_2_r11.smt2",
+      "sha256": "182a968e59337f41ab333f6853d7a41eb841d78cddd74a03b002ff888a8b416b"
+    },
+    {
+      "path": "results/height_interval_6_1_2_r100.smt2",
+      "sha256": "6695e04621020f456a51f619b85e8d8c2d269b00590033a13b45de59cf6df139"
+    },
+    {
+      "path": "results/height_interval_6_1_2_r101.smt2",
+      "sha256": "25183d90a3c2904c3addaa71e2be83d8525ca6b21a138d78c3c3cdafab2c4f03"
+    },
+    {
+      "path": "results/height_interval_6_1_2_r1010.smt2",
+      "sha256": "9ac83e408488b0c514158f0b2d77a69419ca5bc4753f3fb0448f1fd56ceafabc"
+    },
+    {
+      "path": "results/height_interval_6_1_2_r1011.smt2",
+      "sha256": "a5eec0acc2bd651efe17ed3a55829b68f162fcf43762fdcc1c40e473f49d89f2"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r.smt2",
+      "sha256": "85ede47b9566b456e5a587dad8406f7766c0c44f7e99d775925708b38e404312"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r0.smt2",
+      "sha256": "45dd1547e151c3509cc9f2b9247340c2afd038f18c0939e0ac2b457bb8c8634d"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r1.smt2",
+      "sha256": "f9c2bbfa733db36aa1ac3a24f1ab239539f538fcfa7b37ccc26a77f5c213494d"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r00.smt2",
+      "sha256": "f15c144653864b84caabcabe5d0bb229d3b77519ec9cd2bca8f54c77256f29c8"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r01.smt2",
+      "sha256": "cc8f72a54c874a03a37f7082d387e61dc7528709ba263d4819816e547e9c295b"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r000.smt2",
+      "sha256": "6f857373cdf7a1cf3e487600fe9c31a6ae1708fc8901cd25ebefeee4350e57f2"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r001.smt2",
+      "sha256": "ec0225e9b6c56f4128f61b04f802641a6942947eca03d75594c90e2c996f668f"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r010.smt2",
+      "sha256": "eee4f3116be744a1fc949349a7893fc3ab660d96ce0a2c230c6f36bf705db0c5"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r011.smt2",
+      "sha256": "a18983e5ce82a005e3b3ab68d214a54f67265f7af7edba20d52e00e61e9001f1"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r0110.smt2",
+      "sha256": "cc736bfb7a63df9df3c19b9f2dc16ba84b8411ff35cfac8a37290ee35b44f368"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r0111.smt2",
+      "sha256": "bfb8a8bb4983903bdd45b00d2a0d53b60842869930d0f584677d8e943ad6e9d0"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r01100.smt2",
+      "sha256": "b0371297ca69787a1c6135dd277f19215a66c61def25fec10e85e3bd6376fb69"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r01101.smt2",
+      "sha256": "8f612c36b2ef2bb66a2280c824c1e843dfe18dd962123ba5978d3b615c9cb066"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r011000.smt2",
+      "sha256": "6d13acfdaf70fd87d85c6cb9172fe9293c7f7a78f1f2d81bf31f9e2c48b2d06a"
+    },
+    {
+      "path": "results/height_interval_6_1_3_r011001.smt2",
+      "sha256": "6e9ce599969761185cee4d052948809b9ca8ee7c86c475753a108a918c7630dc"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r.smt2",
+      "sha256": "d2202c22ceeab68fd98946f1562cbcf3e3a58ec2a6484b507c941bc7a820eadd"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r0.smt2",
+      "sha256": "c7a28885b4ec93a93342fa0cf939d9b675414f40f45f78d0841eb158c46a4100"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r1.smt2",
+      "sha256": "3b2bcd271f18cc28e39404ba4eb7e8ca82727bf342b048c7a4cb46e2177ca89a"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r10.smt2",
+      "sha256": "cb0809ee4f36462cff33e8f3efe877f0761c808de0ae7367604e2314cc44a7c7"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r11.smt2",
+      "sha256": "a371e93c5848f8ab72e38428ad14356ce91cb6de561547b64599b8790ca866cf"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r100.smt2",
+      "sha256": "8ed7236ec8674d422264516932ebba20d0f007407b9036cca79faffacc2467bf"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r101.smt2",
+      "sha256": "e476b04b50ac734ecfe25005d6ac70aaca0ffcda6f008ba9bd00cb0a82d1bd91"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r1000.smt2",
+      "sha256": "708cf5a3697bc06406d493871be8304413dd09a5425cd6a20614885602c35fd7"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r1001.smt2",
+      "sha256": "9b9b1fb2d393c8c6ceffeefd5189775771003775204edad493d4bddde8794163"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r1010.smt2",
+      "sha256": "b8f4bf650af11e3205659a5c7bdb9a165ff45a65d4c50747cd127ff0fd6e4bff"
+    },
+    {
+      "path": "results/height_interval_7_0_1_r1011.smt2",
+      "sha256": "81bf528020120eba5737146233056290cd28546933eeb50e9805dbb818c01272"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r.smt2",
+      "sha256": "df7e656f2f51f1b850a4bed2991a783ec63db80c52ee40a219eaf7dbb9cfb211"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r0.smt2",
+      "sha256": "cc0ac3502153445398c2e641fda6b338cad34a7fd952059fb601c1f815b6a573"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r1.smt2",
+      "sha256": "4d06210bd6d67d6ce27b57e6e2f8676658ff061ea9c57f6999a62438f4b1a8a5"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r10.smt2",
+      "sha256": "915af77732a283644725d732952ca0882dc8b844579ad357645c5fe0b0b51730"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r11.smt2",
+      "sha256": "8cf498227d58773f5c4ed6dd1b7aca506ad5acad9dccf13727162c5a9a6b1238"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r100.smt2",
+      "sha256": "9a26ebdff52e3fdc2fe47268cff9081a87eb08934e5517d12cda9911b326dd29"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r101.smt2",
+      "sha256": "1af271e0b294fc6c3774cd7c208c0dd385623171f6dc6c027267c842c4d325b2"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r1000.smt2",
+      "sha256": "1eca437cf145b7d8faf3d8c0f618697259617630ffbdfa630be81475ced775ba"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r1001.smt2",
+      "sha256": "94acb1eb2d720a265b14e2efa710c1f81a21e970271689452eb684104bcd67c5"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r1010.smt2",
+      "sha256": "d7e566ad06624c653f893664f144797dcaa47927eac3a4839835bdd1b50963c3"
+    },
+    {
+      "path": "results/height_interval_7_0_2_r1011.smt2",
+      "sha256": "dd4d50cc7e22bf4ed5f40b1d53531aed0df4cde7dc0622bd0a975bd4ddeb21c9"
+    },
+    {
+      "path": "results/height_interval_7_0_3_r.smt2",
+      "sha256": "b8423ee4adba4b646b07c916dfdeca5f27db7addfd877edd1f9cc676378d0c99"
+    },
+    {
+      "path": "results/height_interval_7_0_3_r0.smt2",
+      "sha256": "5810dca20d732e2ccb83099b59888bec8bb7c438e856038a4bf653d093a4ce4e"
+    },
+    {
+      "path": "results/height_interval_7_0_3_r1.smt2",
+      "sha256": "3e62f6ab70365297ff8b6358ed6c790d73576b46e0b3db884a9b64b2986c2c9d"
+    },
+    {
+      "path": "results/height_interval_7_0_3_r10.smt2",
+      "sha256": "f87f14307796cecb8354e2a23d91f5fa9b8efc1ec50a9121bc365e2066295b78"
+    },
+    {
+      "path": "results/height_interval_7_0_3_r11.smt2",
+      "sha256": "1d28b64dad80ac60850a111f64a1c7875832eb3753b69ed63d12f0af6aeff4d4"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r.smt2",
+      "sha256": "b8c29116abf00cd68fb0294159ba5ae7e8900bc37d58ffb9c1df439f3277a0b3"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r0.smt2",
+      "sha256": "d51d15cab0203714fba97bca496f34b3accf8e02bdf9d0e4df28df63865eaf54"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r1.smt2",
+      "sha256": "0d1bf949771a497a5d15f06f92ed43383ef5c42f02ceb375ef6a3612ee209d9e"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r10.smt2",
+      "sha256": "29174ae3c5ef817094fa1a74375cb3dd059e1ec03e5d6ae9b3dc876fd4611020"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r11.smt2",
+      "sha256": "2747fc24f3ac6621c3e0b2e2c35642fb7c44eeb51b293c0c5336c15075929650"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r100.smt2",
+      "sha256": "c792311da0537a6d30363031545e37e7871985b2676cfc8d625377347ec2f932"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r101.smt2",
+      "sha256": "cb8f611530134b3609b45de37a99bb184e8126bc570d6dc62c36bafc0e896b11"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r1000.smt2",
+      "sha256": "86ad4b6d71d4d7a72f7d5c270e4eb119ea414576ab40c1488b607499ec8bb183"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r1001.smt2",
+      "sha256": "c85f477f27159691c9ce9883dd3369216efaa61ea89af05dd9bc5e827af8ee56"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r1010.smt2",
+      "sha256": "9cb9b8dc106932fa8966bc628024483cd40688d1d51fecfae3b2fc750025ba27"
+    },
+    {
+      "path": "results/height_interval_7_1_0_r1011.smt2",
+      "sha256": "2be2926652846206cdc5d36658af4b952b00f68e72c2821e9142888498144bfe"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r.smt2",
+      "sha256": "3386774742cca789188869c28cb58258ba50686e1c355224bdbe725ccb1b05bb"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r0.smt2",
+      "sha256": "cf57284b764cd8411ab1fcd77f21871fbcab5b1cc046373a79b0c34e7efd972d"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r1.smt2",
+      "sha256": "c95d0e6698d8193303f76c40f19354faba425e123b757a2a441ca7a6fa6203be"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r00.smt2",
+      "sha256": "e333325767c607cdcb122ca5801d3f995ed9821d0eb2f2d818faeeace23caba5"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r01.smt2",
+      "sha256": "b962183cb8c649d9bda6887b584b9e0958157bde4d2ed1c8a8a8784e1acdd888"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r010.smt2",
+      "sha256": "312e5f016d8702dc2a9f26ef261e9e397b5099991f7ed1238b8d7c343c12b90d"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r011.smt2",
+      "sha256": "2ae63c5432cfaaa2146c63f3b1b26bcb6f1a4f2d7633cee9818480ad184efcdd"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r0100.smt2",
+      "sha256": "e5d78740ebbac48ed713f43bf36a958508f3224a6ff2917b48a1db18470bbee6"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r0101.smt2",
+      "sha256": "b5f1f80f579cae059984c4c6c21ccda8cd1d1e1982c6763f481c324c06026225"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r0110.smt2",
+      "sha256": "787fa38969369c56a9f5a4b147daa5bf43ae977a2a8b91e9116e083f152dbe5f"
+    },
+    {
+      "path": "results/height_interval_7_1_3_r0111.smt2",
+      "sha256": "b08a8340a4c75bb9baa18c853b176c5f36557cff464710aa7fc259e9b014edb9"
+    }
+  ],
+  "scope": "Independent complete assertion-set and exact dyadic-cover audit. No experiment imports or solver queries. UNSAT status labels are not verified."
+}

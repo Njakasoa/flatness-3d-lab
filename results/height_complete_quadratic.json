@@ -1,0 +1,105 @@
+{
+  "scope": "Complete lattice-width targets at 17/5 with necessary gauge and volume cuts. Twenty-one real variables, degree two. Constraints archived without querying a solver.",
+  "solver_queries_run": 0,
+  "cases": [
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        1
+      ],
+      "path": "results/height_complete_6_0_1.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "path": "results/height_complete_6_0_2.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        3
+      ],
+      "path": "results/height_complete_6_0_3.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        0
+      ],
+      "path": "results/height_complete_6_1_0.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "path": "results/height_complete_6_1_2.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "path": "results/height_complete_6_1_3.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "path": "results/height_complete_7_0_1.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "path": "results/height_complete_7_0_2.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        3
+      ],
+      "path": "results/height_complete_7_0_3.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "path": "results/height_complete_7_1_0.smt2",
+      "status": "not_run"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "path": "results/height_complete_7_1_3.smt2",
+      "status": "not_run"
+    }
+  ]
+}

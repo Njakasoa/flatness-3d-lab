@@ -27,3 +27,13 @@ Sage, PARI/GP, polymake, Normaliz, cddlib, OR-Tools, SCIP, CVXPY and Z3 are abse
 Core certificate code requires only Python standard library. Independent verification uses SymPy; optimization SciPy; figures Matplotlib. PDF extraction uses pypdf. See results/environment_audit.json for actual executable discovery.
 
 The public source snapshot excludes runtime installations and third-party papers. No paper download, account or API key is required to replay certificates.
+
+## Height-cover update — 2026-09-14
+
+The table above describes the initial baseline environment. The height-cover
+work additionally uses optional z3-solver 5.1.0.0 and cvc5 1.3.4, pinned in
+experiments/requirements-smt.txt and experiments/requirements-cvc5.txt.
+Ethos 0.2.3 and the cvc5 1.3.4 CPC signatures perform external proof checking.
+See proofs/HEIGHT_ETHOS_REPRODUCTION.md for exact source revisions, build
+commands and trust boundary. The public export rechecked all 67 CPC proofs
+with Ethos. Runtimes and third-party tool sources are not redistributed.

@@ -1,0 +1,717 @@
+{
+  "scope": "Complete Y-direction charts under the stated gauges and relative-interior contacts: the three-vector rank lemma guarantees invertibility and the guards guarantee hollowness. Not a complete lattice-width target; no volume cut is imposed in this archive.",
+  "z3_version": "5.1.0",
+  "classes": [
+    {
+      "class_index": 6,
+      "determinant": 7,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          7,
+          0,
+          2
+        ],
+        [
+          7,
+          1,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ]
+      ],
+      "automorphisms": [
+        {
+          "permutation": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "height_sign": 1
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "matrix": [
+            [
+              -1,
+              7,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              -1
+            ]
+          ],
+          "translation": [
+            0,
+            0,
+            1
+          ],
+          "height_sign": 1
+        }
+      ],
+      "extrema_orbits": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "cases": [
+        {
+          "extrema": [
+            0,
+            1
+          ],
+          "orbit": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.1223872780010424,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        },
+        {
+          "extrema": [
+            0,
+            2
+          ],
+          "orbit": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.0665995460003614,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        },
+        {
+          "extrema": [
+            0,
+            3
+          ],
+          "orbit": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.0762258380000276,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        },
+        {
+          "extrema": [
+            1,
+            0
+          ],
+          "orbit": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.126197127001433,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        },
+        {
+          "extrema": [
+            1,
+            2
+          ],
+          "orbit": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.072066286000336,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        },
+        {
+          "extrema": [
+            1,
+            3
+          ],
+          "orbit": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 3.395444216001124,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        }
+      ]
+    },
+    {
+      "class_index": 7,
+      "determinant": 8,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          8,
+          0,
+          3
+        ],
+        [
+          8,
+          1,
+          2
+        ],
+        [
+          8,
+          1,
+          3
+        ]
+      ],
+      "automorphisms": [
+        {
+          "permutation": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "height_sign": 1
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "matrix": [
+            [
+              3,
+              -8,
+              -8
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              1,
+              -2,
+              -3
+            ]
+          ],
+          "translation": [
+            8,
+            1,
+            3
+          ],
+          "height_sign": -1
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "matrix": [
+            [
+              -3,
+              0,
+              8
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              -1,
+              0,
+              3
+            ]
+          ],
+          "translation": [
+            0,
+            1,
+            0
+          ],
+          "height_sign": -1
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "matrix": [
+            [
+              -1,
+              8,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              -1
+            ]
+          ],
+          "translation": [
+            0,
+            0,
+            1
+          ],
+          "height_sign": 1
+        }
+      ],
+      "extrema_orbits": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "cases": [
+        {
+          "extrema": [
+            0,
+            1
+          ],
+          "orbit": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.0738283399987267,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        },
+        {
+          "extrema": [
+            0,
+            2
+          ],
+          "orbit": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.070424268998977,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        },
+        {
+          "extrema": [
+            0,
+            3
+          ],
+          "orbit": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.0678495280008065,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        },
+        {
+          "extrema": [
+            1,
+            0
+          ],
+          "orbit": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.067566915000498,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        },
+        {
+          "extrema": [
+            1,
+            3
+          ],
+          "orbit": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "status": "unknown",
+          "elapsed_seconds": 2.0801453800013405,
+          "timeout_ms": 2000,
+          "reason_unknown": "timeout"
+        }
+      ]
+    }
+  ],
+  "interpretation_update": "2026-09-14: rank lemma changes the interpretation only; the eleven archived constraints, outcomes and timings are unchanged."
+}

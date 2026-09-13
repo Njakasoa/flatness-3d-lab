@@ -1,0 +1,2706 @@
+{
+  "scope": "Exact rational outer interval relaxations of Y-width>17/5. UNSAT excludes a rectangle; SAT is only a relaxed solution. Only a complete checked cover could exclude a whole extrema chart.",
+  "z3_version": "5.1.0",
+  "max_queries_per_chart": 31,
+  "charts": [
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        1
+      ],
+      "queries": 3,
+      "closed_leaves": [
+        "r0",
+        "r1"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": []
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "queries": 29,
+      "closed_leaves": [
+        "r01",
+        "r11",
+        "r000",
+        "r0011",
+        "r1010",
+        "r1011",
+        "r00100",
+        "r10010",
+        "r10011",
+        "r001010",
+        "r001011",
+        "r100000",
+        "r100001",
+        "r100010",
+        "r100011"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": [
+        "r10001"
+      ]
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        3
+      ],
+      "queries": 5,
+      "closed_leaves": [
+        "r0",
+        "r10",
+        "r11"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": []
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        0
+      ],
+      "queries": 3,
+      "closed_leaves": [
+        "r0",
+        "r1"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": []
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "queries": 9,
+      "closed_leaves": [
+        "r0",
+        "r11",
+        "r100",
+        "r1010",
+        "r1011"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": []
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "queries": 15,
+      "closed_leaves": [
+        "r1",
+        "r000",
+        "r001",
+        "r010",
+        "r0111",
+        "r01101",
+        "r011000",
+        "r011001"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": []
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "queries": 11,
+      "closed_leaves": [
+        "r0",
+        "r11",
+        "r1000",
+        "r1001",
+        "r1010",
+        "r1011"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": []
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "queries": 11,
+      "closed_leaves": [
+        "r0",
+        "r11",
+        "r1000",
+        "r1001",
+        "r1010",
+        "r1011"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": []
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        3
+      ],
+      "queries": 5,
+      "closed_leaves": [
+        "r0",
+        "r10",
+        "r11"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": []
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "queries": 11,
+      "closed_leaves": [
+        "r0",
+        "r11",
+        "r1000",
+        "r1001",
+        "r1010",
+        "r1011"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": []
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "queries": 11,
+      "closed_leaves": [
+        "r1",
+        "r00",
+        "r0100",
+        "r0101",
+        "r0110",
+        "r0111"
+      ],
+      "pending_leaves": [],
+      "complete_cover": true,
+      "unknown_nodes": [
+        "r01"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.2950432359994011,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_1_r.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.3005174089994398,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_1_r0.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.30663564299902646,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_1_r1.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.160901596000258,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.20076622099986707,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r0.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.06894130600085191,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r1.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r00",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.1513709380014916,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r00.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r01",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.2961380859997007,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r01.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r10",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.1490837349992944,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r10.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r11",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.5965630359987699,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r11.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r000",
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.2658932920003281,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r000.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r001",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.32375154700093844,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r001.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r100",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.3258392930001719,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r100.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r101",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.17445672099893272,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r101.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r0010",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.18153064000034647,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r0010.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r0011",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.15898053500131937,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r0011.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1000",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.2837303480009723,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r1000.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1001",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.17256908099989232,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r1001.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1010",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.18516170600014448,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r1010.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1011",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.5530912419999368,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r1011.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r00100",
+      "box": [
+        [
+          "1/4",
+          "3/8"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.08394709899948793,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r00100.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r00101",
+      "box": [
+        [
+          "3/8",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.17689698599861003,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r00101.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r10000",
+      "box": [
+        [
+          "1/2",
+          "5/8"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.2561942829997861,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r10000.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r10001",
+      "box": [
+        [
+          "5/8",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unknown",
+      "elapsed_seconds": 1.0012415230012266,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r10001.smt2",
+      "reason_unknown": "timeout"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r10010",
+      "box": [
+        [
+          "1/2",
+          "5/8"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.42202245499902347,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r10010.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r10011",
+      "box": [
+        [
+          "5/8",
+          "3/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.2889372669997101,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r10011.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r001010",
+      "box": [
+        [
+          "3/8",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/8"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.020271045999834314,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r001010.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r001011",
+      "box": [
+        [
+          "3/8",
+          "1/2"
+        ],
+        [
+          "1/8",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.027600653000263264,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r001011.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r100000",
+      "box": [
+        [
+          "1/2",
+          "5/8"
+        ],
+        [
+          "0",
+          "1/8"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.04277638200073852,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r100000.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r100001",
+      "box": [
+        [
+          "1/2",
+          "5/8"
+        ],
+        [
+          "1/8",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.2740913809993799,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r100001.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r100010",
+      "box": [
+        [
+          "5/8",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/8"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.1085123239990935,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r100010.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r100011",
+      "box": [
+        [
+          "5/8",
+          "3/4"
+        ],
+        [
+          "1/8",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.48147659500136797,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_2_r100011.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.07502649699927133,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_3_r.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.07807109799978207,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_3_r0.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.22935925900128495,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_3_r1.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r10",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.22805350900125632,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_3_r10.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r11",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.4392072509999707,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_0_3_r11.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.20278804000008677,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_0_r.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.13619428300080472,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_0_r0.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.22582770199915103,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_0_r1.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.06386754900086089,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_2_r.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.15651465900009498,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_2_r0.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.22270745999958308,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_2_r1.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "node": "r10",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.07892355500007397,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_2_r10.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "node": "r11",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.13727418499911437,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_2_r11.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "node": "r100",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.10706593299983069,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_2_r100.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "node": "r101",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.10205736900024931,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_2_r101.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "node": "r1010",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.26789901800111693,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_2_r1010.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        2
+      ],
+      "node": "r1011",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.09402304600007483,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_2_r1011.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.09267775599982997,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.12650449099965044,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r0.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.12996712299900537,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r1.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r00",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.12383854399922711,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r00.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r01",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.18974800199976016,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r01.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r000",
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.16280050500063226,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r000.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r001",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.1334221859997342,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r001.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r010",
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.7352883010007645,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r010.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r011",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.32051544599926274,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r011.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r0110",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.39757240299877594,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r0110.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r0111",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.16064892699978373,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r0111.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r01100",
+      "box": [
+        [
+          "1/4",
+          "3/8"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.24686194399873784,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r01100.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r01101",
+      "box": [
+        [
+          "3/8",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.318896427999789,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r01101.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r011000",
+      "box": [
+        [
+          "1/4",
+          "3/8"
+        ],
+        [
+          "1/2",
+          "5/8"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.20078363299944613,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r011000.smt2"
+    },
+    {
+      "class_index": 6,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r011001",
+      "box": [
+        [
+          "1/4",
+          "3/8"
+        ],
+        [
+          "5/8",
+          "3/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.2573183919994335,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_6_1_3_r011001.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.17260306299976946,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.3698829830009345,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r0.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.22698489599861205,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r1.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r10",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.5826504940014274,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r10.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r11",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.3129106189990125,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r11.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r100",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.13855762599996524,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r100.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r101",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.2502308719995199,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r101.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r1000",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.1303229659988574,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r1000.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r1001",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.10075365900047473,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r1001.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r1010",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.09017682600097032,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r1010.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r1011",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.6220226239984186,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_1_r1011.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.3083710669998254,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.15451679599937052,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r0.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.7752505989992642,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r1.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r10",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.09864311199999065,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r10.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r11",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.34670001300037256,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r11.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r100",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.236287319999974,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r100.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r101",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.16960622100123146,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r101.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1000",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.04715801299971645,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r1000.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1001",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.09104006699999445,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r1001.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1010",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.03909902799932752,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r1010.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        2
+      ],
+      "node": "r1011",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.026613076001012814,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_2_r1011.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.17966083799910848,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_3_r.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.22612820900030783,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_3_r0.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.2904380050003965,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_3_r1.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r10",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.6327035189988237,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_3_r10.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r11",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.17108158999872103,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_0_3_r11.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.15562812399912218,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.32170372499967925,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r0.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.20479895399876114,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r1.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r10",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.18275626499962527,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r10.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r11",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.24275016100000357,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r11.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r100",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.6818113270001049,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r100.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r101",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.44297606400141376,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r101.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r1000",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.5725936600010755,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r1000.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r1001",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.23471166899980744,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r1001.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r1010",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.44267763900097634,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r1010.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        0
+      ],
+      "node": "r1011",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.2884085530004086,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_0_r1011.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.5889586049997888,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r0",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.1576238449997618,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r0.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r1",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.18714019499930146,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r1.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r00",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.2968022149998433,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r00.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r01",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "unknown",
+      "elapsed_seconds": 1.010313701000996,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r01.smt2",
+      "reason_unknown": "timeout"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r010",
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.3066730259997712,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r010.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r011",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "status": "sat",
+      "elapsed_seconds": 0.9872479309997289,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r011.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r0100",
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.17779709400019783,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r0100.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r0101",
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.33545116999994207,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r0101.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r0110",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.2077477969996835,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r0110.smt2"
+    },
+    {
+      "class_index": 7,
+      "extrema": [
+        1,
+        3
+      ],
+      "node": "r0111",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "status": "unsat",
+      "elapsed_seconds": 0.18795851100003347,
+      "timeout_ms": 1000,
+      "path": "results/height_interval_7_1_3_r0111.smt2"
+    }
+  ]
+}

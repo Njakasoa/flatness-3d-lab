@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "class_index": 4,
+  "bound_proof_inputs": 5,
+  "surviving_count_at_candidate_width": 58,
+  "solver_queries_run": 0,
+  "formula_audit_run": false,
+  "external_proofs_checked_this_run": false,
+  "scope": "Exact guard/count checks and archived proof/input/reference binding. CPC framing and hashes are checked; a proof kernel is not run."
+}

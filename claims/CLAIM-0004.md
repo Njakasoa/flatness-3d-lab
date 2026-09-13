@@ -53,3 +53,13 @@ to 62. At width at least 2+sqrt(2), the full determinant-10 tetrahedral hull
 is also excluded, leaving 61. The original 63-type certificate remains a
 valid necessary superset; no larger hull is deleted merely because it
 contains one of those tetrahedral subsets.
+
+## Subsequent height-cover exclusions (2026-09-14)
+
+[CLAIM-0007](CLAIM-0007.md) excludes full tetrahedral contact classes6 and7
+above width17/5, using a complete rational interval cover with independently
+encoded and externally checked linear refutations. Together with CLAIM-0006,
+this leaves59 necessary full hulls at width at least2+sqrt(2). The original
+63-class list remains a valid superset and its certificate is unchanged.
+The list above the original threshold c still has62 members. No larger
+hull is removed merely for containing an excluded tetrahedral subset.

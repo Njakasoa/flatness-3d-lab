@@ -24,7 +24,7 @@ def ell(z,d,a,affine=False):
     return ((1 if affine else 0)+a*x/d-y-z,x/d,y-x/d,z-a*x/d)
 
 
-def build(C,scan,strict=False):
+def build(C,scan,strict=False,include_trace=True):
     d=C['normalized_volume'];a=C['contact_points'][1][2]
     F=[[z3.RealVal(0) if i==j else z3.Real(f'f{i}{j}') for j in range(4)] for i in range(4)]
     solver=z3.SolverFor('QF_LRA');solver.set(timeout=10000)
@@ -39,9 +39,10 @@ def build(C,scan,strict=False):
     for v in C['guards']:
         l=ell(v,d,a,True)
         solver.add(z3.Or(*[sum(F[i][j]*z3.RealVal(str(l[j])) for j in range(4))<=0 for i in range(4)]))
-    for p in permutations(range(4)):
-        value=sum(F[p[j]][j] for j in range(4))
-        solver.add(value<z3.RealVal(str(TRACE)) if strict else value<=z3.RealVal(str(TRACE)))
+    if include_trace:
+        for p in permutations(range(4)):
+            value=sum(F[p[j]][j] for j in range(4))
+            solver.add(value<z3.RealVal(str(TRACE)) if strict else value<=z3.RealVal(str(TRACE)))
     return solver,F,vectors
 
 

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "stages": [
+    {
+      "command": "python -O tests/replay_height_rank_independent.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.5402434799998446
+    },
+    {
+      "command": "python tests/audit_height_encodings.py",
+      "returncode": 0,
+      "elapsed_seconds": 19.428854268000578
+    },
+    {
+      "command": "python tests/audit_height_cover_independent.py",
+      "returncode": 0,
+      "elapsed_seconds": 49.04816134599969
+    }
+  ],
+  "bound_proof_inputs": 62,
+  "solver_queries_run": 0,
+  "external_proofs_checked_this_run": false,
+  "scope": "Exact cover/encoding and proof-payload binding replay. Without external paths, archived CPC proofs are hashed, not rechecked by a proof kernel; use the Ethos command to perform that check."
+}

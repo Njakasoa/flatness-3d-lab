@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "weak_witness": {
+    "Y_width": "684216/200849",
+    "lattice_width": "9741465265947363/3646588412563657",
+    "full_difference_minimum": "248587/684216",
+    "minimum_vectors": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "lattice_points_checked": 63,
+    "boundary_points": 4
+  },
+  "strong_witness": {
+    "Y_width": "1290096000/376157033",
+    "lattice_width": "431770127526900/160704333264053",
+    "full_difference_minimum": "14828737/40315500",
+    "minimum_vectors": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "lattice_points_checked": 63,
+    "boundary_points": 6
+  },
+  "rejected_mutations": 3,
+  "solver_queries_run": 0
+}

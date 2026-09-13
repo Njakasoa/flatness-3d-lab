@@ -74,3 +74,17 @@ counterexample checks and archived cubic model outcomes. At candidate width,
 61 necessary full facet-contact hulls remain. The global bound is unchanged.
 Uncommitted height-chart experiments are excluded. Public history continues
 from 1c5b667 without rewriting it. No journal or arXiv submission is made.
+
+## Three further contact-class bounds — 2026-09-14
+
+The maintainer explicitly requested publication following the Ihara lab.
+This update exports source f0920819acba3521f244d2510a3d9f901e4ea0fa, preserving public Git history.
+CLAIM-0007 and CLAIM-0008 exclude the P7, P8 and first determinant-five
+full relative-interior facet-contact tetrahedral classes above width 17/5.
+Combined with the containment bounds, 58 necessary candidate types remain.
+All 67 archived CPC refutations were freshly checked with Ethos in the
+public copy, including assumption binding and corruption controls.
+The second determinant-five class and the global flatness conjecture remain
+open. Its exact directional counterexamples and partial two-direction
+experiments are included with explicit scope. No new global bound, human
+peer-review endorsement, or established mathematical priority is claimed.

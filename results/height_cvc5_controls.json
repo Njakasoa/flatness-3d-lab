@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "queries": 4,
+  "scope": "Exactly pinned nontrivial positive and negative controls for the independent full-matrix encoding. The lower threshold is only a control; its ACMS cuts are not generally necessary.",
+  "classes": [
+    {
+      "class_index": 6,
+      "F": [
+        [
+          "0",
+          "499/500",
+          "1/1000",
+          "1/1000"
+        ],
+        [
+          "499/500",
+          "0",
+          "1/1000",
+          "1/1000"
+        ],
+        [
+          "1/1000",
+          "1/1000",
+          "0",
+          "499/500"
+        ],
+        [
+          "1/1000",
+          "1/1000",
+          "499/500",
+          "0"
+        ]
+      ],
+      "extrema": [
+        1,
+        0
+      ],
+      "normalized_heights": [
+        "1",
+        "0",
+        "0",
+        "1"
+      ],
+      "offset": "1/1000",
+      "gap": "499/500",
+      "threshold_one_control": "sat",
+      "threshold_17_5_control": "unsat"
+    },
+    {
+      "class_index": 7,
+      "F": [
+        [
+          "0",
+          "499/500",
+          "1/1000",
+          "1/1000"
+        ],
+        [
+          "499/500",
+          "0",
+          "1/1000",
+          "1/1000"
+        ],
+        [
+          "1/1000",
+          "1/1000",
+          "0",
+          "499/500"
+        ],
+        [
+          "1/1000",
+          "1/1000",
+          "499/500",
+          "0"
+        ]
+      ],
+      "extrema": [
+        1,
+        0
+      ],
+      "normalized_heights": [
+        "1",
+        "0",
+        "0",
+        "1"
+      ],
+      "offset": "1/1000",
+      "gap": "499/500",
+      "threshold_one_control": "sat",
+      "threshold_17_5_control": "unsat"
+    }
+  ]
+}
