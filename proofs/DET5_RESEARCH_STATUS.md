@@ -64,3 +64,120 @@ python3 tests/audit_det5_height_independent.py
 
 The proof/input and external-kernel replays for the completed class-4
 exclusion are documented in [CLAIM-0008](../claims/CLAIM-0008.md).
+
+## Follow-up after the public checkpoint
+
+The four affine contact symmetries of the strong Y-wide witness produce
+U-widths approximately 2.686736, 3.243847, 5.601748 and 3.066930. The third
+image is a rigorously hollow body with both Y and U widths greater than
+17/5. Its Y extrema, however, are [2,0], outside the retained representatives
+[0,1], [0,3], [1,0]. It falsifies unrestricted two-direction sufficiency but
+does **not** prove any retained chart feasible. The earlier global-target
+symmetry reduction remains valid. Its exact matrix, full widths and gauge
+minimum are checked in [the independent replay](../tests/replay_det5_joint_symmetry_independent.py)
+and [receipt](../results/det5_joint_symmetry_validation.json).
+
+Twelve numerical searches on the original witness's fixed guard/sign branch
+reached U-width at most about 3.215542. This is an observed value, not an
+upper bound. Another 24 distinct exact fibers, fixing Y extrema [1,0] and
+free Y heights [5/16,1/8], were UNSAT. These point exclusions neither prove
+a neighborhood empty nor settle any continuous chart. Original archives
+were preserved; [query records](../results/det5_retained_joint_probe.json)
+and [numerical guidance](../results/det5_retained_joint_probe_numeric.json)
+are separate.
+
+A continuation of the published joint-cover seed visits only new children.
+The [new archive](../results/det5_joint_continuation.json) has 514 total
+queries, including the 217 immutable seed records: 297 genuinely new
+queries. Twenty of 36 charts now have recorded complete covers, leaving
+142 pending boxes. These partial cover results are not class exclusions.
+The independent [encoding/frontier audit](../tests/audit_det5_joint_cover_independent.py)
+checks exact boxes and mathematical formulas, not the truth of UNSAT labels.
+
+## Complete fifteen-direction formulations
+
+The [independent geometric review](DET5_COMPLETE_GEOMETRY_REVIEW.md) proves
+that exactly fifteen primitive directions up to sign need testing at target
+17/5. Every other direction has integer width at least four on the contact
+tetrahedron itself. These fifteen directions form five symmetry orbits;
+one cannot quotient the width requirements by assuming the surrounding
+body is symmetric. The review gives general convexity counterexamples to
+such a reduction, without claiming irredundancy under hollowness.
+
+A bilinear model introduces the four unknown body vertices V. The contact
+equations V^T F=P^T and column stochasticity imply the augmented identity
+[1;V^T] F=[1;P^T]. Its right side has determinant of absolute value five,
+so F and the body frame are invertible automatically. All fifteen width
+clauses are linear in V. A strengthened version bounds the positive mass
+of each vertex's affine contact coordinates by 50000000/2042829, using
+the necessary volume bound. These are linear cuts.
+
+Both bilinear targets (20 variables, maximum degree two) and a strengthened
+eight-variable cubic target reached UNKNOWN under distinct 20-second
+solver limits. No prior query was rerun. Their lower-width and target
+pinned controls are evaluated exactly without a solver; the lower-width
+pin is a formula regression only.
+
+- [Implementation](../experiments/det5_complete_vertex_lift.py) and [archived outcomes](../results/det5_complete_vertex_lift.json)
+- [Independent bilinear polynomial audit](../tests/audit_det5_vertex_lift_independent.py) and [receipt](../results/det5_vertex_lift_encoding_validation.json)
+
+The complete model is available for further decomposition. The global
+flatness bound and the list of 58 candidate contact configurations are
+unchanged. These follow-up files are included in the newly authorized GitHub update.
+
+## Bounded determinant-three/four control campaign
+
+A separate generic-height root test covers five Y-extrema representatives
+for each of the determinant-three and determinant-four contact classes.
+All ten outer root relaxations have exact rational SAT assignments, with
+the same necessary strong gauge threshold 183/500. They therefore do not
+provide immediate root-square exclusions; this says nothing about the
+existence of actual high-width hollow tetrahedra in those classes.
+
+[Root queries](../results/det34_height_roots.json) and
+[the combined independent probe audit](../tests/audit_det34_and_joint_probes.py)
+retain their encodings and exactly check the relaxed SAT assignments.
+The audit also verifies the 24 retained joint fibers' distinctness and
+source provenance, without checking their UNSAT labels with a proof kernel.
+
+## Retained witnesses force a pivot
+
+The next immutable archive contains 835 queries: 27/36 recorded complete
+charts, with 243 pending boxes. Two linear gap cuts derived from volume
+produce a genuine retained Y/U witness immediately. Four added gauges exclude
+it, but a second witness remains after 14 new queries. Four more gauges give
+the complete 18 primitive vectors of intrinsic contact gauge at most 6/5.
+After 104 further queries, a third retained witness survives even every
+integer gauge at the exact ACMS target threshold. The final mixed archive
+has 953 queries, 27 recorded complete charts and 259 pending boxes.
+
+| Witness | Finite gauge system | Full first minimum of K-K | Full lattice width |
+|---|---|---|---|
+| First retained | 10 vectors | 113/505 | 53676652/26445567 |
+| Second retained | 14 vectors | 5671/20595 | 10682780276/4192650405 |
+| Third retained | 18 vectors, plus independently checked full minimum | 211637/541875 | 96007799530165500/39202828222912103 |
+
+All three are exactly hollow, have the prescribed relative-interior contacts
+and actual retained Y-extrema, and have Y/U widths greater than 17/5. The
+first two expose missing gauges. The third exposes the insufficiency of the
+two-direction model even with every target gauge and the stated volume
+necessities. Further gauge-only refinement cannot close this system.
+Their complete widths are small; none challenges the flatness conjecture.
+
+- [First witness](DET5_RETAINED_TWO_DIRECTION_WITNESS.md)
+- [Second witness](DET5_SECOND_RETAINED_WITNESS.md)
+- [Third witness and independent exact certificate](DET5_FULL_GAUGE_RETAINED_WITNESS.md)
+- [Four-vector rank lemma and volume-gap cuts](DET5_VOLUME_GAP_BOUNDS.md)
+- [General tetrahedron containment inequality](SIMPLEX_WIDTH_VOLUME_MONOTONICITY.md)
+
+The general inequality width(K,u)/vol(K) <= width(P,u)/vol(P), for nested
+full-dimensional tetrahedra, has a written elementary proof and an exact
+symbolic check of all 1536 stochastic partition identities. It yields the
+linear gap cuts and a complete finite box for small gauges under the actual
+volume hypothesis. No priority or global flatness improvement is claimed.
+
+Encoding/frontier audits reconstruct the new formulas and bind inherited
+inputs to frozen earlier archives. They do not prove the archived UNSAT
+labels. All selected witness properties are checked by independent rational
+arithmetic without importing solver or discovery code. The next experiment
+must add width directions from the complete fifteen-direction formulation.

@@ -40,11 +40,46 @@ excluded just because they contain one of these tetrahedra.
 - [External-checker setup and trust boundary](proofs/HEIGHT_ETHOS_REPRODUCTION.md)
 
 The other determinant-five class, conv(0,(5,1,2),e2,e3), remains open.
-An independently certified hollow example has Y-width about 3.42967 but
-full lattice width about 2.68674; it disproves a one-direction intermediate
-approach. Joint two-direction exploration is incomplete and supplies no
-class exclusion. See [exact witnesses and research status](proofs/DET5_RESEARCH_STATUS.md).
-No improved global flatness bound or established novelty is claimed.
+The latest exact witness below shows why a two-direction approach cannot
+settle it. The 58-type count and the global bound remain unchanged.
+
+## Latest research: an exact obstruction to the two-direction model
+
+A certified hollow tetrahedron in a retained normalized contact chart has
+Y-width and U-width greater than 17/5, where U=(1,-1,-2). Its full first
+minimum of K-K is **211637/541875 ≈ 0.390564**, exceeding even the exact
+ACMS necessary gauge threshold. It also meets the stated volume bounds.
+Yet its full lattice width is only **about 2.449**, attained in Z.
+
+Thus refining only these two height directions, the target gauge conditions
+and those volume bounds cannot establish infeasibility. Three successive
+exact witnesses record how the missing constraints were identified. Their
+independent rational checks exhaust all potentially relevant lattice points,
+width directions and gauge vectors; this is not a floating-point diagnosis.
+
+The campaign is frozen at 953 archived queries: 27 of 36 charts have recorded
+complete covers and 259 boxes remain pending. Those partial UNSAT labels
+have encoding/frontier audits, not external proof-kernel certification.
+They add no class exclusion. The next step is to impose additional widths
+from the complete fifteen-direction formulation. Its bilinear and strengthened
+cubic target queries remain **UNKNOWN** under their archived time limits.
+
+An elementary supporting lemma proves, for nested full-dimensional real
+tetrahedra P contained in K and every nonzero real covector u,
+
+```text
+width(K,u) / vol(K) ≤ width(P,u) / vol(P).
+```
+
+It supplies finite formulation bounds. Its proof has an independent internal
+review and a symbolic replay of all 1,536 stochastic partition identities;
+mathematical priority is unconfirmed.
+
+- [French results summary](results/FINAL_SUMMARY.md)
+- [Decisive witness, exact values and completeness proof](proofs/DET5_FULL_GAUGE_RETAINED_WITNESS.md)
+- [First retained witness](proofs/DET5_RETAINED_TWO_DIRECTION_WITNESS.md) and [second retained witness](proofs/DET5_SECOND_RETAINED_WITNESS.md)
+- [Containment lemma](proofs/SIMPLEX_WIDTH_VOLUME_MONOTONICITY.md) and [rank/volume-gap bounds](proofs/DET5_VOLUME_GAP_BOUNDS.md)
+- [Complete fifteen-direction model](proofs/DET5_COMPLETE_GEOMETRY_REVIEW.md), [research status](proofs/DET5_RESEARCH_STATUS.md), and [next steps](NEXT.md)
 
 ![Exact height cover for the determinant-seven/eight classes](results/height_cover.png)
 
@@ -189,7 +224,7 @@ all 484 clauses of the larger model. This does not settle width optimization.
 
 ![The 64 lattice guards and 20 explicit pair exclusions](results/observer_guards.png)
 
-This update exports the committed height-cover and determinant-five checkpoint.
+This update exports the committed determinant-five model and exact obstruction checkpoint.
 Its exact revision is recorded in SOURCE_MANIFEST.json; partial experiments are
 labelled explicitly and are not counted as proofs.
 See [public-copy validation](PUBLIC_VALIDATION.md) for reproduction evidence.
@@ -363,6 +398,29 @@ class-4 default replay uses the standard library to check its archived
 proof/input bindings and count certificate. Actual proof-kernel replay
 requires the pinned Ethos/cvc5 sources from the [setup guide](proofs/HEIGHT_ETHOS_REPRODUCTION.md).
 The public-copy receipt distinguishes fresh kernel checking from hash checks.
+
+Replay the latest model geometry, three retained witnesses and supporting lemmas:
+
+```sh
+python3 tests/audit_det5_complete_geometry_independent.py
+python3 tests/replay_det5_retained_witness_independent.py
+python3 tests/replay_det5_second_retained_witness_independent.py
+python3 tests/replay_det5_full_gauge_retained_independent.py
+python3 tests/replay_det5_volume_gap_bounds.py
+python3 tests/replay_simplex_width_volume_partition.py
+```
+
+These use exact rational or symbolic arithmetic without a solver. The optional
+encoding audits need Z3 and run no satisfiability queries:
+
+```sh
+.venv/bin/python tests/audit_det5_vertex_lift_independent.py
+.venv/bin/python tests/audit_det5_joint_round2_independent.py
+.venv/bin/python tests/audit_det5_joint_enrichment_independent.py
+```
+
+See [the incremental validation record](PUBLIC_VALIDATION.md) for the remaining
+new-query audit and the distinction between formula checking and proof checking.
 
 The core exact geometry uses only the standard library. SymPy supports the
 independent checks; SciPy supports exploration; Matplotlib produces figures.

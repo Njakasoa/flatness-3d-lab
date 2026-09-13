@@ -88,3 +88,16 @@ The second determinant-five class and the global flatness conjecture remain
 open. Its exact directional counterexamples and partial two-direction
 experiments are included with explicit scope. No new global bound, human
 peer-review endorsement, or established mathematical priority is claimed.
+
+## Determinant-five obstruction and complete models — 2026-09-14
+
+The maintainer explicitly renewed GitHub publication authorization, following
+the Ihara companion. This update preserves public history and exports the
+committed scientific revision recorded in SOURCE_MANIFEST.json. It includes
+the complete fifteen-direction models, immutable bounded query archives,
+independent encoding audits, three retained exact witnesses and the supporting
+rank/volume and tetrahedron containment lemmas. The last witness satisfies
+all exact target gauge necessities while refuting the two-direction-only
+infeasibility approach. No new class exclusion or global bound is asserted.
+The earlier 67 externally checked proof payloads are unchanged. Operational
+session records and installed runtimes remain outside the public export.

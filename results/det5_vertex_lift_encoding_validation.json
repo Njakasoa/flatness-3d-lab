@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "model": "bilinear",
+      "assertion_count": 83,
+      "width_direction_count": 15,
+      "archived_status": "unknown",
+      "input_sha256": "4907616726aae93bbf68343f2d35dee7826bb5408f745b8a156bf4f6458065f9"
+    },
+    {
+      "model": "bilinear_volume",
+      "assertion_count": 143,
+      "width_direction_count": 15,
+      "archived_status": "unknown",
+      "input_sha256": "1c360275b73477acc957266e9a60cc0d4a54bbed8bf8163829bbad2ac365e9fc"
+    }
+  ],
+  "mutations": [
+    {
+      "model": "bilinear",
+      "mutation": "missing width clause",
+      "rejected": true
+    },
+    {
+      "model": "bilinear",
+      "mutation": "wrong affine contact equation",
+      "rejected": true
+    },
+    {
+      "model": "bilinear",
+      "mutation": "extraneous contradiction",
+      "rejected": true
+    },
+    {
+      "model": "bilinear_volume",
+      "mutation": "missing width clause",
+      "rejected": true
+    },
+    {
+      "model": "bilinear_volume",
+      "mutation": "wrong affine contact equation",
+      "rejected": true
+    },
+    {
+      "model": "bilinear_volume",
+      "mutation": "extraneous contradiction",
+      "rejected": true
+    }
+  ],
+  "solver_queries_run": 0,
+  "scope": "Independent exact polynomial encoding audit only; archived UNKNOWN outcomes do not exclude the class. Cubic target not re-audited here."
+}

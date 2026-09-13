@@ -1,0 +1,703 @@
+{
+  "status": "PASS",
+  "scope": "Incremental exact assertion reconstruction, immutable prefix/input binding, and all36-chart frontier reconstruction for each continuation. Archived solver status labels are not proved; no class exclusion or UNSAT proof claim.",
+  "prior_encoding_files_hash_bound": 836,
+  "new_encodings_checked": 127,
+  "new_enriched_roots_checked": 9,
+  "root_archive": {
+    "path": "results/det5_joint_enriched_roots.json",
+    "sha256": "9d2afe19155550b7eb187dace2474e4bf2a9d1b5fd98c134d0e0960bf140e576"
+  },
+  "archives": [
+    {
+      "path": "results/det5_joint_enriched_cover.json",
+      "sha256": "fc313e74a2192c6000bf86422e8f5d6cbbb5e7dc346167f3f0f370555fc8186f",
+      "query_count": 849,
+      "inherited_query_count": 835,
+      "new_formulas_checked": 14,
+      "complete_charts_from_archived_labels": 27,
+      "pending_boxes": 237,
+      "frontier_charts_checked": 36
+    },
+    {
+      "path": "results/det5_joint_short_gauges.json",
+      "sha256": "12928077c29449de41c61eee7bdcf7ec3d54914aa970f346c4702acd298adca4",
+      "query_count": 953,
+      "inherited_query_count": 849,
+      "new_formulas_checked": 104,
+      "complete_charts_from_archived_labels": 27,
+      "pending_boxes": 259,
+      "frontier_charts_checked": 36
+    }
+  ],
+  "fresh_inputs": [
+    {
+      "path": "results/det5_joint_enriched_0_1_0_1_root.smt2",
+      "sha256": "d21a576d71843e1fe6acc3f1e2dbf3895132c469fd48f788472a84caaee5c78a",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_0_1_0_2_root.smt2",
+      "sha256": "9ec0d1a2becf9f2b31a77f9250b0cc96e7ef734a755c54b72aeacca5d7a70137",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_0_1_0_3_root.smt2",
+      "sha256": "26a75df902666cac0c84864157afdad28b2ee03d97c04cb74f66ee7f1d5e0188",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_0_3_0_1_root.smt2",
+      "sha256": "a73be38fc5ea1f69717e8e814ca087ed2e8a45126653a8c7e2d765569c717eb9",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_0_3_0_2_root.smt2",
+      "sha256": "9b2445825fca2c1e5995c1624dd8f3e5bdfdc1f7adccc0a40473747eae1d375c",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_0_3_0_3_root.smt2",
+      "sha256": "c50786f954dafa06c4d9b66c4f3080bbfccac1a9964662399f9427c4b4975258",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_1_0_1_0_root.smt2",
+      "sha256": "35b899ac837e7adc7812eff02ac7f0af615b1c543f869722b961703045c48444",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_1_0_1_2_root.smt2",
+      "sha256": "6884735c91fadfcd6adbb91c260a20d86b69a66d9995d056292e5220cb093bff",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_1_0_1_3_root.smt2",
+      "sha256": "194b0c26afab3d7851f78e2f90c5d785ee1db7a54a5c52ca668ca189d44a8273",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r111111.smt2",
+      "sha256": "def8de9798a4986d00aa7a6d9b3cf3e7f81fbba725adc8c800d54ffafdd852d1",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0000000.smt2",
+      "sha256": "f92352acbaffe9b686e7972938cd8d5728c681066536be566ece380f3ab2992b",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0000001.smt2",
+      "sha256": "9b3db85a9ddb82a3abd5e1c9835dcb9991bae13bff69933aec2b5f408ab3bc0b",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0000100.smt2",
+      "sha256": "e792cd94ac4c215de53e5def7f20d6f9e1d9ca8c74efd22a3de51ce5be346fcc",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0000101.smt2",
+      "sha256": "120c48ff7aa61e4f9e1e5767b507212a7516874f0120a3e4a21688262a6843c7",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0010000.smt2",
+      "sha256": "2d1f5bbd13a2e70d5726f0f695de49c7400f3c72dafeea91fa8b5ba133863d72",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0010001.smt2",
+      "sha256": "57fb7ead1e32d8d67ff535056068da27e78843e2236bc1ffe04a681c75d61621",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0010100.smt2",
+      "sha256": "dd8036b4a384e130b1cbe8bf447e1047afb92d7e527d473cd1c36703429a6a0c",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0010101.smt2",
+      "sha256": "ffd19ecc64631378c656b42ec1a4a6d6b801cf3d3ff8c45cb7c4ed8a86fabe04",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0011000.smt2",
+      "sha256": "b226d60da7d6fa45abcb014bdd97892e56254bb51ad33c18fc67cb51a9199caf",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0011001.smt2",
+      "sha256": "8b37a8b2d8bb670a0783d0b83437ff8a49b66aec951a9b838638958858a34c8d",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0011100.smt2",
+      "sha256": "339443dc2ba94f122e7b2b70613e70e15efd725ad3cb6dffbae817ea932d29a2",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0011101.smt2",
+      "sha256": "b09b3a70639c0da4c8c005c0eef5b7025f776becfbd6e118076095fa71e85f8d",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_enriched_gap_0_1_0_1_r0011110.smt2",
+      "sha256": "336abf3fd2f5b0080189d650f0920083bde7b6e10e595bd0f5df2e94bffdbc15",
+      "additional_gauge_count": 4
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r0011111.smt2",
+      "sha256": "a7a6cae67dca31ecb5a116df0332584e36772576cbf0a7dabaa85669140484dd",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1010000.smt2",
+      "sha256": "8261d329b67ae39af36c6eeae4ab1fc0a73795a038b632aca2e46cff9b82c184",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1010001.smt2",
+      "sha256": "9bc8da6d1b2a194f548cc111a783bd7bc346c3509a4b6aeafe3ceeedda8a8f8e",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1010010.smt2",
+      "sha256": "b7089b1db297c1237d806aaf6f9a5fca1f5c47ae4dc12bae4192defb7a7d4f29",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1010011.smt2",
+      "sha256": "19013b3a58f9963c18c4a9600a4a366f902ad7abb3c33aee57f094c18d4e5b85",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1011000.smt2",
+      "sha256": "5b30eb00b779545df2b71eaf897cbcbacec3d329c92fdc8703aad0564fd02cbb",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1011001.smt2",
+      "sha256": "18e8c21e71da2007af3147b3ed05773a506f8f0fd375d27f86e740cd5fbc7b4f",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1011010.smt2",
+      "sha256": "cca87e3ecfafc81b597a8e805eb5d014aa913f2a1fd598ca6cd10940829a8ab7",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1011011.smt2",
+      "sha256": "49ebbb7858c9bf184eb5a140f10ffb5d744cf4dcbd553b751409ba98e91002c7",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1011100.smt2",
+      "sha256": "c2b99354b800257162d84b1cf8d3fb985922ed7adae29f9a1387f3fd1724dee7",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1011101.smt2",
+      "sha256": "b36602ea3575d9a1571cdccb1455dfe8a13c45674660015be12346deaea35cf0",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1011110.smt2",
+      "sha256": "adca15211743d68c5df2f93dff943f8778e0481539943ff2f595580abf13dfcb",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1011111.smt2",
+      "sha256": "51c48284ac8f4ac8b7fd61e294e7fe419adc1d77a09a974c5e3db3d523932035",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1111000.smt2",
+      "sha256": "6ae07b8d1f357d34b9947402e96f93c6ca9d911abcf209914e91667819f68cbb",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1111001.smt2",
+      "sha256": "78de40414fcccc823e8c10beac05af6ac5fa8a39b56c5724140529a748979d46",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_1_r1111100.smt2",
+      "sha256": "b6c17a8f8475f86f8da204fb5510ade8be102bda0ce7d4587e28d131b83de492",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1001011.smt2",
+      "sha256": "49e078d6b1a991accbf68abec268a85410688ce736b1032f3d9199ccc57de439",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1001100.smt2",
+      "sha256": "d789f8c43afa01706df43436b0fa34b7cef0e12db41ad547a79aa0464c158a6f",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1001101.smt2",
+      "sha256": "c46890abbbc86f8d33f9ef6e601e3134f707803a7c8da97997d359633a272599",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1001110.smt2",
+      "sha256": "02a66f24f39756e59c71ecf895387a3c43e00bb5bcd199b90abdd8de851a9ed4",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1001111.smt2",
+      "sha256": "b0d8b3a261c00c5b1767dee5a3e0fbd7c65918ca8f3382fccf59a4d21f5b789d",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1011000.smt2",
+      "sha256": "58d032159824f3eb508862b5a3612ce2efbbc0606a9cbce06993ad48dd5d564f",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1011001.smt2",
+      "sha256": "b7b04ac2e20caaba7928dcbf9bf8279df7ca5abc363bb892a3936b78a990e8d0",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1011010.smt2",
+      "sha256": "12cf43f4d1f604ece3aa238c9b1a3bfa320b30cfda098649e05f8331792eee12",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1011011.smt2",
+      "sha256": "4cf1f90cbee0ecd8a2fe0b8f19c85f8e9cdba3761f675bb64a790a27d8504a92",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1011100.smt2",
+      "sha256": "bc90f1543f8e3bbc6de6a3f8526fa19a7c9cfbe154cea2d3cf34e36728f9dd7d",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1011101.smt2",
+      "sha256": "4f9906eb05c7031e369dae00a7580e842d8153773649aa1b92efe7200993d305",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1011110.smt2",
+      "sha256": "7e096b27f0872ebfc3ff875efc41444aa89cb4f73c91832ffa7ea1ad130e618c",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1011111.smt2",
+      "sha256": "bf44bbcb2d61671e258673e7ff3dc3583d5717718e6e21c55d6845191b4ec42d",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1101100.smt2",
+      "sha256": "5eaeb05c9127a50db3ecd7869d922191fc96d1846b7cbedcb5f70a1815870de8",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1101101.smt2",
+      "sha256": "e94c9c88b9c7b335902dfdd96180a6cc76b9fa1ee169943d8085ef71cbcd09da",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_2_r1111000.smt2",
+      "sha256": "f3f94e7887bdd8f4812308da929677920175dd50b9fb823b211ccee0baa8f9f2",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r0001101.smt2",
+      "sha256": "859842468e755e25d55af6a9b286ce774f9bfce7f8b972d5a21b08ad1347be3e",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r0011100.smt2",
+      "sha256": "88314d676676cd53e7b4905c95e1bc858ee50becf421ec2d502b9108e1191970",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r0011101.smt2",
+      "sha256": "ade8443531ab147336b36c0867ca519bff7e39a4c05cee6deabbc6e955afc6e8",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r0011110.smt2",
+      "sha256": "f13aa8d03c0347219d301a427082a09f6d210d8787a360752373bba7aba32eb0",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r0011111.smt2",
+      "sha256": "64fac03a1a022a9e7d1e7109b22b8c753385944d112e405ad4282ea685097851",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1001000.smt2",
+      "sha256": "6388fbc66b6da50690462eabcb67612b301d26b9c39868b99d5128dd88adcf62",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1001001.smt2",
+      "sha256": "f675edc95efffb7c17eef1c8091ab6223ac6aa83037a5655ad66196db577882a",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1001010.smt2",
+      "sha256": "75cf739aeed72e2c28137739b4e81fa02c73d9b36e136b4a34bcadb79db472fa",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1001011.smt2",
+      "sha256": "f5f79c76ed99b5c35ec58800c4d6c87c41f47ebe55c194ce9064a5c44e9c174b",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1001100.smt2",
+      "sha256": "bf93cd3962eb3f6f67226556abc7cd839d81b9b3639f7f0e65d8e415c5db1a9e",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1001101.smt2",
+      "sha256": "c9b661fe6b02ed011fe3a0b64bb78c3123f36a9afcfb8de05a5dd930b841ed69",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1001110.smt2",
+      "sha256": "72f5841c861e4d27ddb4a2ca41f111199c6852a51370c03e0bd0d53c1e0460c8",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1001111.smt2",
+      "sha256": "3b1d2daa286db0b83b6335f8c4fd3f85eaadead1204e8431377e9ffead0a56f7",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1011000.smt2",
+      "sha256": "27b2b313d088b020bf86a961d0cac671d73b0b876b113add0b9540e4a06017b5",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1011001.smt2",
+      "sha256": "fa846b423080bfe7e1ae6e89a6b3451426fe8d1153e1d2cc2909bb8c4a6a29d6",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_1_0_3_r1011010.smt2",
+      "sha256": "b1b62e1366f6e91a4da6e0c486ac42da8225f0710bbec0544ac4b61771559299",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r011100111.smt2",
+      "sha256": "80b81c97cae372bfd37bb4c1af627823efe72b37b4981d7518d7f352837317e9",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r011110100.smt2",
+      "sha256": "d3a29ac3307354bd3424fc4d0336f108f16235b7d15722a94a6aba0b47baf62d",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r011110101.smt2",
+      "sha256": "d2ad921eb73d5dbfa5e82ff73cff0c1e44ca91feb4bef75ff2badcb509e6d2ab",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r011110110.smt2",
+      "sha256": "dfd589d0caef57007afe5ac5988f7d205a98e1c78ff4eedc22a34cd43a052d3c",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r011110111.smt2",
+      "sha256": "3cbe23420761ef5305fcc202c0304db4803a2c6a897725d25baa01f5128bdda1",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0011011100.smt2",
+      "sha256": "0c63e107fd6c574fde5526551eeadeb6730017ebf753664689aa1d4de5179a45",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0011011101.smt2",
+      "sha256": "65b02e4234e0441ca7e9fffe461f42af260cebd071a268df8496c78eb4f2ed13",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0011011110.smt2",
+      "sha256": "0c5761d9006a04b603e618ad44ef34a2e60d790cd60d9e32b3527f617470b8df",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0011011111.smt2",
+      "sha256": "03f9abf1c1ca56518751f75b0bb7c2721b7ecbf62deb40eda14bfee547a4a3f7",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0111001000.smt2",
+      "sha256": "6274c8fbae0f967d2eaa8edac8d70ee527f4bec0f09e9edb3f84e2bd60ca4b49",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0111001001.smt2",
+      "sha256": "9ba9b56e6705c5b9877f4ccaa39c47019ecc13af6ec833b728db56064a12c489",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0111001010.smt2",
+      "sha256": "ed1f1db60963a06f47e143cedb93c8ff45c1838b23e95f12538b5cdaaea37ca1",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0111001011.smt2",
+      "sha256": "170125f78820160f6324e279551f0e4d4e7361ddc2ff5b4748e0e8888466c057",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0111001100.smt2",
+      "sha256": "71d965e7f48bcd3613336ca238baf84aa78c87a3b6aa28c7dabf844b2cded3ba",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0111001101.smt2",
+      "sha256": "1fe2f42ce50a906ad6f128c49a2a7c077650c60f4d5e68fb93587f09d81d7225",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_1_r0111001110.smt2",
+      "sha256": "8a7bd0f1f86ea83ff67321d6150a8478cd128990e0c690761b2ce7a9523a6c88",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r111111.smt2",
+      "sha256": "3b796d7231c95af44f1e6b1b6bf2e2c2fa515f9273fa636d98820bd168ac4ee9",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0010000.smt2",
+      "sha256": "57d334b2fbf53294e5f73bcd2b1109f25cc1210d99fb9d0e28d72e9519fc477c",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0010001.smt2",
+      "sha256": "c3b798c61c952cdf2e157a55fc3b3521c6aadf08361e49b44b65ab3c6f645c3d",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0010010.smt2",
+      "sha256": "9d5b5adf9dcd2f6cdff801a4ce4a37dcd0f453047b9d9cf198d955f53d7b62c6",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0010011.smt2",
+      "sha256": "df9cf0cbe0d50f2cbaebc4b70ad3440aa101192ba5f314546262ba1d3611add5",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0011000.smt2",
+      "sha256": "d3b1aa3068e2afc5a8104e97dd6f0ea6edfe3f0732abae2fef1bb5f2b802e4b1",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0011001.smt2",
+      "sha256": "5f99e3566c50607808361d4abab6edb5992d2e2e8d3049604a9a84fbc9f6c0c4",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0011010.smt2",
+      "sha256": "f7acd25c33686157e502e50bc9a14e2fe89f3affeaa5c95f676fcdd12f004498",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0011011.smt2",
+      "sha256": "3aa9e1fd638c0fba2fc62c8d62b8907bc0911cb09e58d9be2774e4c8c06e07d8",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0110000.smt2",
+      "sha256": "4b325627e13f631539dc034c77fa18cda51ea6fe6a8be59f743846debb908d74",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0110001.smt2",
+      "sha256": "f3b4e4915a187acce1a9d84f08c091c5b0c4fd3769d87abeb679429552d7c77e",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0111000.smt2",
+      "sha256": "65c837203acc8c361605817634c8a8780de2fb40ea2a5081fd83edf2fd0dadf7",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0111001.smt2",
+      "sha256": "d15c5910ad97afd439f9d06d1cc2972cb4f6f3c87ea22cc21916be33af64434c",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0111100.smt2",
+      "sha256": "f8c6fa7d9e34104963b267edefcc014a37840e3f947593cc8874591f110b5109",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r0111101.smt2",
+      "sha256": "558265a1f9ebfa9d48f337ed0b4abd990c6d1b7be0e208da73b9b5a1442855b6",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_2_r1111010.smt2",
+      "sha256": "14a92b3889bd96414da32f9815f744acc546fc01e13d292ce519028a1dc04640",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r001101.smt2",
+      "sha256": "7ee5c2b06f66ac8366da942677301042c3006bd4e8c068b7c20def8e9233699e",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r001110.smt2",
+      "sha256": "bc4fd77ed78f162b8ff1c87c9bb9977284301cb47fa64f4cebbbc3382094e599",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r001111.smt2",
+      "sha256": "b6a7754bff8aedac1f48258949096db4adfb99cde2e17f9dd3f28a49412ec3ee",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r011100.smt2",
+      "sha256": "3922100923e5e2b350dd29c40af32bcae4860b1e2648a4e3ecfbbfd28f7dd03d",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r011101.smt2",
+      "sha256": "5aed24c674df691c7f2f3fe64102290f5bc3951cc7be14b63146c17cd1d9205c",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r011110.smt2",
+      "sha256": "82b5cd1adabb838af43aefb4a5ddda8a92d663c846a8b636b9a47cba47a3b91d",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r011111.smt2",
+      "sha256": "abf3c58615ef8c806aba5a9ff8eea209d639d31d99bd50629020095ce8ac8d51",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r100000.smt2",
+      "sha256": "a5f843cb513c919fc75fa45ce2efa1365a6170452c84c993d5c4be8ddc26ecba",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r100001.smt2",
+      "sha256": "f345616d428f71ed24a703aeaea0a243b68fe25f968587541f7501410127f863",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r100100.smt2",
+      "sha256": "a16d6f2bc1bed32fc473fd68029f854ba51dd919cc222826ba957b3b893ffc54",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r100101.smt2",
+      "sha256": "3d7b9b107b09b5fc5a3a0b58184055f833d88106f0c95bcd88910c5e5319f410",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r101100.smt2",
+      "sha256": "d2fd949b750f7a06ad0d457adf784cfd4af3ca83d504cd3e6e4b92440cf0eef0",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r101101.smt2",
+      "sha256": "d58cabac9fce21347d6cfeb324781bd93a24588ee86ef0d14ea21088218927ab",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r101110.smt2",
+      "sha256": "53e45f4d35517df88310d7aa0aa7e5fdd0f6ebf959c0be66bab844ae022ff4f9",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r101111.smt2",
+      "sha256": "b0820b1f8a15cf6ac787754a98934c8c5affaecbb7be3cad2f14aaacd6d59363",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_0_3_0_3_r111100.smt2",
+      "sha256": "c293a80495a1e900e5e83083c742ca759d059d8ca4ea8309cbd0e4fe6b665022",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_1_0_1_0_r011111.smt2",
+      "sha256": "ea61dc2abaea39efe3c69840b05f886f4ddc3d2e56689b254e8409f5fa86989c",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_1_0_1_0_r101000.smt2",
+      "sha256": "7ccebe7c6eff42e6ffad30f528a10a0d70b71665d1359f9a0af1b4ce299a793f",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_1_0_1_0_r101001.smt2",
+      "sha256": "97295628c29a3f6981576ab34bb083b2825e324714d66233401c6178b0867562",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_1_0_1_0_r101100.smt2",
+      "sha256": "bb21ec316ee33720a0fd5bd5b63dc01d6a5e613cb14e0ffda048ef8e2b8ae60c",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_1_0_1_0_r101101.smt2",
+      "sha256": "1b1958063d5505fa4f080de8298c66ef0714ff89aea479d6562eb83fbaa3db53",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_1_0_1_0_r101110.smt2",
+      "sha256": "787ec40b912d58d517d5e757e578b2671828518943429176e207f5e38ecf63d7",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_1_0_1_0_r101111.smt2",
+      "sha256": "0e1a644cf013e4d598accf048df6006cd77d9235190712368a6a320a6880b18f",
+      "additional_gauge_count": 8
+    },
+    {
+      "path": "results/det5_joint_short_gauges_1_0_1_0_r111100.smt2",
+      "sha256": "a2be2e2add72424af79de35be7b42102ce36572db5e056e046380f4ef1a948a0",
+      "additional_gauge_count": 8
+    }
+  ],
+  "pinned_review_dependencies": {
+    "tests/audit_det5_joint_round2_independent.py": "8247a3fa1c7f42691101e9a6b466775ef53407e79562975be3f4f81ecfa5035d",
+    "results/det5_joint_round2_encoding_validation.json": "91d57a35732afacfa74351dd5d91827a92d0b0047c445dba96bf77dddcf87c15",
+    "results/det5_joint_round2.json": "fcfc7eda2099eb72525d382ff82e315f7acd46e0259e05824b58afa8d9a0c56b",
+    "tests/audit_det5_joint_cover_independent.py": "bc00ce9350e922532ab99cdd052b8c09c82095160c482cefbb55f5f9ef93e75b",
+    "tests/audit_det5_height_independent.py": "c6d1f03facfff8f588dd2bceeb035d290b6203fa3e3fad30348c6d6e57049c4b",
+    "tests/audit_height_cover_independent.py": "74b0dec05d07435223b95af6476d2d7651e715b5d681e260b91be076c9789154",
+    "results/det5_joint_cover_encoding_validation.json": "ca0f9370e7497e78a450d14286a068b779caf79fd015975afd3ac17500eb6a98"
+  },
+  "rejected_mutations": [
+    {
+      "mutation": "missing new orbit inequality",
+      "rejected": true,
+      "reason": "assertion-set mismatch: missing=1, extra=0"
+    },
+    {
+      "mutation": "wrong stronger Y gap",
+      "rejected": true,
+      "reason": "assertion-set mismatch: missing=0, extra=1"
+    },
+    {
+      "mutation": "modified inherited prefix",
+      "rejected": true,
+      "reason": "unchanged inherited query prefix"
+    },
+    {
+      "mutation": "omitted pending box",
+      "rejected": true,
+      "reason": "exact closed and pending frontier"
+    }
+  ],
+  "solver_queries_run": 0,
+  "unsat_proofs_checked": 0
+}

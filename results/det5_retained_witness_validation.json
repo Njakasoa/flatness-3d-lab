@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "scope": "Actual hollow rational body occupies a retained normalized Y/U chart even with finite gauges and volume cuts; prevents closing this exact ten-gauge Y/U formulation, not a formulation with all necessary gauges or global widths.",
+  "source_sha256": "9a6f24409f13fa329d7a17fc80d242b9d84604cae355f43df9635713568b3c3e",
+  "frontier_sha256": "fcfc7eda2099eb72525d382ff82e315f7acd46e0259e05824b58afa8d9a0c56b",
+  "solver_queries_run": 0,
+  "rejected_mutations": 4,
+  "witness": {
+    "vertices": [
+      [
+        "-348476920/26445567",
+        "-116336188/26445567",
+        "2109694/26445567"
+      ],
+      [
+        "41585080/26445567",
+        "44082112/26445567",
+        "-245626/26445567"
+      ],
+      [
+        "135296920/26445567",
+        "27293488/26445567",
+        "53410826/26445567"
+      ],
+      [
+        "-884410/26445567",
+        "-356878/26445567",
+        "-265826/26445567"
+      ]
+    ],
+    "volume": "412120400/79336701",
+    "hollow_box": [
+      [
+        -13,
+        5
+      ],
+      [
+        -4,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "lattice_points_checked": 342,
+    "boundary_points": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        5,
+        1,
+        2
+      ]
+    ],
+    "lattice_width": "53676652/26445567",
+    "minimizing_directions": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "width_search_bounds": [
+      1,
+      3,
+      3
+    ],
+    "primitive_width_directions_checked": 65,
+    "full_difference_minimum": "113/505",
+    "minimum_gauge_vectors": [
+      [
+        3,
+        1,
+        0
+      ]
+    ],
+    "gauge_search_bounds": [
+      18,
+      6,
+      2
+    ],
+    "primitive_gauge_vectors_checked": 969,
+    "passes_exact_ACMS_threshold": false,
+    "finite_gauges": {
+      "0,0,1": "100/101",
+      "0,1,-1": "613/1010",
+      "0,1,0": "197/202",
+      "1,0,0": "201/505",
+      "1,0,1": "304/505",
+      "2,0,1": "201/404",
+      "3,0,1": "1387/2020",
+      "5,0,2": "100/101",
+      "5,1,1": "205/404",
+      "5,1,2": "100/101"
+    },
+    "missing_gauge_orbit": [
+      [
+        1,
+        -1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        0
+      ],
+      [
+        6,
+        1,
+        2
+      ]
+    ],
+    "orbit_intrinsic_mass": "6/5",
+    "directional_charts": [
+      {
+        "direction": "Y",
+        "extrema": [
+          0,
+          1
+        ],
+        "width": "160418300/26445567",
+        "gap": "26445567/160418300",
+        "offset": "29084047/40104575",
+        "normalized_heights": [
+          "0",
+          "1",
+          "355519/397075",
+          "114831/158830"
+        ]
+      },
+      {
+        "direction": "U",
+        "extrema": [
+          0,
+          2
+        ],
+        "width": "237541900/26445567",
+        "gap": "26445567/237541900",
+        "offset": "91734493/118770950",
+        "normalized_heights": [
+          "0",
+          "116017/117595",
+          "1",
+          "117012/117595"
+        ]
+      }
+    ],
+    "actual_free_heights": [
+      "355519/397075",
+      "114831/158830",
+      "116017/117595",
+      "117012/117595"
+    ],
+    "frontier_queries": 835,
+    "containing_pending_leaves": [
+      {
+        "node": "r1111101",
+        "box": [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "1/2",
+            "3/4"
+          ],
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "1/2",
+            "1"
+          ]
+        ]
+      }
+    ],
+    "containing_closed_leaves": 0
+  }
+}

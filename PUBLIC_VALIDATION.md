@@ -176,3 +176,34 @@ attribution remain unchanged.
 Fresh kernel checking establishes the archived linear refutations relative
 to the pinned CPC signature. Geometry-to-SMT soundness has written proofs
 and independent internal review; no external human review is claimed.
+
+## Retained full-gauge obstruction and complete models — 2026-09-14
+
+Scientific source: 79d0d35e1b3b4beab576f6c1b950ba4fc3b03e53. Eleven fresh public-copy checks passed.
+All 837 exported scientific files match the committed source byte for byte.
+
+- Seven standard-library checks cover the complete fifteen-direction geometry,
+  the earlier symmetry witness, all three retained witnesses, the four-vector
+  rank/volume arithmetic, and 1,536 formal partition identities for the nested
+  tetrahedron lemma. The three retained-witness checkers reject fourteen
+  mutations in total; the decisive witness exhausts 108 lattice points,
+  59 potentially minimizing width directions and 341 gauge vectors.
+- Two independent bilinear encodings and the determinant-three/four root and
+  retained-fiber records pass their audits. The root checks evaluate actual
+  rational relaxed SAT assignments. No nonlinear UNKNOWN is promoted to a proof.
+- The continuation audits reconstruct 322 plus 127 new linear encodings,
+  bind earlier inputs to reviewed hashes, and check exact inherited prefixes
+  and complete recorded frontiers. The last archive has 953 queries,
+  27 charts closed according to archived solver labels and 259 pending boxes.
+  These audits do not certify those UNSAT labels with a proof kernel.
+
+No solver query was run. All 167 previously public certificate files,
+including the 67 CPC proof payloads, remain byte-identical; their previous
+public-copy Ethos validation is retained without repeating unchanged proofs.
+The baseline and earlier exclusion results are unchanged.
+
+The final internal publication review confirms scope, counts, imports and the
+explicit hollow-body hypothesis required by ACMS. Local Markdown links and
+Python syntax checks pass. The text scan found no private machine paths or
+known credential patterns. The source manifest and its corruption control
+are checked before publication. See the [machine-readable receipt](results/det5_pivot_public_validation.json).

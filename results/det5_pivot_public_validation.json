@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "date": "2026-09-14",
+  "source_revision": "79d0d35e1b3b4beab576f6c1b950ba4fc3b03e53",
+  "public_base_revision": "b93e3c47a1366a5520205a1404bc16777242c845",
+  "checks": [
+    {
+      "script": "tests/audit_det5_complete_geometry_independent.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/replay_det5_joint_symmetry_independent.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/replay_det5_retained_witness_independent.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/replay_det5_second_retained_witness_independent.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/replay_det5_full_gauge_retained_independent.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/replay_det5_volume_gap_bounds.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/replay_simplex_width_volume_partition.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/audit_det5_vertex_lift_independent.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/audit_det34_and_joint_probes.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/audit_det5_joint_round2_independent.py",
+      "exit_code": 0
+    },
+    {
+      "script": "tests/audit_det5_joint_enrichment_independent.py",
+      "exit_code": 0
+    }
+  ],
+  "exported_scientific_files_byte_equal": 837,
+  "unchanged_prior_certificate_files": 167,
+  "fresh_linear_encodings_checked": 449,
+  "solver_queries_run": 0,
+  "fresh_unsat_kernel_checks": 0,
+  "scope": "Exact witness, algebra, formula and frontier checks. The unchanged 67 proof payloads retain the preceding public Ethos validation. No new class exclusion or global bound."
+}

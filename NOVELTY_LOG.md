@@ -21,9 +21,10 @@ The 2026 one-point planar flatness paper concerns Flt(2,1), not Flt(3,0).
 Do not describe it as resolving this project's conjecture. No publication,
 priority claim, contact with authors, or external release is authorized by the
 scientific results alone. The user separately authorized GitHub publication of
-the reproducible baseline, completed in the curated public checkout. New
-research remains local while proof and novelty reviews are completed; no
-external peer review or journal/arXiv submission has occurred.
+the reproducible baseline and subsequent reviewed checkpoints in the curated
+public checkout. The latest export is separately authorized; mathematical
+priority remains unconfirmed, and no external peer review or journal/arXiv
+submission has occurred.
 
 The new tetrahedral refinement audit is proofs/CONTACT_MINIMA_LITERATURE.md.
 The complete-contact-hull audit is proofs/CONTACT_HULL_NOVELTY_AUDIT.md. A mathematical
@@ -98,20 +99,44 @@ The strict trace examples are exact falsifications of a proposed sufficient
 intermediate condition. The complete seven/eight model timeouts are not
 mathematical exclusions. No new global flatness bound is asserted.
 
-## Public availability of this checkpoint
+## Exact height-cover exclusions (2026-09-14)
 
-The maintainer authorized GitHub publication of scientific checkpoint
-9072ef0. The containment bounds, weighted refinements, counterexamples and
-archived complete models are included in this public update. Earlier local-only
-status notes describe their research-session dates. External priority and
-peer review remain unconfirmed. See PUBLICATION.md and PUBLIC_VALIDATION.md.
+CLAIM-0007 is a verified computer-assisted restricted result: full P7/P8
+relative-interior facet-contact tetrahedra have width<=17/5. The resulting
+59-type candidate list uses the earlier P10/P13 exclusions as well. The
+62 rational leaf refutations were independently encoded and externally
+checked. Those computational checks establish neither priority nor external
+human peer review. The eight-query primary-source audit in
+proofs/HEIGHT_EXCLUSION_LITERATURE.md found no equivalent statement, but
+ACMS already proposes the fixed-contact finite programme and McCormick's
+relaxation method is established. Novelty status: POSSIBLY NOVEL, unconfirmed.
+The rank/height determinant identity is supporting algebra, not itself
+claimed a new geometry-of-numbers theorem. No global bound is improved.
 
-## 2026-09-14 — three further facet-contact exclusions
+## 2026-09-14 — first determinant-five facet-contact class
 
-CLAIM-0007 and CLAIM-0008 give w<=17/5 for the prescribed P7, P8 and first
-determinant-five facet-contact tetrahedra. The geometry has independent
-internal review and all 67 linear refutations have reference-bound Ethos
-checks. Restricted class bounds do not improve the global flatness bound.
-The audits in proofs/HEIGHT_EXCLUSION_LITERATURE.md and
-proofs/DET5_CLASS4_LITERATURE.md found no equivalent result in their bounded
-primary-source search; priority remains unconfirmed.
+The restricted w<=17/5 result has a complete five-square proof chain. A
+bounded primary-source audit found no equivalent statement, but priority
+remains unconfirmed. The other determinant-five class is inequivalent and
+remains open. See proofs/DET5_CLASS4_LITERATURE.md and CLAIM-0008.
+
+## 2026-09-14 — complete d5a2 model and symmetry qualification
+
+The new bilinear formulation and explicit finite direction list are
+algorithmic research tools derived from elementary affine algebra and
+existing ACMS/Minkowski bounds. No mathematical priority claim is made.
+The exact both-wide directional witness is outside retained normalized
+charts and does not refute their global-target reduction. No new global
+or restricted-class upper bound is claimed in this follow-up.
+
+## 2026-09-14 — retained full-gauge witness and containment lemma
+
+An exact retained-chart witness disproves infeasibility of the two-direction
+system even under all exact target gauge inequalities and the stated volume
+bounds. This corrects the remaining possibility left open by the earlier
+out-of-chart symmetry witness. It is a methodological obstruction, not a
+new high-width example or class exclusion. Three witnesses have independent
+exhaustive rational checks. The elementary nested-tetrahedron width/volume
+lemma supplies formulation bounds; no novelty claim is made. A bounded
+six-query literature search found no exact match but is insufficient to
+establish priority. No global bound is changed.

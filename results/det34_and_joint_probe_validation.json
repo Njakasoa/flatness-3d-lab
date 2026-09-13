@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "det34_exact_relaxed_SAT_pins": 10,
+  "new_joint_fibers": 24,
+  "solver_queries_run": 0,
+  "scope": "Independent encodings, exact relaxed SAT witnesses, and point-fiber provenance. Joint UNSAT labels not proof-checked; no continuous-class exclusion."
+}

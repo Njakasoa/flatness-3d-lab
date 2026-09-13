@@ -1,0 +1,301 @@
+{
+  "status": "exact_counterexample_to_two_direction_sufficiency",
+  "source": "results/det5_strong_fiber.json",
+  "source_sha256": "7a1acde1d2283f659865caad5efdb72311f033d1118c2df4eab4376921da4928",
+  "contact_vertices": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "threshold": "17/5",
+  "automorphism_orbit": [
+    {
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "linear": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "pulled_U": [
+        1,
+        -1,
+        -2
+      ],
+      "U_width": "431770127526900/160704333264053",
+      "Y_extrema": [
+        1,
+        0
+      ]
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "linear": [
+        [
+          2,
+          -5,
+          -5
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          -2,
+          -2
+        ]
+      ],
+      "translation": [
+        5,
+        1,
+        2
+      ],
+      "pulled_U": [
+        0,
+        0,
+        -1
+      ],
+      "U_width": "7730224985851511328000/2383042292732993491061",
+      "Y_extrema": [
+        1,
+        3
+      ]
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "linear": [
+        [
+          -2,
+          0,
+          5
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          1,
+          2
+        ]
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "pulled_U": [
+        0,
+        -1,
+        1
+      ],
+      "U_width": "1907028930068934975000/340434613247570498723",
+      "Y_extrema": [
+        2,
+        0
+      ]
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "linear": [
+        [
+          -1,
+          5,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          -1
+        ]
+      ],
+      "translation": [
+        0,
+        0,
+        1
+      ],
+      "pulled_U": [
+        -1,
+        2,
+        2
+      ],
+      "U_width": "492868920888000/160704333264053",
+      "Y_extrema": [
+        2,
+        3
+      ]
+    }
+  ],
+  "chosen_permutation": [
+    2,
+    0,
+    3,
+    1
+  ],
+  "linear": [
+    [
+      -2,
+      0,
+      5
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      -1,
+      1,
+      2
+    ]
+  ],
+  "translation": [
+    0,
+    1,
+    0
+  ],
+  "F": [
+    [
+      "0",
+      "671879/895900",
+      "65737/8063100",
+      "2990587/8063100"
+    ],
+    [
+      "18316/10078875",
+      "0",
+      "26068501/26877000",
+      "19299529/80631000"
+    ],
+    [
+      "700471/4479500",
+      "5858381/80631000",
+      "0",
+      "31425601/80631000"
+    ],
+    [
+      "33937997/40315500",
+      "14303509/80631000",
+      "1768127/80631000",
+      "0"
+    ]
+  ],
+  "vertices": [
+    [
+      "16723788169144082247500/2383042292732993491061",
+      "541408674/376157033",
+      "428200170111366/160704333264053"
+    ],
+    [
+      "-206890230636347828800/2383042292732993491061",
+      "380146674/376157033",
+      "-3569957415534/160704333264053"
+    ],
+    [
+      "-15787973343388979309800/2383042292732993491061",
+      "-748687326/376157033",
+      "7030922678466/160704333264053"
+    ],
+    [
+      "2933181792909302718200/2383042292732993491061",
+      "138253674/376157033",
+      "-1298340252534/160704333264053"
+    ]
+  ],
+  "Y_width": "1290096000/376157033",
+  "U_width": "1907028930068934975000/340434613247570498723",
+  "lattice_width": "431770127526900/160704333264053",
+  "minimizing_width_direction": [
+    0,
+    0,
+    -1
+  ],
+  "full_difference_minimum": "14828737/40315500",
+  "minimizing_gauge_vector": [
+    1,
+    0,
+    0
+  ],
+  "interpretation": "Hollow real tetrahedron with prescribed relative-interior facet contacts; Y and U widths exceed17/5, but lattice width is below17/5. This does not contradict the global flatness conjecture. No perturbations or solver queries used.",
+  "Y_extrema": [
+    2,
+    0
+  ],
+  "retained_Y_representatives": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "lies_in_retained_Y_chart": false,
+  "chart_caveat": "The transformed body has Y extrema [2,0], outside the three retained Y representatives. This witness refutes an unrestricted two-direction-only sufficiency claim, but does not prove SAT of any retained chart. Reducing to those three representatives is justified by global width invariance, not by invariance of the pair Y,U. No conclusion about feasibility of the reduced 36-chart campaign follows from this witness alone."
+}

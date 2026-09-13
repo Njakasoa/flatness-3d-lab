@@ -1,0 +1,456 @@
+{
+  "scope": "Complete class5 global-width targets at17/5; necessary strong gauge and optional volume cuts. SAT needs independent reconstruction; UNKNOWN gives no exclusion.",
+  "class_index": 5,
+  "target": "17/5",
+  "beta": "183/500",
+  "z3_version": "5.1.0",
+  "queries": [
+    {
+      "model": "bilinear",
+      "path": "results/det5_complete_bilinear.smt2",
+      "input_sha256": "4907616726aae93bbf68343f2d35dee7826bb5408f745b8a156bf4f6458065f9",
+      "width_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          -1
+        ],
+        [
+          1,
+          -3,
+          -2
+        ],
+        [
+          1,
+          -3,
+          -1
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -2
+        ],
+        [
+          1,
+          -2,
+          -1
+        ],
+        [
+          1,
+          -1,
+          -3
+        ],
+        [
+          1,
+          -1,
+          -2
+        ],
+        [
+          1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          0,
+          -3
+        ],
+        [
+          1,
+          0,
+          -2
+        ]
+      ],
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "guard_count": 20,
+      "controls": {
+        "width_13_over_5": {
+          "true": 83,
+          "false": 0
+        },
+        "width_17_over_5": {
+          "true": 78,
+          "false": 5
+        }
+      },
+      "timeout_ms": 20000,
+      "status": "unknown",
+      "elapsed_seconds": 21.832820169000115,
+      "reason_unknown": "timeout"
+    },
+    {
+      "model": "bilinear_volume",
+      "path": "results/det5_complete_bilinear_volume.smt2",
+      "input_sha256": "1c360275b73477acc957266e9a60cc0d4a54bbed8bf8163829bbad2ac365e9fc",
+      "width_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          -1
+        ],
+        [
+          1,
+          -3,
+          -2
+        ],
+        [
+          1,
+          -3,
+          -1
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -2
+        ],
+        [
+          1,
+          -2,
+          -1
+        ],
+        [
+          1,
+          -1,
+          -3
+        ],
+        [
+          1,
+          -1,
+          -2
+        ],
+        [
+          1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          0,
+          -3
+        ],
+        [
+          1,
+          0,
+          -2
+        ]
+      ],
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "guard_count": 20,
+      "controls": {
+        "width_13_over_5": {
+          "true": 143,
+          "false": 0
+        },
+        "width_17_over_5": {
+          "true": 138,
+          "false": 5
+        }
+      },
+      "timeout_ms": 20000,
+      "status": "unknown",
+      "elapsed_seconds": 21.792276692998712,
+      "reason_unknown": "timeout"
+    },
+    {
+      "model": "cubic_strong",
+      "path": "results/det5_complete_cubic_strong.smt2",
+      "input_sha256": "c3d1f61e2e0c864dc027892bfa7ec3438ba534117c3a56d89fea724d0a91d53b",
+      "width_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          -1
+        ],
+        [
+          1,
+          -3,
+          -2
+        ],
+        [
+          1,
+          -3,
+          -1
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -2
+        ],
+        [
+          1,
+          -2,
+          -1
+        ],
+        [
+          1,
+          -1,
+          -3
+        ],
+        [
+          1,
+          -1,
+          -2
+        ],
+        [
+          1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          0,
+          -3
+        ],
+        [
+          1,
+          0,
+          -2
+        ]
+      ],
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "guard_count": 20,
+      "controls": {
+        "width_13_over_5": {
+          "true": 68,
+          "false": 0
+        },
+        "width_17_over_5": {
+          "true": 64,
+          "false": 5
+        }
+      },
+      "timeout_ms": 20000,
+      "status": "unknown",
+      "elapsed_seconds": 20.084437465999144,
+      "reason_unknown": "timeout"
+    }
+  ]
+}

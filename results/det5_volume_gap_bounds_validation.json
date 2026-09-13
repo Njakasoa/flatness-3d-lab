@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "beta": "183/500",
+  "scope": "Exact finite arithmetic; continuous multiaffine and rank arguments are in the accompanying proof. Not a class exclusion or a solver proof.",
+  "rank_vectors": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      1
+    ]
+  ],
+  "intrinsic_masses": [
+    "3/5",
+    "3/5",
+    "4/5",
+    "4/5"
+  ],
+  "rank_margin": "33/250",
+  "strict_Y_minor_lower_bound": "6039/500000",
+  "directions": [
+    {
+      "direction": "Y",
+      "covector": [
+        0,
+        1,
+        0
+      ],
+      "kernel_basis": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "transversal": [
+        0,
+        1,
+        0
+      ],
+      "vertices_checked_per_minor": 256,
+      "minor_maxima": {
+        "0,1": "1/5",
+        "0,2": "1/5",
+        "0,3": "1/5",
+        "1,2": "1/5",
+        "1,3": "1/5",
+        "2,3": "1/5"
+      },
+      "attaining_destinations": {
+        "0,1": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "0,2": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "0,3": [
+          0,
+          0,
+          1,
+          3
+        ],
+        "1,2": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "1,3": [
+          0,
+          0,
+          1,
+          3
+        ],
+        "2,3": [
+          0,
+          0,
+          2,
+          3
+        ]
+      },
+      "strict_gap_lower_bound": "2042829/50000000",
+      "strict_width_upper_bound": "50000000/2042829"
+    },
+    {
+      "direction": "U",
+      "covector": [
+        1,
+        -1,
+        -2
+      ],
+      "kernel_basis": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "transversal": [
+        1,
+        0,
+        0
+      ],
+      "vertices_checked_per_minor": 256,
+      "minor_maxima": {
+        "0,1": "2/5",
+        "0,2": "2/5",
+        "0,3": "2/5",
+        "1,2": "2/5",
+        "1,3": "2/5",
+        "2,3": "2/5"
+      },
+      "attaining_destinations": {
+        "0,1": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "0,2": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "0,3": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "1,2": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "1,3": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "2,3": [
+          0,
+          2,
+          3,
+          0
+        ]
+      },
+      "strict_gap_lower_bound": "2042829/100000000",
+      "strict_width_upper_bound": "100000000/2042829"
+    }
+  ]
+}

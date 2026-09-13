@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "Y_width": "1290096000/376157033",
+  "U_width": "1907028930068934975000/340434613247570498723",
+  "lattice_width": "431770127526900/160704333264053",
+  "full_difference_minimum": "14828737/40315500",
+  "integer_points_checked": 126,
+  "boundary_points": [
+    [
+      -2,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      5,
+      1,
+      2
+    ]
+  ],
+  "width_search_bounds": [
+    1,
+    5,
+    3
+  ],
+  "gauge_search_bounds": [
+    13,
+    3,
+    2
+  ],
+  "Y_extrema": [
+    2,
+    0
+  ],
+  "lies_in_retained_Y_chart": false,
+  "solver_queries": 0,
+  "rejected_mutations": 3
+}
