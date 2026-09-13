@@ -3,12 +3,14 @@
 This note reconstructs Sections 5.3 and the end of 5.4 of Averkov,
 Codenotti, Macchia and Santos, *A local maximizer for lattice width of
 3-dimensional hollow bodies*, arXiv:1907.06199v2. See [the primary
-paper](https://arxiv.org/abs/1907.06199) and the checked local extraction
-the article linked in [papers/README.md](../papers/README.md).
+paper](https://arxiv.org/abs/1907.06199) and
+[paper source links](../papers/README.md).
 
-The reduction is a search-space theorem for a global width maximizer. It is
-not a classification of all hollow bodies and it does not eliminate the
-two-dimensional square case.
+The original theorem is stated for a global width maximizer. The reopened
+campaign proves a containment extension, sharper obstruction and explicit
+contact list in [CONTACT_HULL_FINITE_REDUCTION.md](CONTACT_HULL_FINITE_REDUCTION.md).
+Neither argument eliminates the two-dimensional square case or classifies
+all surrounding real hollow bodies.
 
 ## Maximal hollow hulls and facet contacts
 

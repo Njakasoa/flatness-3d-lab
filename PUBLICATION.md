@@ -5,7 +5,8 @@ Canonical repository: https://github.com/Njakasoa/flatness-3d-lab.
 
 The user explicitly authorized publishing this lab on their GitHub account
 following Njakasoa/ihara-a2-lab. This curated export derives from scientific
-source revision b456770. SOURCE_MANIFEST.json records the full revision and
+source revision da24c58, updating the first public baseline from b456770.
+SOURCE_MANIFEST.json records the full revision and
 exported byte hashes. The original lab and its Git history remain unchanged.
 
 Included: exact geometry, independent checkers, proof reconstructions,
@@ -22,3 +23,11 @@ Historical scientific reports may describe the pre-publication research
 session. Their earlier publication-status statements are superseded for this
 explicitly authorized GitHub export only. No new mathematical priority,
 external peer review, researcher contact or journal/arXiv submission is claimed.
+
+## Structural update
+
+The maintainer renewed authorization to publish the current lab following the
+Ihara companion. This update exports the reviewed committed contact reduction:
+63 necessary configurations, nine templates, full proofs, exact certificates,
+eight-stage replay and 21 independent mutation guards. Uncommitted ongoing
+experiments are excluded. Public history is continued without rewriting it.

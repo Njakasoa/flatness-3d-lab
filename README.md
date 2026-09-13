@@ -4,9 +4,43 @@ A reproducible research companion on the three-dimensional flatness constant,
 hollow convex bodies, lattice contacts and exact width certificates,
 maintained by [Njakasoa](https://github.com/Njakasoa).
 
-**Status: exact reproductions and bounded computational exploration, internally
-reviewed with AI assistance. No new global bound, solution of the flatness
+**Status: exact reproductions and an explicit contact-configuration reduction,
+internally reviewed with AI assistance. Novelty remains unconfirmed.
+No new global bound, solution of the flatness
 conjecture, external peer review or journal/arXiv submission is claimed.**
+
+## Structural result: 63 contact configurations, nine templates
+
+For every compact full-dimensional hollow convex body K in the standard
+integer lattice with
+
+```text
+w(K) > (11/7)(1 + 2/√3) = 3.385957988881680974…,
+```
+
+the internally verified reduction gives a bounded maximal hollow extension M.
+Every choice of one lattice point in the relative interior of each facet of M
+has a contact hull in **63 explicit necessary affine lattice classes**:
+one planar square, ten tetrahedra, and 11, 22, 10 and 9 classes with respectively
+five, six, seven and eight vertices. This includes the range w(K) ≥ 2 + √2.
+All 63 contact sets embed, by explicit affine unimodular maps, into vertex
+subsets of **nine eight-point templates**.
+
+These are necessary possibilities for contact sets, not a classification of
+realized high-width bodies. Extra template vertices need not lie in M.
+Continuous optimization within the surviving classes remains open.
+The general finite-reduction principle is already known from
+[Averkov–Codenotti–Macchia–Santos](https://arxiv.org/abs/1907.06199);
+the proposed refinement is the sharper planar obstruction and explicit list
+at this threshold. Its mathematical priority is not established.
+
+- [Precise claim and scope](claims/CLAIM-0004.md)
+- [Planar obstruction](proofs/CONTACT_OBSTRUCTION_REDUCTION.md) and [complete reduction proof](proofs/CONTACT_HULL_FINITE_REDUCTION.md)
+- [Nine templates and 63 exact maps](certificates/contact_templates.json)
+- [Independent verification](tests/replay_contact_minima_independent.py), [adversarial review](results/CONTACT_REDUCTION_REVIEW.md), and [validation](results/CONTACT_REDUCTION_VALIDATION.md)
+- [Novelty audit](proofs/CONTACT_HULL_NOVELTY_AUDIT.md)
+
+![Nine eight-point contact templates](results/eight_contact_hulls.png)
 
 ## Verified baseline
 
@@ -57,8 +91,11 @@ checks **3,268 ordered HNF candidates**, obtains **239 empty ordered tetrahedra*
 and reduces them to **37 affine-unimodular classes** of determinant at most 17.
 The [completeness argument](enumeration/HNF_COMPLETENESS.md) and
 [full output](results/empty_contact_tetrahedra.json) concern integer contact
-tetrahedra. The surrounding real-body optimization, coplanar-square contacts,
-and nonsimplicial contact branches remain unresolved.
+tetrahedra. The structural update extends the complete calculation through
+determinant 21: 6,385 ordered candidates, 359 empty ordered tetrahedra and
+51 classes before the threshold obstruction is applied. It includes the
+coplanar-square and nonsimplicial contact hulls in the finite reduction;
+optimization of their surrounding real bodies remains unresolved.
 
 A seeded asymmetric search records **25,265 numerical bodies/iterates**, including
 425 directional estimates above 3.4. Iterates are correlated and the contact
@@ -88,12 +125,18 @@ python3 scripts/check_public_snapshot.py
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock
 .venv/bin/python reproduce.py
+.venv/bin/python reproduce_contact_reduction.py
 ```
 
 The default replay executes 11 stages: environment checks, exact 3D and 2D
 controls, upper-bound arithmetic, local Hessian, contact enumeration, truncation,
 independent verification, ten tests, eight exact reconstructions and figures.
 Run without Python `-O` or `-OO`, because certificates use assertions.
+
+The separate contact-reduction replay runs eight stages, including complete
+enumeration, exact difference minima, all 63 template embeddings, an independent
+standard-library verifier with 21 rejected mutations, square controls and figures.
+The [public validation receipt](PUBLIC_VALIDATION.md) records both replays.
 
 The core exact geometry uses only the standard library. SymPy supports the
 independent checks; SciPy supports exploration; Matplotlib produces figures.

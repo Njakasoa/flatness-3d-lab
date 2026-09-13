@@ -1,0 +1,10 @@
+source21 exact replay: 51 classes; formula and box checks passed
+{
+  "status": "independent_validation_passed",
+  "main_cases": 51,
+  "hulls": 52,
+  "quartets": 1365,
+  "mutation_guards": 21,
+  "templates": 9,
+  "embeddings": 63
+}

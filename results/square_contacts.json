@@ -1,0 +1,485 @@
+{
+  "metadata": {
+    "date": "2026-09-13",
+    "scope": "bounded tetrahedra with q0,q1,q2,q3 in relative interiors of the four assigned facets; standard Z^3 chart",
+    "sources_checked": [
+      "https://arxiv.org/abs/1907.06199, Section 5.4 and Theorem 5.4 (checked local extraction excluded from public export)",
+      "https://arxiv.org/abs/1907.06199 (primary record checked 2026-09-13)",
+      "references/LITERATURE_SEARCH.md (project source-search audit)"
+    ],
+    "not_claimed": [
+      "not a solution of the full ACMS square branch",
+      "the random/general chart check is not a hollowness search",
+      "the balanced width bound does not extend to arbitrary chart parameters"
+    ]
+  },
+  "general_chart": {
+    "derived": {
+      "C": "17/60",
+      "F": "17/40",
+      "matrix_M": [
+        [
+          "1/6",
+          "1/8",
+          "2/3"
+        ],
+        [
+          "-1/5",
+          "17/40",
+          "-1/2"
+        ],
+        [
+          "17/60",
+          "-1/10",
+          "-1/7"
+        ]
+      ],
+      "offset_d": [
+        "0",
+        "1/5",
+        "1/10"
+      ],
+      "determinant": "-10753/100800",
+      "determinant_expansion": "-10753/100800",
+      "determinant_expansion_matches": true,
+      "kernel_candidate": [
+        "-83/240",
+        "-1/20",
+        "23/240"
+      ],
+      "kernel_M_product": [
+        "0",
+        "0",
+        "-10753/100800"
+      ]
+    },
+    "contact_lambda_values": [
+      [
+        "0",
+        "1/5",
+        "1/10",
+        "7/10"
+      ],
+      [
+        "1/6",
+        "0",
+        "23/60",
+        "9/20"
+      ],
+      [
+        "1/8",
+        "5/8",
+        "0",
+        "1/4"
+      ],
+      [
+        "7/24",
+        "17/40",
+        "17/60",
+        "0"
+      ]
+    ],
+    "contact_points": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "1",
+        "0"
+      ]
+    ]
+  },
+  "delta_zero_recession_check": {
+    "derived": {
+      "C": "1/4",
+      "F": "1/4",
+      "matrix_M": [
+        [
+          "1/4",
+          "1/4",
+          "0"
+        ],
+        [
+          "-1/4",
+          "1/4",
+          "0"
+        ],
+        [
+          "1/4",
+          "-1/4",
+          "0"
+        ]
+      ],
+      "offset_d": [
+        "0",
+        "1/4",
+        "1/4"
+      ],
+      "determinant": "0",
+      "determinant_expansion": "0",
+      "determinant_expansion_matches": true,
+      "kernel_candidate": [
+        "0",
+        "0",
+        "1/8"
+      ],
+      "kernel_M_product": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "contact_lambda_values": [
+      [
+        "0",
+        "1/4",
+        "1/4",
+        "1/2"
+      ],
+      [
+        "1/4",
+        "0",
+        "1/2",
+        "1/4"
+      ],
+      [
+        "1/4",
+        "1/2",
+        "0",
+        "1/4"
+      ],
+      [
+        "1/2",
+        "1/4",
+        "1/4",
+        "0"
+      ]
+    ],
+    "contact_points": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "1",
+        "0"
+      ]
+    ]
+  },
+  "balanced_family": {
+    "lambda_forms": [
+      "(x+y)/4 + s*z",
+      "(1-x+y)/4 - s*z",
+      "(x+1-y)/4 - s*z",
+      "(2-x-y)/4 + s*z"
+    ],
+    "determinant": "-s/4",
+    "vertices_formula": [
+      "(3/2,3/2,1/(4*s))",
+      "(-1/2,3/2,-1/(4*s))",
+      "(3/2,-1/2,-1/(4*s))",
+      "(-1/2,-1/2,1/(4*s))"
+    ],
+    "exact_hollow_threshold": "abs(s) >= 1/4 for s != 0",
+    "width_argument": "vertical width is 1/(2*abs(s)); hence every hollow member has lattice width at most 2",
+    "samples": [
+      {
+        "s": "1/8",
+        "vertices": [
+          [
+            "3/2",
+            "3/2",
+            "2"
+          ],
+          [
+            "-1/2",
+            "3/2",
+            "-2"
+          ],
+          [
+            "3/2",
+            "-1/2",
+            "-2"
+          ],
+          [
+            "-1/2",
+            "-1/2",
+            "2"
+          ]
+        ],
+        "interior_integer_points_in_vertex_box": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "hollow_by_exact_box_check": false,
+        "all_facets_blocked_by_square_contacts": true,
+        "maximality_scope": "blocked-facet criterion, conditional on hollowness",
+        "hollow_threshold_formula": "abs(s) >= 1/4",
+        "vertical_width": "4",
+        "width_upper_bound": null
+      },
+      {
+        "s": "1/4",
+        "vertices": [
+          [
+            "3/2",
+            "3/2",
+            "1"
+          ],
+          [
+            "-1/2",
+            "3/2",
+            "-1"
+          ],
+          [
+            "3/2",
+            "-1/2",
+            "-1"
+          ],
+          [
+            "-1/2",
+            "-1/2",
+            "1"
+          ]
+        ],
+        "interior_integer_points_in_vertex_box": [],
+        "hollow_by_exact_box_check": true,
+        "all_facets_blocked_by_square_contacts": true,
+        "maximality_scope": "blocked-facet criterion, conditional on hollowness",
+        "hollow_threshold_formula": "abs(s) >= 1/4",
+        "vertical_width": "2",
+        "width_upper_bound": "2"
+      },
+      {
+        "s": "1/2",
+        "vertices": [
+          [
+            "3/2",
+            "3/2",
+            "1/2"
+          ],
+          [
+            "-1/2",
+            "3/2",
+            "-1/2"
+          ],
+          [
+            "3/2",
+            "-1/2",
+            "-1/2"
+          ],
+          [
+            "-1/2",
+            "-1/2",
+            "1/2"
+          ]
+        ],
+        "interior_integer_points_in_vertex_box": [],
+        "hollow_by_exact_box_check": true,
+        "all_facets_blocked_by_square_contacts": true,
+        "maximality_scope": "blocked-facet criterion, conditional on hollowness",
+        "hollow_threshold_formula": "abs(s) >= 1/4",
+        "vertical_width": "1",
+        "width_upper_bound": "2"
+      },
+      {
+        "s": "1",
+        "vertices": [
+          [
+            "3/2",
+            "3/2",
+            "1/4"
+          ],
+          [
+            "-1/2",
+            "3/2",
+            "-1/4"
+          ],
+          [
+            "3/2",
+            "-1/2",
+            "-1/4"
+          ],
+          [
+            "-1/2",
+            "-1/2",
+            "1/4"
+          ]
+        ],
+        "interior_integer_points_in_vertex_box": [],
+        "hollow_by_exact_box_check": true,
+        "all_facets_blocked_by_square_contacts": true,
+        "maximality_scope": "blocked-facet criterion, conditional on hollowness",
+        "hollow_threshold_formula": "abs(s) >= 1/4",
+        "vertical_width": "1/2",
+        "width_upper_bound": "2"
+      },
+      {
+        "s": "-1/4",
+        "vertices": [
+          [
+            "3/2",
+            "3/2",
+            "-1"
+          ],
+          [
+            "-1/2",
+            "3/2",
+            "1"
+          ],
+          [
+            "3/2",
+            "-1/2",
+            "1"
+          ],
+          [
+            "-1/2",
+            "-1/2",
+            "-1"
+          ]
+        ],
+        "interior_integer_points_in_vertex_box": [],
+        "hollow_by_exact_box_check": true,
+        "all_facets_blocked_by_square_contacts": true,
+        "maximality_scope": "blocked-facet criterion, conditional on hollowness",
+        "hollow_threshold_formula": "abs(s) >= 1/4",
+        "vertical_width": "2",
+        "width_upper_bound": "2"
+      }
+    ]
+  },
+  "shear_obstruction": {
+    "map": "U_n(x,y,z)=(x+n*z,y,z)",
+    "determinant": 1,
+    "sample": [
+      {
+        "n": -7,
+        "vertices": [
+          [
+            "-11/2",
+            "3/2",
+            "1"
+          ],
+          [
+            "13/2",
+            "3/2",
+            "-1"
+          ],
+          [
+            "17/2",
+            "-1/2",
+            "-1"
+          ],
+          [
+            "-15/2",
+            "-1/2",
+            "1"
+          ]
+        ],
+        "max_abs_coordinate": "17/2",
+        "contacts_fixed_because_z_zero": true,
+        "hollow_and_width_preserved_by_GL3Z": true
+      },
+      {
+        "n": 0,
+        "vertices": [
+          [
+            "3/2",
+            "3/2",
+            "1"
+          ],
+          [
+            "-1/2",
+            "3/2",
+            "-1"
+          ],
+          [
+            "3/2",
+            "-1/2",
+            "-1"
+          ],
+          [
+            "-1/2",
+            "-1/2",
+            "1"
+          ]
+        ],
+        "max_abs_coordinate": "3/2",
+        "contacts_fixed_because_z_zero": true,
+        "hollow_and_width_preserved_by_GL3Z": true
+      },
+      {
+        "n": 7,
+        "vertices": [
+          [
+            "17/2",
+            "3/2",
+            "1"
+          ],
+          [
+            "-15/2",
+            "3/2",
+            "-1"
+          ],
+          [
+            "-11/2",
+            "-1/2",
+            "-1"
+          ],
+          [
+            "13/2",
+            "-1/2",
+            "1"
+          ]
+        ],
+        "max_abs_coordinate": "17/2",
+        "contacts_fixed_because_z_zero": true,
+        "hollow_and_width_preserved_by_GL3Z": true
+      }
+    ],
+    "conclusion": "No coordinate bound in the fixed square chart can hold, even for hollow maximal examples; only a bound modulo preserving shears could be true."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "stages": [
+    {
+      "name": "enumeration21",
+      "returncode": 0,
+      "seconds": 15.571,
+      "log": "results/validation_enumeration21.log"
+    },
+    {
+      "name": "tetrahedron_minima",
+      "returncode": 0,
+      "seconds": 3.254,
+      "log": "results/validation_tetrahedron_minima.log"
+    },
+    {
+      "name": "contact_extensions",
+      "returncode": 0,
+      "seconds": 5.741,
+      "log": "results/validation_contact_extensions.log"
+    },
+    {
+      "name": "contact_hull_minima",
+      "returncode": 0,
+      "seconds": 0.064,
+      "log": "results/validation_contact_hull_minima.log"
+    },
+    {
+      "name": "contact_templates",
+      "returncode": 0,
+      "seconds": 3.065,
+      "log": "results/validation_contact_templates.log"
+    },
+    {
+      "name": "independent_contact_replay",
+      "returncode": 0,
+      "seconds": 5.476,
+      "log": "results/validation_independent_contact_replay.log"
+    },
+    {
+      "name": "square_contacts",
+      "returncode": 0,
+      "seconds": 0.047,
+      "log": "results/validation_square_contacts.log"
+    },
+    {
+      "name": "contact_figures",
+      "returncode": 0,
+      "seconds": 1.786,
+      "log": "results/validation_contact_figures.log"
+    }
+  ]
+}

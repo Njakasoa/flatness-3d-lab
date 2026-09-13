@@ -1,0 +1,3524 @@
+{
+  "assumptions_and_limits": [
+    "C has a zero diagonal and strictly positive off-diagonal columns, so each prescribed contact is in a numerical relative facet interior",
+    "all eight real variables are independent; no symmetry is imposed",
+    "the contact tetrahedron is held in the listed integer coordinates",
+    "every retained candidate reports a complete numerical integer bounding box",
+    "the finite direction set follows from P differences and the external global width<4 cap, not from a fixed direction cutoff",
+    "all widths, hollowness, facets, and optimization outcomes are numerical labels only",
+    "the exact pre-screen does not certify the body search and the body search does not certify the pre-screen",
+    "the search covers only fixed four-facet contact tetrahedra; square, five-to-eight-facet, and nonsimplicial branches are outside scope"
+  ],
+  "contact_class_source": "results/empty_contact_tetrahedra.json",
+  "det2_auxiliary_qj_diagnostic": {
+    "candidate_rows_with_integral_q": 12,
+    "formula": "q_j=(sum_i p_i)/2-p_j",
+    "interpretation": "diagnostic only; boundary-limit rows may have no strict matching permutation",
+    "orbit_class_id": 1,
+    "strict_exclusion_permutation_type_counts": {
+      "cycle4": 6
+    }
+  },
+  "determinant_scope": {
+    "available_table_max": 17,
+    "classes_in_requested_range": {
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 2,
+      "6": 1,
+      "7": 2,
+      "8": 2
+    },
+    "requested_max": 8,
+    "requested_min": 2
+  },
+  "dimension": 3,
+  "elapsed_seconds": 28.330276769000193,
+  "global_best_numeric_hollow": {
+    "normalized_contact_determinant": 2,
+    "orbit_class_id": 1,
+    "source": "slsqp_epigraph_final",
+    "width_directional_screened": 3.0529777607450836
+  },
+  "global_width_cap_used": "w(K)<4",
+  "input_metadata": {
+    "cutoff_date": "2026-09-13",
+    "dimension": 3,
+    "equivalence": "translation + GL(3,Z) + vertex permutations",
+    "max_normalized_determinant": 17,
+    "not_claimed": [
+      "not a classification of maximal lattice-free bodies",
+      "does not include the ACMS square branch",
+      "does not include nonsimplicial contact polytopes",
+      "does not prove the global flatness conjecture"
+    ],
+    "objects": "empty lattice tetrahedra, closed-tetrahedron convention",
+    "ordered_hnf": "H = HNF(B.T).T; H rows [[a,0,0],[b,d,0],[c,e,f]], 0<=b,c<a, 0<=e<d",
+    "scope": "ACMS Theorem 5.4 tetrahedral inscribed-contact branch only"
+  },
+  "numeric_candidate_rows": 84,
+  "numeric_hollow_candidate_rows": 43,
+  "numeric_nonhollow_rows": 41,
+  "output_contract": {
+    "candidates_jsonl": "results/contact_orbit_candidates.jsonl",
+    "rational_reconstruction": "contact vertices, C, body vertices and logits are stored in every numerical row",
+    "summary_json": "results/contact_orbit_search.json"
+  },
+  "parameters": {
+    "boundary_tolerance": 3e-07,
+    "epigraph_bounds": [
+      0.0,
+      4.0
+    ],
+    "interior_tolerance": 1e-08,
+    "max_integer_bbox_points": 2000000,
+    "max_rows_per_orbit": 16,
+    "max_vertex_coordinate": 40.0,
+    "parameter_bounds": [
+      -3.0,
+      3.0
+    ],
+    "random_sample_budget_per_orbit": 900,
+    "starts_requested_per_searched_orbit": 6
+  },
+  "pre_screen_formula": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+  "pre_screen_scope": "exact necessary test applied before numerical search",
+  "screened_out_orbit_count": 3,
+  "screened_out_orbits": [
+    {
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_contact_determinant": 6,
+      "orbit_class_id": 6,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "1/3",
+        "lambda1_witness_integer_direction": [
+          -1,
+          0,
+          0
+        ],
+        "necessary_width_upper_bound": 3.2320508075688767,
+        "necessary_width_upper_bound_decimal": 3.2320508075688767,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": false
+      },
+      "status": "exact_necessary_bound_below_w0"
+    },
+    {
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_contact_determinant": 7,
+      "orbit_class_id": 7,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "2/7",
+        "lambda1_witness_integer_direction": [
+          -1,
+          0,
+          0
+        ],
+        "necessary_width_upper_bound": 3.016580753730952,
+        "necessary_width_upper_bound_decimal": 3.016580753730952,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": false
+      },
+      "status": "exact_necessary_bound_below_w0"
+    },
+    {
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_contact_determinant": 8,
+      "orbit_class_id": 9,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "1/4",
+        "lambda1_witness_integer_direction": [
+          -1,
+          0,
+          0
+        ],
+        "necessary_width_upper_bound": 2.872934051172335,
+        "necessary_width_upper_bound_decimal": 2.872934051172335,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": false
+      },
+      "status": "exact_necessary_bound_below_w0"
+    }
+  ],
+  "searched_orbit_count": 7,
+  "searched_orbits": [
+    {
+      "accepted_numeric_rows": 12,
+      "assessment_count": 3851,
+      "assessment_rejections": {
+        "full_bbox_assessments": 3797,
+        "vertex_coordinate_cap": 54
+      },
+      "best_numeric_hollow_source": "row_orbit_best",
+      "best_numeric_hollow_width": 3.0529777607450836,
+      "best_numeric_nonhollow_width": null,
+      "contact_hnf": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction_set_count": 73,
+      "direction_set_derivation": {
+        "contact_difference_determinant": 2,
+        "contact_difference_matrix_columns": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "derivation": "q=B^T u, q in {-3,...,3}^3, integer adjugate solve",
+        "difference_numerators_Bt_u": {
+          "[-1, -1, 0]": [
+            -3,
+            -1,
+            0
+          ],
+          "[-1, -1, 1]": [
+            -2,
+            -1,
+            1
+          ],
+          "[-1, -1, 2]": [
+            -1,
+            -1,
+            2
+          ],
+          "[-1, -1, 3]": [
+            0,
+            -1,
+            3
+          ],
+          "[-1, -2, 1]": [
+            -3,
+            -2,
+            1
+          ],
+          "[-1, -2, 2]": [
+            -2,
+            -2,
+            2
+          ],
+          "[-1, -2, 3]": [
+            -1,
+            -2,
+            3
+          ],
+          "[-1, -3, 2]": [
+            -3,
+            -3,
+            2
+          ],
+          "[-1, -3, 3]": [
+            -2,
+            -3,
+            3
+          ],
+          "[-1, 0, -1]": [
+            -3,
+            0,
+            -1
+          ],
+          "[-1, 0, 0]": [
+            -2,
+            0,
+            0
+          ],
+          "[-1, 0, 1]": [
+            -1,
+            0,
+            1
+          ],
+          "[-1, 0, 2]": [
+            0,
+            0,
+            2
+          ],
+          "[-1, 0, 3]": [
+            1,
+            0,
+            3
+          ],
+          "[-1, 1, -1]": [
+            -2,
+            1,
+            -1
+          ],
+          "[-1, 1, -2]": [
+            -3,
+            1,
+            -2
+          ],
+          "[-1, 1, 0]": [
+            -1,
+            1,
+            0
+          ],
+          "[-1, 1, 1]": [
+            0,
+            1,
+            1
+          ],
+          "[-1, 1, 2]": [
+            1,
+            1,
+            2
+          ],
+          "[-1, 1, 3]": [
+            2,
+            1,
+            3
+          ],
+          "[-1, 2, -1]": [
+            -1,
+            2,
+            -1
+          ],
+          "[-1, 2, -2]": [
+            -2,
+            2,
+            -2
+          ],
+          "[-1, 2, -3]": [
+            -3,
+            2,
+            -3
+          ],
+          "[-1, 2, 0]": [
+            0,
+            2,
+            0
+          ],
+          "[-1, 2, 1]": [
+            1,
+            2,
+            1
+          ],
+          "[-1, 2, 2]": [
+            2,
+            2,
+            2
+          ],
+          "[-1, 2, 3]": [
+            3,
+            2,
+            3
+          ],
+          "[-1, 3, -1]": [
+            0,
+            3,
+            -1
+          ],
+          "[-1, 3, -2]": [
+            -1,
+            3,
+            -2
+          ],
+          "[-1, 3, -3]": [
+            -2,
+            3,
+            -3
+          ],
+          "[-1, 3, 0]": [
+            1,
+            3,
+            0
+          ],
+          "[-1, 3, 1]": [
+            2,
+            3,
+            1
+          ],
+          "[-1, 3, 2]": [
+            3,
+            3,
+            2
+          ],
+          "[-2, -1, 2]": [
+            -3,
+            -1,
+            2
+          ],
+          "[-2, -1, 3]": [
+            -2,
+            -1,
+            3
+          ],
+          "[-2, -2, 3]": [
+            -3,
+            -2,
+            3
+          ],
+          "[-2, 0, 1]": [
+            -3,
+            0,
+            1
+          ],
+          "[-2, 0, 3]": [
+            -1,
+            0,
+            3
+          ],
+          "[-2, 1, 0]": [
+            -3,
+            1,
+            0
+          ],
+          "[-2, 1, 1]": [
+            -2,
+            1,
+            1
+          ],
+          "[-2, 1, 2]": [
+            -1,
+            1,
+            2
+          ],
+          "[-2, 1, 3]": [
+            0,
+            1,
+            3
+          ],
+          "[-2, 2, -1]": [
+            -3,
+            2,
+            -1
+          ],
+          "[-2, 2, 1]": [
+            -1,
+            2,
+            1
+          ],
+          "[-2, 2, 3]": [
+            1,
+            2,
+            3
+          ],
+          "[-2, 3, -1]": [
+            -2,
+            3,
+            -1
+          ],
+          "[-2, 3, -2]": [
+            -3,
+            3,
+            -2
+          ],
+          "[-2, 3, 0]": [
+            -1,
+            3,
+            0
+          ],
+          "[-2, 3, 1]": [
+            0,
+            3,
+            1
+          ],
+          "[-2, 3, 2]": [
+            1,
+            3,
+            2
+          ],
+          "[-2, 3, 3]": [
+            2,
+            3,
+            3
+          ],
+          "[-3, 1, 2]": [
+            -3,
+            1,
+            2
+          ],
+          "[-3, 1, 3]": [
+            -2,
+            1,
+            3
+          ],
+          "[-3, 2, 1]": [
+            -3,
+            2,
+            1
+          ],
+          "[-3, 2, 2]": [
+            -2,
+            2,
+            2
+          ],
+          "[-3, 2, 3]": [
+            -1,
+            2,
+            3
+          ],
+          "[-3, 3, 1]": [
+            -2,
+            3,
+            1
+          ],
+          "[-3, 3, 2]": [
+            -1,
+            3,
+            2
+          ],
+          "[-4, 2, 3]": [
+            -3,
+            2,
+            3
+          ],
+          "[-4, 3, 2]": [
+            -3,
+            3,
+            2
+          ],
+          "[-4, 3, 3]": [
+            -2,
+            3,
+            3
+          ],
+          "[0, -1, -1]": [
+            -2,
+            -1,
+            -1
+          ],
+          "[0, -1, -2]": [
+            -3,
+            -1,
+            -2
+          ],
+          "[0, -1, 0]": [
+            -1,
+            -1,
+            0
+          ],
+          "[0, -1, 1]": [
+            0,
+            -1,
+            1
+          ],
+          "[0, -1, 2]": [
+            1,
+            -1,
+            2
+          ],
+          "[0, -1, 3]": [
+            2,
+            -1,
+            3
+          ],
+          "[0, -2, -1]": [
+            -3,
+            -2,
+            -1
+          ],
+          "[0, -2, 1]": [
+            -1,
+            -2,
+            1
+          ],
+          "[0, -2, 3]": [
+            1,
+            -2,
+            3
+          ],
+          "[0, -3, 1]": [
+            -2,
+            -3,
+            1
+          ],
+          "[0, -3, 2]": [
+            -1,
+            -3,
+            2
+          ],
+          "[0, 0, -1]": [
+            -1,
+            0,
+            -1
+          ]
+        },
+        "direction_count": 73,
+        "directions": [
+          [
+            -4,
+            2,
+            3
+          ],
+          [
+            -4,
+            3,
+            2
+          ],
+          [
+            -4,
+            3,
+            3
+          ],
+          [
+            -3,
+            1,
+            2
+          ],
+          [
+            -3,
+            1,
+            3
+          ],
+          [
+            -3,
+            2,
+            1
+          ],
+          [
+            -3,
+            2,
+            2
+          ],
+          [
+            -3,
+            2,
+            3
+          ],
+          [
+            -3,
+            3,
+            1
+          ],
+          [
+            -3,
+            3,
+            2
+          ],
+          [
+            -2,
+            -2,
+            3
+          ],
+          [
+            -2,
+            -1,
+            2
+          ],
+          [
+            -2,
+            -1,
+            3
+          ],
+          [
+            -2,
+            0,
+            1
+          ],
+          [
+            -2,
+            0,
+            3
+          ],
+          [
+            -2,
+            1,
+            0
+          ],
+          [
+            -2,
+            1,
+            1
+          ],
+          [
+            -2,
+            1,
+            2
+          ],
+          [
+            -2,
+            1,
+            3
+          ],
+          [
+            -2,
+            2,
+            -1
+          ],
+          [
+            -2,
+            2,
+            1
+          ],
+          [
+            -2,
+            2,
+            3
+          ],
+          [
+            -2,
+            3,
+            -2
+          ],
+          [
+            -2,
+            3,
+            -1
+          ],
+          [
+            -2,
+            3,
+            0
+          ],
+          [
+            -2,
+            3,
+            1
+          ],
+          [
+            -2,
+            3,
+            2
+          ],
+          [
+            -2,
+            3,
+            3
+          ],
+          [
+            -1,
+            -3,
+            2
+          ],
+          [
+            -1,
+            -3,
+            3
+          ],
+          [
+            -1,
+            -2,
+            1
+          ],
+          [
+            -1,
+            -2,
+            2
+          ],
+          [
+            -1,
+            -2,
+            3
+          ],
+          [
+            -1,
+            -1,
+            0
+          ],
+          [
+            -1,
+            -1,
+            1
+          ],
+          [
+            -1,
+            -1,
+            2
+          ],
+          [
+            -1,
+            -1,
+            3
+          ],
+          [
+            -1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            2
+          ],
+          [
+            -1,
+            0,
+            3
+          ],
+          [
+            -1,
+            1,
+            -2
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            -1,
+            1,
+            2
+          ],
+          [
+            -1,
+            1,
+            3
+          ],
+          [
+            -1,
+            2,
+            -3
+          ],
+          [
+            -1,
+            2,
+            -2
+          ],
+          [
+            -1,
+            2,
+            -1
+          ],
+          [
+            -1,
+            2,
+            0
+          ],
+          [
+            -1,
+            2,
+            1
+          ],
+          [
+            -1,
+            2,
+            2
+          ],
+          [
+            -1,
+            2,
+            3
+          ],
+          [
+            -1,
+            3,
+            -3
+          ],
+          [
+            -1,
+            3,
+            -2
+          ],
+          [
+            -1,
+            3,
+            -1
+          ],
+          [
+            -1,
+            3,
+            0
+          ],
+          [
+            -1,
+            3,
+            1
+          ],
+          [
+            -1,
+            3,
+            2
+          ],
+          [
+            0,
+            -3,
+            1
+          ],
+          [
+            0,
+            -3,
+            2
+          ],
+          [
+            0,
+            -2,
+            -1
+          ],
+          [
+            0,
+            -2,
+            1
+          ],
+          [
+            0,
+            -2,
+            3
+          ],
+          [
+            0,
+            -1,
+            -2
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            2
+          ],
+          [
+            0,
+            -1,
+            3
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "primitive_mod_sign": true,
+        "width_cap_strict": 4
+      },
+      "elapsed_seconds": 2.103840616000525,
+      "full_bbox_assessments": 3797,
+      "limits": [
+        "numeric floating-point contact chart; no exact certification",
+        "hollow test uses the complete numerical integer bounding box",
+        "direction set is complete only under the supplied global width<4 cap",
+        "four fixed contacts and four body facets; no square/nonsimplicial branch",
+        "multistart points and optimization iterates are correlated"
+      ],
+      "normalized_contact_determinant": 2,
+      "optimization_runs": 6,
+      "orbit_class_id": 1,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "1",
+        "lambda1_witness_integer_direction": [
+          -2,
+          -1,
+          -1
+        ],
+        "necessary_width_upper_bound": "infinity",
+        "necessary_width_upper_bound_decimal": null,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": true
+      },
+      "random_geometric_starts_found": 847,
+      "random_hollow_starts_found": 22,
+      "starts_requested": 6,
+      "starts_used": 6,
+      "stop_rule_triggered": false
+    },
+    {
+      "accepted_numeric_rows": 12,
+      "assessment_count": 4642,
+      "assessment_rejections": {
+        "full_bbox_assessments": 4540,
+        "vertex_coordinate_cap": 102
+      },
+      "best_numeric_hollow_source": "row_orbit_best",
+      "best_numeric_hollow_width": 2.501821891650856,
+      "best_numeric_nonhollow_width": null,
+      "contact_hnf": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction_set_count": 49,
+      "direction_set_derivation": {
+        "contact_difference_determinant": 3,
+        "contact_difference_matrix_columns": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "derivation": "q=B^T u, q in {-3,...,3}^3, integer adjugate solve",
+        "difference_numerators_Bt_u": {
+          "[-1, -1, 1]": [
+            -3,
+            -1,
+            1
+          ],
+          "[-1, -1, 2]": [
+            -2,
+            -1,
+            2
+          ],
+          "[-1, -1, 3]": [
+            -1,
+            -1,
+            3
+          ],
+          "[-1, -2, 2]": [
+            -3,
+            -2,
+            2
+          ],
+          "[-1, -2, 3]": [
+            -2,
+            -2,
+            3
+          ],
+          "[-1, -3, 3]": [
+            -3,
+            -3,
+            3
+          ],
+          "[-1, 0, 0]": [
+            -3,
+            0,
+            0
+          ],
+          "[-1, 0, 1]": [
+            -2,
+            0,
+            1
+          ],
+          "[-1, 0, 2]": [
+            -1,
+            0,
+            2
+          ],
+          "[-1, 0, 3]": [
+            0,
+            0,
+            3
+          ],
+          "[-1, 1, -1]": [
+            -3,
+            1,
+            -1
+          ],
+          "[-1, 1, 0]": [
+            -2,
+            1,
+            0
+          ],
+          "[-1, 1, 1]": [
+            -1,
+            1,
+            1
+          ],
+          "[-1, 1, 2]": [
+            0,
+            1,
+            2
+          ],
+          "[-1, 1, 3]": [
+            1,
+            1,
+            3
+          ],
+          "[-1, 2, -1]": [
+            -2,
+            2,
+            -1
+          ],
+          "[-1, 2, -2]": [
+            -3,
+            2,
+            -2
+          ],
+          "[-1, 2, 0]": [
+            -1,
+            2,
+            0
+          ],
+          "[-1, 2, 1]": [
+            0,
+            2,
+            1
+          ],
+          "[-1, 2, 2]": [
+            1,
+            2,
+            2
+          ],
+          "[-1, 2, 3]": [
+            2,
+            2,
+            3
+          ],
+          "[-1, 3, -1]": [
+            -1,
+            3,
+            -1
+          ],
+          "[-1, 3, -2]": [
+            -2,
+            3,
+            -2
+          ],
+          "[-1, 3, -3]": [
+            -3,
+            3,
+            -3
+          ],
+          "[-1, 3, 0]": [
+            0,
+            3,
+            0
+          ],
+          "[-1, 3, 1]": [
+            1,
+            3,
+            1
+          ],
+          "[-1, 3, 2]": [
+            2,
+            3,
+            2
+          ],
+          "[-1, 3, 3]": [
+            3,
+            3,
+            3
+          ],
+          "[-2, 0, 3]": [
+            -3,
+            0,
+            3
+          ],
+          "[-2, 1, 2]": [
+            -3,
+            1,
+            2
+          ],
+          "[-2, 1, 3]": [
+            -2,
+            1,
+            3
+          ],
+          "[-2, 2, 1]": [
+            -3,
+            2,
+            1
+          ],
+          "[-2, 2, 3]": [
+            -1,
+            2,
+            3
+          ],
+          "[-2, 3, 0]": [
+            -3,
+            3,
+            0
+          ],
+          "[-2, 3, 1]": [
+            -2,
+            3,
+            1
+          ],
+          "[-2, 3, 2]": [
+            -1,
+            3,
+            2
+          ],
+          "[-2, 3, 3]": [
+            0,
+            3,
+            3
+          ],
+          "[0, -1, -1]": [
+            -2,
+            -1,
+            -1
+          ],
+          "[0, -1, -2]": [
+            -3,
+            -1,
+            -2
+          ],
+          "[0, -1, 0]": [
+            -1,
+            -1,
+            0
+          ],
+          "[0, -1, 1]": [
+            0,
+            -1,
+            1
+          ],
+          "[0, -1, 2]": [
+            1,
+            -1,
+            2
+          ],
+          "[0, -1, 3]": [
+            2,
+            -1,
+            3
+          ],
+          "[0, -2, -1]": [
+            -3,
+            -2,
+            -1
+          ],
+          "[0, -2, 1]": [
+            -1,
+            -2,
+            1
+          ],
+          "[0, -2, 3]": [
+            1,
+            -2,
+            3
+          ],
+          "[0, -3, 1]": [
+            -2,
+            -3,
+            1
+          ],
+          "[0, -3, 2]": [
+            -1,
+            -3,
+            2
+          ],
+          "[0, 0, -1]": [
+            -1,
+            0,
+            -1
+          ]
+        },
+        "direction_count": 49,
+        "directions": [
+          [
+            -2,
+            0,
+            3
+          ],
+          [
+            -2,
+            1,
+            2
+          ],
+          [
+            -2,
+            1,
+            3
+          ],
+          [
+            -2,
+            2,
+            1
+          ],
+          [
+            -2,
+            2,
+            3
+          ],
+          [
+            -2,
+            3,
+            0
+          ],
+          [
+            -2,
+            3,
+            1
+          ],
+          [
+            -2,
+            3,
+            2
+          ],
+          [
+            -2,
+            3,
+            3
+          ],
+          [
+            -1,
+            -3,
+            3
+          ],
+          [
+            -1,
+            -2,
+            2
+          ],
+          [
+            -1,
+            -2,
+            3
+          ],
+          [
+            -1,
+            -1,
+            1
+          ],
+          [
+            -1,
+            -1,
+            2
+          ],
+          [
+            -1,
+            -1,
+            3
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            2
+          ],
+          [
+            -1,
+            0,
+            3
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            -1,
+            1,
+            2
+          ],
+          [
+            -1,
+            1,
+            3
+          ],
+          [
+            -1,
+            2,
+            -2
+          ],
+          [
+            -1,
+            2,
+            -1
+          ],
+          [
+            -1,
+            2,
+            0
+          ],
+          [
+            -1,
+            2,
+            1
+          ],
+          [
+            -1,
+            2,
+            2
+          ],
+          [
+            -1,
+            2,
+            3
+          ],
+          [
+            -1,
+            3,
+            -3
+          ],
+          [
+            -1,
+            3,
+            -2
+          ],
+          [
+            -1,
+            3,
+            -1
+          ],
+          [
+            -1,
+            3,
+            0
+          ],
+          [
+            -1,
+            3,
+            1
+          ],
+          [
+            -1,
+            3,
+            2
+          ],
+          [
+            -1,
+            3,
+            3
+          ],
+          [
+            0,
+            -3,
+            1
+          ],
+          [
+            0,
+            -3,
+            2
+          ],
+          [
+            0,
+            -2,
+            -1
+          ],
+          [
+            0,
+            -2,
+            1
+          ],
+          [
+            0,
+            -2,
+            3
+          ],
+          [
+            0,
+            -1,
+            -2
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            2
+          ],
+          [
+            0,
+            -1,
+            3
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "primitive_mod_sign": true,
+        "width_cap_strict": 4
+      },
+      "elapsed_seconds": 3.177299851000498,
+      "full_bbox_assessments": 4540,
+      "limits": [
+        "numeric floating-point contact chart; no exact certification",
+        "hollow test uses the complete numerical integer bounding box",
+        "direction set is complete only under the supplied global width<4 cap",
+        "four fixed contacts and four body facets; no square/nonsimplicial branch",
+        "multistart points and optimization iterates are correlated"
+      ],
+      "normalized_contact_determinant": 3,
+      "optimization_runs": 6,
+      "orbit_class_id": 2,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "2/3",
+        "lambda1_witness_integer_direction": [
+          -1,
+          0,
+          0
+        ],
+        "necessary_width_upper_bound": 6.4641016151377535,
+        "necessary_width_upper_bound_decimal": 6.4641016151377535,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": true
+      },
+      "random_geometric_starts_found": 823,
+      "random_hollow_starts_found": 8,
+      "starts_requested": 6,
+      "starts_used": 6,
+      "stop_rule_triggered": false
+    },
+    {
+      "accepted_numeric_rows": 12,
+      "assessment_count": 5347,
+      "assessment_rejections": {
+        "full_bbox_assessments": 5167,
+        "vertex_coordinate_cap": 180
+      },
+      "best_numeric_hollow_source": "row_orbit_best",
+      "best_numeric_hollow_width": 2.4753589101835005,
+      "best_numeric_nonhollow_width": 8.038426824395337,
+      "contact_hnf": [
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction_set_count": 36,
+      "direction_set_derivation": {
+        "contact_difference_determinant": 4,
+        "contact_difference_matrix_columns": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "derivation": "q=B^T u, q in {-3,...,3}^3, integer adjugate solve",
+        "difference_numerators_Bt_u": {
+          "[-1, -1, 2]": [
+            -3,
+            -1,
+            2
+          ],
+          "[-1, -1, 3]": [
+            -2,
+            -1,
+            3
+          ],
+          "[-1, -2, 3]": [
+            -3,
+            -2,
+            3
+          ],
+          "[-1, 0, 1]": [
+            -3,
+            0,
+            1
+          ],
+          "[-1, 0, 2]": [
+            -2,
+            0,
+            2
+          ],
+          "[-1, 0, 3]": [
+            -1,
+            0,
+            3
+          ],
+          "[-1, 1, 0]": [
+            -3,
+            1,
+            0
+          ],
+          "[-1, 1, 1]": [
+            -2,
+            1,
+            1
+          ],
+          "[-1, 1, 2]": [
+            -1,
+            1,
+            2
+          ],
+          "[-1, 1, 3]": [
+            0,
+            1,
+            3
+          ],
+          "[-1, 2, -1]": [
+            -3,
+            2,
+            -1
+          ],
+          "[-1, 2, 0]": [
+            -2,
+            2,
+            0
+          ],
+          "[-1, 2, 1]": [
+            -1,
+            2,
+            1
+          ],
+          "[-1, 2, 2]": [
+            0,
+            2,
+            2
+          ],
+          "[-1, 2, 3]": [
+            1,
+            2,
+            3
+          ],
+          "[-1, 3, -1]": [
+            -2,
+            3,
+            -1
+          ],
+          "[-1, 3, -2]": [
+            -3,
+            3,
+            -2
+          ],
+          "[-1, 3, 0]": [
+            -1,
+            3,
+            0
+          ],
+          "[-1, 3, 1]": [
+            0,
+            3,
+            1
+          ],
+          "[-1, 3, 2]": [
+            1,
+            3,
+            2
+          ],
+          "[-1, 3, 3]": [
+            2,
+            3,
+            3
+          ],
+          "[-2, 2, 3]": [
+            -3,
+            2,
+            3
+          ],
+          "[-2, 3, 2]": [
+            -3,
+            3,
+            2
+          ],
+          "[-2, 3, 3]": [
+            -2,
+            3,
+            3
+          ],
+          "[0, -1, -1]": [
+            -2,
+            -1,
+            -1
+          ],
+          "[0, -1, -2]": [
+            -3,
+            -1,
+            -2
+          ],
+          "[0, -1, 0]": [
+            -1,
+            -1,
+            0
+          ],
+          "[0, -1, 1]": [
+            0,
+            -1,
+            1
+          ],
+          "[0, -1, 2]": [
+            1,
+            -1,
+            2
+          ],
+          "[0, -1, 3]": [
+            2,
+            -1,
+            3
+          ],
+          "[0, -2, -1]": [
+            -3,
+            -2,
+            -1
+          ],
+          "[0, -2, 1]": [
+            -1,
+            -2,
+            1
+          ],
+          "[0, -2, 3]": [
+            1,
+            -2,
+            3
+          ],
+          "[0, -3, 1]": [
+            -2,
+            -3,
+            1
+          ],
+          "[0, -3, 2]": [
+            -1,
+            -3,
+            2
+          ],
+          "[0, 0, -1]": [
+            -1,
+            0,
+            -1
+          ]
+        },
+        "direction_count": 36,
+        "directions": [
+          [
+            -2,
+            2,
+            3
+          ],
+          [
+            -2,
+            3,
+            2
+          ],
+          [
+            -2,
+            3,
+            3
+          ],
+          [
+            -1,
+            -2,
+            3
+          ],
+          [
+            -1,
+            -1,
+            2
+          ],
+          [
+            -1,
+            -1,
+            3
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            2
+          ],
+          [
+            -1,
+            0,
+            3
+          ],
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            -1,
+            1,
+            2
+          ],
+          [
+            -1,
+            1,
+            3
+          ],
+          [
+            -1,
+            2,
+            -1
+          ],
+          [
+            -1,
+            2,
+            0
+          ],
+          [
+            -1,
+            2,
+            1
+          ],
+          [
+            -1,
+            2,
+            2
+          ],
+          [
+            -1,
+            2,
+            3
+          ],
+          [
+            -1,
+            3,
+            -2
+          ],
+          [
+            -1,
+            3,
+            -1
+          ],
+          [
+            -1,
+            3,
+            0
+          ],
+          [
+            -1,
+            3,
+            1
+          ],
+          [
+            -1,
+            3,
+            2
+          ],
+          [
+            -1,
+            3,
+            3
+          ],
+          [
+            0,
+            -3,
+            1
+          ],
+          [
+            0,
+            -3,
+            2
+          ],
+          [
+            0,
+            -2,
+            -1
+          ],
+          [
+            0,
+            -2,
+            1
+          ],
+          [
+            0,
+            -2,
+            3
+          ],
+          [
+            0,
+            -1,
+            -2
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            2
+          ],
+          [
+            0,
+            -1,
+            3
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "primitive_mod_sign": true,
+        "width_cap_strict": 4
+      },
+      "elapsed_seconds": 4.117616147999797,
+      "full_bbox_assessments": 5167,
+      "limits": [
+        "numeric floating-point contact chart; no exact certification",
+        "hollow test uses the complete numerical integer bounding box",
+        "direction set is complete only under the supplied global width<4 cap",
+        "four fixed contacts and four body facets; no square/nonsimplicial branch",
+        "multistart points and optimization iterates are correlated"
+      ],
+      "normalized_contact_determinant": 4,
+      "optimization_runs": 6,
+      "orbit_class_id": 3,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "1/2",
+        "lambda1_witness_integer_direction": [
+          -1,
+          0,
+          0
+        ],
+        "necessary_width_upper_bound": 4.309401076758503,
+        "necessary_width_upper_bound_decimal": 4.309401076758503,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": true
+      },
+      "random_geometric_starts_found": 793,
+      "random_hollow_starts_found": 0,
+      "starts_requested": 6,
+      "starts_used": 6,
+      "stop_rule_triggered": false
+    },
+    {
+      "accepted_numeric_rows": 12,
+      "assessment_count": 5664,
+      "assessment_rejections": {
+        "full_bbox_assessments": 5363,
+        "vertex_coordinate_cap": 301
+      },
+      "best_numeric_hollow_source": "row_orbit_best",
+      "best_numeric_hollow_width": 1.948611066815256,
+      "best_numeric_nonhollow_width": 9.986625985201254,
+      "contact_hnf": [
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction_set_count": 27,
+      "direction_set_derivation": {
+        "contact_difference_determinant": 5,
+        "contact_difference_matrix_columns": [
+          [
+            5,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "derivation": "q=B^T u, q in {-3,...,3}^3, integer adjugate solve",
+        "difference_numerators_Bt_u": {
+          "[-1, -1, 3]": [
+            -3,
+            -1,
+            3
+          ],
+          "[-1, 0, 2]": [
+            -3,
+            0,
+            2
+          ],
+          "[-1, 0, 3]": [
+            -2,
+            0,
+            3
+          ],
+          "[-1, 1, 1]": [
+            -3,
+            1,
+            1
+          ],
+          "[-1, 1, 2]": [
+            -2,
+            1,
+            2
+          ],
+          "[-1, 1, 3]": [
+            -1,
+            1,
+            3
+          ],
+          "[-1, 2, 0]": [
+            -3,
+            2,
+            0
+          ],
+          "[-1, 2, 1]": [
+            -2,
+            2,
+            1
+          ],
+          "[-1, 2, 2]": [
+            -1,
+            2,
+            2
+          ],
+          "[-1, 2, 3]": [
+            0,
+            2,
+            3
+          ],
+          "[-1, 3, -1]": [
+            -3,
+            3,
+            -1
+          ],
+          "[-1, 3, 0]": [
+            -2,
+            3,
+            0
+          ],
+          "[-1, 3, 1]": [
+            -1,
+            3,
+            1
+          ],
+          "[-1, 3, 2]": [
+            0,
+            3,
+            2
+          ],
+          "[-1, 3, 3]": [
+            1,
+            3,
+            3
+          ],
+          "[0, -1, -1]": [
+            -2,
+            -1,
+            -1
+          ],
+          "[0, -1, -2]": [
+            -3,
+            -1,
+            -2
+          ],
+          "[0, -1, 0]": [
+            -1,
+            -1,
+            0
+          ],
+          "[0, -1, 1]": [
+            0,
+            -1,
+            1
+          ],
+          "[0, -1, 2]": [
+            1,
+            -1,
+            2
+          ],
+          "[0, -1, 3]": [
+            2,
+            -1,
+            3
+          ],
+          "[0, -2, -1]": [
+            -3,
+            -2,
+            -1
+          ],
+          "[0, -2, 1]": [
+            -1,
+            -2,
+            1
+          ],
+          "[0, -2, 3]": [
+            1,
+            -2,
+            3
+          ],
+          "[0, -3, 1]": [
+            -2,
+            -3,
+            1
+          ],
+          "[0, -3, 2]": [
+            -1,
+            -3,
+            2
+          ],
+          "[0, 0, -1]": [
+            -1,
+            0,
+            -1
+          ]
+        },
+        "direction_count": 27,
+        "directions": [
+          [
+            -1,
+            -1,
+            3
+          ],
+          [
+            -1,
+            0,
+            2
+          ],
+          [
+            -1,
+            0,
+            3
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            -1,
+            1,
+            2
+          ],
+          [
+            -1,
+            1,
+            3
+          ],
+          [
+            -1,
+            2,
+            0
+          ],
+          [
+            -1,
+            2,
+            1
+          ],
+          [
+            -1,
+            2,
+            2
+          ],
+          [
+            -1,
+            2,
+            3
+          ],
+          [
+            -1,
+            3,
+            -1
+          ],
+          [
+            -1,
+            3,
+            0
+          ],
+          [
+            -1,
+            3,
+            1
+          ],
+          [
+            -1,
+            3,
+            2
+          ],
+          [
+            -1,
+            3,
+            3
+          ],
+          [
+            0,
+            -3,
+            1
+          ],
+          [
+            0,
+            -3,
+            2
+          ],
+          [
+            0,
+            -2,
+            -1
+          ],
+          [
+            0,
+            -2,
+            1
+          ],
+          [
+            0,
+            -2,
+            3
+          ],
+          [
+            0,
+            -1,
+            -2
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            2
+          ],
+          [
+            0,
+            -1,
+            3
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "primitive_mod_sign": true,
+        "width_cap_strict": 4
+      },
+      "elapsed_seconds": 6.249370105999333,
+      "full_bbox_assessments": 5363,
+      "limits": [
+        "numeric floating-point contact chart; no exact certification",
+        "hollow test uses the complete numerical integer bounding box",
+        "direction set is complete only under the supplied global width<4 cap",
+        "four fixed contacts and four body facets; no square/nonsimplicial branch",
+        "multistart points and optimization iterates are correlated"
+      ],
+      "normalized_contact_determinant": 5,
+      "optimization_runs": 6,
+      "orbit_class_id": 4,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "2/5",
+        "lambda1_witness_integer_direction": [
+          -1,
+          0,
+          0
+        ],
+        "necessary_width_upper_bound": 3.5911675639654193,
+        "necessary_width_upper_bound_decimal": 3.5911675639654193,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": true
+      },
+      "random_geometric_starts_found": 755,
+      "random_hollow_starts_found": 0,
+      "starts_requested": 6,
+      "starts_used": 6,
+      "stop_rule_triggered": false
+    },
+    {
+      "accepted_numeric_rows": 12,
+      "assessment_count": 5995,
+      "assessment_rejections": {
+        "full_bbox_assessments": 5757,
+        "vertex_coordinate_cap": 238
+      },
+      "best_numeric_hollow_source": "row_orbit_best",
+      "best_numeric_hollow_width": 2.2700178401621818,
+      "best_numeric_nonhollow_width": 8.992121120039723,
+      "contact_hnf": [
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction_set_count": 30,
+      "direction_set_derivation": {
+        "contact_difference_determinant": 5,
+        "contact_difference_matrix_columns": [
+          [
+            5,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ],
+        "derivation": "q=B^T u, q in {-3,...,3}^3, integer adjugate solve",
+        "difference_numerators_Bt_u": {
+          "[-1, -1, 2]": [
+            -2,
+            -1,
+            2
+          ],
+          "[-1, -1, 3]": [
+            0,
+            -1,
+            3
+          ],
+          "[-1, -2, 2]": [
+            -3,
+            -2,
+            2
+          ],
+          "[-1, -2, 3]": [
+            -1,
+            -2,
+            3
+          ],
+          "[-1, -3, 3]": [
+            -2,
+            -3,
+            3
+          ],
+          "[-1, 0, 1]": [
+            -3,
+            0,
+            1
+          ],
+          "[-1, 0, 2]": [
+            -1,
+            0,
+            2
+          ],
+          "[-1, 0, 3]": [
+            1,
+            0,
+            3
+          ],
+          "[-1, 1, 1]": [
+            -2,
+            1,
+            1
+          ],
+          "[-1, 1, 2]": [
+            0,
+            1,
+            2
+          ],
+          "[-1, 1, 3]": [
+            2,
+            1,
+            3
+          ],
+          "[-1, 2, 0]": [
+            -3,
+            2,
+            0
+          ],
+          "[-1, 2, 1]": [
+            -1,
+            2,
+            1
+          ],
+          "[-1, 2, 2]": [
+            1,
+            2,
+            2
+          ],
+          "[-1, 2, 3]": [
+            3,
+            2,
+            3
+          ],
+          "[-1, 3, 0]": [
+            -2,
+            3,
+            0
+          ],
+          "[-1, 3, 1]": [
+            0,
+            3,
+            1
+          ],
+          "[-1, 3, 2]": [
+            2,
+            3,
+            2
+          ],
+          "[-2, 1, 3]": [
+            -3,
+            1,
+            3
+          ],
+          "[-2, 2, 3]": [
+            -2,
+            2,
+            3
+          ],
+          "[-2, 3, 2]": [
+            -3,
+            3,
+            2
+          ],
+          "[-2, 3, 3]": [
+            -1,
+            3,
+            3
+          ],
+          "[0, -1, -1]": [
+            -3,
+            -1,
+            -1
+          ],
+          "[0, -1, 0]": [
+            -1,
+            -1,
+            0
+          ],
+          "[0, -1, 1]": [
+            1,
+            -1,
+            1
+          ],
+          "[0, -1, 2]": [
+            3,
+            -1,
+            2
+          ],
+          "[0, -2, 1]": [
+            0,
+            -2,
+            1
+          ],
+          "[0, -3, 1]": [
+            -1,
+            -3,
+            1
+          ],
+          "[0, -3, 2]": [
+            1,
+            -3,
+            2
+          ],
+          "[0, 0, -1]": [
+            -2,
+            0,
+            -1
+          ]
+        },
+        "direction_count": 30,
+        "directions": [
+          [
+            -2,
+            1,
+            3
+          ],
+          [
+            -2,
+            2,
+            3
+          ],
+          [
+            -2,
+            3,
+            2
+          ],
+          [
+            -2,
+            3,
+            3
+          ],
+          [
+            -1,
+            -3,
+            3
+          ],
+          [
+            -1,
+            -2,
+            2
+          ],
+          [
+            -1,
+            -2,
+            3
+          ],
+          [
+            -1,
+            -1,
+            2
+          ],
+          [
+            -1,
+            -1,
+            3
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            2
+          ],
+          [
+            -1,
+            0,
+            3
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            -1,
+            1,
+            2
+          ],
+          [
+            -1,
+            1,
+            3
+          ],
+          [
+            -1,
+            2,
+            0
+          ],
+          [
+            -1,
+            2,
+            1
+          ],
+          [
+            -1,
+            2,
+            2
+          ],
+          [
+            -1,
+            2,
+            3
+          ],
+          [
+            -1,
+            3,
+            0
+          ],
+          [
+            -1,
+            3,
+            1
+          ],
+          [
+            -1,
+            3,
+            2
+          ],
+          [
+            0,
+            -3,
+            1
+          ],
+          [
+            0,
+            -3,
+            2
+          ],
+          [
+            0,
+            -2,
+            1
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            2
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "primitive_mod_sign": true,
+        "width_cap_strict": 4
+      },
+      "elapsed_seconds": 5.107310506000431,
+      "full_bbox_assessments": 5757,
+      "limits": [
+        "numeric floating-point contact chart; no exact certification",
+        "hollow test uses the complete numerical integer bounding box",
+        "direction set is complete only under the supplied global width<4 cap",
+        "four fixed contacts and four body facets; no square/nonsimplicial branch",
+        "multistart points and optimization iterates are correlated"
+      ],
+      "normalized_contact_determinant": 5,
+      "optimization_runs": 6,
+      "orbit_class_id": 5,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "3/5",
+        "lambda1_witness_integer_direction": [
+          -2,
+          0,
+          -1
+        ],
+        "necessary_width_upper_bound": 5.386751345948128,
+        "necessary_width_upper_bound_decimal": 5.386751345948128,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": true
+      },
+      "random_geometric_starts_found": 772,
+      "random_hollow_starts_found": 1,
+      "starts_requested": 6,
+      "starts_used": 6,
+      "stop_rule_triggered": false
+    },
+    {
+      "accepted_numeric_rows": 12,
+      "assessment_count": 4412,
+      "assessment_rejections": {
+        "full_bbox_assessments": 3930,
+        "vertex_coordinate_cap": 482
+      },
+      "best_numeric_hollow_source": "row_orbit_best",
+      "best_numeric_hollow_width": 2.318223253955636,
+      "best_numeric_nonhollow_width": 8.151314738863547,
+      "contact_hnf": [
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction_set_count": 20,
+      "direction_set_derivation": {
+        "contact_difference_determinant": 7,
+        "contact_difference_matrix_columns": [
+          [
+            7,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ],
+        "derivation": "q=B^T u, q in {-3,...,3}^3, integer adjugate solve",
+        "difference_numerators_Bt_u": {
+          "[-1, -1, 3]": [
+            -2,
+            -1,
+            3
+          ],
+          "[-1, -2, 3]": [
+            -3,
+            -2,
+            3
+          ],
+          "[-1, 0, 2]": [
+            -3,
+            0,
+            2
+          ],
+          "[-1, 0, 3]": [
+            -1,
+            0,
+            3
+          ],
+          "[-1, 1, 2]": [
+            -2,
+            1,
+            2
+          ],
+          "[-1, 1, 3]": [
+            0,
+            1,
+            3
+          ],
+          "[-1, 2, 1]": [
+            -3,
+            2,
+            1
+          ],
+          "[-1, 2, 2]": [
+            -1,
+            2,
+            2
+          ],
+          "[-1, 2, 3]": [
+            1,
+            2,
+            3
+          ],
+          "[-1, 3, 1]": [
+            -2,
+            3,
+            1
+          ],
+          "[-1, 3, 2]": [
+            0,
+            3,
+            2
+          ],
+          "[-1, 3, 3]": [
+            2,
+            3,
+            3
+          ],
+          "[0, -1, -1]": [
+            -3,
+            -1,
+            -1
+          ],
+          "[0, -1, 0]": [
+            -1,
+            -1,
+            0
+          ],
+          "[0, -1, 1]": [
+            1,
+            -1,
+            1
+          ],
+          "[0, -1, 2]": [
+            3,
+            -1,
+            2
+          ],
+          "[0, -2, 1]": [
+            0,
+            -2,
+            1
+          ],
+          "[0, -3, 1]": [
+            -1,
+            -3,
+            1
+          ],
+          "[0, -3, 2]": [
+            1,
+            -3,
+            2
+          ],
+          "[0, 0, -1]": [
+            -2,
+            0,
+            -1
+          ]
+        },
+        "direction_count": 20,
+        "directions": [
+          [
+            -1,
+            -2,
+            3
+          ],
+          [
+            -1,
+            -1,
+            3
+          ],
+          [
+            -1,
+            0,
+            2
+          ],
+          [
+            -1,
+            0,
+            3
+          ],
+          [
+            -1,
+            1,
+            2
+          ],
+          [
+            -1,
+            1,
+            3
+          ],
+          [
+            -1,
+            2,
+            1
+          ],
+          [
+            -1,
+            2,
+            2
+          ],
+          [
+            -1,
+            2,
+            3
+          ],
+          [
+            -1,
+            3,
+            1
+          ],
+          [
+            -1,
+            3,
+            2
+          ],
+          [
+            -1,
+            3,
+            3
+          ],
+          [
+            0,
+            -3,
+            1
+          ],
+          [
+            0,
+            -3,
+            2
+          ],
+          [
+            0,
+            -2,
+            1
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            2
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "primitive_mod_sign": true,
+        "width_cap_strict": 4
+      },
+      "elapsed_seconds": 4.0679294019992085,
+      "full_bbox_assessments": 3930,
+      "limits": [
+        "numeric floating-point contact chart; no exact certification",
+        "hollow test uses the complete numerical integer bounding box",
+        "direction set is complete only under the supplied global width<4 cap",
+        "four fixed contacts and four body facets; no square/nonsimplicial branch",
+        "multistart points and optimization iterates are correlated"
+      ],
+      "normalized_contact_determinant": 7,
+      "optimization_runs": 6,
+      "orbit_class_id": 8,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "3/7",
+        "lambda1_witness_integer_direction": [
+          -1,
+          0,
+          0
+        ],
+        "necessary_width_upper_bound": 3.7707259421636903,
+        "necessary_width_upper_bound_decimal": 3.7707259421636903,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": true
+      },
+      "random_geometric_starts_found": 666,
+      "random_hollow_starts_found": 0,
+      "starts_requested": 6,
+      "starts_used": 6,
+      "stop_rule_triggered": false
+    },
+    {
+      "accepted_numeric_rows": 12,
+      "assessment_count": 4002,
+      "assessment_rejections": {
+        "full_bbox_assessments": 3653,
+        "vertex_coordinate_cap": 349
+      },
+      "best_numeric_hollow_source": "row_orbit_best",
+      "best_numeric_hollow_width": 1.844062442626767,
+      "best_numeric_nonhollow_width": 10.501899520729339,
+      "contact_hnf": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ]
+      ],
+      "contact_vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction_set_count": 19,
+      "direction_set_derivation": {
+        "contact_difference_determinant": 8,
+        "contact_difference_matrix_columns": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "derivation": "q=B^T u, q in {-3,...,3}^3, integer adjugate solve",
+        "difference_numerators_Bt_u": {
+          "[-1, -1, 2]": [
+            -3,
+            -1,
+            2
+          ],
+          "[-1, -1, 3]": [
+            0,
+            -1,
+            3
+          ],
+          "[-1, -2, 3]": [
+            -1,
+            -2,
+            3
+          ],
+          "[-1, -3, 3]": [
+            -2,
+            -3,
+            3
+          ],
+          "[-1, 0, 2]": [
+            -2,
+            0,
+            2
+          ],
+          "[-1, 0, 3]": [
+            1,
+            0,
+            3
+          ],
+          "[-1, 1, 2]": [
+            -1,
+            1,
+            2
+          ],
+          "[-1, 1, 3]": [
+            2,
+            1,
+            3
+          ],
+          "[-1, 2, 1]": [
+            -3,
+            2,
+            1
+          ],
+          "[-1, 2, 2]": [
+            0,
+            2,
+            2
+          ],
+          "[-1, 2, 3]": [
+            3,
+            2,
+            3
+          ],
+          "[-1, 3, 1]": [
+            -2,
+            3,
+            1
+          ],
+          "[-1, 3, 2]": [
+            1,
+            3,
+            2
+          ],
+          "[0, -1, 0]": [
+            -1,
+            -1,
+            0
+          ],
+          "[0, -1, 1]": [
+            2,
+            -1,
+            1
+          ],
+          "[0, -2, 1]": [
+            1,
+            -2,
+            1
+          ],
+          "[0, -3, 1]": [
+            0,
+            -3,
+            1
+          ],
+          "[0, -3, 2]": [
+            3,
+            -3,
+            2
+          ],
+          "[0, 0, -1]": [
+            -3,
+            0,
+            -1
+          ]
+        },
+        "direction_count": 19,
+        "directions": [
+          [
+            -1,
+            -3,
+            3
+          ],
+          [
+            -1,
+            -2,
+            3
+          ],
+          [
+            -1,
+            -1,
+            2
+          ],
+          [
+            -1,
+            -1,
+            3
+          ],
+          [
+            -1,
+            0,
+            2
+          ],
+          [
+            -1,
+            0,
+            3
+          ],
+          [
+            -1,
+            1,
+            2
+          ],
+          [
+            -1,
+            1,
+            3
+          ],
+          [
+            -1,
+            2,
+            1
+          ],
+          [
+            -1,
+            2,
+            2
+          ],
+          [
+            -1,
+            2,
+            3
+          ],
+          [
+            -1,
+            3,
+            1
+          ],
+          [
+            -1,
+            3,
+            2
+          ],
+          [
+            0,
+            -3,
+            1
+          ],
+          [
+            0,
+            -3,
+            2
+          ],
+          [
+            0,
+            -2,
+            1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "primitive_mod_sign": true,
+        "width_cap_strict": 4
+      },
+      "elapsed_seconds": 3.418192971999815,
+      "full_bbox_assessments": 3653,
+      "limits": [
+        "numeric floating-point contact chart; no exact certification",
+        "hollow test uses the complete numerical integer bounding box",
+        "direction set is complete only under the supplied global width<4 cap",
+        "four fixed contacts and four body facets; no square/nonsimplicial branch",
+        "multistart points and optimization iterates are correlated"
+      ],
+      "normalized_contact_determinant": 8,
+      "optimization_runs": 6,
+      "orbit_class_id": 10,
+      "pre_screen": {
+        "inequality": "w(K) <= (1+2/sqrt(3))/(1-lambda1(P-P))",
+        "lambda1_difference_body_exact": "1/2",
+        "lambda1_witness_integer_direction": [
+          -3,
+          0,
+          -1
+        ],
+        "necessary_width_upper_bound": 4.309401076758503,
+        "necessary_width_upper_bound_decimal": 4.309401076758503,
+        "scope": "necessary test for P subset K; no numerical optimization used",
+        "survives_w0_pre_screen": true
+      },
+      "random_geometric_starts_found": 660,
+      "random_hollow_starts_found": 0,
+      "starts_requested": 6,
+      "starts_used": 6,
+      "stop_rule_triggered": false
+    }
+  ],
+  "seed": 20260913,
+  "status": "numeric_exploration_complete",
+  "stop_rule": {
+    "action": "exactly reconstruct and falsify any numeric row above w0 before continuing",
+    "reason": null,
+    "triggered": false
+  },
+  "w0_decimal": 3.414213562373095
+}

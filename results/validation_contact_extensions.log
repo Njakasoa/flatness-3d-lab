@@ -1,0 +1,19 @@
+{"vertices": 5, "classes": 11, "accepted_extensions_before_quotient": 424}
+{"vertices": 6, "classes": 22, "accepted_extensions_before_quotient": 204}
+{"vertices": 7, "classes": 10, "accepted_extensions_before_quotient": 136}
+{"vertices": 8, "classes": 9, "accepted_extensions_before_quotient": 23}
+{
+  "status": "exact_candidate_enumeration_pending_independent_review",
+  "threshold": "w(K)>(11/7)*(1+2/sqrt(3))",
+  "scope": "Full-dimensional empty lattice contact hulls with five to eight vertices, tetrahedron-wise necessary obstruction only",
+  "coordinate_bound": 13,
+  "raw_extension_points": 13100,
+  "admissible_extensions_of_standard_frame": 424,
+  "allowed_ordered_tetrahedron_hnfs": 47,
+  "counts": {
+    "5": 11,
+    "6": 22,
+    "7": 10,
+    "8": 9
+  }
+}

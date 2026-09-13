@@ -1,0 +1,6387 @@
+{
+  "status": "exact_candidate_reduction_pending_independent_review",
+  "classes_checked": 52,
+  "counts_before": {
+    "5": 11,
+    "6": 22,
+    "7": 10,
+    "8": 9
+  },
+  "counts_after_intermediate": {
+    "5": 11,
+    "6": 22,
+    "7": 10,
+    "8": 9
+  },
+  "counts_after_candidate": {
+    "5": 11,
+    "6": 22,
+    "7": 10,
+    "8": 9
+  },
+  "classes": [
+    {
+      "vertices": [
+        [
+          -13,
+          1,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "5/13",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -13,
+            5
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            13,
+            -5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -6,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              -4,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              6,
+              13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              4,
+              13
+            ],
+            "offset": 13
+          }
+        ],
+        "section_search_bounds": [
+          13,
+          5
+        ],
+        "primitive_section_vectors_checked": 96,
+        "section_minimizers_mod_sign": [
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "13/8",
+        "b": "13/12",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -10,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -10,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            10,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              -2,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              4,
+              10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              2,
+              10
+            ],
+            "offset": 10
+          }
+        ],
+        "section_search_bounds": [
+          10,
+          3
+        ],
+        "primitive_section_vectors_checked": 46,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -8,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -8,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            8,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              -2,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              4,
+              8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              2,
+              8
+            ],
+            "offset": 8
+          }
+        ],
+        "section_search_bounds": [
+          8,
+          3
+        ],
+        "primitive_section_vectors_checked": 38,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/7",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -7,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            7,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              -1,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              3,
+              7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              1,
+              7
+            ],
+            "offset": 7
+          }
+        ],
+        "section_search_bounds": [
+          7,
+          2
+        ],
+        "primitive_section_vectors_checked": 24,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -7,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/7",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -7,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            7,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              -2,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              4,
+              7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              2,
+              7
+            ],
+            "offset": 7
+          }
+        ],
+        "section_search_bounds": [
+          7,
+          3
+        ],
+        "primitive_section_vectors_checked": 34,
+        "section_minimizers_mod_sign": [
+          [
+            2,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -5,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              2,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          1
+        ],
+        "primitive_section_vectors_checked": 12,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -5,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              -1,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              3,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              1,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          2
+        ],
+        "primitive_section_vectors_checked": 18,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/2",
+        "b": "5/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -4,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              2,
+              4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              4
+            ],
+            "offset": 4
+          }
+        ],
+        "section_search_bounds": [
+          4,
+          1
+        ],
+        "primitive_section_vectors_checked": 10,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/3",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -3,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              2,
+              3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              3
+            ],
+            "offset": 3
+          }
+        ],
+        "section_search_bounds": [
+          3,
+          1
+        ],
+        "primitive_section_vectors_checked": 8,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "3",
+        "b": "2",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -2,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              2,
+              2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              2
+            ],
+            "offset": 2
+          }
+        ],
+        "section_search_bounds": [
+          2,
+          1
+        ],
+        "primitive_section_vectors_checked": 6,
+        "section_minimizers_mod_sign": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            -1,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": null,
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -1,
+              -1
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              0,
+              -1
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              1,
+              0
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              1,
+              1
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              0,
+              1
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              -1,
+              0
+            ],
+            "offset": 1
+          }
+        ],
+        "section_search_bounds": [
+          1,
+          1
+        ],
+        "primitive_section_vectors_checked": 4,
+        "section_minimizers_mod_sign": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": null,
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -13,
+          1,
+          5
+        ],
+        [
+          -8,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "5/13",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -13,
+            5
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            13,
+            -5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -6,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              -4,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              6,
+              13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              4,
+              13
+            ],
+            "offset": 13
+          }
+        ],
+        "section_search_bounds": [
+          13,
+          5
+        ],
+        "primitive_section_vectors_checked": 96,
+        "section_minimizers_mod_sign": [
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "13/8",
+        "b": "13/12",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -13,
+          1,
+          5
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "5/13",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -13,
+            5
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            13,
+            -5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -6,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              -4,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              6,
+              13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              4,
+              13
+            ],
+            "offset": 13
+          }
+        ],
+        "section_search_bounds": [
+          13,
+          5
+        ],
+        "primitive_section_vectors_checked": 96,
+        "section_minimizers_mod_sign": [
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "13/8",
+        "b": "13/12",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -10,
+          1,
+          3
+        ],
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -10,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            10,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              -2,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              4,
+              10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              2,
+              10
+            ],
+            "offset": 10
+          }
+        ],
+        "section_search_bounds": [
+          10,
+          3
+        ],
+        "primitive_section_vectors_checked": 46,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -10,
+          1,
+          3
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -10,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            10,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              -2,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              4,
+              10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              2,
+              10
+            ],
+            "offset": 10
+          }
+        ],
+        "section_search_bounds": [
+          10,
+          3
+        ],
+        "primitive_section_vectors_checked": 46,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -8,
+          1,
+          3
+        ],
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -8,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            8,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              -2,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              4,
+              8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              2,
+              8
+            ],
+            "offset": 8
+          }
+        ],
+        "section_search_bounds": [
+          8,
+          3
+        ],
+        "primitive_section_vectors_checked": 38,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -8,
+          1,
+          3
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -8,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            8,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              -2,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              4,
+              8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              2,
+              8
+            ],
+            "offset": 8
+          }
+        ],
+        "section_search_bounds": [
+          8,
+          3
+        ],
+        "primitive_section_vectors_checked": 38,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -8,
+          1,
+          3
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -8,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            8,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              -2,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              4,
+              8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              2,
+              8
+            ],
+            "offset": 8
+          }
+        ],
+        "section_search_bounds": [
+          8,
+          3
+        ],
+        "primitive_section_vectors_checked": 38,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/7",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -7,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            7,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              -1,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              3,
+              7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              1,
+              7
+            ],
+            "offset": 7
+          }
+        ],
+        "section_search_bounds": [
+          7,
+          2
+        ],
+        "primitive_section_vectors_checked": 24,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/7",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -7,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            7,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              -1,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              3,
+              7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              1,
+              7
+            ],
+            "offset": 7
+          }
+        ],
+        "section_search_bounds": [
+          7,
+          2
+        ],
+        "primitive_section_vectors_checked": 24,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/7",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -7,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            7,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              -1,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              3,
+              7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              1,
+              7
+            ],
+            "offset": 7
+          }
+        ],
+        "section_search_bounds": [
+          7,
+          2
+        ],
+        "primitive_section_vectors_checked": 24,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -7,
+          1,
+          3
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/7",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -7,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            7,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              -2,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              4,
+              7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              2,
+              7
+            ],
+            "offset": 7
+          }
+        ],
+        "section_search_bounds": [
+          7,
+          3
+        ],
+        "primitive_section_vectors_checked": 34,
+        "section_minimizers_mod_sign": [
+          [
+            2,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          1
+        ],
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -5,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              2,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          1
+        ],
+        "primitive_section_vectors_checked": 12,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -5,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              2,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          1
+        ],
+        "primitive_section_vectors_checked": 12,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -5,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              -1,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              3,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              1,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          2
+        ],
+        "primitive_section_vectors_checked": 18,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/2",
+        "b": "5/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -5,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              -1,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              3,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              1,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          2
+        ],
+        "primitive_section_vectors_checked": 18,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/2",
+        "b": "5/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -4,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              2,
+              4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              4
+            ],
+            "offset": 4
+          }
+        ],
+        "section_search_bounds": [
+          4,
+          1
+        ],
+        "primitive_section_vectors_checked": 10,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -4,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              2,
+              4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              4
+            ],
+            "offset": 4
+          }
+        ],
+        "section_search_bounds": [
+          4,
+          1
+        ],
+        "primitive_section_vectors_checked": 10,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/3",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -3,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              2,
+              3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              3
+            ],
+            "offset": 3
+          }
+        ],
+        "section_search_bounds": [
+          3,
+          1
+        ],
+        "primitive_section_vectors_checked": 8,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "3",
+        "b": "2",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/3",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -3,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              2,
+              3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              3
+            ],
+            "offset": 3
+          }
+        ],
+        "section_search_bounds": [
+          3,
+          1
+        ],
+        "primitive_section_vectors_checked": 8,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "3",
+        "b": "2",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -2,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              2,
+              2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              2
+            ],
+            "offset": 2
+          }
+        ],
+        "section_search_bounds": [
+          2,
+          1
+        ],
+        "primitive_section_vectors_checked": 6,
+        "section_minimizers_mod_sign": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            -1,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": null,
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -2,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              2,
+              2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              2
+            ],
+            "offset": 2
+          }
+        ],
+        "section_search_bounds": [
+          2,
+          1
+        ],
+        "primitive_section_vectors_checked": 6,
+        "section_minimizers_mod_sign": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            -1,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": null,
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -1,
+              -1
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              0,
+              -1
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              1,
+              0
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              1,
+              1
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              0,
+              1
+            ],
+            "offset": 1
+          },
+          {
+            "normal": [
+              -1,
+              0
+            ],
+            "offset": 1
+          }
+        ],
+        "section_search_bounds": [
+          1,
+          1
+        ],
+        "primitive_section_vectors_checked": 4,
+        "section_minimizers_mod_sign": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": null,
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -13,
+          1,
+          5
+        ],
+        [
+          -8,
+          1,
+          3
+        ],
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "5/13",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -13,
+            5
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            13,
+            -5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -6,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              -4,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              6,
+              13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              4,
+              13
+            ],
+            "offset": 13
+          }
+        ],
+        "section_search_bounds": [
+          13,
+          5
+        ],
+        "primitive_section_vectors_checked": 96,
+        "section_minimizers_mod_sign": [
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "13/8",
+        "b": "13/12",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -10,
+          1,
+          3
+        ],
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -10,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            10,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              -2,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              4,
+              10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              2,
+              10
+            ],
+            "offset": 10
+          }
+        ],
+        "section_search_bounds": [
+          10,
+          3
+        ],
+        "primitive_section_vectors_checked": 46,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -8,
+          1,
+          3
+        ],
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -8,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            8,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              -2,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              4,
+              8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              2,
+              8
+            ],
+            "offset": 8
+          }
+        ],
+        "section_search_bounds": [
+          8,
+          3
+        ],
+        "primitive_section_vectors_checked": 38,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/7",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -7,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            7,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              -1,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              3,
+              7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              1,
+              7
+            ],
+            "offset": 7
+          }
+        ],
+        "section_search_bounds": [
+          7,
+          2
+        ],
+        "primitive_section_vectors_checked": 24,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/7",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -7,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            7,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              -1,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              3,
+              7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              1,
+              7
+            ],
+            "offset": 7
+          }
+        ],
+        "section_search_bounds": [
+          7,
+          2
+        ],
+        "primitive_section_vectors_checked": 24,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          1
+        ],
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -5,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              2,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          1
+        ],
+        "primitive_section_vectors_checked": 12,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -5,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              -1,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              3,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              1,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          2
+        ],
+        "primitive_section_vectors_checked": 18,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/2",
+        "b": "5/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -4,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              2,
+              4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              4
+            ],
+            "offset": 4
+          }
+        ],
+        "section_search_bounds": [
+          4,
+          1
+        ],
+        "primitive_section_vectors_checked": 10,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/3",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -3,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              2,
+              3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              3
+            ],
+            "offset": 3
+          }
+        ],
+        "section_search_bounds": [
+          3,
+          1
+        ],
+        "primitive_section_vectors_checked": 8,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "3",
+        "b": "2",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -2,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              2,
+              2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              2
+            ],
+            "offset": 2
+          }
+        ],
+        "section_search_bounds": [
+          2,
+          1
+        ],
+        "primitive_section_vectors_checked": 6,
+        "section_minimizers_mod_sign": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            -1,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": null,
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -13,
+          1,
+          5
+        ],
+        [
+          -8,
+          1,
+          3
+        ],
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "5/13",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -13,
+            5
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            13,
+            -5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -6,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              -4,
+              -13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              6,
+              13
+            ],
+            "offset": 13
+          },
+          {
+            "normal": [
+              4,
+              13
+            ],
+            "offset": 13
+          }
+        ],
+        "section_search_bounds": [
+          13,
+          5
+        ],
+        "primitive_section_vectors_checked": 96,
+        "section_minimizers_mod_sign": [
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "13/8",
+        "b": "13/12",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -10,
+          1,
+          3
+        ],
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -10,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            10,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              -2,
+              -10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              4,
+              10
+            ],
+            "offset": 10
+          },
+          {
+            "normal": [
+              2,
+              10
+            ],
+            "offset": 10
+          }
+        ],
+        "section_search_bounds": [
+          10,
+          3
+        ],
+        "primitive_section_vectors_checked": 46,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -8,
+          1,
+          3
+        ],
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -8,
+            3
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            8,
+            -3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -4,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              -2,
+              -8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              4,
+              8
+            ],
+            "offset": 8
+          },
+          {
+            "normal": [
+              2,
+              8
+            ],
+            "offset": 8
+          }
+        ],
+        "section_search_bounds": [
+          8,
+          3
+        ],
+        "primitive_section_vectors_checked": 38,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -7,
+          1,
+          2
+        ],
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/7",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -7,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            7,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              -1,
+              -7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              3,
+              7
+            ],
+            "offset": 7
+          },
+          {
+            "normal": [
+              1,
+              7
+            ],
+            "offset": 7
+          }
+        ],
+        "section_search_bounds": [
+          7,
+          2
+        ],
+        "primitive_section_vectors_checked": 24,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          1
+        ],
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/5",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -5,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              2,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              0,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          1
+        ],
+        "primitive_section_vectors_checked": 12,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/3",
+        "b": "10/9",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -5,
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        1,
+        0
+      ],
+      "minimum_certificate": {
+        "lambda1": "3/5",
+        "height_direction": [
+          0,
+          1,
+          0
+        ],
+        "deleted_coordinate": 1,
+        "section_vertices": [
+          [
+            -5,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            -2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -3,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              -1,
+              -5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              3,
+              5
+            ],
+            "offset": 5
+          },
+          {
+            "normal": [
+              1,
+              5
+            ],
+            "offset": 5
+          }
+        ],
+        "section_search_bounds": [
+          5,
+          2
+        ],
+        "primitive_section_vectors_checked": 18,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "5/2",
+        "b": "5/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -4,
+          1,
+          1
+        ],
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1/2",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -4,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              -4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              2,
+              4
+            ],
+            "offset": 4
+          },
+          {
+            "normal": [
+              0,
+              4
+            ],
+            "offset": 4
+          }
+        ],
+        "section_search_bounds": [
+          4,
+          1
+        ],
+        "primitive_section_vectors_checked": 10,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "2",
+        "b": "4/3",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -3,
+          1,
+          1
+        ],
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "2/3",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -3,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              -3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              2,
+              3
+            ],
+            "offset": 3
+          },
+          {
+            "normal": [
+              0,
+              3
+            ],
+            "offset": 3
+          }
+        ],
+        "section_search_bounds": [
+          3,
+          1
+        ],
+        "primitive_section_vectors_checked": 8,
+        "section_minimizers_mod_sign": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": {
+        "a": "3",
+        "b": "2",
+        "d": 3
+      },
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    },
+    {
+      "vertices": [
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "width_one_direction": [
+        0,
+        0,
+        1
+      ],
+      "minimum_certificate": {
+        "lambda1": "1",
+        "height_direction": [
+          0,
+          0,
+          1
+        ],
+        "deleted_coordinate": 2,
+        "section_vertices": [
+          [
+            -2,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "section_facets": [
+          {
+            "normal": [
+              -2,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              -2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              2,
+              2
+            ],
+            "offset": 2
+          },
+          {
+            "normal": [
+              0,
+              2
+            ],
+            "offset": 2
+          }
+        ],
+        "section_search_bounds": [
+          2,
+          1
+        ],
+        "primitive_section_vectors_checked": 6,
+        "section_minimizers_mod_sign": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            -1,
+            0
+          ]
+        ],
+        "scope": "Section minimizers listed; at lambda1=1 nonplanar minimizers may also exist."
+      },
+      "width_upper": null,
+      "survives_intermediate_threshold": true,
+      "survives_candidate_threshold": true
+    }
+  ]
+}

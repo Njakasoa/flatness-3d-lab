@@ -1,0 +1,74 @@
+{
+  "status": "exact_candidate_reduction_pending_independent_review",
+  "classes_checked": 52,
+  "counts_before": {
+    "5": 11,
+    "6": 22,
+    "7": 10,
+    "8": 9
+  },
+  "counts_after_intermediate": {
+    "5": 11,
+    "6": 22,
+    "7": 10,
+    "8": 9
+  },
+  "counts_after_candidate": {
+    "5": 11,
+    "6": 22,
+    "7": 10,
+    "8": 9
+  }
+}
+0 5 5/13 True
+1 5 2/5 True
+2 5 1/2 True
+3 5 3/7 True
+4 5 3/7 True
+5 5 2/5 True
+6 5 3/5 True
+7 5 1/2 True
+8 5 2/3 True
+9 5 1 True
+10 5 1 True
+11 6 5/13 True
+12 6 5/13 True
+13 6 2/5 True
+14 6 2/5 True
+15 6 1/2 True
+16 6 1/2 True
+17 6 1/2 True
+18 6 3/7 True
+19 6 3/7 True
+20 6 3/7 True
+21 6 3/7 True
+22 6 2/5 True
+23 6 2/5 True
+24 6 3/5 True
+25 6 3/5 True
+26 6 1/2 True
+27 6 1/2 True
+28 6 2/3 True
+29 6 2/3 True
+30 6 1 True
+31 6 1 True
+32 6 1 True
+33 7 5/13 True
+34 7 2/5 True
+35 7 1/2 True
+36 7 3/7 True
+37 7 3/7 True
+38 7 2/5 True
+39 7 3/5 True
+40 7 1/2 True
+41 7 2/3 True
+42 7 1 True
+43 8 5/13 True
+44 8 2/5 True
+45 8 1/2 True
+46 8 3/7 True
+47 8 2/5 True
+48 8 3/5 True
+49 8 1/2 True
+50 8 2/3 True
+51 8 1 True

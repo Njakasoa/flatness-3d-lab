@@ -1,0 +1,31 @@
+{
+  "status": "exact_computational_reduction_pending_novelty_review",
+  "source": "ACMS Lemma5.1 and Minkowski2 + empty tetrahedron width1 + exact HNF enumeration",
+  "threshold": {
+    "a": "3/2",
+    "b": "1",
+    "d": 3
+  },
+  "finite_reduction": "w>3A/2 implies lambda1(K-K)>1/3; for empty P subset K: N=6vol(P)<=12/(5 lambda1(P-P)^2)<108/5, hence N<=21.",
+  "classes_checked": 51,
+  "survivors_lower_threshold": 11,
+  "survivors_candidate_threshold": 10,
+  "intermediate_threshold": {
+    "a": "11/7",
+    "b": "22/21",
+    "d": 3
+  },
+  "survivors_intermediate_threshold": 10,
+  "sharper_determinant_bound": "The width-one section diamond has area 2N. Planar Minkowski gives N*lambda1(P-P)^2<=2. Thus w>3A/2 implies N<=17; w>11A/7 implies N<=15; w>=2+sqrt2 implies N<=14."
+}
+SURVIVES [[1, 0, 0], [0, 1, 0], [0, 0, 1]] ell 1
+SURVIVES [[2, 0, 0], [1, 1, 0], [1, 0, 1]] ell 1
+SURVIVES [[3, 0, 0], [1, 1, 0], [1, 0, 1]] ell 2/3
+SURVIVES [[4, 0, 0], [1, 1, 0], [1, 0, 1]] ell 1/2
+SURVIVES [[5, 0, 0], [1, 1, 0], [1, 0, 1]] ell 2/5
+SURVIVES [[5, 0, 0], [1, 1, 0], [2, 0, 1]] ell 3/5
+SURVIVES [[7, 0, 0], [1, 1, 0], [2, 0, 1]] ell 3/7
+SURVIVES [[8, 0, 0], [1, 1, 0], [3, 0, 1]] ell 1/2
+SURVIVES [[10, 0, 0], [1, 1, 0], [3, 0, 1]] ell 2/5
+SURVIVES [[11, 0, 0], [1, 1, 0], [3, 0, 1]] ell 4/11
+SURVIVES [[13, 0, 0], [1, 1, 0], [5, 0, 1]] ell 5/13

@@ -1,0 +1,16 @@
+{
+  "general_determinant": "-10753/100800",
+  "balanced_hollow_threshold": "abs(s) >= 1/4",
+  "balanced_hollow_samples": [
+    "1/4",
+    "1/2",
+    "1",
+    "-1/4"
+  ],
+  "shear_max_abs_coordinates": {
+    "-7": "17/2",
+    "0": "3/2",
+    "7": "17/2"
+  },
+  "output": "results/square_contacts.json"
+}

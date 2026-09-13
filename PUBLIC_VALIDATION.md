@@ -29,7 +29,26 @@ run before publication, and an intentionally corrupted expected hash must
 be rejected. Check the archived hashes before replaying, because replay
 refreshes outputs. The manifest is an integrity record, not a digital signature.
 
+## Structural-update validation
+
+The public copy was replayed again for the update from source da24c58:
+
+- Baseline reproduction: all 11 stages and 10 unit tests passed again.
+- Contact-reduction reproduction: all eight stages passed.
+- Independent contact verifier: 51 main tetrahedron classes, 52 larger hulls,
+  1,365 four-point subsets, nine templates and 63 affine maps passed;
+  all 21 deliberate mutations were rejected.
+- Nine new scientific JSON/JSONL payloads exactly match committed source bytes
+  after replay, including all three new contact certificates. The execution
+  timing report is excluded from this equality comparison. The square-control
+  payload also matches after excluding its public-only source citation edit.
+- All 13 baseline certificate files retain their archived hashes.
+- Both recorded numerical campaigns were retained without regeneration.
+- Uncommitted ongoing experiments are excluded from this publication.
+
 The historical Astra review remains internal AI-assisted review. No external
-peer review or new global flatness theorem is implied. The explicit published
-local-radius computation, square contact branch, nonsimplicial branches and
-continuous optimization of all contact types remain unresolved.
+peer review or new global flatness theorem is implied. Contact-hull reduction
+now includes the square and nonsimplicial branches. Continuous optimization
+within those classes and the explicit published local-radius computation
+remain unresolved. The 63 types are necessary possibilities; neither their
+high-width realizability nor external novelty of the list is established.

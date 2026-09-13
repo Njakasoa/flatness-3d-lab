@@ -1,5 +1,13 @@
 # Classification scope for the three-dimensional contact reduction
 
+> Update, 2026-09-13: the scope table below is a historical planning record.
+> The [completed thresholded reduction](../proofs/CONTACT_HULL_FINITE_REDUCTION.md)
+> now supplies 63 necessary contact configurations, including the square and
+> nonsimplicial branches, whenever w(K) > (11/7)(1+2/sqrt(3)).
+> The [containment argument](../proofs/CONTACT_OBSTRUCTION_REDUCTION.md) also
+> extends the tetrahedral obstruction beyond attained maximizers.
+> Optimization of surrounding real bodies remains open.
+
 **Cut-off:** 2026-09-13.  **Status:** a theorem-backed scope for computation, not a
 completed classification and not a claim that the listed branches exhaust all
 ways to attack the flatness conjecture.

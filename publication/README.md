@@ -1,7 +1,27 @@
 # Public research companion
 
-The source, certificates, figures and internally reviewed proof reconstructions
-are published on GitHub with the maintainer's explicit authorization.
-No new global result or research manuscript is claimed. GitHub publication is
-separate from journal/arXiv submission, external peer review and novelty.
-See ../PUBLICATION.md and RIGHTS.md.
+The baseline and internally verified contact reduction are published on
+[GitHub](https://github.com/Njakasoa/flatness-3d-lab) with the maintainer's
+explicit authorization. The public snapshot includes complete written proofs,
+exact certificates, independent checkers, figures and bounded exploration.
+
+The structural result gives 63 necessary contact configurations above
+(11/7)(1+2/sqrt(3)), compressed into nine templates. It does not improve the
+global flatness bound or optimize every surviving continuous family.
+External mathematical priority remains unverified.
+
+- [Main result and scope](../claims/CLAIM-0004.md)
+- [Complete proof](../proofs/CONTACT_HULL_FINITE_REDUCTION.md)
+- [Validation and review](../results/CONTACT_REDUCTION_VALIDATION.md)
+- [Public-copy validation](../PUBLIC_VALIDATION.md)
+- [Publication record](../PUBLICATION.md) and [rights](RIGHTS.md)
+
+From the repository root, install the pinned dependencies and run:
+
+```sh
+python scripts/check_public_snapshot.py
+python reproduce.py
+python reproduce_contact_reduction.py
+```
+
+No journal/arXiv submission or external peer review is claimed.

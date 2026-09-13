@@ -117,10 +117,14 @@ contact subclass only.
 
 ## Interpretation and limits
 
-ACMS' determinant-\( \leq17 \) bound is conditional on \(P\) being the empty
-tetrahedron selected from the blocked facets of an **attained width maximizer**
-after maximal-body reduction.  It is not a determinant cutoff for every
-hollow tetrahedron relevant to an arbitrary optimization.  Even a complete
+ACMS state their determinant-\( \leq17 \) result for an empty inscribed
+tetrahedron of an attained width maximizer. The reopened campaign checked
+that the same inequality proof applies whenever an empty lattice tetrahedron
+\(P\) is contained in any hollow body of width at least \(2+\sqrt2\).
+The direct containment argument and a sharper planar bound are in
+[CONTACT_OBSTRUCTION_REDUCTION.md](../proofs/CONTACT_OBSTRUCTION_REDUCTION.md).
+This is still a bound on the integer tetrahedron \(P\), not on the determinant
+of an arbitrary surrounding real tetrahedron. Even a complete
 HNF list leaves the fixed-\(P\) body optimization unresolved: facets may have
 real or algebraic normals, contacts must lie in relative facet interiors, and
 the width minimum ranges over all nonzero dual-lattice directions.  The square
