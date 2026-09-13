@@ -52,3 +52,24 @@ now includes the square and nonsimplicial branches. Continuous optimization
 within those classes and the explicit published local-radius computation
 remain unresolved. The 63 types are necessary possibilities; neither their
 high-width realizability nor external novelty of the list is established.
+
+## Continuous-family update validation
+
+From source revision 9de72cf, the public copy passed four incremental
+commands: both determinant-two witness generators, the independent Fraction
+checker, and the finite-domain generator. The two witness certificates,
+finite-domain certificate and independent report all reproduced byte for byte.
+Each witness check rejects three mutations; substitution of the six-contact
+witness under the four-contact claim is also rejected. The report is
+[det2_public_validation.json](results/det2_public_validation.json).
+
+The existing geometry engine and the two previously validated reproduction
+pipelines are unchanged. Their earlier full replays remain applicable; this
+incremental export did not rerun them. Optional floating searches and the
+bounded SMT run were retained as recorded experiments, not regenerated.
+The SMT timeout supplies no infeasibility certificate. New proof reviews
+are internal AI-assisted reviews with their correction closures preserved.
+
+All Markdown links resolve locally, the public text has no private machine
+paths or credential-pattern findings, and archived baseline certificates
+retain their previous hashes. The complete snapshot manifest was refreshed.

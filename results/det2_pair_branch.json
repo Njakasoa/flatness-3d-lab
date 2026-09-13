@@ -1,0 +1,226 @@
+{
+  "status": "bounded_exploration_inconclusive",
+  "branch": "determinant_2_two_plus_two_sigma_(01)(23)",
+  "chart": {
+    "contact_vertices_uvw": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "integer_change_of_coordinates": {
+      "u": "1-Z",
+      "v": "1-Y",
+      "w": "1+X-Y-Z",
+      "inverse": "(X,Y,Z)=(w-u-v+1,1-v,1-u)"
+    },
+    "inequalities": [
+      "w >= 1+a(u-1)+b(v-1)",
+      "w >= 1-cu-dv",
+      "w <= e(1-u)+fv",
+      "w <= gu+h(1-v)"
+    ],
+    "strict_parameter_domain": "a,b,c,d,e,f,g,h > 1",
+    "scope_limit": "finite slopes correspond to designated A_ij>1/2; A_ij=1/2 is a vertical-facet limit omitted from this chart"
+  },
+  "corner_fibre_necessary_conditions": [
+    "min(e,h) <= 2 at (u,v)=(0,0)",
+    "min(f,g) <= 2 at (u,v)=(1,1)",
+    "min(b,c) <= 2 at (u,v)=(1,0)",
+    "min(a,d) <= 2 at (u,v)=(0,1)"
+  ],
+  "direction_count_below_contact_width_4": 37,
+  "exact_symmetric_witness": {
+    "parameters": {
+      "a": "2",
+      "b": "2",
+      "c": "2",
+      "d": "2",
+      "e": "2",
+      "f": "2",
+      "g": "2",
+      "h": "2"
+    },
+    "vertices": [
+      [
+        "5/4",
+        "-1/4",
+        "-1"
+      ],
+      [
+        "-1/4",
+        "5/4",
+        "-1"
+      ],
+      [
+        "5/4",
+        "5/4",
+        "2"
+      ],
+      [
+        "-1/4",
+        "-1/4",
+        "2"
+      ]
+    ],
+    "integer_box": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        2
+      ]
+    ],
+    "interior_points": [],
+    "hollow_certified": true,
+    "lattice_width": "3/2",
+    "minimizing_directions": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "contact_matrix": [
+      [
+        "0",
+        "2/3",
+        "1/6",
+        "1/6"
+      ],
+      [
+        "2/3",
+        "0",
+        "1/6",
+        "1/6"
+      ],
+      [
+        "1/6",
+        "1/6",
+        "0",
+        "2/3"
+      ],
+      [
+        "1/6",
+        "1/6",
+        "2/3",
+        "0"
+      ]
+    ],
+    "interpretation": "nonempty exact witness; it does not prove a uniform upper bound"
+  },
+  "exact_high_width_sample": {
+    "parameters": [
+      "921/893",
+      "2033/312",
+      "652/573",
+      "1019/967",
+      "1309/655",
+      "887/795",
+      "1328/389",
+      "2500/407"
+    ],
+    "vertices": [
+      [
+        "128259102599492996/60134681064642011",
+        "23202246119201275/60134681064642011",
+        "-330772651192776604/180404043193926033"
+      ],
+      [
+        "-244957345005219/21383873952214261",
+        "21390736800081565/21383873952214261",
+        "-878410494349488/21383873952214261"
+      ],
+      [
+        "182145251211236152/235301221309684797",
+        "90055514838563935/78433740436561599",
+        "407661886654664704/235301221309684797"
+      ],
+      [
+        "-11411494117758996/3862234720923259",
+        "-6304268905518585/3862234720923259",
+        "23490319486381808/3862234720923259"
+      ]
+    ],
+    "integer_box": [
+      [
+        -2,
+        -1,
+        -1
+      ],
+      [
+        2,
+        1,
+        6
+      ]
+    ],
+    "interior_points": [],
+    "hollow_certified": true,
+    "lattice_width": "842282927197852364248234291881580/302929515605970821838236705331141",
+    "lattice_width_decimal": 2.780458436058882,
+    "minimizing_direction": [
+      0,
+      1,
+      0
+    ],
+    "source": "deterministic exploratory sample; denominator <=1000 rationalization",
+    "interpretation": "exact hollow witness below width three, not a uniform upper-bound certificate"
+  },
+  "numeric_scan": {
+    "seed": 20260913,
+    "attempted": 768,
+    "feasible_roof_tetrahedra": 620,
+    "numeric_hollow": 584,
+    "numeric_nonhollow": 36,
+    "box_cap": 0,
+    "best_hollow_sample": {
+      "width_upper_screen": 2.278639598818108,
+      "direction": [
+        1,
+        1,
+        0
+      ],
+      "parameters": [
+        1.7307036991533504,
+        1.0154504049244073,
+        6.636162153905108,
+        9.567798326374502,
+        2.874401286800808,
+        1.0001599613855665,
+        1.0128958833896509,
+        1.0001498402529692
+      ],
+      "integer_box_status": "hollow"
+    },
+    "scope": "finite random screen with full integer-box scan when box <=100000",
+    "does_not_prove": "a uniform width bound or absence of an asymmetric counterexample"
+  },
+  "elapsed_seconds": 0.5117998169989733
+}

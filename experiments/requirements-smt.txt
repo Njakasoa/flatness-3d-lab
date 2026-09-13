@@ -1,0 +1,2 @@
+# Optional exact real-arithmetic exploration; not needed by baseline replay.
+z3-solver==5.1.0.0

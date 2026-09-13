@@ -42,6 +42,33 @@ at this threshold. Its mathematical priority is not established.
 
 ![Nine eight-point contact templates](results/eight_contact_hulls.png)
 
+## Continuous families: exact witnesses and a finite algebraic model
+
+An exact maximal hollow tetrahedron has precisely four lattice contacts,
+whose contact tetrahedron has normalized determinant two, and width
+
+```text
+4009295246418 / 1232189371865 = 3.2537979453188001711… > 13/4.
+```
+
+Thus width above 13/4 does not force unimodular four-point contacts. The
+construction persists in an open parameter neighborhood; no explicit radius
+or class optimum is claimed. A companion with six boundary lattice points
+has exact width approximately 3.28338262935. Independent rational arithmetic
+checks all possible interior points and all potentially minimizing directions
+for both witnesses, including deliberate certificate mutations.
+
+- [Four-contact obstruction and proof](proofs/DET2_FOUR_CONTACT_OBSTRUCTION.md), [certificate](certificates/det2_four_contacts.json), and [internal adversarial review](results/DET2_WITNESS_ASTRA_REVIEW.md)
+- [Six-contact certificate](certificates/det2_cycle_rational.json) and [independent replay](tests/replay_det2_cycle_independent.py)
+- [Finite algebraic model above width 17/5](proofs/DET2_FINITE_ALGEBRAIC_REDUCTION.md): two blocker-permutation branches, 37 complete width directions, and a proved finite lattice-exclusion box
+- [Pair-branch exploration](proofs/DET2_PAIR_BRANCH.md), [cube-contact analysis](proofs/CUBE_CONTACT_CLASS.md), and [primary-source notes](references/EIGHT_FACET_RESEARCH_SOURCES.md)
+
+The first bounded SMT experiment tested only a necessary relaxation of the
+pair branch. Its positive control passed; the target query returned
+**UNKNOWN (timeout)**. It eliminates no family. The reviewed eight-variable
+reformulation is written mathematics and has not yet been implemented in the
+solver. See the [recorded query and scope](results/det2_pair_smt.json).
+
 ## Verified baseline
 
 The lab independently reconstructs the Codenotti–Santos tetrahedron in the
@@ -137,6 +164,26 @@ The separate contact-reduction replay runs eight stages, including complete
 enumeration, exact difference minima, all 63 template embeddings, an independent
 standard-library verifier with 21 rejected mutations, square controls and figures.
 The [public validation receipt](PUBLIC_VALIDATION.md) records both replays.
+
+Replay the new exact witnesses and finite-domain data with the standard library:
+
+```sh
+python3 -m experiments.certify_det2_cycle
+python3 -m experiments.certify_det2_four_contacts
+python3 tests/replay_det2_cycle_independent.py
+python3 -m experiments.det2_finite_domain
+```
+
+The cycle reconstruction uses the archived numerical search output; rerunning
+the floating search is optional. Z3 is also optional and separate from the
+baseline dependencies:
+
+```sh
+.venv/bin/python -m pip install -r experiments/requirements-smt.txt
+.venv/bin/python -m experiments.det2_pair_smt
+```
+
+This reruns a bounded solver experiment, not a proof of infeasibility.
 
 The core exact geometry uses only the standard library. SymPy supports the
 independent checks; SciPy supports exploration; Matplotlib produces figures.

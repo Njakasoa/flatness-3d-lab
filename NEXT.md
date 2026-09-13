@@ -1,23 +1,42 @@
-# Next scientific actions
+# Next scientific actions — continuous families
 
-The public lab contains the internally verified contact reduction of
-CLAIM-0004, its exact certificates and independent replay. The global flatness
-conjecture and external novelty of the refinement remain open.
+The 63 contact configurations and nine-template compression are internally
+verified and published. External novelty is not established, and no global
+flatness bound has improved.
 
-1. Audit priority beyond the checked primary sources. ACMS already provide
-   the finite reduction principle; the proposed refinement is the planar
-   obstruction and explicit list at the lower threshold.
-2. Bound an entire surviving continuous class, starting with the standard-cube
-   eight-facet class or determinant-two tetrahedral contacts. Include all
-   boundary cases and justify every finite width-direction search.
-3. Resolve the asymmetric square-contact branch. The balanced subclass has
-   width at most two; the remaining parameters still need a uniform argument.
-4. Use actual contact subsets in the nine templates. Additional template
-   vertices cannot be required to belong to the surrounding hollow body.
-5. Extend the proof only with fresh exact certificates and independent review.
-   Completeness of an enumeration is separate from checking its examples.
+1. Probe the determinant-two pair branch using the eight-parameter signed
+   adjugate formulation in proofs/DET2_FINITE_ALGEBRAIC_REDUCTION.md. The first
+   auxiliary-variable Z3 query timed out after 30 seconds; its positive
+   control passed. Change the representation before spending more time on
+   the same query.
+2. Keep equality A_i,sigma(i)=1/2. Finite two-roof slopes omit these vertical
+   facet limits. Preserve the 37 complete width directions and proved
+   coordinate bounds. The 216 lattice exclusions are only a necessary
+   relaxation. SAT requires exact hollowness checks or additional lattice
+   cuts; UNSAT requires review of the encoding and solver evidence.
+3. Preserve the exact four-contact index-two witness of width >13/4 and its
+   open neighborhood. It disproves early unimodularity assumptions and
+   prevents pruning all non-unimodular contacts at that threshold. The
+   six-contact witness near 3.28338 has no local or global optimum certificate.
+4. For the cube class, use Lassak's necessary mixed width/chord inequalities.
+   Do not invoke the conjectured sum of inverse axis widths as a theorem.
+   At width >=2+sqrt(2), every axis requires a_i<=1+sqrt(2) and W_i/a_i>=sqrt(2).
+5. Continue the priority audit beyond the checked primary sources. Howe's
+   eight-point extension principle is already known; the finite list under
+   the stated width threshold is the proposed refinement. Extra template
+   vertices need not belong to the surrounding body.
 
-Run `python reproduce.py` for the baseline and
-`python reproduce_contact_reduction.py` for the structural update.
-The historical STOP_REPORT.md records the first numerical campaign; the
-structural work linked above supersedes its project-status assessment.
+Replays:
+
+```sh
+python3 reproduce.py
+python3 reproduce_contact_reduction.py
+python3 -m experiments.certify_det2_cycle
+python3 -m experiments.certify_det2_four_contacts
+python3 tests/replay_det2_cycle_independent.py
+python3 -m experiments.det2_finite_domain
+```
+
+Optional SMT: install experiments/requirements-smt.txt and run
+`python -m experiments.det2_pair_smt`. This is a bounded experiment, not an
+infeasibility certificate. See results/det2_pair_smt.json for the first result.

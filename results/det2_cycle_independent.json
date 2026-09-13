@@ -1,0 +1,445 @@
+{
+  "arithmetic": "Python standard-library Fraction only",
+  "certificates": {
+    "det2_cycle_rational.json": {
+      "checks": {
+        "claimed_width_minimizers_consistent": true,
+        "complete_width_basis_bound_and_direction_replay": true,
+        "exact_integer_bbox_exhausted": true,
+        "four_designated_relative_interior_contacts": true,
+        "raw_vertices_rational_facet_matrix_consistent": true,
+        "recorded_hollow_witness_and_contact_scope": true,
+        "stored_supporting_facets_and_contacts_consistent": true
+      },
+      "exact": {
+        "boundary_points": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ],
+        "designated_relative_interior_contacts": [
+          {
+            "facet_vertex_ids": [
+              1,
+              2,
+              3
+            ],
+            "point": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "facet_vertex_ids": [
+              0,
+              2,
+              3
+            ],
+            "point": [
+              2,
+              1,
+              1
+            ]
+          },
+          {
+            "facet_vertex_ids": [
+              0,
+              1,
+              3
+            ],
+            "point": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "facet_vertex_ids": [
+              0,
+              1,
+              2
+            ],
+            "point": [
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "integer_box": [
+          [
+            -1,
+            2
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            -1,
+            2
+          ]
+        ],
+        "interior_points": [],
+        "points_checked": 48,
+        "vertices": [
+          [
+            [
+              "22513840141924050539506/8959479564175752872923",
+              "0",
+              2
+            ],
+            [
+              "12866924542282260896878/8959479564175752872923",
+              "0",
+              2
+            ],
+            [
+              "919158129307997829756/689190735705827144071",
+              "0",
+              2
+            ]
+          ],
+          [
+            [
+              "-243134973073020498004921670/212030097456353603828511043",
+              "0",
+              2
+            ],
+            [
+              "370588369996373752326514781/424060194912707207657022086",
+              "0",
+              2
+            ],
+            [
+              "-81759028837276696976352594/212030097456353603828511043",
+              "0",
+              2
+            ]
+          ],
+          [
+            [
+              "-52180709187431745551395370/89276953969467077182203859",
+              "0",
+              2
+            ],
+            [
+              "-164917614530869267729846272/89276953969467077182203859",
+              "0",
+              2
+            ],
+            [
+              "191301443101792295705050222/89276953969467077182203859",
+              "0",
+              2
+            ]
+          ],
+          [
+            [
+              "166669584636284564540/146871692651532911789",
+              "0",
+              2
+            ],
+            [
+              "92090773270456633224/146871692651532911789",
+              "0",
+              2
+            ],
+            [
+              "-167521298344236781204/146871692651532911789",
+              "0",
+              2
+            ]
+          ]
+        ],
+        "width": {
+          "basis_bound_justification": "For width <= initial_upper, each q_i=<u,v_i-v_0> satisfies |q_i|<=initial_upper. With u=D^-1 q, each integer coordinate u_j lies in the displayed floor bound; all primitive representatives in that finite box were checked.",
+          "basis_vertex_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "coordinate_bounds": [
+            2,
+            3,
+            2
+          ],
+          "direction_count": 73,
+          "initial_upper": "2626295827251877043085275249964984832799113945258/799875044641299639130714446830473583747907209857",
+          "minimizing_directions_mod_sign": [
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "width": "4320583268114594607881031741630319110755574/1315893928867311218381530956762804285589247"
+        }
+      },
+      "mutation_guards": {
+        "boundary_list_mutation": {
+          "reason": "boundary lattice-point list mismatch",
+          "rejected": true
+        },
+        "vertex_mutation": {
+          "reason": "raw vertices disagree with facet_matrix/contact reconstruction",
+          "rejected": true
+        },
+        "width_value_mutation": {
+          "reason": "claimed width does not match complete direction replay",
+          "rejected": true
+        }
+      },
+      "status": "passed"
+    },
+    "det2_four_contacts.json": {
+      "checks": {
+        "claimed_width_minimizers_consistent": true,
+        "complete_width_basis_bound_and_direction_replay": true,
+        "exact_integer_bbox_exhausted": true,
+        "four_designated_relative_interior_contacts": true,
+        "raw_vertices_rational_facet_matrix_consistent": true,
+        "recorded_hollow_witness_and_contact_scope": true,
+        "stored_supporting_facets_and_contacts_consistent": true
+      },
+      "exact": {
+        "boundary_points": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ],
+        "designated_relative_interior_contacts": [
+          {
+            "facet_vertex_ids": [
+              1,
+              2,
+              3
+            ],
+            "point": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "facet_vertex_ids": [
+              0,
+              2,
+              3
+            ],
+            "point": [
+              2,
+              1,
+              1
+            ]
+          },
+          {
+            "facet_vertex_ids": [
+              0,
+              1,
+              3
+            ],
+            "point": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "facet_vertex_ids": [
+              0,
+              1,
+              2
+            ],
+            "point": [
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "integer_box": [
+          [
+            -1,
+            2
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            -1,
+            2
+          ]
+        ],
+        "interior_points": [],
+        "points_checked": 48,
+        "vertices": [
+          [
+            [
+              "9105744609/3608125498",
+              "0",
+              2
+            ],
+            [
+              "5215566447/3608125498",
+              "0",
+              2
+            ],
+            [
+              "4820182227/3608125498",
+              "0",
+              2
+            ]
+          ],
+          [
+            [
+              "-613341/541430",
+              "0",
+              2
+            ],
+            [
+              "472941/541430",
+              "0",
+              2
+            ],
+            [
+              "-206271/541430",
+              "0",
+              2
+            ]
+          ],
+          [
+            [
+              "-9243171/14904646",
+              "0",
+              2
+            ],
+            [
+              "-28018665/14904646",
+              "0",
+              2
+            ],
+            [
+              "32037435/14904646",
+              "0",
+              2
+            ]
+          ],
+          [
+            [
+              "10331991/9103222",
+              "0",
+              2
+            ],
+            [
+              "73757835/118341886",
+              "0",
+              2
+            ],
+            [
+              "-132156045/118341886",
+              "0",
+              2
+            ]
+          ]
+        ],
+        "width": {
+          "basis_bound_justification": "For width <= initial_upper, each q_i=<u,v_i-v_0> satisfies |q_i|<=initial_upper. With u=D^-1 q, each integer coordinate u_j lies in the displayed floor bound; all primitive representatives in that finite box were checked.",
+          "basis_vertex_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "coordinate_bounds": [
+            2,
+            3,
+            2
+          ],
+          "direction_count": 73,
+          "initial_upper": "1440277386996870/440960979450589",
+          "minimizing_directions_mod_sign": [
+            [
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "width": "4009295246418/1232189371865"
+        }
+      },
+      "mutation_guards": {
+        "boundary_list_mutation": {
+          "reason": "boundary lattice-point list mismatch",
+          "rejected": true
+        },
+        "vertex_mutation": {
+          "reason": "raw vertices disagree with facet_matrix/contact reconstruction",
+          "rejected": true
+        },
+        "width_value_mutation": {
+          "reason": "claimed width does not match complete direction replay",
+          "rejected": true
+        }
+      },
+      "status": "passed"
+    }
+  },
+  "four_contact_certificate": "required_and_validated",
+  "imports_project_src": false,
+  "limitations": [
+    "This is an exact replay for the supplied reconstructed tetrahedron(s), not a search or a proof of global or local optimality.",
+    "The finite width argument certifies each supplied body using its exact difference-coordinate basis bound; it does not establish a uniform bound for other bodies.",
+    "The certificate chart assumes the four standard integral contacts 0, (2,1,1), e2, e3 in the stated row order."
+  ],
+  "self_consistent_witness_substitution_rejected": true,
+  "status": "passed",
+  "validator": "tests/replay_det2_cycle_independent.py"
+}

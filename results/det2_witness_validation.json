@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "stages": [
+    {
+      "name": "cycle",
+      "returncode": 0
+    },
+    {
+      "name": "four_contacts",
+      "returncode": 0
+    },
+    {
+      "name": "independent",
+      "returncode": 0
+    }
+  ],
+  "exact_certificate_bytes_reproduced": true
+}

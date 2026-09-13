@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "stages": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "experiments.certify_det2_cycle"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "experiments.certify_det2_four_contacts"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "tests/replay_det2_cycle_independent.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "experiments.det2_finite_domain"
+      ],
+      "returncode": 0
+    }
+  ],
+  "exact_payloads_reproduced_byte_for_byte": [
+    "certificates/det2_cycle_rational.json",
+    "certificates/det2_four_contacts.json",
+    "certificates/det2_finite_domain.json",
+    "results/det2_cycle_independent.json"
+  ],
+  "core_geometry_unchanged": true,
+  "scope": "Incremental public-copy validation. Baseline and contact-reduction replays are recorded in the preceding publication. Optional floating and SMT searches are archived, not rerun."
+}

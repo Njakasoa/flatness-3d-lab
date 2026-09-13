@@ -28,3 +28,13 @@ external peer review or journal/arXiv submission has occurred.
 The new tetrahedral refinement audit is proofs/CONTACT_MINIMA_LITERATURE.md.
 The complete-contact-hull audit is proofs/CONTACT_HULL_NOVELTY_AUDIT.md. A mathematical
 corollary of known tools can be correct and useful without being novel.
+
+## Subsequent continuous-class probes
+
+The determinant-two witnesses at widths about 3.28338 and 3.25380 are exact
+examples and scope controls, not claimed novel extrema. The latter has exactly
+four index-two contacts and persists on an open parameter neighborhood.
+The cube-contact axis-width proposal encounters Lassak's inscribed-parallelotope
+conjecture; his established mixed width/chord inequality supplies a necessary
+condition instead. An additional 2008 source credits Howe's eight-point
+extension principle. See references/EIGHT_FACET_RESEARCH_SOURCES.md.

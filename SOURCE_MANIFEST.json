@@ -22,28 +22,28 @@
       "sha256": "96242f1080dc718b1553428ac296d66a04ba30dae8890acbd8c238b303ec3dd6"
     },
     "NEXT.md": {
-      "bytes": 1374,
-      "sha256": "337423521794e398f3377d7a3cf68758accc4a47e5a4857e35ff9f98a379174e"
+      "bytes": 2199,
+      "sha256": "ebf4a5f8257801f8e8d85f1c07a7b022d620daa304954fcd56ed7d096fe38713"
     },
     "NORMALIZATION.md": {
       "bytes": 2734,
       "sha256": "f03de491797472c84153de23ad188d90f756996b7d0b86bb4e7bb8d77ec849df"
     },
     "NOVELTY_LOG.md": {
-      "bytes": 2397,
-      "sha256": "b7d4904563468df636f32de584fed3ab657ea445a7692de22e0bbc377a3cdd39"
+      "bytes": 2964,
+      "sha256": "588c8128ebde7258fc94d2920cac17194240c797e49ace6f7ce2e32536d8bdc1"
     },
     "PUBLICATION.md": {
-      "bytes": 1741,
-      "sha256": "892dcbd89f7e72aed5668de9bcf397fcd88c47f84ad8776cbc8da44baa3b326c"
+      "bytes": 2409,
+      "sha256": "554e90342f3c54e45fe3a9c15eeda541b8188cdd624c666ef0f218b42fced389"
     },
     "PUBLIC_VALIDATION.md": {
-      "bytes": 3206,
-      "sha256": "9a057c7b945617af2ee9906144d32717d40018ef849371b55a4bce0ef79d97ec"
+      "bytes": 4428,
+      "sha256": "61358e9c9d1dd26075e195efbe8b1c0dbf9a9878bf11d37bb0cb853c95c5435b"
     },
     "README.md": {
-      "bytes": 9051,
-      "sha256": "1c69299b79bb1a58ed125fb9604ccf293430ccf958f688fc6e0d7708a3cd713d"
+      "bytes": 11517,
+      "sha256": "01b4e31d68406c72e1fb506a942c851ccb430312f58324010cc1fb97850d1198"
     },
     "STATE_OF_THE_ART.md": {
       "bytes": 16202,
@@ -72,6 +72,18 @@
     "certificates/contact_templates.json": {
       "bytes": 60426,
       "sha256": "c70f0e7c11534b748ef4fa3d4fc9f7d9323739aee51f4975cbe34b77d5be0ddf"
+    },
+    "certificates/det2_cycle_rational.json": {
+      "bytes": 10620,
+      "sha256": "1f93322a7a3691821c19577695f935ed5966adc829715de2af0fe172a8335c43"
+    },
+    "certificates/det2_finite_domain.json": {
+      "bytes": 11282,
+      "sha256": "4ca83063fa75b931dc386106097167507e491f58906a135cf882b6c1c1dbfb56"
+    },
+    "certificates/det2_four_contacts.json": {
+      "bytes": 7868,
+      "sha256": "b8c2df1efeba918b3e6da43e54793e893fe777a2cd11a18d06d733230a17de2b"
     },
     "certificates/discovery_15217.json": {
       "bytes": 11854,
@@ -161,6 +173,14 @@
       "bytes": 1077,
       "sha256": "e1c7d45a7fda346afea2108728a440db9353e30b3574810e6c4a7761dd00d215"
     },
+    "experiments/certify_det2_cycle.py": {
+      "bytes": 1771,
+      "sha256": "5392e51fc367bff0135e017906a68a8b35b0008a36b067a40f9a1475cb54049d"
+    },
+    "experiments/certify_det2_four_contacts.py": {
+      "bytes": 2293,
+      "sha256": "0cf40524f2c2c9ac9deaf08090c9d5c5101d109c48032e4a8f71d871e203acb5"
+    },
     "experiments/certify_discovery.py": {
       "bytes": 3310,
       "sha256": "147ce5f8c921e5cab8b489259ad64c769579340d4a0088d52ca2dc66f1e157f6"
@@ -185,6 +205,26 @@
       "bytes": 3390,
       "sha256": "5655cc976bbb8917feff6cb389eb8a987e7a7ab3c360287f054787294ec5877c"
     },
+    "experiments/cube_contact_class.py": {
+      "bytes": 8003,
+      "sha256": "67271701409247b6db3d3cd6d04c46237d9f29be828fde25c846dc8de8e08d0e"
+    },
+    "experiments/det2_cycle_relaxation.py": {
+      "bytes": 3046,
+      "sha256": "c2454b49aa70721a4897c859475135d4379ad628123de734684417cce0f4144f"
+    },
+    "experiments/det2_finite_domain.py": {
+      "bytes": 3207,
+      "sha256": "db3d0c0adebd4de07ffa4ac292e9cb089986a67188d98a948c18946770fd37c9"
+    },
+    "experiments/det2_pair_branch.py": {
+      "bytes": 14210,
+      "sha256": "b80df7453d2038fbbe63207e64e699a5dd4660359d555f019b548fa99a64d9cf"
+    },
+    "experiments/det2_pair_smt.py": {
+      "bytes": 15305,
+      "sha256": "162457ba74ef12c605fe86cbcb66d46da3364f5d9a6f9b46a8898c7f92a5ab0f"
+    },
     "experiments/discovery.py": {
       "bytes": 8377,
       "sha256": "0cc4831f2f3c9ec6d4632fff1de302c50a5718ce60d6921d54e42a4ace1f13e4"
@@ -208,6 +248,10 @@
     "experiments/replay_upper_bound.py": {
       "bytes": 9102,
       "sha256": "da2d3ee823f91cc17300e1d9445712046e7b4933b4258315c164ea6653d7af28"
+    },
+    "experiments/requirements-smt.txt": {
+      "bytes": 96,
+      "sha256": "b7f299f804622397996f95180fec070c8f56c1d33efa54ac7740d739ef687106"
     },
     "experiments/square_contacts.py": {
       "bytes": 10343,
@@ -249,6 +293,22 @@
       "bytes": 7059,
       "sha256": "757cc527ade64e3d8e79ce6af5ff079eb6ff44263e903bb314edf6fad67a68e5"
     },
+    "proofs/CUBE_CONTACT_CLASS.md": {
+      "bytes": 9186,
+      "sha256": "85972de1de3a6689b2bb60cc587c78dc451de4c82418acb071da7811ae92c487"
+    },
+    "proofs/DET2_FINITE_ALGEBRAIC_REDUCTION.md": {
+      "bytes": 7629,
+      "sha256": "c409629ebabadd45fdbc110d348d1d3bc542be20013a84e66adbe94d666229d2"
+    },
+    "proofs/DET2_FOUR_CONTACT_OBSTRUCTION.md": {
+      "bytes": 3947,
+      "sha256": "300f4bce5d29b70f791f214b2fb57be179c2f06f13f026ed8e6ffd2d42a70d85"
+    },
+    "proofs/DET2_PAIR_BRANCH.md": {
+      "bytes": 5164,
+      "sha256": "5df4fbc29ff9d2aa537e8162aabc5645f07c168f160fa3e85227eeb7c34f82d3"
+    },
     "proofs/FLATNESS_2D_RECONSTRUCTION.md": {
       "bytes": 7563,
       "sha256": "7cee32e38c91f4dff48563a3780dd96ae4cf19aff463eeb29f448087f01d352d"
@@ -285,6 +345,10 @@
       "bytes": 877,
       "sha256": "da91b7af8436921377cbecfe7d2ff6f80678a03a0d2cd5cfc52f7a1731139610"
     },
+    "references/EIGHT_FACET_RESEARCH_SOURCES.md": {
+      "bytes": 1955,
+      "sha256": "f702cfe25bb0ff2239eaff5f6dc9b9e14c970dba4611c98463b81036a75ec2d2"
+    },
     "references/LITERATURE_SEARCH.md": {
       "bytes": 9522,
       "sha256": "310ad7e5cec7f0b561f83cd3dfe44fed1695390e4b231671fcb3f0a42a4dbf28"
@@ -320,6 +384,18 @@
     "results/DEGREES_OF_FREEDOM.md": {
       "bytes": 4458,
       "sha256": "00caa53ac4e1146eef1170291870aa65c8426f350d3f1fc197e655630359dd90"
+    },
+    "results/DET2_CYCLE_REVIEW.md": {
+      "bytes": 3091,
+      "sha256": "822a1814241e4ef8cd4406b44d9fa461615d402c171c47c09edba3f56e10fd11"
+    },
+    "results/DET2_FINITE_MODEL_REVIEW.md": {
+      "bytes": 5663,
+      "sha256": "2edf2da237d80357b6d60f99a6e50e58740b9f75df53adfc3e8d6993c83627b9"
+    },
+    "results/DET2_WITNESS_ASTRA_REVIEW.md": {
+      "bytes": 5835,
+      "sha256": "aff34e76ce87a0ff2dcce1cf8bbe23123a37fe5b105f0d00feabf6e0f06d24cf"
     },
     "results/INTEGER_PROGRAMMING_CONTEXT.md": {
       "bytes": 1247,
@@ -372,6 +448,38 @@
     "results/contact_reduction_validation.json": {
       "bytes": 107460,
       "sha256": "e9303f3eb7b3458c6adb9e04212842e186ab8e2d8d6151ec36209882ef60a175"
+    },
+    "results/cube_contact_class.json": {
+      "bytes": 22480,
+      "sha256": "48bd621685d245d332cb04449e1a0bc54587547dd2689cffacb4122d44c23dd5"
+    },
+    "results/det2_cycle_independent.json": {
+      "bytes": 10546,
+      "sha256": "27c72430b0bbf6ec9f3f8f2fd0ce596a12fe20ab4955a24c244a9e0cc10e5995"
+    },
+    "results/det2_cycle_relaxation.json": {
+      "bytes": 62488,
+      "sha256": "2564ac1416ad5687e34a953aca5051ba778850c073fc941e911f44a07426f9f7"
+    },
+    "results/det2_pair_branch.json": {
+      "bytes": 4545,
+      "sha256": "b829e4fea1cf49578e051ac854ecdab55fbd9a970526fe5823edb7ed94ed8f82"
+    },
+    "results/det2_pair_smt.json": {
+      "bytes": 7683,
+      "sha256": "1750620ba171f1e30a59e4cf3b2d6e6c1cc37071cbd183f1b4ef5f92f65fdcb7"
+    },
+    "results/det2_pair_smt.smt2": {
+      "bytes": 165251,
+      "sha256": "bee3348f3427a99c1fdbd9cb0982e5998f5fc7840e6a6b9264c136faffbac9a4"
+    },
+    "results/det2_public_validation.json": {
+      "bytes": 1047,
+      "sha256": "54d803d8f376a86029ce589297ac975deeb4e2df0268597fa19ebe7294b10078"
+    },
+    "results/det2_witness_validation.json": {
+      "bytes": 277,
+      "sha256": "4f38b7af814f6ad1a783c36703d7bd754e9e201ea76aec79f51da97e28890f9b"
     },
     "results/discovery_summary.json": {
       "bytes": 1998,
@@ -533,6 +641,10 @@
       "bytes": 55797,
       "sha256": "b551b737fd24b75af96644af82bc63079736d7eef529ac5e6977d2f9900e2c51"
     },
+    "tests/replay_det2_cycle_independent.py": {
+      "bytes": 24880,
+      "sha256": "f76fe572f2fb5d7bafc57650ef73e6921aeb90c94cecd6ec77c049e4228f8189"
+    },
     "tests/test_canonical.py": {
       "bytes": 837,
       "sha256": "f2cf411aad13bedbd4e4683f606be35890a31efdf4fbaf9bbf67d03b3e1350e0"
@@ -547,5 +659,5 @@
     }
   },
   "repository": "https://github.com/Njakasoa/flatness-3d-lab",
-  "source_revision": "da24c58810c59a750978c6de4ef72d895e148d56"
+  "source_revision": "9de72cf976d5a6ec181baec906f8e0215cd284bb"
 }
