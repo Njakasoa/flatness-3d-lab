@@ -1,0 +1,17 @@
+[
+  {
+    "file": "papers/ACMS-1907.06199.pdf",
+    "sha256": "4f5f508e9336608f528b16cbef73ea28ac006d13178c042249a2b24ca5c00bd1",
+    "bytes": 689004
+  },
+  {
+    "file": "papers/Averkov-et-al-2026-2604.27260.pdf",
+    "sha256": "896c47a4094ae6f9d8ac259f236e2fc7c232058945423a379bc122aa5080bfa0",
+    "bytes": 1017168
+  },
+  {
+    "file": "papers/Codenotti-Santos-1812.00916.pdf",
+    "sha256": "c134b67a608c57a40416c0753e485f73380fda39203ac588483ec48e1fd29461",
+    "bytes": 913932
+  }
+]

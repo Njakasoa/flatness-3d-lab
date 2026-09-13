@@ -1,0 +1,82 @@
+[
+  {
+    "id": 679,
+    "family": "asymmetric_epigraph",
+    "hollow": true,
+    "width_exact": "9259816821581770064512638185748/2712137593936311644195131983175",
+    "width_decimal_display": 3.4142135127231366,
+    "facets": 4,
+    "counterexample": false,
+    "certificate": "certificates/discovery_679.json"
+  },
+  {
+    "id": 22940,
+    "family": "asymmetric_epigraph",
+    "hollow": true,
+    "width_exact": "4822110296168746568225782931074503893336976612/1412363421944232683193798870785117359138504243",
+    "width_decimal_display": 3.4142135241159965,
+    "facets": 4,
+    "counterexample": false,
+    "certificate": "certificates/discovery_22940.json"
+  },
+  {
+    "id": 15217,
+    "family": "asymmetric_epigraph",
+    "hollow": true,
+    "width_exact": "16875405739152271511545882578762495000290457091380/4942691905739350194971807204660219617291961141279",
+    "width_decimal_display": 3.4142135623620207,
+    "facets": 4,
+    "counterexample": false,
+    "certificate": "certificates/discovery_15217.json"
+  },
+  {
+    "id": 9480,
+    "family": "asymmetric_epigraph",
+    "hollow": true,
+    "width_exact": "320089339907874371858104353508036931955/93751997844487214509286427128775547372",
+    "width_decimal_display": 3.414213534295325,
+    "facets": 4,
+    "counterexample": false,
+    "certificate": "certificates/discovery_9480.json"
+  },
+  {
+    "id": 16862,
+    "family": "asymmetric_optimization",
+    "hollow": true,
+    "width_exact": "1709930826737980565107298751030817967647062241955/531678666675214614167139110654677734203780907758",
+    "width_decimal_display": 3.2160982448869295,
+    "facets": 4,
+    "counterexample": false,
+    "certificate": "certificates/discovery_16862.json"
+  },
+  {
+    "id": 25161,
+    "family": "cube_contacts_5_facets",
+    "hollow": true,
+    "width_exact": "24052848647626380620180859224172547768935312529974534469104617638598931917931464104321360942981853025/9938146979313648448966628206399329082598793943582766483024142787028788730345742175159816076992149241",
+    "width_decimal_display": 2.4202548722304695,
+    "facets": 5,
+    "counterexample": false,
+    "certificate": "certificates/discovery_25161.json"
+  },
+  {
+    "id": 25209,
+    "family": "cube_contacts_6_facets",
+    "hollow": true,
+    "width_exact": "9963021237510219091338463283293944899916659111759641505124718791538783756599935788514837721377453312/3731895541337208579531510322271074209052177968905513576966665046907100049533051461735438029659679775",
+    "width_decimal_display": 2.6696945632996685,
+    "facets": 6,
+    "counterexample": false,
+    "certificate": "certificates/discovery_25209.json"
+  },
+  {
+    "id": 269,
+    "family": "unseeded_unimodular_contacts",
+    "hollow": true,
+    "width_exact": "1157254159636497338071540071874604306047781622776703/413056783141797622981347736607112100124122162484609",
+    "width_decimal_display": 2.8016829812941855,
+    "facets": 4,
+    "counterexample": false,
+    "certificate": "certificates/discovery_269.json"
+  }
+]

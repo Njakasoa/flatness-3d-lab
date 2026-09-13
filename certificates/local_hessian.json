@@ -1,0 +1,219 @@
+{
+  "chart": {
+    "det_M_at_zero": "16",
+    "h_at_zero": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "h_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "variables": [
+      "t11",
+      "t12",
+      "t21",
+      "t22",
+      "t31",
+      "t32",
+      "t41",
+      "t42"
+    ]
+  },
+  "checks": {
+    "auxiliary_c": "1/100",
+    "auxiliary_hessian_formula_matches_direct": true,
+    "auxiliary_hessian_leading_minors": [
+      {
+        "determinant": "-1056 - 672*sqrt(2)",
+        "negative_definite_leading_minor": true,
+        "sign": -1,
+        "size": 1
+      },
+      {
+        "determinant": "573440*sqrt(2) + 847872",
+        "negative_definite_leading_minor": true,
+        "sign": 1,
+        "size": 2
+      },
+      {
+        "determinant": "(-345223355392 - 239214886912*sqrt(2))/625",
+        "negative_definite_leading_minor": true,
+        "sign": -1,
+        "size": 3
+      },
+      {
+        "determinant": "(257603468623872*sqrt(2) + 364391887151104)/625",
+        "negative_definite_leading_minor": true,
+        "sign": 1,
+        "size": 4
+      },
+      {
+        "determinant": "(-680156668652948864*sqrt(2) - 961883055850572928)/390625",
+        "negative_definite_leading_minor": true,
+        "sign": -1,
+        "size": 5
+      },
+      {
+        "determinant": "(13498752939513616227816 + 9545067751476099726224*sqrt(2))/9765625",
+        "negative_definite_leading_minor": true,
+        "sign": 1,
+        "size": 6
+      },
+      {
+        "determinant": "(-4556301194550610664748032 - 3221791451770955787798784*sqrt(2))/1220703125",
+        "negative_definite_leading_minor": true,
+        "sign": -1,
+        "size": 7
+      },
+      {
+        "determinant": "(2269346603359200948555313152 + 1604670372108570771748093952*sqrt(2))/152587890625",
+        "negative_definite_leading_minor": true,
+        "sign": 1,
+        "size": 8
+      }
+    ],
+    "auxiliary_hessian_negative_definite": true,
+    "computed_nullspace_basis": [
+      [
+        "sqrt(2)/2",
+        "(3 - 3*sqrt(2))/2",
+        "(1 - sqrt(2))/2"
+      ],
+      [
+        "sqrt(2)/2",
+        "(3 - sqrt(2))/2",
+        "(1 - sqrt(2))/2"
+      ],
+      [
+        "-sqrt(2)/2",
+        "-1/2",
+        "-1/2"
+      ],
+      [
+        "(-2 + sqrt(2))/2",
+        "(3 - 3*sqrt(2))/2",
+        "(3 - sqrt(2))/2"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-sqrt(2)/2",
+        "-sqrt(2)/2"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "gradient_rank": 5,
+    "gradients_match_paper_equation_4": true,
+    "nullspace_dimension": 3,
+    "paper_basis_is_in_kernel": true,
+    "positive_dependence_coefficients": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "sqrt(2)",
+      "sqrt(2)"
+    ],
+    "positive_dependence_vector": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "quadratic_hessian_convention": "Hessian of sum(lambda_i*h_i) at 0; no extra 1/2 factor",
+    "restricted_hessian_direct": [
+      [
+        "-152*sqrt(2) - 208",
+        "-64 - 40*sqrt(2)",
+        "-32 - 16*sqrt(2)"
+      ],
+      [
+        "-64 - 40*sqrt(2)",
+        "-312*sqrt(2) - 432",
+        "-256*sqrt(2) - 352"
+      ],
+      [
+        "-32 - 16*sqrt(2)",
+        "-256*sqrt(2) - 352",
+        "-304*sqrt(2) - 416"
+      ]
+    ],
+    "restricted_hessian_leading_minors": [
+      {
+        "determinant": "-152*sqrt(2) - 208",
+        "negative_definite_leading_minor": true,
+        "sign": -1,
+        "size": 1
+      },
+      {
+        "determinant": "125440*sqrt(2) + 177408",
+        "negative_definite_leading_minor": true,
+        "sign": 1,
+        "size": 2
+      },
+      {
+        "determinant": "-32276480*sqrt(2) - 45645824",
+        "negative_definite_leading_minor": true,
+        "sign": -1,
+        "size": 3
+      }
+    ],
+    "restricted_hessian_matches_paper_up_to_positive_scale": true,
+    "restricted_hessian_negative_definite": true,
+    "restricted_hessian_paper_display": [
+      [
+        "(-19*sqrt(2) - 26)/2",
+        "(-8 - 5*sqrt(2))/2",
+        "-2 - sqrt(2)"
+      ],
+      [
+        "(-8 - 5*sqrt(2))/2",
+        "(-39*sqrt(2) - 54)/2",
+        "-16*sqrt(2) - 22"
+      ],
+      [
+        "-2 - sqrt(2)",
+        "-16*sqrt(2) - 22",
+        "-19*sqrt(2) - 26"
+      ]
+    ],
+    "restricted_hessian_scale_relative_to_paper_display": "16"
+  },
+  "field": "Q(sqrt(2))",
+  "limitations": [
+    "This proves the qualitative existence of a local neighborhood for c=1/100.",
+    "It does not reproduce the paper's explicit degree-16 coefficient-majorant radius computation.",
+    "It does not prove the geometric hollow-body reduction or any global upper bound."
+  ],
+  "source": {
+    "arxiv": "1907.06199v2",
+    "title": "A local maximizer for lattice width of 3-dimensional hollow bodies",
+    "url": "https://arxiv.org/abs/1907.06199"
+  }
+}

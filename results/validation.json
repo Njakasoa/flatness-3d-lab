@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "discovery_regenerated": false,
+  "stages": [
+    {
+      "name": "environment",
+      "returncode": 0,
+      "seconds": 1.643,
+      "log": "results/validation_environment.log"
+    },
+    {
+      "name": "baseline",
+      "returncode": 0,
+      "seconds": 0.093,
+      "log": "results/validation_baseline.log"
+    },
+    {
+      "name": "planar_control",
+      "returncode": 0,
+      "seconds": 0.045,
+      "log": "results/validation_planar_control.log"
+    },
+    {
+      "name": "upper_bound",
+      "returncode": 0,
+      "seconds": 0.039,
+      "log": "results/validation_upper_bound.log"
+    },
+    {
+      "name": "local_hessian",
+      "returncode": 0,
+      "seconds": 9.483,
+      "log": "results/validation_local_hessian.log"
+    },
+    {
+      "name": "contact_enumeration",
+      "returncode": 0,
+      "seconds": 4.992,
+      "log": "results/validation_contact_enumeration.log"
+    },
+    {
+      "name": "truncation",
+      "returncode": 0,
+      "seconds": 0.079,
+      "log": "results/validation_truncation.log"
+    },
+    {
+      "name": "independent_replay",
+      "returncode": 0,
+      "seconds": 26.321,
+      "log": "results/validation_independent_replay.log"
+    },
+    {
+      "name": "tests",
+      "returncode": 0,
+      "seconds": 0.521,
+      "log": "results/validation_tests.log"
+    },
+    {
+      "name": "selected_exact_candidates",
+      "returncode": 0,
+      "seconds": 2.689,
+      "log": "results/validation_selected_exact_candidates.log"
+    },
+    {
+      "name": "figures",
+      "returncode": 0,
+      "seconds": 2.863,
+      "log": "results/validation_figures.log"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite this reproducible research companion and the primary papers it reconstructs. No new global flatness bound is claimed."
+title: "Flatness-3D Lab: exact lattice-width certificates and contact enumeration"
+type: software
+authors:
+  - name: "Flatness-3D Lab"
+repository-code: "https://github.com/Njakasoa/flatness-3d-lab"
+license: MIT
+keywords:
+  - flatness constant
+  - geometry of numbers
+  - lattice width
+  - hollow convex bodies
+  - exact certificates
+  - reproducible research

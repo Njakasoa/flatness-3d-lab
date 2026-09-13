@@ -1,0 +1,21 @@
+{
+  "status": "independent_replay_passed",
+  "width": "sqrt(2) + 2",
+  "directions_checked": 21,
+  "interior_points": [],
+  "permutations_tested": 24,
+  "valid_automorphisms": 4,
+  "mutation_guards": {
+    "missing_active_direction_rejected": true,
+    "altered_width_rejected": true,
+    "zero_upper_direction_rejected": true,
+    "corrupt_inverse_rejected": true,
+    "corrupt_initial_bound_rejected": true,
+    "corrupt_lower_bound_rejected": true,
+    "missing_facets_rejected": true,
+    "wrong_hollow_status_rejected": true,
+    "interior_lattice_dilation_rejected": true,
+    "invalid_GL_map_rejected": true
+  },
+  "certificate": "certificates/independent_replay.json"
+}

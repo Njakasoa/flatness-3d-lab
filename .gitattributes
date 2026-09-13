@@ -1,0 +1,2 @@
+*.svg whitespace=-blank-at-eol,-blank-at-eof
+papers/*.txt whitespace=-blank-at-eol,-blank-at-eof

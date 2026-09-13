@@ -1,0 +1,8 @@
+certificates/local_hessian.json
+{
+  "gradient_rank": 5,
+  "nullspace_dimension": 3,
+  "restricted_negative_definite": true,
+  "auxiliary_c": "1/100",
+  "auxiliary_negative_definite": true
+}

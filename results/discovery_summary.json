@@ -1,0 +1,82 @@
+{
+  "seed": 20260913,
+  "calls": 43421,
+  "accepted_numeric_bodies": 25265,
+  "families": {
+    "unseeded_unimodular_contacts": {
+      "count": 416,
+      "best": 2.801682981293969,
+      "above_3": 0,
+      "above_3_2": 0,
+      "above_3_3": 0,
+      "above_3_4": 0
+    },
+    "asymmetric_optimization": {
+      "count": 11519,
+      "best": 3.21609824488684,
+      "above_3": 1540,
+      "above_3_2": 20,
+      "above_3_3": 0,
+      "above_3_4": 0
+    },
+    "asymmetric_epigraph": {
+      "count": 13222,
+      "best": 3.4142135623717538,
+      "above_3": 5544,
+      "above_3_2": 1273,
+      "above_3_3": 703,
+      "above_3_4": 425
+    },
+    "cube_contacts_5_facets": {
+      "count": 28,
+      "best": 2.420254872238,
+      "above_3": 0,
+      "above_3_2": 0,
+      "above_3_3": 0,
+      "above_3_4": 0
+    },
+    "cube_contacts_6_facets": {
+      "count": 80,
+      "best": 2.669694563308,
+      "above_3": 0,
+      "above_3_2": 0,
+      "above_3_3": 0,
+      "above_3_4": 0
+    }
+  },
+  "best_ids": [
+    679,
+    22940,
+    15217,
+    9480,
+    670,
+    22931,
+    15208,
+    9471,
+    661,
+    22922,
+    666,
+    22928
+  ],
+  "clusters_above_3": {
+    "(4, (1, 1, 1, 1), 1)": 5354,
+    "(4, (1, 1, 1, 1), 5)": 9,
+    "(4, (1, 1, 1, 1), 6)": 240,
+    "(4, (1, 1, 1, 1), 7)": 20,
+    "(4, (1, 1, 1, 2), 1)": 916,
+    "(4, (1, 1, 1, 1), 3)": 61,
+    "(4, (1, 1, 1, 1), 4)": 100,
+    "(4, (1, 1, 1, 2), 4)": 99,
+    "(4, (1, 1, 1, 2), 3)": 27,
+    "(4, (1, 1, 1, 1), 2)": 114,
+    "(4, (1, 1, 1, 3), 1)": 144
+  },
+  "limits": [
+    "directions only [-2,2]^3; widths are upper estimates",
+    "hollowness uses float tolerance; exact certification required",
+    "tetrahedral ansatz fixes unimodular contacts; no inference of universality",
+    "no symmetry constraint; repeated optimization iterates are correlated",
+    "multifacet families incomplete; no globally exhaustive search",
+    "distance is vertex matching in fixed contact coordinates, not unimodular Hausdorff distance"
+  ]
+}

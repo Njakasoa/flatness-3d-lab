@@ -1,0 +1,75 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": {
+      "available": true,
+      "version": "2.5.3"
+    },
+    "scipy": {
+      "available": true,
+      "version": "1.18.1"
+    },
+    "sympy": {
+      "available": true,
+      "version": "1.14.0"
+    },
+    "flint": {
+      "available": true,
+      "version": "0.9.0"
+    },
+    "sage.all": {
+      "available": false
+    },
+    "cdd": {
+      "available": false
+    },
+    "ortools": {
+      "available": false
+    },
+    "pyscipopt": {
+      "available": false
+    },
+    "cvxpy": {
+      "available": false
+    },
+    "z3": {
+      "available": false
+    },
+    "matplotlib": {
+      "available": true,
+      "version": "3.11.2"
+    },
+    "pytest": {
+      "available": true,
+      "version": "9.1.1"
+    },
+    "pypdf": {
+      "available": true,
+      "version": "6.18.1"
+    }
+  },
+  "commands": {
+    "python3.12": true,
+    "sage": false,
+    "gp": false,
+    "polymake": false,
+    "normaliz": false,
+    "highs": false,
+    "cbc": false,
+    "scip": false,
+    "g++": true,
+    "rustc": false,
+    "git": true,
+    "gh": false
+  },
+  "milp_smoke_test": {
+    "solver": "SciPy bundled HiGHS",
+    "problem": "min x, integer x>=1.5",
+    "solution": [
+      2.0
+    ],
+    "exact_certificate": "integer x>=1.5 implies x>=2; x=2 feasible"
+  },
+  "arb_smoke_test": "[1.41421356237309 +/- 5.15e-15]"
+}

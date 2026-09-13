@@ -1,0 +1,433 @@
+{
+  "status": "independent_replay_passed",
+  "source_certificate": "certificates/codenotti_santos.json",
+  "no_src_imports": true,
+  "raw_lattice_reconstruction": {
+    "raw_vertices": [
+      [
+        "sqrt(2) + 2",
+        "sqrt(2)",
+        "sqrt(2) + 2"
+      ],
+      [
+        "-sqrt(2)",
+        "sqrt(2) + 2",
+        "-2 - sqrt(2)"
+      ],
+      [
+        "-2 - sqrt(2)",
+        "-sqrt(2)",
+        "sqrt(2) + 2"
+      ],
+      [
+        "sqrt(2)",
+        "-2 - sqrt(2)",
+        "-2 - sqrt(2)"
+      ]
+    ],
+    "raw_contacts": [
+      [
+        "-1",
+        "-1",
+        "-1"
+      ],
+      [
+        "1",
+        "-1",
+        "1"
+      ],
+      [
+        "1",
+        "1",
+        "-1"
+      ],
+      [
+        "-1",
+        "1",
+        "1"
+      ]
+    ],
+    "B_columns": [
+      [
+        "2",
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "2",
+        "2"
+      ],
+      [
+        "2",
+        "0",
+        "2"
+      ]
+    ],
+    "B_inverse": [
+      [
+        "1/4",
+        "-1/4",
+        "1/4"
+      ],
+      [
+        "1/4",
+        "1/4",
+        "-1/4"
+      ],
+      [
+        "-1/4",
+        "1/4",
+        "1/4"
+      ]
+    ],
+    "standard_vertices": [
+      [
+        "sqrt(2)/4 + 5/4",
+        "1/4 + sqrt(2)/4",
+        "1/4 + sqrt(2)/4"
+      ],
+      [
+        "-3*sqrt(2)/4 - 3/4",
+        "sqrt(2)/4 + 5/4",
+        "1/4 + sqrt(2)/4"
+      ],
+      [
+        "1/4 + sqrt(2)/4",
+        "-3*sqrt(2)/4 - 3/4",
+        "sqrt(2)/4 + 5/4"
+      ],
+      [
+        "1/4 + sqrt(2)/4",
+        "1/4 + sqrt(2)/4",
+        "-3*sqrt(2)/4 - 3/4"
+      ]
+    ]
+  },
+  "json_values_verified": {
+    "vertices": true,
+    "volume": "4*sqrt(2)/3 + 2",
+    "width": "sqrt(2) + 2",
+    "active_directions": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "hollow_boundary": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "hollow_interior": []
+  },
+  "width_replay": {
+    "initial_upper": "sqrt(2) + 2",
+    "difference_matrix": [
+      [
+        "-2 - sqrt(2)",
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "-sqrt(2) - 1",
+        "1"
+      ],
+      [
+        "-1",
+        "0",
+        "-sqrt(2) - 1"
+      ]
+    ],
+    "difference_matrix_inverse": [
+      [
+        "-1/4",
+        "1/4 - sqrt(2)/4",
+        "-3/4 + sqrt(2)/2"
+      ],
+      [
+        "1/2 - sqrt(2)/4",
+        "-sqrt(2)/4",
+        "-1/2 + sqrt(2)/4"
+      ],
+      [
+        "-1/4 + sqrt(2)/4",
+        "3/4 - sqrt(2)/2",
+        "-3/4 + sqrt(2)/4"
+      ]
+    ],
+    "justified_coordinate_bounds": [
+      1,
+      2,
+      1
+    ],
+    "primitive_direction_count_mod_sign": 21,
+    "active_directions": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "all_directions_in_box_checked": true,
+    "radius_argument": "|u.D_row|<=W implies |u_j|<=W*sum_i |(D^-1)_{ji}|; outside the box width>W"
+  },
+  "hollow_replay": {
+    "integer_box": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "points_checked": 27,
+    "boundary_points": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "interior_points": [],
+    "barycentric_enumeration_exact": true
+  },
+  "permutation_replay": {
+    "permutations_tested": 24,
+    "integer_unimodular_automorphisms": 4,
+    "valid_automorphisms": [
+      {
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "U": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "t": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "U": [
+          [
+            -1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "permutation": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "U": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "t": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "permutation": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "U": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        "t": [
+          0,
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  "mutation_guards": {
+    "missing_active_direction_rejected": true,
+    "altered_width_rejected": true,
+    "zero_upper_direction_rejected": true,
+    "corrupt_inverse_rejected": true,
+    "corrupt_initial_bound_rejected": true,
+    "corrupt_lower_bound_rejected": true,
+    "missing_facets_rejected": true,
+    "wrong_hollow_status_rejected": true,
+    "interior_lattice_dilation_rejected": true,
+    "invalid_GL_map_rejected": true
+  }
+}
