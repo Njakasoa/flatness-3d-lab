@@ -1,0 +1,514 @@
+{
+  "status": "PASS",
+  "scope": "Independent stdlib full-matrix input reconstruction and existing proof-hash/receipt binding; exact geometric thresholds and ACMS constants. No solver or Ethos reruns. Conditional subdomains only, no whole class exclusion.",
+  "old_proof_receipt_sha256": "18544642e2744a0f0bac4b5e94f2da2b37a4f3175c83bec0e7c4aa2bf0751d5e",
+  "corner_proof_receipt_sha256": "058f7ea9acd7f5fc22f8b2c50536df566af492aca9851a7058a278ae9fb69a96",
+  "refined_corner_receipt_sha256": "ee46747b527b1160be94e2a9b5b268d267a15ea2b9e09b70c1c0cbdcfafda6c8",
+  "inputs_checked": [
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r01.smt2",
+      "input_sha256": "1607c57d388a2cb9dee57dfef3083d27a8697cf4685c9b14e6a9b805a0ae5d87",
+      "proof_path": "certificates/det5_class5_y/0_1_r01.cpc.gz",
+      "proof_sha256": "ac996d9d511a8d4e9486ed2d00abaf0c62f31ccf2bae128b2dcb5dc1a570fdbf",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        1
+      ],
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r0001.smt2",
+      "input_sha256": "01438e68f89ea75414300c89dbd9617dec159af03201944aec3a1a447ccb9d79",
+      "proof_path": "certificates/det5_class5_y/0_1_r0001.cpc.gz",
+      "proof_sha256": "8b2740ca87d3972181b881f514f7c6ccf875b5f4905f6b5952ba70abb528ea07",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        1
+      ],
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r1101.smt2",
+      "input_sha256": "7c8342b77afeb0d4c2683472de579fa8e8d9d5d62634369bef2511d65947d5dd",
+      "proof_path": "certificates/det5_class5_y/0_1_r1101.cpc.gz",
+      "proof_sha256": "a6a57acb53a19fe81b54138ed54db1c38555d7166aded745d75e1510f9f0a3d1",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        1
+      ],
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r00000.smt2",
+      "input_sha256": "bff02a20fdaf96be3ef59e95515cd77da69dc5d3a7ee16a5085c3f513c176ab9",
+      "proof_path": "certificates/det5_class5_y/0_1_r00000.cpc.gz",
+      "proof_sha256": "80b9c6b3232b30d5aa303e2e6bdbaf24592a251b7672d675eeb9bbab00afb921",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        1
+      ],
+      "box": [
+        [
+          "0",
+          "1/8"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r00110.smt2",
+      "input_sha256": "cc28bb4c6dc1fe2d1a1a90b71abef9b83513a0fd1231c0a90b52efac32a3eac2",
+      "proof_path": "certificates/det5_class5_y/0_1_r00110.cpc.gz",
+      "proof_sha256": "0075fbf9a2f1c0b16b65b72df742472f7486a9049a969b8b78637c3493f25113",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        1
+      ],
+      "box": [
+        [
+          "1/4",
+          "3/8"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0011.smt2",
+      "input_sha256": "e37cc05e0b78da8b3ea77b2fb6abfe1d6d5b83643b1f1d563b03d802b26e1d30",
+      "proof_path": "certificates/det5_class5_y/0_3_r0011.cpc.gz",
+      "proof_sha256": "73b300c32d68dcdd1df367c27af0f47567bcc3f10d22ae7733cbc38c2d170439",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0101.smt2",
+      "input_sha256": "2c96e6e26c0eb84c15d7ff473f02334ec490de5c704578c3f45af741718a9ae9",
+      "proof_path": "certificates/det5_class5_y/0_3_r0101.cpc.gz",
+      "proof_sha256": "cdfb2e7c3e83ce48077fec9a0b185d3e9ada54e46d8b7f613ffd9f8032e97060",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0111.smt2",
+      "input_sha256": "47a860f6a0d60250359bef0bbc01dbe6f3cb76cdd4f6fb2a7a52614c087c468d",
+      "proof_path": "certificates/det5_class5_y/0_3_r0111.cpc.gz",
+      "proof_sha256": "d84c63cfa67b1476342f5d99a171b95b6ae596896e3e6704d5f7354bfe4bb99a",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1010.smt2",
+      "input_sha256": "888bce3b2920f838833c4db8fbb01a54d80b2f15d182b7a6ec1e6daec9011ea3",
+      "proof_path": "certificates/det5_class5_y/0_3_r1010.cpc.gz",
+      "proof_sha256": "8ae1e6f7eb956e9752b0ae517b09f979be3a0e1cd0b219ad84ebfada265fc0cb",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1011.smt2",
+      "input_sha256": "6fb47452f02c2247e10d949caf81865c13cac7d66563e11259f13eda8bafec14",
+      "proof_path": "certificates/det5_class5_y/0_3_r1011.cpc.gz",
+      "proof_sha256": "810c027f93553d34577df852e44a991076a517a5e2b7dd410426f0d58b4775d6",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1100.smt2",
+      "input_sha256": "e96e20046ab74e97550da971a06845231eae71687eed36a28b6a785501841779",
+      "proof_path": "certificates/det5_class5_y/0_3_r1100.cpc.gz",
+      "proof_sha256": "5b815a432e7da264044281aab60a82adcbcd06ffc013cc7b85abaebb6c7f7d08",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1111.smt2",
+      "input_sha256": "41b6a83e80ff717f5d6f9ab2e1d265e531b632e2b9ef631e8e25e402c98f699a",
+      "proof_path": "certificates/det5_class5_y/0_3_r1111.cpc.gz",
+      "proof_sha256": "7660f874472f093c69f309512093ca0bafbc5bb433fd3ddc34a906de3037c88b",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "results/det5_y_corner_beta_1_3.smt2",
+      "input_sha256": "97230b16ced986e70bd84c8c983b1525b3f8ae2cc80e95514ef8a07bcf6b1402",
+      "proof_path": "certificates/det5_y_corner_beta_1_3.cpc.gz",
+      "proof_sha256": "6c68dc5050f4ffc35283fb0ea9ffbc24e1b897c782446796aa7c786dc49ca866",
+      "beta": "1/3",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "results/det5_y_corner_beta_3_10.smt2",
+      "input_sha256": "10c4dc11f16c8cdc682bfe59186984a665864c2db9156518d83151c5483499d3",
+      "proof_path": "certificates/det5_y_corner_beta_3_10.cpc.gz",
+      "proof_sha256": "8872df7447a860c2ad00c4cba83f50cd47edbbc4b2caf98ccf411fa4001bd27a",
+      "beta": "3/10",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    }
+  ],
+  "general_bound": "(102/65)*(1+2/sqrt(3))",
+  "coefficient_margin_below_11_over_7": "1/455",
+  "automatic_width_whole_rectangles": [
+    {
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r00000",
+      "box": [
+        [
+          "0",
+          "1/8"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "strict_gap_upper_bound": "1/4"
+    },
+    {
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r00110",
+      "box": [
+        [
+          "1/4",
+          "3/8"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "strict_gap_upper_bound": "1/4"
+    },
+    {
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r1111",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "strict_gap_upper_bound": "1/4"
+    }
+  ],
+  "general_bound_pieces": [
+    {
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r01",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "additional_condition": "abs(q2-q3)<=5/17"
+    },
+    {
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r0001",
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "additional_condition": "abs(q2-q3)<=5/17"
+    },
+    {
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r1101",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "additional_condition": "abs(q2-q3)<=5/17"
+    },
+    {
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r00000",
+      "box": [
+        [
+          "0",
+          "1/8"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "additional_condition": "abs(q2-q3)<=5/17"
+    },
+    {
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r00110",
+      "box": [
+        [
+          "1/4",
+          "3/8"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "additional_condition": "abs(q2-q3)<=5/17"
+    },
+    {
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r1100",
+      "box": [
+        [
+          "12/17",
+          "3/4"
+        ],
+        [
+          "12/17",
+          "3/4"
+        ]
+      ],
+      "additional_condition": "none"
+    },
+    {
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r1111",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "additional_condition": "none"
+    }
+  ],
+  "verified_corner_bound_at_one_third": "3/2+sqrt(3)",
+  "verified_corner_bound": "(10/7)*(1+2/sqrt(3))",
+  "verified_corner_beta": "3/10",
+  "rejected_mutations": [
+    "residual stronger gauge",
+    "overrestricted corner endpoint",
+    "altered proof hash",
+    "unsuccessful proof receipt"
+  ],
+  "solver_queries_run": 0,
+  "proof_kernel_reruns": 0
+}

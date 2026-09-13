@@ -1,0 +1,702 @@
+{
+  "status": "PASS",
+  "scope": "Independent encoding and inherited pending-leaf binding; exact saved SAT assignments. No UNSAT proof-kernel check or full class exclusion.",
+  "archive_sha256": "128c69511fb6f97922361657edc43e8b4c47d2fb66c95ac0a2eceded85da15c2",
+  "source_sha256": "12928077c29449de41c61eee7bdcf7ec3d54914aa970f346c4702acd298adca4",
+  "solver_queries": 0,
+  "query_count": 36,
+  "recorded_status_counts": {
+    "unknown": 21,
+    "sat": 14,
+    "unsat": 1
+  },
+  "rejected_mutations": 6,
+  "inputs": [
+    {
+      "path": "results/det5_scaled_pending_0_1_0_1_r1111101.smt2",
+      "input_sha256": "deb3e3eed99a412f8ed6585e9458b2294b8f853a55d70c9df5c0edb9643b58ad",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_2_r1111001.smt2",
+      "input_sha256": "7a792aec74adb969a34d15a7f38e2f6707a53e4a8cacbc020152b800e114aa9c",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_3_r1011011.smt2",
+      "input_sha256": "a30901c521c32fdbbc67e047968d7a57242b5cf0caa9cc9a0c77402a35bccb9a",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_1_r0111001111.smt2",
+      "input_sha256": "61336e8f47568dae67cb058004f4ad769ed00fa53a9b7432cc48217c2b0fdeb6",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_2_r1111011.smt2",
+      "input_sha256": "4c5f47e01c1d76a54e94bec4b352b446879926d3c897098911a2c4414c5e0d29",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_3_r111101.smt2",
+      "input_sha256": "5dc0fc66e96cf04080f5ea343f71e17e312c942ee65e3a808ab6680c0dec609d",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_0_r111101.smt2",
+      "input_sha256": "41e25f941d9a0d6df06906e13ee4a0860b0997219aba12359f232caa5d48128e",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_2_r001111.smt2",
+      "input_sha256": "c0af8aaeffb034986e3da016458d01998c36d543532fa5f49adcdc674081c01c",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_3_r101111.smt2",
+      "input_sha256": "0a60af7e7775f9183c98bde51293852ce5b852d3d5b0d43ad8c56f34fa6b06a4",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_1_r00101000.smt2",
+      "input_sha256": "0252b457114c59a6ca0ceb4237b21c6f38bf0025340dec38db7589ae9a4a9b84",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_2_r1111100.smt2",
+      "input_sha256": "7e1513ea6802f9130d8d0fa0d59bf8172f724b021d38b418b5f24debb292e6e2",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_3_r1011100.smt2",
+      "input_sha256": "6085e6c7a3ed02b0bd06a1d8e0b22de72354fee7bd4e6a9b36eb02ce3e91e368",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_1_r0111101000.smt2",
+      "input_sha256": "3be2f9f105871ea54ef6875694589bc6a02d483cdac97609f89ace867d78ac09",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_2_r00100100.smt2",
+      "input_sha256": "e3abc51088ec4b498f86b96c12159a709be30d426c42f7a2e7b7b39d4487f5e5",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_3_r111110.smt2",
+      "input_sha256": "901ef035ab8fd2e2072136051740ebe60d780587d827f317d322ba01471b564c",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_0_r111110.smt2",
+      "input_sha256": "9409e7ccb895d392f11c502eea92d70dd3af25d7d6ab8552380ec1307e2066a5",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_2_r011100.smt2",
+      "input_sha256": "7431ef98aa156015433754f6f1aa7c6b95a01822127d9cf407019e9c513d32f1",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_3_r110100.smt2",
+      "input_sha256": "03bfe55a8a0e9caad1f8cc2315b1d59f94f59a36924c96c0c7348a5c6c0ffe13",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_1_r00101001.smt2",
+      "input_sha256": "fb3cc232a93afa367bd65ebd695202911a2e5687b353cd2a6bdc253a46eaee1c",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_2_r1111101.smt2",
+      "input_sha256": "0ee1d7ca43e95159696ee76a1599a1696ad34ce16bf0401b2013bef199adfd5b",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_3_r1011101.smt2",
+      "input_sha256": "206c563f5b5e768f88fb6e10de11d52073bd273ce1a5984f3213a9e96f78e1c0",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_1_r0111101001.smt2",
+      "input_sha256": "c3854a52b68a662008b516e08f2c41bb949e3823c21ac67ab1d0e667e2912260",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_2_r00100101.smt2",
+      "input_sha256": "3bd09394de778f0d7574b37fd82a921b7972e9005f41d07dab992e43b5da316c",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_3_r111111.smt2",
+      "input_sha256": "b927c6055dbc303b2235e4a4f3288636c2cf03af6e4d812c8a9754e9d93a7238",
+      "status": "unsat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_0_r111111.smt2",
+      "input_sha256": "23198d76894e43a66748d2b61277310bdfe7642b6fd2636e5c51c10cc343aab8",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_2_r011101.smt2",
+      "input_sha256": "0b3d1361060f47ae2095dc454cc453e260eb85887020944282a3ef360d61071b",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_3_r110101.smt2",
+      "input_sha256": "1a8cd188a7a12e1879b3e4094903af9cb3656b8c0b7de4bd46cba04a8ac285e2",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_1_r00111000.smt2",
+      "input_sha256": "af3c267c4097636d77ea6018b4ca736b2db72e09b26309842d105e2ae092d6a0",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_2_r1111110.smt2",
+      "input_sha256": "16b730c6142086a4ca78714467db437a9ec2e10f58675a9ca62f128aea0535db",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_1_0_3_r1011110.smt2",
+      "input_sha256": "d5f7a8a14f3e8dcb97ae62781de8bda0503eb374d9022fd1268605a4ffd773d9",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_1_r0111101100.smt2",
+      "input_sha256": "fbc1881feb396bff182b0df162c0ce814e304e84145372aee60ca61592778c47",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_2_r00100110.smt2",
+      "input_sha256": "ef3ef1896975c6c72c03104369aa98891570ccea8f0e14562ec5a1be3ebb2a59",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_0_3_0_3_r0000000.smt2",
+      "input_sha256": "b4c9376a384dca06368f66c1789d6ad6e77575bb07a286cd3c304230bd53b7f7",
+      "status": "sat",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_0_r0010000.smt2",
+      "input_sha256": "3a0ac98b300cb995268ed0352c8712b36ee115c25ec96dfa5d2b1f804fbd5910",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_2_r011110.smt2",
+      "input_sha256": "f1846f6b6f6f1d6ce84b96b59459bf49796ac28503374434222237935793a369",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    },
+    {
+      "path": "results/det5_scaled_pending_1_0_1_3_r110110.smt2",
+      "input_sha256": "1c109787ddfff9fd459c4ace6a3730d8b39a088b2498be45ac06d23c72fe4480",
+      "status": "unknown",
+      "assertions": 611,
+      "additional_groups": {
+        "Y_box": 28,
+        "U_box": 13,
+        "volume_span": 180,
+        "barycentric_volume": 60
+      }
+    }
+  ],
+  "saved_rational_SAT_checks": [
+    {
+      "node": "r1011011",
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "86123208673842535079081069116619400116003/19689605890198095303899585457183635393280",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "28660185218231373600824217726352701372379667356360/12180655266055155450929694430270777465492207803033",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r1111011",
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        2
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "163144774666632680277307/24190341325907231250000",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "427988789035793966250/205332445117164522101",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r101111",
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        1,
+        3
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "14782667914393326367/1133524955520000000",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "69471165763273160000/28546631513955562137",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r00101000",
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        0,
+        1
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "63367522585133829256830047/6229717205906354062500000",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "3901986670304585910283444521770/1429848283292368795080563801301",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r0111101000",
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        1
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "3980618685974538440243/266443084689517125000",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "13012488847961518858750/6156367586189574136959",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r00100100",
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        2
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "10278376415297953/1558965799828125",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "55168593261236000/20233390658297811",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r111110",
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        1,
+        0
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "96643489482417375364460224667288091953/11746281956903950488095907730327575000",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "2401354129466329256357152381155295115951282290/961816754723250923634366557118151926063189709",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r1111101",
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        0,
+        2
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "615851423191905409747/59037758100000000000",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "261917410490650000/122297597643062589",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r1011101",
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "158447056882082213024376135695077/10444786685963198013986469903375",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "57617391527381607721101137267987273362055250/21642520237727468353214552645226800412672349",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r00100101",
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        2
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "383240431308543773/31825041475781250",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "570102506689893750/210906178935354707",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r011101",
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "U_extrema": [
+        1,
+        2
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "1632919187021744831147/104100948246284640000",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "598407950271489926400/225834370015394134831",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r00111000",
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        0,
+        1
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "452231398524197/58362489625000",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "36293587000/15835607533",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r1011110",
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "40759004488873/3335633332650",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "4477023455005926400/1960477361072890827",
+        "all_15_above_target": false
+      }
+    },
+    {
+      "node": "r0000000",
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "saved_rational_variables": 41,
+      "maximum_product_residual": "655307746723612751483/53004099222180000000",
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "137488889611572400/54017717508475643",
+        "all_15_above_target": false
+      }
+    }
+  ]
+}

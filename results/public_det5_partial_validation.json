@@ -1,0 +1,275 @@
+{
+  "status": "PASS",
+  "scope": "Partial height domains only; no new class exclusion or global bound.",
+  "solver_queries_run": 0,
+  "encodings_requested": true,
+  "checks": [
+    {
+      "path": "tests/replay_det5_conditional_width_bounds.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"general_bound\": \"(102/65)*(1+2/sqrt(3))\",\n  \"automatic_width_whole_rectangles\": [\n    {\n      \"extrema\": [\n        0,\n        1\n      ],\n      \"node\": \"r00000\",\n      \"box\": [\n        [\n          \"0\",\n          \"1/8\"\n        ],\n        [\n          \"0\",\n          \"1/4\"\n        ]\n      ],\n      \"strict_gap_upper_bound\": \"1/4\"\n    },\n    {\n      \"extrema\": [\n        0,\n        1\n      ],\n      \"node\": \"r00110\",\n      \"box\": [\n        [\n          \"1/4\",\n          \"3/8\"\n        ],\n        [\n          \"1/4\",\n          \"1/2\"\n        ]\n      ],\n      \"strict_gap_upper_bound\": \"1/4\"\n    },\n    {\n      \"extrema\": [\n        0,\n        3\n      ],\n      \"node\": \"r1111\",\n      \"box\": [\n        [\n          \"3/4\",\n          \"1\"\n        ],\n        [\n          \"3/4\",\n          \"1\"\n        ]\n      ],\n      \"strict_gap_upper_bound\": \"1/4\"\n    }\n  ],\n  \"verified_corner_bound\": \"(10/7)*(1+2/sqrt(3))\",\n  \"solver_queries_run\": 0\n}\n",
+      "stderr": ""
+    },
+    {
+      "path": "tests/replay_det5_direction_envelopes.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"universal_polynomial_identities_checked\": 8,\n  \"solver_queries_run\": 0,\n  \"scope\": \"Algebraic validity of static/perspective envelopes and strictness of a local coordinate-product relaxation. No full-model feasibility or geometric body is claimed.\",\n  \"complete_direction_contact_widths\": [\n    {\n      \"direction\": [\n        0,\n        0,\n        1\n      ],\n      \"contact_width\": 2\n    },\n    {\n      \"direction\": [\n        0,\n        1,\n        -1\n      ],\n      \"contact_width\": 2\n    },\n    {\n      \"direction\": [\n        0,\n        1,\n        0\n      ],\n      \"contact_width\": 1\n    },\n    {\n      \"direction\": [\n        0,\n        1,\n        1\n      ],\n      \"contact_width\": 3\n    },\n    {\n      \"direction\": [\n        0,\n        2,\n        -1\n      ],\n      \"contact_width\": 3\n    },\n    {\n      \"direction\": [\n        1,\n        -3,\n        -2\n      ],\n      \"contact_width\": 3\n    },\n    {\n      \"direction\": [\n        1,\n        -3,\n        -1\n      ],\n      \"contact_width\": 3\n    },\n    {\n      \"direction\": [\n        1,\n        -2,\n        -3\n      ],\n      \"contact_width\": 3\n    },\n    {\n      \"direction\": [\n        1,\n        -2,\n        -2\n      ],\n      \"contact_width\": 2\n    },\n    {\n      \"direction\": [\n        1,\n        -2,\n        -1\n      ],\n      \"contact_width\": 3\n    },\n    {\n      \"direction\": [\n        1,\n        -1,\n        -3\n      ],\n      \"contact_width\": 3\n    },\n    {\n      \"direction\": [\n        1,\n        -1,\n        -2\n      ],\n      \"contact_width\": 2\n    },\n    {\n      \"direction\": [\n        1,\n        -1,\n        -1\n      ],\n      \"contact_width\": 3\n    },\n    {\n      \"direction\": [\n        1,\n        0,\n        -3\n      ],\n      \"contact_width\": 3\n    },\n    {\n      \"direction\": [\n        1,\n        0,\n        -2\n      ],\n      \"contact_width\": 3\n    }\n  ],\n  \"local_example\": {\n    \"f\": \"1/2\",\n    \"T\": [\n      \"5/4\",\n      \"3/4\",\n      \"0\"\n    ],\n    \"W\": [\n      \"625000000/34728093\",\n      \"3/8\",\n      \"-250000000/34728093\"\n    ],\n    \"all_coordinate_envelopes_pass\": true,\n    \"direction\": [\n      1,\n      -1,\n      -2\n    ],\n    \"directional_value\": \"988423969/30869416\",\n    \"directional_upper_envelope\": \"250000000/34728093\",\n    \"positive_violation\": \"6895815721/277824744\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "path": "tests/replay_det5_known_width_obstructions.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"sample_count_with_duplicates\": 20,\n  \"distinct_geometric_samples\": 16,\n  \"original_orientation_cover\": {\n    \"sample_ids\": [\n      \"symmetry:0123\",\n      \"retained10:0123\",\n      \"retained14:0123\",\n      \"retained18:0123\"\n    ],\n    \"minimum_additional_count\": 1,\n    \"all_minimum_sets\": [\n      [\n        [\n          0,\n          0,\n          1\n        ]\n      ]\n    ]\n  },\n  \"contact_symmetry_cover\": {\n    \"sample_ids\": [\n      \"strong_fiber:2031\",\n      \"symmetry:0123\",\n      \"retained10:0123\",\n      \"retained10:2031\",\n      \"retained10:3210\",\n      \"retained14:0123\",\n      \"retained14:2031\",\n      \"retained14:3210\",\n      \"retained18:0123\",\n      \"retained18:2031\"\n    ],\n    \"minimum_additional_count\": 3,\n    \"all_minimum_sets\": [\n      [\n        [\n          0,\n          0,\n          1\n        ],\n        [\n          0,\n          1,\n          -1\n        ],\n        [\n          1,\n          -2,\n          -2\n        ]\n      ]\n    ]\n  },\n  \"retained_chart_symmetry_cover\": {\n    \"sample_ids\": [\n      \"retained10:0123\",\n      \"retained14:0123\",\n      \"retained18:0123\"\n    ],\n    \"minimum_additional_count\": 1,\n    \"all_minimum_sets\": [\n      [\n        [\n          0,\n          0,\n          1\n        ]\n      ]\n    ]\n  },\n  \"survives_Y_U_Z\": [\n    \"retained10:2031\",\n    \"retained10:3210\",\n    \"retained14:2031\",\n    \"retained14:3210\",\n    \"retained18:2031\"\n  ],\n  \"direction_set_ranks\": {\n    \"Y_U\": 2,\n    \"Y_U_Z\": 3,\n    \"all_five_contact_width_at_most_two\": 3,\n    \"all_fifteen\": 3\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "path": "tests/audit_det5_scaled_frame_independent.py",
+      "exit_code": 0,
+      "stdout": "PASS scaled formulas: 10\nPASS scaled formulas: 20\nPASS scaled formulas: 30\n{\n  \"status\": \"PASS\",\n  \"query_count\": 30,\n  \"rational_SAT_completions_checked\": 19,\n  \"charts\": [\n    {\n      \"Y_extrema\": [\n        0,\n        1\n      ],\n      \"queries\": 9,\n      \"status_closed_leaves\": 3,\n      \"pending_boxes\": 4\n    },\n    {\n      \"Y_extrema\": [\n        0,\n        3\n      ],\n      \"queries\": 9,\n      \"status_closed_leaves\": 3,\n      \"pending_boxes\": 4\n    },\n    {\n      \"Y_extrema\": [\n        1,\n        0\n      ],\n      \"queries\": 9,\n      \"status_closed_leaves\": 2,\n      \"pending_boxes\": 6\n    }\n  ],\n  \"solver_queries_run\": 0,\n  \"unsat_proofs_checked\": 0\n}\n",
+      "stderr": ""
+    },
+    {
+      "path": "tests/audit_det5_scaled_pending_transfer_independent.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"query_count\": 36,\n  \"recorded_status_counts\": {\n    \"unknown\": 21,\n    \"sat\": 14,\n    \"unsat\": 1\n  },\n  \"rejected_mutations\": 6,\n  \"solver_queries\": 0\n}\n",
+      "stderr": ""
+    },
+    {
+      "path": "tests/audit_det5_five_direction_box_independent.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"Standalone continuous-box exclusion encoding with five lower-width directions and globally necessary gauge/volume cuts; not a class exclusion or a theorem from five widths alone.\",\n  \"Y_extrema\": [\n    0,\n    3\n  ],\n  \"U_extrema\": [\n    0,\n    3\n  ],\n  \"box\": [\n    [\n      \"3/4\",\n      \"1\"\n    ],\n    [\n      \"3/4\",\n      \"1\"\n    ],\n    [\n      \"1/2\",\n      \"1\"\n    ],\n    [\n      \"1/2\",\n      \"1\"\n    ]\n  ],\n  \"source_input_sha256\": \"b927c6055dbc303b2235e4a4f3288636c2cf03af6e4d812c8a9754e9d93a7238\",\n  \"reduced_input_sha256\": \"6f6c06f9445c9da6c7a857865ae5a9fe4b5e72bea3b636dc490fb44733813694\",\n  \"assertion_count\": 589,\n  \"removed_lower_width_clauses\": 12,\n  \"five_lower_width_directions\": [\n    [\n      0,\n      0,\n      1\n    ],\n    [\n      0,\n      1,\n      -1\n    ],\n    [\n      0,\n      1,\n      0\n    ],\n    [\n      1,\n      -2,\n      -2\n    ],\n    [\n      1,\n      -1,\n      -2\n    ]\n  ],\n  \"retained_all_other_assertions\": true,\n  \"cvc5_proof_nodes\": 10233,\n  \"proof_sha256\": \"801ddafa39c5f9a714d00072906743b267423939b0b8be53a3aa9110e35f44e4\",\n  \"proof_bytes\": 1090644,\n  \"ethos_receipt_sha256\": \"f65fe45114ded7265bb7b09f654a4e43f9f4ece1616df3a77d67fa0949d78f92\",\n  \"recorded_external_check\": \"PASS\",\n  \"solver_queries_run\": 0,\n  \"proof_kernel_calls_run\": 0,\n  \"rejected_mutations\": 3,\n  \"cover_scope\": \"This one box does not depend on inherited UNSAT labels. A complete class cover would still require all other boxes and their proof chains.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "path": "tests/audit_det5_scaled_enlargement_independent.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"new_encodings_checked\": 3,\n  \"inputs\": [\n    {\n      \"tag\": \"half_half\",\n      \"box\": [\n        [\n          \"1/2\",\n          \"1\"\n        ],\n        [\n          \"1/2\",\n          \"1\"\n        ],\n        [\n          \"1/2\",\n          \"1\"\n        ],\n        [\n          \"1/2\",\n          \"1\"\n        ]\n      ],\n      \"path\": \"results/det5_scaled_enlarged_half_half.smt2\",\n      \"input_sha256\": \"1e65528b4b14bca106517933e7b0d9e6ad3bc96c9be8435360b224368badef80\",\n      \"assertions\": 589,\n      \"recorded_status\": \"sat\",\n      \"strictly_contains_original_box\": true\n    },\n    {\n      \"tag\": \"three_quarters_zero\",\n      \"box\": [\n        [\n          \"3/4\",\n          \"1\"\n        ],\n        [\n          \"3/4\",\n          \"1\"\n        ],\n        [\n          \"0\",\n          \"1\"\n        ],\n        [\n          \"0\",\n          \"1\"\n        ]\n      ],\n      \"path\": \"results/det5_scaled_enlarged_three_quarters_zero.smt2\",\n      \"input_sha256\": \"d1d4b8e76112ff5e99f8b886e617cffd68fa3fa515b1cbdad3a8bf4ab0c9b201\",\n      \"assertions\": 589,\n      \"recorded_status\": \"unknown (TIMEOUT)\",\n      \"strictly_contains_original_box\": true\n    },\n    {\n      \"tag\": \"zero_half\",\n      \"box\": [\n        [\n          \"0\",\n          \"1\"\n        ],\n        [\n          \"0\",\n          \"1\"\n        ],\n        [\n          \"1/2\",\n          \"1\"\n        ],\n        [\n          \"1/2\",\n          \"1\"\n        ]\n      ],\n      \"path\": \"results/det5_scaled_enlarged_zero_half.smt2\",\n      \"input_sha256\": \"ed496c9da2444b8d09e8bbdeac025386ee6473afc45946e0a28c1552f6a31ea1\",\n      \"assertions\": 589,\n      \"recorded_status\": \"sat\",\n      \"strictly_contains_original_box\": true\n    }\n  ],\n  \"solver_queries_run\": 0,\n  \"unsat_proofs_checked\": 0\n}\n",
+      "stderr": ""
+    },
+    {
+      "path": "tests/analyze_det5_width_core_assumptions.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"referenced_global_assumptions\": 69,\n  \"inert_global_assumptions\": 416,\n  \"used_group_memberships\": {\n    \"F_positive\": 12,\n    \"F_unit_domain\": 19,\n    \"Y_base_envelope\": 12,\n    \"Y_box\": 18,\n    \"Y_unit_domain\": 1,\n    \"gauge:183/500:1,0,1\": 1,\n    \"gauge:183/500:2,0,1\": 1,\n    \"gauge:37/102:1,0,0\": 1,\n    \"gauge:37/102:3,0,1\": 1,\n    \"guard:-1,0,0\": 1,\n    \"guard:1,0,1\": 1,\n    \"guard:2,1,1\": 1,\n    \"guard:3,1,1\": 1,\n    \"horizontal_volume_envelope\": 4,\n    \"product_t_domain_Y\": 1,\n    \"reconstruction_1\": 3,\n    \"volume_lower_gap\": 1,\n    \"volume_span\": 2\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "path": "tests/audit_det5_certified_y_overlay.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"totals\": {\n    \"wholly_covered\": 1,\n    \"partially_covered_positive_area\": 6,\n    \"boundary_only_intersection\": 105,\n    \"no_intersection\": 147\n  },\n  \"remaining_original_boxes_after_whole_box_removal\": 258,\n  \"certified_Y_areas\": {\n    \"0,1\": \"7/16\",\n    \"0,3\": \"7/16\"\n  }\n}\n",
+      "stderr": ""
+    }
+  ],
+  "external_proof_checks": [
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r01.smt2",
+      "input_sha256": "1607c57d388a2cb9dee57dfef3083d27a8697cf4685c9b14e6a9b805a0ae5d87",
+      "proof_path": "certificates/det5_class5_y/0_1_r01.cpc.gz",
+      "proof_sha256": "ac996d9d511a8d4e9486ed2d00abaf0c62f31ccf2bae128b2dcb5dc1a570fdbf",
+      "reference_sha256": "6c6ccf8f454635ff859e5800e6f0d240f69c5f0729355ed2cd0583b9e179ab69",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.48032529199917917
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r0001.smt2",
+      "input_sha256": "01438e68f89ea75414300c89dbd9617dec159af03201944aec3a1a447ccb9d79",
+      "proof_path": "certificates/det5_class5_y/0_1_r0001.cpc.gz",
+      "proof_sha256": "8b2740ca87d3972181b881f514f7c6ccf875b5f4905f6b5952ba70abb528ea07",
+      "reference_sha256": "ee163d4f867c3c089800ec21c6df6f4a8888f943c18242b3c89c0d70ce6faeb5",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.43645925899909344
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r1101.smt2",
+      "input_sha256": "7c8342b77afeb0d4c2683472de579fa8e8d9d5d62634369bef2511d65947d5dd",
+      "proof_path": "certificates/det5_class5_y/0_1_r1101.cpc.gz",
+      "proof_sha256": "a6a57acb53a19fe81b54138ed54db1c38555d7166aded745d75e1510f9f0a3d1",
+      "reference_sha256": "11808532bc773751af30095f8c017d8128b10920055136aec183c11d8f5ffa52",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.7414550930006953
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r00000.smt2",
+      "input_sha256": "bff02a20fdaf96be3ef59e95515cd77da69dc5d3a7ee16a5085c3f513c176ab9",
+      "proof_path": "certificates/det5_class5_y/0_1_r00000.cpc.gz",
+      "proof_sha256": "80b9c6b3232b30d5aa303e2e6bdbaf24592a251b7672d675eeb9bbab00afb921",
+      "reference_sha256": "d60b3a37ef3fa85e9584a532f9d5d22f53a6ef83e41ae7ddb9a080bf9a861457",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.5670946219979669
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_1_r00110.smt2",
+      "input_sha256": "cc28bb4c6dc1fe2d1a1a90b71abef9b83513a0fd1231c0a90b52efac32a3eac2",
+      "proof_path": "certificates/det5_class5_y/0_1_r00110.cpc.gz",
+      "proof_sha256": "0075fbf9a2f1c0b16b65b72df742472f7486a9049a969b8b78637c3493f25113",
+      "reference_sha256": "6647e5c14c5767a457fec00a4f15de46ff2932bee38a7d7851ee12d771ffa1f5",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.5794738479999069
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0011.smt2",
+      "input_sha256": "e37cc05e0b78da8b3ea77b2fb6abfe1d6d5b83643b1f1d563b03d802b26e1d30",
+      "proof_path": "certificates/det5_class5_y/0_3_r0011.cpc.gz",
+      "proof_sha256": "73b300c32d68dcdd1df367c27af0f47567bcc3f10d22ae7733cbc38c2d170439",
+      "reference_sha256": "d19c38da29b98f49d6cb16691f14e43f52b7522c9b5ee311ebafbe0ab26003c8",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.7541798290003499
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0101.smt2",
+      "input_sha256": "2c96e6e26c0eb84c15d7ff473f02334ec490de5c704578c3f45af741718a9ae9",
+      "proof_path": "certificates/det5_class5_y/0_3_r0101.cpc.gz",
+      "proof_sha256": "cdfb2e7c3e83ce48077fec9a0b185d3e9ada54e46d8b7f613ffd9f8032e97060",
+      "reference_sha256": "db5a98d1ef9eae9a87c73fe70a8b319bf7e1777c7c05762326f4908f5ea22256",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.3498563920002198
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0111.smt2",
+      "input_sha256": "47a860f6a0d60250359bef0bbc01dbe6f3cb76cdd4f6fb2a7a52614c087c468d",
+      "proof_path": "certificates/det5_class5_y/0_3_r0111.cpc.gz",
+      "proof_sha256": "d84c63cfa67b1476342f5d99a171b95b6ae596896e3e6704d5f7354bfe4bb99a",
+      "reference_sha256": "2f1317da0565d552ba0f60fe1678753db091c484afef5ec84bfbb75d83bfd984",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.47138002200154006
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1010.smt2",
+      "input_sha256": "888bce3b2920f838833c4db8fbb01a54d80b2f15d182b7a6ec1e6daec9011ea3",
+      "proof_path": "certificates/det5_class5_y/0_3_r1010.cpc.gz",
+      "proof_sha256": "8ae1e6f7eb956e9752b0ae517b09f979be3a0e1cd0b219ad84ebfada265fc0cb",
+      "reference_sha256": "ba8aaea03ef30d1abe5f228623f7043d91b1290f9108ecc58a78b41a606c4c48",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.5098268820001977
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1011.smt2",
+      "input_sha256": "6fb47452f02c2247e10d949caf81865c13cac7d66563e11259f13eda8bafec14",
+      "proof_path": "certificates/det5_class5_y/0_3_r1011.cpc.gz",
+      "proof_sha256": "810c027f93553d34577df852e44a991076a517a5e2b7dd410426f0d58b4775d6",
+      "reference_sha256": "8df096fdbcdb9f2ed441aa10dfc369471f519caeb2bbd63f2215c5ad44445fb3",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.43701642799715046
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1100.smt2",
+      "input_sha256": "e96e20046ab74e97550da971a06845231eae71687eed36a28b6a785501841779",
+      "proof_path": "certificates/det5_class5_y/0_3_r1100.cpc.gz",
+      "proof_sha256": "5b815a432e7da264044281aab60a82adcbcd06ffc013cc7b85abaebb6c7f7d08",
+      "reference_sha256": "a8df2fa617b52531f2f93f450c2e38e4c016b581e9e6c0d03a0222d5c125eb5f",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.6291452020013821
+      }
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1111.smt2",
+      "input_sha256": "41b6a83e80ff717f5d6f9ab2e1d265e531b632e2b9ef631e8e25e402c98f699a",
+      "proof_path": "certificates/det5_class5_y/0_3_r1111.cpc.gz",
+      "proof_sha256": "7660f874472f093c69f309512093ca0bafbc5bb433fd3ddc34a906de3037c88b",
+      "reference_sha256": "e297f80264bd77e22659ef3cb3156664374bdd395b7551f6ec27fad4664ab43d",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 1.2854658500000369
+      }
+    },
+    {
+      "input_path": "results/det5_y_corner_beta_1_3.smt2",
+      "input_sha256": "97230b16ced986e70bd84c8c983b1525b3f8ae2cc80e95514ef8a07bcf6b1402",
+      "proof_path": "certificates/det5_y_corner_beta_1_3.cpc.gz",
+      "proof_sha256": "6c68dc5050f4ffc35283fb0ea9ffbc24e1b897c782446796aa7c786dc49ca866",
+      "reference_sha256": "95db6a8873c1b7e755f24efb09c63decd4dadd76bdb1f78b0c9064c0094a424f",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.9273824320007407
+      }
+    },
+    {
+      "input_path": "results/det5_y_corner_beta_3_10.smt2",
+      "input_sha256": "10c4dc11f16c8cdc682bfe59186984a665864c2db9156518d83151c5483499d3",
+      "proof_path": "certificates/det5_y_corner_beta_3_10.cpc.gz",
+      "proof_sha256": "8872df7447a860c2ad00c4cba83f50cd47edbbc4b2caf98ccf411fa4001bd27a",
+      "reference_sha256": "36d987669681dd37167b90e4ba1b7395c05a527a341f6ad1f6d0dfd2431f472b",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 1.197149265997723
+      }
+    },
+    {
+      "input_path": "results/det5_scaled_leaf_contact_width_two.smt2",
+      "input_sha256": "6f6c06f9445c9da6c7a857865ae5a9fe4b5e72bea3b636dc490fb44733813694",
+      "proof_path": "certificates/det5_scaled_leaf_contact_width_two.cpc.gz",
+      "proof_sha256": "801ddafa39c5f9a714d00072906743b267423939b0b8be53a3aa9110e35f44e4",
+      "reference_sha256": "4e180f9b90e9ad714ff4a3d13936e7e5902c245724e6d5cffe74a8f85de1bc28",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.6785128490009811
+      }
+    },
+    {
+      "input_path": "certificates/det5_scaled_box_used_assumptions.smt2",
+      "input_sha256": "76eedc308f32b7451afa12ea5b20da37431f482fa1b46e7e71807888d6ed3bfe",
+      "proof_path": "certificates/det5_scaled_box_sliced.cpc.gz",
+      "proof_sha256": "a498f8e4fa8f60153e72265a126fcff85575655779bea5bbb6088e45de8d38aa",
+      "reference_sha256": "474eab2445442d2d6e394a89a660caead18aae4377af8aa84f4a961e21f1a8e6",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.6583772089979902
+      }
+    }
+  ],
+  "ethos_revision": "221641668d75eaffd308e0511d63962cea937110",
+  "cvc5_signature_revision": "f3b21c4483d3b88dc63cb7cd3e5eb092eee5e341",
+  "unreferenced_assumption_rejected": true
+}

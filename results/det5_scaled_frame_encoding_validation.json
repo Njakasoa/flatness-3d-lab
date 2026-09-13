@@ -1,0 +1,2458 @@
+{
+  "status": "PASS",
+  "scope": "Exact degree-two/linear assertion reconstruction and full finite frontier audit. Nineteen rational saved F/T/b assignments are independently completed and satisfy every LRA assertion. No solver queries, UNSAT proof checks or class exclusion.",
+  "archive": {
+    "path": "results/det5_scaled_width_frame.json",
+    "sha256": "8cad986e537a4217a3d2818c75158dd1f958b100d068a74aec94377808464a79"
+  },
+  "query_count": 30,
+  "exact_formulas_checked": 3,
+  "linear_relaxations_checked": 27,
+  "shared_products_per_relaxation": 24,
+  "rational_SAT_completions_checked": 19,
+  "charts": [
+    {
+      "Y_extrema": [
+        0,
+        1
+      ],
+      "queries": 9,
+      "status_closed_leaves": 3,
+      "pending_boxes": 4
+    },
+    {
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "queries": 9,
+      "status_closed_leaves": 3,
+      "pending_boxes": 4
+    },
+    {
+      "Y_extrema": [
+        1,
+        0
+      ],
+      "queries": 9,
+      "status_closed_leaves": 2,
+      "pending_boxes": 6
+    }
+  ],
+  "inputs": [
+    {
+      "path": "results/det5_scaled_exact_0_1.smt2",
+      "sha256": "3cbdd63478a32bc0301e5cf8652aedad72c9267f912a74852240f7818bab8d06",
+      "kind": "exact"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r.smt2",
+      "sha256": "d9b7334e2d91c9f1c8c6a7dbe59beb806dc19268d3a3a24c748ed990db29f8d6",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r0.smt2",
+      "sha256": "d61a350687774271a16cdb76cdda1a786f186f51ca965edf4c935982dbcb269a",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r1.smt2",
+      "sha256": "7b79ddef365c4acc8c7bc2f7ac6a5610c1e69d637c9c926ee00d58bb7ca521e8",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r00.smt2",
+      "sha256": "11e88218d1653d8a3d7701c7d03b41bf9dd835a16687a7f1fe75413d4545dcdc",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r01.smt2",
+      "sha256": "a106b707db2dd4bd386f342e27ba7ae420ecb7920f90f95a3fcb4a16eeea27b3",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r000.smt2",
+      "sha256": "78b751bacbbda91f6df30cc1d452caf430ffb15c04a31b629c3169c17f7e47c3",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r001.smt2",
+      "sha256": "25c0d03eea86941df2afaaf89d204ba51aede62192246f31d0d60d031e662646",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r010.smt2",
+      "sha256": "207baa8fdb3bb3f80582f527c65674b662eeacfd0464199f1920c64d6521db31",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r011.smt2",
+      "sha256": "3f7867156b05a29bbef5810dbf2d91b09cf51fce55ccda7f6a22ade836f92620",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_exact_0_3.smt2",
+      "sha256": "d19baa2533bef945ea12c30be3e3b8e5dfdb13b0374cd658c2047664a209af58",
+      "kind": "exact"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r.smt2",
+      "sha256": "0e5a95d83b729dc5d27fbdf5c7a5ddd77cb130d611c836197b515839ef40f736",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r0.smt2",
+      "sha256": "f0d911fec87fd22fb6bd76cf87bc0d83ed84f4a581f20871e325576d2e81b1e1",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r1.smt2",
+      "sha256": "fbd02d4109e7dabc5c3217c57ec12f752fa8d5ba34bea975aaa0a54df12a95e0",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r00.smt2",
+      "sha256": "b861218cad06e02543b3dba1c9ad85bc5df1d86207f8ee6a60f247e680f63108",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r01.smt2",
+      "sha256": "ee3174b8be468ec9ba08f0594cf9c7d42fe2f365f90f2c22b03626c7f6f70268",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r10.smt2",
+      "sha256": "e4bce0f2e21f5f8d1b4c744a78ec272e9cab7f2eae748d45668fa0bc0781987e",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r11.smt2",
+      "sha256": "b7831666a8bd241d559e35f9558037e38d4fe352284c68f6a4edef4b108bcd9f",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r010.smt2",
+      "sha256": "80ec8fc79f09c4932bfe46c3df6557bcaff27b30775b2464ce00230c011e9046",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r011.smt2",
+      "sha256": "3b0127cf9618ee7638df30625e15edbd4f8bb7d6fd24a929906763e03d936a33",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_exact_1_0.smt2",
+      "sha256": "de7cf95a044e6e2d48625a311d1d1508d8bd21a9c067593df0ed53c28894cfee",
+      "kind": "exact"
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r.smt2",
+      "sha256": "6a31009300c34733a2e29f86917ed718bd4c8207b50cbd92c25dbf780e31764c",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r0.smt2",
+      "sha256": "acba3d132d10cf43ba526714219aaebe0ac44cdea5c9faa60002f644a268fcbb",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r1.smt2",
+      "sha256": "724a2e4c3217a0addee6d60bbf8a6fd0fe08d9346e0b76f7f1a8864c4b207185",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r00.smt2",
+      "sha256": "0d90b98d96054e8067756ce91ee565071d2c0c4f5a72d5fe2c78f1a7f61c6251",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r01.smt2",
+      "sha256": "967b8266a55f88eeb373049cd012a9c0980234aab1f393bff6885f52d60b8faa",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r10.smt2",
+      "sha256": "d4af7de2967745031c2ad34fc452a38fa642b8d9863a6433095ce93f47a2de50",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r11.smt2",
+      "sha256": "49b61dad18f3f8acc7c06cacaceb6a86a70871c0547d166206d87094a010fc2c",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r000.smt2",
+      "sha256": "6a00eca6944eb1f61d7e5396df860ef336c25bff1a5da41757e33a6daf99ee7e",
+      "kind": "relaxation"
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r001.smt2",
+      "sha256": "b2fac67cc7631b60d1ec133465987a8faddb656455a047de69be8f0b6e683d34",
+      "kind": "relaxation"
+    }
+  ],
+  "sat_assignments": [
+    {
+      "path": "results/det5_scaled_relax_0_1_r.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "3559884332875000000/161394865922289237723"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "-1423953733150000000/161394865922289237723"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "-13262081498780100781570747602518/1877312426191820686023913694025"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "7409881769860440496709/1613948659222892377230"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "-313758586111952500000/53798288640763079241"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "125503434444781000000/53798288640763079241"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "196545037455746174992182500000/75092497047672827440956547761"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "78618014982298469996873/1081149158516605381138500"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "-78618014982298469996873000000/75092497047672827440956547761"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "-147945782054674238623870090624007/15018499409534565488191309552200"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "647398657312187/1161846591477750"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "4123854519603880180721391345937/750924970476728274409565477610"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-590679483914202500000/161394865922289237723"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "236271793565681/2323693182955500"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "236271793565681000000/161394865922289237723"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-910977088628334736099227500000/75092497047672827440956547761"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "13721983609928801014123/72076610567773692075900"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "3423508234139897742438143654063/750924970476728274409565477610"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "179285272496417525535050491619/98160126859703042406479147400"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-35078381707636981016831500000/25030832349224275813652182587"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-4557311926228208895039752397482/1877312426191820686023913694025"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-58525418634371000000/53798288640763079241"
+        }
+      ],
+      "exact_contact_residual": "2241296269814669649230651626751447419908332128393/233776700592232781987839566517450970311236450000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "35088912804458079943580610878390642645917999581401400/15082658887650296254423222998666049839388645892162131",
+        "minimizing_directions": [
+          [
+            1,
+            -2,
+            -2
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r0.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "949769936753125000/88617958049932765317"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "379907974701250000/88617958049932765317"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "-718790047937607500000/88617958049932765317"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "20160719278074492637772/11077244756241595664625"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "-617959707299522500000/88617958049932765317"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "455311217659359924585487/177235916099865530634000"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "-920478801226083125000/88617958049932765317"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "734103593132659/2551765743369000"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "10076281613650711387772/11077244756241595664625"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "67536817070974375000/88617958049932765317"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "108058907313559/5103531486738000"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "-27014726828389750000/88617958049932765317"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-300619554053054375000/88617958049932765317"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "480991286484887/5103531486738000"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "-120247821621221750000/88617958049932765317"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "949769936753125000/88617958049932765317"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "379907974701250000/88617958049932765317"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-68474198933944091523773/7089436643994621225360"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "2861186951521759/5103531486738000"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "160460232386697983483311/88617958049932765317000"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-199789213414969375000/88617958049932765317"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-79915685365987750000/88617958049932765317"
+        }
+      ],
+      "exact_contact_residual": "35773695585207374859516625268707558253/7236232627172145296307338429855136000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "5127693851748767497399341250351946085978616500/2244888218448623888032429154324069446926452069",
+        "minimizing_directions": [
+          [
+            1,
+            -2,
+            -2
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r00.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "19735825/304208762"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "3947165/152104381"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "-1255405653656104951469/21648750365063250000000"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "-1987727899970497175737/4329750073012650000000"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "-19735825/304208762"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "-3947165/152104381"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "600082395000949812710731/660286886134429125000000"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "377869244601193/9506523812500000"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "1034362617852361386670957/2641147544537716500000000"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "93528277786808039446279/14432500243375500000000"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "12125846919462961/38026095250000000"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "1556016314456492658989/721625012168775000000"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-12761399759361601/2925084250000000"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "4346737381726997/7605219050000000"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "-32524929797358731/15210438100000000"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-7132839691002565777461071/1320573772268858250000000"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "20222209930230213/38026095250000000"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-6931752761736479663870527/2641147544537716500000000"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-308703106695290/28865000486751"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "5649266852523807/19013047625000000"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-123481242678116/28865000486751"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-756776617753925/173190002920506"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-151355323550785/86595001460253"
+        }
+      ],
+      "exact_contact_residual": "440643536774351659811241095859259/111229532304774812500000000000000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "3635212094737565120542112564030539496093750/1390076478274835160140372725060836630979833",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r01.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "69288757412500000/272168889074209353897"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "27715502965000000/272168889074209353897"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "-13244690153730744488027/136084444537104676948500"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "93582138291359537610011/68042222268552338474250"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "88009780995334016535919/408253333611314030845500"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "732661992696754792080331/408253333611314030845500"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "-237699762768331994488027/136084444537104676948500"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "87500860126308/326547454767875"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "-815996689539570796663/22680740756184112824750"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "-69288757412500000/272168889074209353897"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "-27715502965000000/272168889074209353897"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-2369096979884292500000/816506667222628061691"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "947638791953717/11755708371643500"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "-947638791953717000000/816506667222628061691"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-255695569185290000000/272168889074209353897"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "102278227674116000000/272168889074209353897"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-41339721998396512613563/34021111134276169237125"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "183544229175683/326547454767875"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "31579649361694238208383/34021111134276169237125"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-704536425657080000000/272168889074209353897"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-281814570262832000000/272168889074209353897"
+        }
+      ],
+      "exact_contact_residual": "141316997752202999509753621003645297/58088926793583769461378324092587500",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "799692215206792120357899517216750180469508000/354576472354509333126743376578143932749938007",
+        "minimizing_directions": [
+          [
+            1,
+            -2,
+            -2
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r000.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "28750000/590377581"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "11500000/590377581"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "-3585312500/590377581"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "2788033281139/590377581000"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "-1127500000/196792527"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "451000000/196792527"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "1063341718861/236151032400"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "16821/68000"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "2243500000/590377581"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "-931658281139/118075516200"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "36821/68000"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "2381841718861/590377581000"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-703750000/196792527"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "6089/68000"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "281500000/196792527"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-3272341718861/236151032400"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-230341718861/590377581000"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "28750000/590377581"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-11500000/590377581"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-1908437500/590377581"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-763375000/590377581"
+        }
+      ],
+      "exact_contact_residual": "179841373630616703/11151576530000000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "426224000/157914137",
+        "minimizing_directions": [
+          [
+            1,
+            -1,
+            -2
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_1_r010.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "-334493719129/295188790500"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "334493719129/737971976250"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "-42218750000/6494153391"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "29765199249739/6494153391000"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "-28611819089581/4870615043250"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "28611819089581/12176537608125"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "-8842689696527/1082358898500"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "26667444089581/116875000000000"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "32200257535673/10823588985000"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "-278750000/6494153391"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "223/187000"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "-111500000/6494153391"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-16908493410419/4870615043250"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "16908493410419/175312500000000"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "16908493410419/12176537608125"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-278750000/6494153391"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "111500000/6494153391"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-10180699249739/1298830678200"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "103109/187000"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "26291300750261/6494153391000"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-18475000000/6494153391"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-7390000000/6494153391"
+        }
+      ],
+      "exact_contact_residual": "706257299726445959411335187/63250348131093750000000000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "69345759718449177672500/29592973647677891032103",
+        "minimizing_directions": [
+          [
+            1,
+            -2,
+            -2
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "-179387500000/49904269641"
+        },
+        {
+          "variable": "w1_0_1",
+          "value": "14351/143700"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "71755000000/49904269641"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "17736250000/1848306283"
+        },
+        {
+          "variable": "w1_2_1",
+          "value": "5638291/12214500"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "4039404506251/1108983769800"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "477201250000/49904269641"
+        },
+        {
+          "variable": "w1_3_1",
+          "value": "381761/1437000"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "190880500000/49904269641"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "20749375000/1545305253"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "62233/390864"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "390132339456403/169674516779400"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "13628632187500/848372583897"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "5451452875000/848372583897"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "13750000/818102781"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "671/1437000"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "5500000/818102781"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-130625000/515101751"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-52250000/515101751"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-1020939218341/185436630360"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-2223551718341/927183151800"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-13750000/818102781"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-5500000/818102781"
+        }
+      ],
+      "exact_contact_residual": "286792440169916152031/20724893852019813000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "1690389084000/754355933309",
+        "minimizing_directions": [
+          [
+            1,
+            -2,
+            -2
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r0.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "-1812500000/82046949681"
+        },
+        {
+          "variable": "w1_0_1",
+          "value": "335704899/546979664540"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "725000000/82046949681"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "3799922401905674446025000000/213790840050331298357377713"
+        },
+        {
+          "variable": "w1_2_1",
+          "value": "2458169756962070262017/3693681194363271804600"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "8506285773398344299739/7387362388726543609200"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "2553812483556450173421875000/213790840050331298357377713"
+        },
+        {
+          "variable": "w1_3_1",
+          "value": "163443998947612811099/492490825915102907280"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "6128035580826127653508946809/1676790902355539594959825200"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "3828931250537534282196875000/213790840050331298357377713"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "1219212744975502080943/2462454129575514536400"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "8105335241985844299739/7387362388726543609200"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "330754407650000000/55869296056629183"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "132301763060000000/55869296056629183"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "330754407650000000/55869296056629183"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "112456498601/683724580675"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "-132301763060000000/55869296056629183"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-1812500000/82046949681"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "725000000/82046949681"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "21898819856305443162375433135/1710326720402650386859021704"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-1525536535980814549981164341/1676790902355539594959825200"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "187774370328125000/2052045107979595447"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-75109748131250000/2052045107979595447"
+        }
+      ],
+      "exact_contact_residual": "1898588567350569835361524448913604324485832716121/124276753640031724246706825743471465892511089280",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "773303163194660206911187210069619623756394708465824080/333291384273479759020995401484172060434334616260108783",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r1.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "106346239931922720257/62245040920397436250"
+        },
+        {
+          "variable": "w1_0_1",
+          "value": "1557830320253/3226237434250"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "380621966722328747/292917839625399700"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "34675100522500000/7346955649620681"
+        },
+        {
+          "variable": "w1_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "13870040209000000/7346955649620681"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "2062131070000000/49796032736317949"
+        },
+        {
+          "variable": "w1_3_1",
+          "value": "1855917963/1613118717125"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "824852428000000/49796032736317949"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "2062131070000000/49796032736317949"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "1855917963/1613118717125"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "824852428000000/49796032736317949"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "362510162873921068289/124490081840794872500"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "3991427780663/6452474868500"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "189227341815346351431/124490081840794872500"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "138296800388172720257/62245040920397436250"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "160383912731/322623743425"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "42495474581457806469/31122520460198718125"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "25560448365000000/49796032736317949"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-3451809440336808577/62245040920397436250"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-2062131070000000/49796032736317949"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-824852428000000/49796032736317949"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-1376106236809570517687/560205368283576926250"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-702875499455655097111/1120410736567153852500"
+        }
+      ],
+      "exact_contact_residual": "242269460305645392345022761027967/200817281113809283217477941562500",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "2050807041133131548126605158004761625/1021869564162725396021702788993021796",
+        "minimizing_directions": [
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r01.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "-530510027170217/72813234990000"
+        },
+        {
+          "variable": "w1_0_1",
+          "value": "1000309/7548000"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "-387584575288661/145626469980000"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "-537955081510651/109219852485000"
+        },
+        {
+          "variable": "w1_2_1",
+          "value": "1774073/3774000"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "-319893725865983/218439704970000"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "-194330081510651/109219852485000"
+        },
+        {
+          "variable": "w1_3_1",
+          "value": "84059/943500"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "9606914899231/109219852485000"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "518457418489349/218439704970000"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "109733/2516000"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "525236274134017/436879409940000"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "214807812500/21843970497"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "85923125000/21843970497"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-68583125000/21843970497"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "109733/1258000"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "-27433250000/21843970497"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-141875000/21843970497"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-56750000/21843970497"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-2901531759699077/218439704970000"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-1050142364537093/218439704970000"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "141875000/21843970497"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "56750000/21843970497"
+        }
+      ],
+      "exact_contact_residual": "560218555667582360741/45799524808710000000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "77980262000938000/34475750284544619",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            -1
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r10.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "-86368779031638291/166625935252126250"
+        },
+        {
+          "variable": "w1_0_1",
+          "value": "684/2125"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "-16057768279815353/166625935252126250"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "362947608355625000/61185043424580759"
+        },
+        {
+          "variable": "w1_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "145179043342250000/61185043424580759"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "24832224377864516143/4498900251807408750"
+        },
+        {
+          "variable": "w1_3_1",
+          "value": "684/2125"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "11836607047984721963/8997800503614817500"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "1275196270625000/211712953026231"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "8047324405906469359/7198240402891854000"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "14797012681008789157/2117129530262310000"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "5105541937/8290971120"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "3407336017810914421/2117129530262310000"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-1559074375000/211712953026231"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "42406823/207274278000"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "-623629750000/211712953026231"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "1559074375000/211712953026231"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-623629750000/211712953026231"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-1559074375000/211712953026231"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-623629750000/211712953026231"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-32099911638803225569/76481304280725948750"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-828534274021432080701/611850434245807590000"
+        }
+      ],
+      "exact_contact_residual": "1435129559685889315979312806663/146275498272533151954060000000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "97043523260092292364353758227180000/52604470278834733451124514585203833",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_0_3_r010.smt2",
+      "rational_completion": [
+        {
+          "variable": "w1_0_0",
+          "value": "51457277853125000/3755882504943493377"
+        },
+        {
+          "variable": "w1_0_1",
+          "value": "49398986739/129781356146800"
+        },
+        {
+          "variable": "w1_0_2",
+          "value": "20582911141250000/3755882504943493377"
+        },
+        {
+          "variable": "w1_2_0",
+          "value": "557341268409660625000/78873532603813360917"
+        },
+        {
+          "variable": "w1_2_1",
+          "value": "92159382427907/283896716571125"
+        },
+        {
+          "variable": "w1_2_2",
+          "value": "79907372543924348909089/31549413041525344366800"
+        },
+        {
+          "variable": "w1_3_0",
+          "value": "51457277853125000/3755882504943493377"
+        },
+        {
+          "variable": "w1_3_1",
+          "value": "49398986739/129781356146800"
+        },
+        {
+          "variable": "w1_3_2",
+          "value": "20582911141250000/3755882504943493377"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "49666895417441359542311/9859191575476670114625"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "23569468053017/324453390367000"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "71586884644468265762651/39436766301906680458500"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "281482329373436875000/26291177534604453639"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "112592931749374750000/26291177534604453639"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "321432073498782500000/78873532603813360917"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "128572829399513/1135586866284500"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "128572829399513000000/78873532603813360917"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-9487886230093547042311/9859191575476670114625"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-75538031786953818505159/157747065207626721834000"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-32487514541307648909089/6309882608305068873360"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-74242259484236648909089/31549413041525344366800"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-33546941725137500000/11267647514830480131"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-13418776690055000000/11267647514830480131"
+        }
+      ],
+      "exact_contact_residual": "14745372122889992537399012291298470111/2487992992287576505512439369524625000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "79166373072702664207348759099043998516255000/34470857320934230572289011818306095763579469",
+        "minimizing_directions": [
+          [
+            1,
+            -2,
+            -2
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r.smt2",
+      "rational_completion": [
+        {
+          "variable": "w0_1_0",
+          "value": "776906477581250000/12169765766506133583"
+        },
+        {
+          "variable": "w0_1_2",
+          "value": "310762591032500000/12169765766506133583"
+        },
+        {
+          "variable": "w0_2_0",
+          "value": "9086995340010119138957/869268983321866684500"
+        },
+        {
+          "variable": "w0_2_2",
+          "value": "7729639709666820551894/1521220720813266697875"
+        },
+        {
+          "variable": "w0_3_0",
+          "value": "90931923837583750000/109527891898555202247"
+        },
+        {
+          "variable": "w0_3_2",
+          "value": "36372769535033500000/109527891898555202247"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "-23839843304126953681/289756327773955561500"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "118483449095189/350430003931000"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "439559766907023517298/507073573604422232625"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "776906477581250000/12169765766506133583"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "310762591032500000/12169765766506133583"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-197929105240216244245709/54763945949277601123500"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "496802751393317/1576935017689500"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "-27773963839077041577037/109527891898555202247000"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-32879425097098750000/12169765766506133583"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-13151770038839500000/12169765766506133583"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-17645719030148538339827/12169765766506133583000"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "220308046946059/350430003931000"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "67097520021008308639/209823547698381613500"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-161098633276013750000/12169765766506133583"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-64439453310405500000/12169765766506133583"
+        }
+      ],
+      "exact_contact_residual": "510629132748576522238181638167340093/94770023675468747102806691439400000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "1181721286406306414183521626687855202094125/1090758917184255917788086839673864512160851",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r0.smt2",
+      "rational_completion": [
+        {
+          "variable": "w0_1_0",
+          "value": "4345000000/1053418821"
+        },
+        {
+          "variable": "w0_1_2",
+          "value": "1738000000/1053418821"
+        },
+        {
+          "variable": "w0_2_0",
+          "value": "34561432556071/2633547052500"
+        },
+        {
+          "variable": "w0_2_2",
+          "value": "2339554959373/351139607000"
+        },
+        {
+          "variable": "w0_3_0",
+          "value": "-10000000/81032217"
+        },
+        {
+          "variable": "w0_3_2",
+          "value": "-4000000/81032217"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "362500000/27010739"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "261/700"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "145000000/27010739"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "10000000/81032217"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "3/875"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "4000000/81032217"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "42173315418133/3160256463000"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "869/1750"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "23706795096487/3160256463000"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-629184581867/3160256463000"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "89/700"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "445000000/243096651"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "4045286362571/395032057875"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "57819/91000"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "9490795096487/1580128231500"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "1547981754239/15801282315000"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "1694005365643/3160256463000"
+        }
+      ],
+      "exact_contact_residual": "195333305308463821/27652244051250000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "3330257125/2531127471",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r1.smt2",
+      "rational_completion": [
+        {
+          "variable": "w0_1_0",
+          "value": "118146026164007500000/96244396326055202247"
+        },
+        {
+          "variable": "w0_1_2",
+          "value": "-47258410465603000000/96244396326055202247"
+        },
+        {
+          "variable": "w0_2_0",
+          "value": "28816921045691337950599/1924887926521104044940"
+        },
+        {
+          "variable": "w0_2_2",
+          "value": "228235043959358164179523/48122198163027601123500"
+        },
+        {
+          "variable": "w0_3_0",
+          "value": "-1877455619912500000/96244396326055202247"
+        },
+        {
+          "variable": "w0_3_2",
+          "value": "750982247965000000/96244396326055202247"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "3421336109575237950599/1924887926521104044940"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "37/102"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "-25720805401802835820477/48122198163027601123500"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "11936286726062500000/8749490575095927477"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "190980587617/5038854609780"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "-4774514690425000000/8749490575095927477"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "3421336109575237950599/1924887926521104044940"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "100379893069057/277137003537900"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "-6172140068054197711861/24061099081513800561750"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-1877455619912500000/96244396326055202247"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-750982247965000000/96244396326055202247"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "40679496563165867665/64162930884036801498"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "73606891841137/125971365244500"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "17349251510557514991011/16040732721009200374500"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-1271656702425717500000/96244396326055202247"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "33182527841537/1385685017689500"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-508662680970287000000/96244396326055202247"
+        }
+      ],
+      "exact_contact_residual": "972939822010207353852777971164222357/261498858873696179873309206173150000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "12272325794912361689022104804965955998500/11774186410787757437170617140197624046773",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r00.smt2",
+      "rational_completion": [
+        {
+          "variable": "w0_1_0",
+          "value": "2331464266206463214949859391/158037531135908282100000000"
+        },
+        {
+          "variable": "w0_1_2",
+          "value": "10254427995267078130/1580375311359082821"
+        },
+        {
+          "variable": "w0_2_0",
+          "value": "1377704005603605191442137462038967/5247879125053190398160087700000000"
+        },
+        {
+          "variable": "w0_2_2",
+          "value": "3068240113706698364183992472112011/1093308151052747999616684937500000"
+        },
+        {
+          "variable": "w0_3_0",
+          "value": "-168143736984503530118797026383099/2186616302105495999233369875000000"
+        },
+        {
+          "variable": "w0_3_2",
+          "value": "-7255483303143625292182834/87464652084219839969334795"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "-18565922266054675/3160750622718165642"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "742636890642187/4550711469700000000"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "3713184453210935/1580375311359082821"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "-10016920490067258594640827422038967/1049575825010638079632017540000000"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "-2032007393742251009954623490440973/1192699801148452363218201750000000"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-11832853383160556284691384943018907/2385399602296904726436403500000000"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "1525837867268286341561541023/3777834219872935722500000000"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "2362632099444054405865614035610381/2915488402807327998977826500000000"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-88352740480930302227793401/17559725681767586900000000"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "931736909026707813/2275355734850000000"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "558396565553524354000129/816309561652418812500000"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-1053894807432211868139140609/104957582501063807963201754"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-1053894807432211868139140609/262393956252659519908004385"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-92711754724398791633494324/17492930416843967993866959"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "69533816043299093725120743/472229277484116965312500000"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-185423509448797583266988648/87464652084219839969334795"
+        }
+      ],
+      "exact_contact_residual": "53008522194214181128900535012425719834027121/19229497475487932857745807550000000000000000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "67226562440634308508606657292355216180954753782414503921362172962736120312500000/29961884702420453997466094836403403905276462733237536863946829819972318309215173",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r01.smt2",
+      "rational_completion": [
+        {
+          "variable": "w0_1_0",
+          "value": "345628097663311/41326430670000"
+        },
+        {
+          "variable": "w0_1_2",
+          "value": "1186745146619/405161085000"
+        },
+        {
+          "variable": "w0_2_0",
+          "value": "139375000/4132643067"
+        },
+        {
+          "variable": "w0_2_2",
+          "value": "-55750000/4132643067"
+        },
+        {
+          "variable": "w0_3_0",
+          "value": "2743525288261/344386922250"
+        },
+        {
+          "variable": "w0_3_2",
+          "value": "-4413105771167/41326430670000"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "272936648323/49198131750"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "25831/59500"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "-1363160760364/860967305625"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "139375000/4132643067"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "-55750000/4132643067"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "-11110625000/4132643067"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "17777/238000"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "-4444250000/4132643067"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-1115000000/4132643067"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "223/29750"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "446000000/4132643067"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-34162254720233/20663215335000"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-1747000000/459182563"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "1806025288261/344386922250"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "87331/119000"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-1258629510364/860967305625"
+        }
+      ],
+      "exact_contact_residual": "1753880059244309769/218570899988000000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "53386924927000/28939590863227",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r10.smt2",
+      "rational_completion": [
+        {
+          "variable": "w0_1_0",
+          "value": "113025151803775860163/7550492308570032483"
+        },
+        {
+          "variable": "w0_1_2",
+          "value": "42189863798082331072/7550492308570032483"
+        },
+        {
+          "variable": "w0_2_0",
+          "value": "51632300000000000/2516830769523344161"
+        },
+        {
+          "variable": "w0_2_2",
+          "value": "20652920000000000/2516830769523344161"
+        },
+        {
+          "variable": "w0_3_0",
+          "value": "-51632300000000000/2516830769523344161"
+        },
+        {
+          "variable": "w0_3_2",
+          "value": "-20652920000000000/2516830769523344161"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "66978348454881250000/22651476925710097449"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "10716535752781/130450450738600"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "26791339381952500000/22651476925710097449"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "51632300000000000/2516830769523344161"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "20652920000000000/2516830769523344161"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "1317983082693102436979/125841538476167208050"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "20715023428773/65225225369300"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "417983270236875248479/251683076952334416100"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "8489695786493859432811/1132573846285504872450"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "6157572323353/26090090147720"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "399198982104585295811/2265147692571009744900"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "-1158690628916117413463/377524615428501624150"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "-2755785359820260048263/755049230857003248300"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "1312819852693102436979/125841538476167208050"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "39861737987273/65225225369300"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "339971699144426143979/251683076952334416100"
+        }
+      ],
+      "exact_contact_residual": "7392590428020226659540133277/1063582506118994080345622500",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "77730070268981479682478226109771367869775/46876020646594543471322010241985024699101",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    },
+    {
+      "path": "results/det5_scaled_relax_1_0_r000.smt2",
+      "rational_completion": [
+        {
+          "variable": "w0_1_0",
+          "value": "425347882791250000/7562932683534443997"
+        },
+        {
+          "variable": "w0_1_2",
+          "value": "-170139153116500000/7562932683534443997"
+        },
+        {
+          "variable": "w0_2_0",
+          "value": "90973247697844458559139/10538512755744717045000"
+        },
+        {
+          "variable": "w0_2_2",
+          "value": "26559912924819378128969/5269256377872358522500"
+        },
+        {
+          "variable": "w0_3_0",
+          "value": "-2229382739883500000/2107702551148943409"
+        },
+        {
+          "variable": "w0_3_2",
+          "value": "891753095953400000/2107702551148943409"
+        },
+        {
+          "variable": "w2_0_0",
+          "value": "8316137628750993847107479/1285698556200855479490000"
+        },
+        {
+          "variable": "w2_0_1",
+          "value": "9264754825075801/37021858821930000"
+        },
+        {
+          "variable": "w2_0_2",
+          "value": "3047822505362768729092493/1285698556200855479490000"
+        },
+        {
+          "variable": "w2_1_0",
+          "value": "-31380309474394162204073/14285539513342838661000"
+        },
+        {
+          "variable": "w2_1_1",
+          "value": "0"
+        },
+        {
+          "variable": "w2_1_2",
+          "value": "-8004616259344700000/7562932683534443997"
+        },
+        {
+          "variable": "w2_3_0",
+          "value": "5111660340174194519713/3512837585248239015000"
+        },
+        {
+          "variable": "w2_3_1",
+          "value": "4191888043413449/9255464705482500"
+        },
+        {
+          "variable": "w2_3_2",
+          "value": "5336173382579372836571/3512837585248239015000"
+        },
+        {
+          "variable": "w3_0_0",
+          "value": "-7805193415576173652892521/1285698556200855479490000"
+        },
+        {
+          "variable": "w3_0_1",
+          "value": "8590736125641143/37021858821930000"
+        },
+        {
+          "variable": "w3_0_2",
+          "value": "-267440184697240655208019/428566185400285159830000"
+        },
+        {
+          "variable": "w3_1_0",
+          "value": "2260198701109335383082139/642849278100427739745000"
+        },
+        {
+          "variable": "w3_1_1",
+          "value": "2086651477303807/3085154901827500"
+        },
+        {
+          "variable": "w3_1_2",
+          "value": "258639010122412884556346/80356159762553467468125"
+        },
+        {
+          "variable": "w3_2_0",
+          "value": "-5785678691782625000/702567517049647803"
+        },
+        {
+          "variable": "w3_2_1",
+          "value": "0"
+        },
+        {
+          "variable": "w3_2_2",
+          "value": "-2314271476713050000/702567517049647803"
+        }
+      ],
+      "exact_contact_residual": "57408488987805274774400221687343514198463/23799475217613652669184918338607850000000",
+      "exact_contact_equations_hold": false,
+      "actual_F": {
+        "invertible": true,
+        "minimum_of_complete_15": "72131802922898034266007383897396353041341335000/40268696529229001642728537452972593644122757613",
+        "minimizing_directions": [
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "archived_maximum_product_residual_scope": "Original solver w values were not saved; this audit constructs a different certified completion and does not bind that original residual."
+    }
+  ],
+  "pinned_exact_regression": {
+    "source_path": "results/det5_joint_short_gauges.json",
+    "source_sha256": "12928077c29449de41c61eee7bdcf7ec3d54914aa970f346c4702acd298adca4",
+    "Y_extrema": [
+      1,
+      0
+    ],
+    "b": "39202828222912103/134535942732777000",
+    "T": [
+      [
+        "1431369604985/620696390924",
+        "1",
+        "-41501845319/620696390924"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2164408332295/620696390924",
+        "116492766731/155174097731",
+        "401440713067/620696390924"
+      ],
+      [
+        "569607086725/310348195462",
+        "77535689231/155174097731",
+        "-17094187889/310348195462"
+      ]
+    ],
+    "actual_assertions_true": 136,
+    "actual_assertions_false": 2,
+    "all_non_width_assertions_true": true,
+    "false_assertions_are_exactly_failed_width_tests": true,
+    "failed_width_tests": [
+      {
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "width": "96007799530165500/39202828222912103"
+      },
+      {
+        "direction": [
+          1,
+          -2,
+          -2
+        ],
+        "width": "127298447868496500/39202828222912103"
+      }
+    ]
+  },
+  "rejected_mutations": [
+    {
+      "mutation": "missing pending box",
+      "rejected": true,
+      "reason": "exact closed and pending frontier"
+    },
+    {
+      "mutation": "missing complete width inequality",
+      "rejected": true,
+      "reason": "assertion mismatch: missing 1, extra 0"
+    },
+    {
+      "mutation": "missing shared product envelope",
+      "rejected": true,
+      "reason": "assertion mismatch: missing 1, extra 0"
+    },
+    {
+      "mutation": "corrupt saved gap",
+      "rejected": true,
+      "reason": "joint contact column-sum interval is nonempty"
+    }
+  ],
+  "solver_queries_run": 0,
+  "unsat_proofs_checked": 0
+}

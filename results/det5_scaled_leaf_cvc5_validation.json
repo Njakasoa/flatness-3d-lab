@@ -1,0 +1,36 @@
+{
+  "status": "unknown (TIMEOUT)",
+  "elapsed_seconds": 10.008191291999537,
+  "scope": "One new pending-leaf refutation only. No complete chart or contact-class exclusion.",
+  "source_path": "results/det5_scaled_pending_0_3_0_3_r111111.smt2",
+  "source_sha256": "b927c6055dbc303b2235e4a4f3288636c2cf03af6e4d812c8a9754e9d93a7238",
+  "input_sha256": "fe675cc858f24045b25b0886c31926098287dc517227823b9824760e93677f7a",
+  "Y_extrema": [
+    0,
+    3
+  ],
+  "U_extrema": [
+    0,
+    3
+  ],
+  "node": "r111111",
+  "box": [
+    [
+      "3/4",
+      "1"
+    ],
+    [
+      "3/4",
+      "1"
+    ],
+    [
+      "1/2",
+      "1"
+    ],
+    [
+      "1/2",
+      "1"
+    ]
+  ],
+  "cvc5_version": "1.3.4"
+}

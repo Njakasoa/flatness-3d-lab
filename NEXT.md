@@ -7,19 +7,22 @@ CLAIM-0007, 58 necessary full hulls remain at width at least 2+sqrt(2):
 five tetrahedral classes (indices 0,1,2,3,5), 52 larger spatial hulls and
 the square. The list above (11/7)(1+2/sqrt(3)) remains 62.
 
-1. Strengthen the second determinant-five model with additional width
-   directions. A certified hollow body in retained Y:[1,0], U:[1,3] has
-   both widths above 17/5 and passes every integer gauge at the exact ACMS
-   target threshold, as well as the stated volume bounds. Its full width
-   is about 2.449 in Z. Therefore stop subdivision or gauge-only enrichment
-   of that two-direction system. Freeze the 953-query archive (27 recorded
-   complete charts, 259 pending boxes); its partial UNSAT labels are not
-   externally checked proof covers. The complete fifteen-direction models
-   are available but their three archived targets remain UNKNOWN. Add width
-   information before new queries; do not rerun unchanged targets. See
-   [decisive witness](proofs/DET5_FULL_GAUGE_RETAINED_WITNESS.md),
-   [research status](proofs/DET5_RESEARCH_STATUS.md), and
-   [complete model geometry](proofs/DET5_COMPLETE_GEOMETRY_REVIEW.md).
+1. Reuse the twelve independently certified Y rectangles before extending
+   the complete-width model. The exact overlay wholly covers one of the
+   259 archived joint pending boxes and half of six others; 105 further
+   intersections are boundary-only. The archive remains immutable. Removing
+   the whole box leaves 258 entries; partial subtraction still needs an
+   explicit queue with exact endpoint handling. No new queue is claimed here.
+   On the Y:[0,3] upper corner, the independently checked uniform threshold
+   3/10 gives the conditional bound (10/7)(1+2/sqrt(3)); this removes neither
+   the entire chart nor the contact class. The 69-assumption proof slice
+   shows the previous box certificate uses no U conditions or extra widths.
+   Its Y square was already an old closed leaf. Use the 17-variable complete
+   scaled frame and the direction-coupled envelopes on the residual domain.
+   Do not repeat archived solver queries or infer bodies from relaxed SAT.
+   See [conditional bounds](proofs/DET5_CONDITIONAL_WIDTH_BOUNDS.md),
+   [cylinder correction](proofs/DET5_Y_HIGH_CYLINDER_EXCLUSION.md), and
+   [overlay](results/det5_certified_y_overlay.json).
 2. Keep the contact hypothesis precise. The P5/P7/P8 bounds require one
    prescribed relative-interior point per facet of a tetrahedron. They do
    not exclude larger contact hulls by containment. The P10/P13 analytic
@@ -39,6 +42,6 @@ Reproduce the completed exclusions with `reproduce_height_cover.py` and
 actual external proof-kernel checking uses the pinned sources documented in
 [HEIGHT_ETHOS_REPRODUCTION.md](proofs/HEIGHT_ETHOS_REPRODUCTION.md).
 
-The maintainer authorized a GitHub update including this checkpoint.
-The public SOURCE_MANIFEST.json identifies its exact scientific revision.
-The active scientific objective remains open; this is a restricted advance.
+The maintainer has authorized publication of this reviewed checkpoint.
+The curated public SOURCE_MANIFEST.json records its scientific source revision.
+The active scientific objective remains open; these are restricted advances.

@@ -207,3 +207,34 @@ explicit hollow-body hypothesis required by ACMS. Local Markdown links and
 Python syntax checks pass. The text scan found no private machine paths or
 known credential patterns. The source manifest and its corruption control
 are checked before publication. See the [machine-readable receipt](results/det5_pivot_public_validation.json).
+
+## Partial Y certificates and conditional bounds — 2026-09-14
+
+Scientific source: 2ae604dd301d1a572ed84eb3619c324385500f76.
+Nine fresh public-copy audits passed. All 157 exported scientific files
+match the committed source byte for byte after replay. These checks cover
+30 base and 36 transferred scaled formulas, the reduced and enlarged inputs,
+300 exact known-witness widths, 14 independently reconstructed full-matrix
+inputs, the 69-assumption map, direction envelopes and the exact Y overlay.
+The conditional input audit rejects four premise-corruption controls.
+
+All **16 additional CPC proof payloads** were freshly checked with the pinned
+Ethos kernel in the public copy: twelve old Y rectangles, two uniform-gauge
+corner proofs, the original scaled proof and its slice. Every input/proof/
+reference hash matches the original receipt. An unrelated assumption was
+rejected as a negative control. The wrapper ran zero SMT solver queries.
+These overlapping partial proofs do not exclude another whole class.
+
+All 167 previously published certificate files remain byte-identical; the
+previous public validation of 67 full-class proof payloads is retained.
+The earlier baseline and complete-class checks were not rerun unchanged.
+[The public replay receipt](results/public_det5_partial_validation.json)
+distinguishes fresh kernel checks from arithmetic and premise audits.
+
+Independent internal publication review confirmed the conditional theorem,
+closed endpoints, 58-type count and old-region correction. Two presentation
+findings were fixed: the stale publication footer and the cvc5 dependency of
+--encodings. Python syntax, local Markdown links and privacy-pattern checks
+pass. Manifest and deliberate hash-corruption checks are performed on the
+final snapshot. This is AI-assisted internal review, not external human
+peer review or an established mathematical priority claim.

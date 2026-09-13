@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "scope": "Exact independent reconstruction of three strictly enlarged rectangles with five width targets and unchanged necessary gauge/volume cuts. Archived SAT means outer feasibility only. No solver or proof-kernel calls; no enlarged box or class is excluded.",
+  "archive_sha256": "4fe93837699bdf56811e7961a8529d6b3a3e50ca57a5b88cc2520754c16208a5",
+  "original_box": [
+    [
+      "3/4",
+      "1"
+    ],
+    [
+      "3/4",
+      "1"
+    ],
+    [
+      "1/2",
+      "1"
+    ],
+    [
+      "1/2",
+      "1"
+    ]
+  ],
+  "Y_extrema": [
+    0,
+    3
+  ],
+  "U_extrema": [
+    0,
+    3
+  ],
+  "five_width_directions": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      -1,
+      -2
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      1,
+      -2,
+      -2
+    ]
+  ],
+  "new_encodings_checked": 3,
+  "inputs": [
+    {
+      "tag": "half_half",
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "path": "results/det5_scaled_enlarged_half_half.smt2",
+      "input_sha256": "1e65528b4b14bca106517933e7b0d9e6ad3bc96c9be8435360b224368badef80",
+      "assertions": 589,
+      "recorded_status": "sat",
+      "strictly_contains_original_box": true
+    },
+    {
+      "tag": "three_quarters_zero",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "path": "results/det5_scaled_enlarged_three_quarters_zero.smt2",
+      "input_sha256": "d1d4b8e76112ff5e99f8b886e617cffd68fa3fa515b1cbdad3a8bf4ab0c9b201",
+      "assertions": 589,
+      "recorded_status": "unknown (TIMEOUT)",
+      "strictly_contains_original_box": true
+    },
+    {
+      "tag": "zero_half",
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "path": "results/det5_scaled_enlarged_zero_half.smt2",
+      "input_sha256": "ed496c9da2444b8d09e8bbdeac025386ee6473afc45946e0a28c1552f6a31ea1",
+      "assertions": 589,
+      "recorded_status": "sat",
+      "strictly_contains_original_box": true
+    }
+  ],
+  "rejected_mutations": [
+    {
+      "mutation": "changed enlarged height bound",
+      "rejected": true,
+      "reason": "assertion mismatch: missing 7, extra 7"
+    },
+    {
+      "mutation": "missing retained Z width test",
+      "rejected": true,
+      "reason": "assertion mismatch: missing 1, extra 0"
+    },
+    {
+      "mutation": "unrequested sixth width test",
+      "rejected": true,
+      "reason": "assertion mismatch: missing 0, extra 1"
+    }
+  ],
+  "solver_queries_run": 0,
+  "unsat_proofs_checked": 0
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "Externally checked refutation of one retained Y/U box with five width directions. No whole chart or class exclusion.",
+  "status": "PASS",
+  "input_path": "results/det5_scaled_leaf_contact_width_two.smt2",
+  "input_sha256": "6f6c06f9445c9da6c7a857865ae5a9fe4b5e72bea3b636dc490fb44733813694",
+  "proof_path": "certificates/det5_scaled_leaf_contact_width_two.cpc.gz",
+  "proof_sha256": "801ddafa39c5f9a714d00072906743b267423939b0b8be53a3aa9110e35f44e4",
+  "compressed_proof_sha256": "66288fd224969224b5cc2a44305e555551e6c2a0718b7213affb90df0e297b7d",
+  "reference_sha256": "4e180f9b90e9ad714ff4a3d13936e7e5902c245724e6d5cffe74a8f85de1bc28",
+  "archive_sha256": "1c6cd334555cd225e80038b7925eaa459b6e4b8b78e1609b83488f76fde8dd3b",
+  "ethos_revision": "221641668d75eaffd308e0511d63962cea937110",
+  "cvc5_signature_revision": "f3b21c4483d3b88dc63cb7cd3e5eb092eee5e341",
+  "proof_commands": {
+    "declare-const": 41,
+    "define": 3312,
+    "assume": 485,
+    "step": 14517,
+    "assume-push": 846,
+    "step-pop": 846
+  },
+  "solver_queries_run": 0,
+  "external_check": {
+    "exit_code": 0,
+    "stdout": "correct",
+    "stderr": "",
+    "elapsed_seconds": 0.7283648249976977
+  },
+  "unreferenced_assumption_rejected": true,
+  "missing_refutation_rejected": true
+}

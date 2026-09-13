@@ -1,0 +1,83 @@
+{
+  "scope": "Weaker width-subset formulas on one pending box. Neither a complete class cover nor a claim that these direction sets suffice globally.",
+  "source_path": "results/det5_scaled_pending_0_3_0_3_r111111.smt2",
+  "source_sha256": "b927c6055dbc303b2235e4a4f3288636c2cf03af6e4d812c8a9754e9d93a7238",
+  "queries": [
+    {
+      "status": "unknown (TIMEOUT)",
+      "elapsed_seconds": 12.861646274002851,
+      "name": "Z_only",
+      "additional_width_directions": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "retained_Y_U_targets": true,
+      "path": "results/det5_scaled_leaf_Z_only.smt2",
+      "input_sha256": "a9eaf17ac5f788b5e151fd29df5f43c8e62fd69415fb81cfa4b7f73d307e63ad",
+      "assertion_count": 587
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 5.253188942999259,
+      "proof_nodes": 10233,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 3,
+        "ProofRule.AND_ELIM": 5,
+        "ProofRule.AND_INTRO": 630,
+        "ProofRule.ARITH_MULT_NEG": 291,
+        "ProofRule.ARITH_MULT_POS": 162,
+        "ProofRule.ARITH_POLY_NORM": 624,
+        "ProofRule.ARITH_POLY_NORM_REL": 207,
+        "ProofRule.ARITH_SUM_UB": 162,
+        "ProofRule.ASSUME": 563,
+        "ProofRule.CHAIN_M_RESOLUTION": 65,
+        "ProofRule.CNF_AND_NEG": 8,
+        "ProofRule.CONG": 698,
+        "ProofRule.CONTRA": 56,
+        "ProofRule.DSL_REWRITE": 631,
+        "ProofRule.EQ_RESOLVE": 1414,
+        "ProofRule.EVALUATE": 585,
+        "ProofRule.IMPLIES_ELIM": 46,
+        "ProofRule.MODUS_PONENS": 630,
+        "ProofRule.NARY_CONG": 560,
+        "ProofRule.NOT_AND": 116,
+        "ProofRule.REFL": 488,
+        "ProofRule.REORDERING": 128,
+        "ProofRule.RESOLUTION": 8,
+        "ProofRule.SCOPE": 266,
+        "ProofRule.SYMM": 288,
+        "ProofRule.TRANS": 1482,
+        "ProofRule.TRUE_ELIM": 117
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "name": "contact_width_two",
+      "additional_width_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          1,
+          -2,
+          -2
+        ]
+      ],
+      "retained_Y_U_targets": true,
+      "path": "results/det5_scaled_leaf_contact_width_two.smt2",
+      "input_sha256": "6f6c06f9445c9da6c7a857865ae5a9fe4b5e72bea3b636dc490fb44733813694",
+      "assertion_count": 589,
+      "proof_path": "certificates/det5_scaled_leaf_contact_width_two.cpc.gz",
+      "proof_sha256": "801ddafa39c5f9a714d00072906743b267423939b0b8be53a3aa9110e35f44e4"
+    }
+  ]
+}

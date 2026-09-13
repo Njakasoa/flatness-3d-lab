@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "scope": "Bindings to this turn's independently executed audits and actual external proof check; not a new run of those validators or a full-class result.",
+  "records": [
+    {
+      "path": "results/det5_known_width_obstructions.json",
+      "sha256": "a6683daa697412ecf23c3595071222c6adf96d36d4d6243cb1dda4c92332ebd5",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_scaled_frame_encoding_validation.json",
+      "sha256": "22d8ca82ce85f8283ea0d35b8a4829b6cbfcd57bc9396ba184ae55e94e7c7206",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_scaled_pending_transfer_validation.json",
+      "sha256": "2f93c3ff2213dbc035540140df72f719ea74c1bed16b890322127c75860af79e",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_five_direction_box_encoding_validation.json",
+      "sha256": "8dac27b6612115146d25a153086537428ed1453123af3efb047c5e8ed8f0cf37",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_scaled_enlargement_encoding_validation.json",
+      "sha256": "0b6090761a3356ab087f8517bd167e9405466195a537b002ea2f1a2e91089a5d",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_scaled_width_core_ethos_validation.json",
+      "sha256": "f65fe45114ded7265bb7b09f654a4e43f9f4ece1616df3a77d67fa0949d78f92",
+      "status": "PASS"
+    }
+  ],
+  "old_scientific_payloads_unchanged": true,
+  "global_flatness_improvement": false,
+  "new_full_contact_class_exclusions": 0,
+  "new_certified_continuous_boxes": 1
+}

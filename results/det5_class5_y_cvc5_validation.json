@@ -1,0 +1,846 @@
+{
+  "status": "PASS",
+  "scope": "First independent proof certification of12oldY-only rectangles. Partial domain only; no full class exclusion.",
+  "source_path": "results/det5_height_interval.json",
+  "source_sha256": "592cbf26c684090f64efc1d4bd4968c9bc139b645ba09f54218cd75b5ffe5210",
+  "class_index": 5,
+  "target": "17/5",
+  "beta": "37/102",
+  "gauge_vectors": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      2
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      5,
+      1,
+      2
+    ]
+  ],
+  "ethos_revision": "221641668d75eaffd308e0511d63962cea937110",
+  "cvc5_signature_revision": "f3b21c4483d3b88dc63cb7cd3e5eb092eee5e341",
+  "leaves": [
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.9971698789995571,
+      "proof_nodes": 6525,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 12,
+        "ProofRule.AND_INTRO": 477,
+        "ProofRule.ARITH_MULT_NEG": 217,
+        "ProofRule.ARITH_MULT_POS": 111,
+        "ProofRule.ARITH_POLY_NORM": 426,
+        "ProofRule.ARITH_POLY_NORM_REL": 122,
+        "ProofRule.ARITH_SUM_UB": 84,
+        "ProofRule.ASSUME": 552,
+        "ProofRule.CHAIN_M_RESOLUTION": 39,
+        "ProofRule.CNF_AND_NEG": 2,
+        "ProofRule.CONG": 393,
+        "ProofRule.CONTRA": 57,
+        "ProofRule.DSL_REWRITE": 330,
+        "ProofRule.EQ_RESOLVE": 729,
+        "ProofRule.EVALUATE": 321,
+        "ProofRule.IMPLIES_ELIM": 13,
+        "ProofRule.MODUS_PONENS": 477,
+        "ProofRule.NARY_CONG": 367,
+        "ProofRule.NOT_AND": 71,
+        "ProofRule.REFL": 408,
+        "ProofRule.REORDERING": 79,
+        "ProofRule.RESOLUTION": 2,
+        "ProofRule.SCOPE": 156,
+        "ProofRule.SYMM": 150,
+        "ProofRule.TRANS": 834,
+        "ProofRule.TRUE_ELIM": 89
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r01",
+      "box": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_1_r01.smt2",
+      "source_input_sha256": "836c6b6e15b40e8bfa4a5b602e088b417b3722951147fcdb41e503de645303e1",
+      "input_path": "certificates/det5_class5_y/0_1_r01.smt2",
+      "input_sha256": "1607c57d388a2cb9dee57dfef3083d27a8697cf4685c9b14e6a9b805a0ae5d87",
+      "proof_path": "certificates/det5_class5_y/0_1_r01.cpc.gz",
+      "proof_sha256": "ac996d9d511a8d4e9486ed2d00abaf0c62f31ccf2bae128b2dcb5dc1a570fdbf",
+      "compressed_proof_sha256": "ddd770877f0351080de1d48a0686f32a466fab4041e199dc84dcdb756bfe5695",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.467076676999568
+      },
+      "reference_sha256": "6c6ccf8f454635ff859e5800e6f0d240f69c5f0729355ed2cd0583b9e179ab69",
+      "negative_control": "unreferenced assumption rejected"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 0.8230524300015531,
+      "proof_nodes": 6169,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 13,
+        "ProofRule.AND_INTRO": 437,
+        "ProofRule.ARITH_MULT_NEG": 213,
+        "ProofRule.ARITH_MULT_POS": 110,
+        "ProofRule.ARITH_POLY_NORM": 376,
+        "ProofRule.ARITH_POLY_NORM_REL": 123,
+        "ProofRule.ARITH_SUM_UB": 74,
+        "ProofRule.ASSUME": 504,
+        "ProofRule.CHAIN_M_RESOLUTION": 45,
+        "ProofRule.CNF_AND_NEG": 2,
+        "ProofRule.CONG": 362,
+        "ProofRule.CONTRA": 47,
+        "ProofRule.DSL_REWRITE": 303,
+        "ProofRule.EQ_RESOLVE": 639,
+        "ProofRule.EVALUATE": 378,
+        "ProofRule.IMPLIES_ELIM": 11,
+        "ProofRule.MODUS_PONENS": 437,
+        "ProofRule.NARY_CONG": 347,
+        "ProofRule.NOT_AND": 63,
+        "ProofRule.REFL": 437,
+        "ProofRule.REORDERING": 69,
+        "ProofRule.RESOLUTION": 2,
+        "ProofRule.SCOPE": 134,
+        "ProofRule.SYMM": 140,
+        "ProofRule.TRANS": 771,
+        "ProofRule.TRUE_ELIM": 125
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r0001",
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_1_r0001.smt2",
+      "source_input_sha256": "f5938452f6ca9dc98b43e5b50f456c9dd7a7eedeeacad1c76f2c3b5e64b7686c",
+      "input_path": "certificates/det5_class5_y/0_1_r0001.smt2",
+      "input_sha256": "01438e68f89ea75414300c89dbd9617dec159af03201944aec3a1a447ccb9d79",
+      "proof_path": "certificates/det5_class5_y/0_1_r0001.cpc.gz",
+      "proof_sha256": "8b2740ca87d3972181b881f514f7c6ccf875b5f4905f6b5952ba70abb528ea07",
+      "compressed_proof_sha256": "54f2b47c349722453993866cdc6423ea8d587254f74cfdbffe59649436f9a796",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.4436893499987491
+      },
+      "reference_sha256": "ee163d4f867c3c089800ec21c6df6f4a8888f943c18242b3c89c0d70ce6faeb5"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.3842184380009712,
+      "proof_nodes": 9700,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 14,
+        "ProofRule.AND_INTRO": 782,
+        "ProofRule.ARITH_MULT_NEG": 355,
+        "ProofRule.ARITH_MULT_POS": 208,
+        "ProofRule.ARITH_POLY_NORM": 648,
+        "ProofRule.ARITH_POLY_NORM_REL": 167,
+        "ProofRule.ARITH_SUM_UB": 99,
+        "ProofRule.ASSUME": 766,
+        "ProofRule.CHAIN_M_RESOLUTION": 51,
+        "ProofRule.CNF_AND_NEG": 15,
+        "ProofRule.CONG": 539,
+        "ProofRule.CONTRA": 53,
+        "ProofRule.DSL_REWRITE": 447,
+        "ProofRule.EQ_RESOLVE": 1044,
+        "ProofRule.EVALUATE": 642,
+        "ProofRule.IMPLIES_ELIM": 23,
+        "ProofRule.MODUS_PONENS": 782,
+        "ProofRule.NARY_CONG": 473,
+        "ProofRule.NOT_AND": 76,
+        "ProofRule.REFL": 669,
+        "ProofRule.REORDERING": 99,
+        "ProofRule.RESOLUTION": 16,
+        "ProofRule.SCOPE": 177,
+        "ProofRule.SYMM": 219,
+        "ProofRule.TRANS": 1117,
+        "ProofRule.TRUE_ELIM": 212
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r1101",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_1_r1101.smt2",
+      "source_input_sha256": "f3e701d235c613ea9872be11cd609c3a1d6b896c0e6c525b1c2305f9293a7540",
+      "input_path": "certificates/det5_class5_y/0_1_r1101.smt2",
+      "input_sha256": "7c8342b77afeb0d4c2683472de579fa8e8d9d5d62634369bef2511d65947d5dd",
+      "proof_path": "certificates/det5_class5_y/0_1_r1101.cpc.gz",
+      "proof_sha256": "a6a57acb53a19fe81b54138ed54db1c38555d7166aded745d75e1510f9f0a3d1",
+      "compressed_proof_sha256": "8452131eb72d36b8a8f7454ed96c427f7a140556927cf1351837de3b7e7dd2c1",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.7524151310026355
+      },
+      "reference_sha256": "11808532bc773751af30095f8c017d8128b10920055136aec183c11d8f5ffa52"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.2109950660014874,
+      "proof_nodes": 7991,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 12,
+        "ProofRule.AND_INTRO": 527,
+        "ProofRule.ARITH_MULT_NEG": 276,
+        "ProofRule.ARITH_MULT_POS": 91,
+        "ProofRule.ARITH_POLY_NORM": 523,
+        "ProofRule.ARITH_POLY_NORM_REL": 162,
+        "ProofRule.ARITH_SUM_UB": 98,
+        "ProofRule.ASSUME": 626,
+        "ProofRule.CHAIN_M_RESOLUTION": 50,
+        "ProofRule.CNF_AND_NEG": 5,
+        "ProofRule.CONG": 576,
+        "ProofRule.CONTRA": 52,
+        "ProofRule.DSL_REWRITE": 482,
+        "ProofRule.EQ_RESOLVE": 774,
+        "ProofRule.EVALUATE": 372,
+        "ProofRule.IMPLIES_ELIM": 12,
+        "ProofRule.MODUS_PONENS": 527,
+        "ProofRule.NARY_CONG": 473,
+        "ProofRule.NOT_AND": 86,
+        "ProofRule.REFL": 498,
+        "ProofRule.REORDERING": 98,
+        "ProofRule.RESOLUTION": 5,
+        "ProofRule.SCOPE": 164,
+        "ProofRule.SYMM": 231,
+        "ProofRule.TRANS": 1161,
+        "ProofRule.TRUE_ELIM": 103
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r00000",
+      "box": [
+        [
+          "0",
+          "1/8"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_1_r00000.smt2",
+      "source_input_sha256": "4cb138a26af9ed7609d7463d003217963a5d03a8cd38022b629d28a2c0074ad6",
+      "input_path": "certificates/det5_class5_y/0_1_r00000.smt2",
+      "input_sha256": "bff02a20fdaf96be3ef59e95515cd77da69dc5d3a7ee16a5085c3f513c176ab9",
+      "proof_path": "certificates/det5_class5_y/0_1_r00000.cpc.gz",
+      "proof_sha256": "80b9c6b3232b30d5aa303e2e6bdbaf24592a251b7672d675eeb9bbab00afb921",
+      "compressed_proof_sha256": "44c3371bda1754076293e284660676dc4a4c1a8d6ebab04940d3fe4b013b8f6a",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.5465450919982686
+      },
+      "reference_sha256": "d60b3a37ef3fa85e9584a532f9d5d22f53a6ef83e41ae7ddb9a080bf9a861457"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.2318288790011138,
+      "proof_nodes": 8049,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 13,
+        "ProofRule.AND_INTRO": 665,
+        "ProofRule.ARITH_MULT_NEG": 308,
+        "ProofRule.ARITH_MULT_POS": 202,
+        "ProofRule.ARITH_POLY_NORM": 469,
+        "ProofRule.ARITH_POLY_NORM_REL": 130,
+        "ProofRule.ARITH_SUM_UB": 78,
+        "ProofRule.ASSUME": 668,
+        "ProofRule.CHAIN_M_RESOLUTION": 32,
+        "ProofRule.CNF_AND_NEG": 8,
+        "ProofRule.CONG": 387,
+        "ProofRule.CONTRA": 49,
+        "ProofRule.DSL_REWRITE": 331,
+        "ProofRule.EQ_RESOLVE": 859,
+        "ProofRule.EVALUATE": 621,
+        "ProofRule.IMPLIES_ELIM": 14,
+        "ProofRule.MODUS_PONENS": 665,
+        "ProofRule.NARY_CONG": 368,
+        "ProofRule.NOT_AND": 64,
+        "ProofRule.REFL": 670,
+        "ProofRule.REORDERING": 77,
+        "ProofRule.RESOLUTION": 8,
+        "ProofRule.SCOPE": 143,
+        "ProofRule.SYMM": 161,
+        "ProofRule.TRANS": 831,
+        "ProofRule.TRUE_ELIM": 221
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        1
+      ],
+      "node": "r00110",
+      "box": [
+        [
+          "1/4",
+          "3/8"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_1_r00110.smt2",
+      "source_input_sha256": "007c00aa68baca85e18495cbb1b6fbfccdaa2ba5ce4f72016bfcabeec17ec622",
+      "input_path": "certificates/det5_class5_y/0_1_r00110.smt2",
+      "input_sha256": "cc28bb4c6dc1fe2d1a1a90b71abef9b83513a0fd1231c0a90b52efac32a3eac2",
+      "proof_path": "certificates/det5_class5_y/0_1_r00110.cpc.gz",
+      "proof_sha256": "0075fbf9a2f1c0b16b65b72df742472f7486a9049a969b8b78637c3493f25113",
+      "compressed_proof_sha256": "ac220d8f8428d576a668be178add228a4d89ecd842d871d9be7be3d1e74e38b0",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.5702992759979679
+      },
+      "reference_sha256": "6647e5c14c5767a457fec00a4f15de46ff2932bee38a7d7851ee12d771ffa1f5"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.5452793949989427,
+      "proof_nodes": 9724,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 13,
+        "ProofRule.AND_INTRO": 802,
+        "ProofRule.ARITH_MULT_NEG": 360,
+        "ProofRule.ARITH_MULT_POS": 208,
+        "ProofRule.ARITH_POLY_NORM": 581,
+        "ProofRule.ARITH_POLY_NORM_REL": 160,
+        "ProofRule.ARITH_SUM_UB": 113,
+        "ProofRule.ASSUME": 873,
+        "ProofRule.CHAIN_M_RESOLUTION": 44,
+        "ProofRule.CNF_AND_NEG": 13,
+        "ProofRule.CONG": 501,
+        "ProofRule.CONTRA": 60,
+        "ProofRule.DSL_REWRITE": 457,
+        "ProofRule.EQ_RESOLVE": 1041,
+        "ProofRule.EVALUATE": 620,
+        "ProofRule.IMPLIES_ELIM": 24,
+        "ProofRule.MODUS_PONENS": 802,
+        "ProofRule.NARY_CONG": 440,
+        "ProofRule.NOT_AND": 89,
+        "ProofRule.REFL": 660,
+        "ProofRule.REORDERING": 106,
+        "ProofRule.RESOLUTION": 13,
+        "ProofRule.SCOPE": 199,
+        "ProofRule.SYMM": 208,
+        "ProofRule.TRANS": 1134,
+        "ProofRule.TRUE_ELIM": 196
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r0011",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_3_r0011.smt2",
+      "source_input_sha256": "9babc8a30424b2975ef16c741630822961b086e43d7725149e7185b1067f354b",
+      "input_path": "certificates/det5_class5_y/0_3_r0011.smt2",
+      "input_sha256": "e37cc05e0b78da8b3ea77b2fb6abfe1d6d5b83643b1f1d563b03d802b26e1d30",
+      "proof_path": "certificates/det5_class5_y/0_3_r0011.cpc.gz",
+      "proof_sha256": "73b300c32d68dcdd1df367c27af0f47567bcc3f10d22ae7733cbc38c2d170439",
+      "compressed_proof_sha256": "14fb51506f89e551f93ab1e4cff8f3e98ab0043c5464999fb5d9aa8d194e7d2c",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.7251836989998992
+      },
+      "reference_sha256": "d19c38da29b98f49d6cb16691f14e43f52b7522c9b5ee311ebafbe0ab26003c8"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.0145619790018827,
+      "proof_nodes": 5176,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 14,
+        "ProofRule.AND_INTRO": 363,
+        "ProofRule.ARITH_MULT_NEG": 195,
+        "ProofRule.ARITH_MULT_POS": 87,
+        "ProofRule.ARITH_POLY_NORM": 358,
+        "ProofRule.ARITH_POLY_NORM_REL": 126,
+        "ProofRule.ARITH_SUM_UB": 55,
+        "ProofRule.ASSUME": 404,
+        "ProofRule.CHAIN_M_RESOLUTION": 37,
+        "ProofRule.CNF_AND_NEG": 5,
+        "ProofRule.CONG": 299,
+        "ProofRule.CONTRA": 34,
+        "ProofRule.DSL_REWRITE": 284,
+        "ProofRule.EQ_RESOLVE": 516,
+        "ProofRule.EVALUATE": 308,
+        "ProofRule.IMPLIES_ELIM": 12,
+        "ProofRule.MODUS_PONENS": 363,
+        "ProofRule.NARY_CONG": 261,
+        "ProofRule.NOT_AND": 43,
+        "ProofRule.REFL": 336,
+        "ProofRule.REORDERING": 52,
+        "ProofRule.RESOLUTION": 6,
+        "ProofRule.SCOPE": 103,
+        "ProofRule.SYMM": 144,
+        "ProofRule.TRANS": 674,
+        "ProofRule.TRUE_ELIM": 90
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r0101",
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_3_r0101.smt2",
+      "source_input_sha256": "71678efc7db3cb06230f55260230bb4f96208c58617faf9f428f262047bdc0fd",
+      "input_path": "certificates/det5_class5_y/0_3_r0101.smt2",
+      "input_sha256": "2c96e6e26c0eb84c15d7ff473f02334ec490de5c704578c3f45af741718a9ae9",
+      "proof_path": "certificates/det5_class5_y/0_3_r0101.cpc.gz",
+      "proof_sha256": "cdfb2e7c3e83ce48077fec9a0b185d3e9ada54e46d8b7f613ffd9f8032e97060",
+      "compressed_proof_sha256": "7171cf626f5142a52c5212dc079b043639601f2341893045801f2e8d5063fb51",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.35262513699854026
+      },
+      "reference_sha256": "db5a98d1ef9eae9a87c73fe70a8b319bf7e1777c7c05762326f4908f5ea22256"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.8533482790007838,
+      "proof_nodes": 6235,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 14,
+        "ProofRule.AND_INTRO": 462,
+        "ProofRule.ARITH_MULT_NEG": 250,
+        "ProofRule.ARITH_MULT_POS": 112,
+        "ProofRule.ARITH_POLY_NORM": 402,
+        "ProofRule.ARITH_POLY_NORM_REL": 134,
+        "ProofRule.ARITH_SUM_UB": 67,
+        "ProofRule.ASSUME": 512,
+        "ProofRule.CHAIN_M_RESOLUTION": 42,
+        "ProofRule.CNF_AND_NEG": 7,
+        "ProofRule.CONG": 323,
+        "ProofRule.CONTRA": 44,
+        "ProofRule.DSL_REWRITE": 309,
+        "ProofRule.EQ_RESOLVE": 649,
+        "ProofRule.EVALUATE": 397,
+        "ProofRule.IMPLIES_ELIM": 12,
+        "ProofRule.MODUS_PONENS": 462,
+        "ProofRule.NARY_CONG": 303,
+        "ProofRule.NOT_AND": 55,
+        "ProofRule.REFL": 455,
+        "ProofRule.REORDERING": 61,
+        "ProofRule.RESOLUTION": 7,
+        "ProofRule.SCOPE": 125,
+        "ProofRule.SYMM": 155,
+        "ProofRule.TRANS": 746,
+        "ProofRule.TRUE_ELIM": 123
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r0111",
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_3_r0111.smt2",
+      "source_input_sha256": "1311feb38b4294240a521f7317c0644dc06f30f3bd8b67e614dad915dfbbeae5",
+      "input_path": "certificates/det5_class5_y/0_3_r0111.smt2",
+      "input_sha256": "47a860f6a0d60250359bef0bbc01dbe6f3cb76cdd4f6fb2a7a52614c087c468d",
+      "proof_path": "certificates/det5_class5_y/0_3_r0111.cpc.gz",
+      "proof_sha256": "d84c63cfa67b1476342f5d99a171b95b6ae596896e3e6704d5f7354bfe4bb99a",
+      "compressed_proof_sha256": "3daec6139f9744434401b0f70af2f741621349c450afb64b0fae057c1b99e767",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.4577465719994507
+      },
+      "reference_sha256": "2f1317da0565d552ba0f60fe1678753db091c484afef5ec84bfbb75d83bfd984"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.2857734190001793,
+      "proof_nodes": 7114,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 13,
+        "ProofRule.AND_INTRO": 566,
+        "ProofRule.ARITH_MULT_NEG": 291,
+        "ProofRule.ARITH_MULT_POS": 161,
+        "ProofRule.ARITH_POLY_NORM": 399,
+        "ProofRule.ARITH_POLY_NORM_REL": 124,
+        "ProofRule.ARITH_SUM_UB": 77,
+        "ProofRule.ASSUME": 554,
+        "ProofRule.CHAIN_M_RESOLUTION": 26,
+        "ProofRule.CNF_AND_NEG": 11,
+        "ProofRule.CONG": 347,
+        "ProofRule.CONTRA": 34,
+        "ProofRule.DSL_REWRITE": 327,
+        "ProofRule.EQ_RESOLVE": 746,
+        "ProofRule.EVALUATE": 545,
+        "ProofRule.IMPLIES_ELIM": 23,
+        "ProofRule.MODUS_PONENS": 566,
+        "ProofRule.NARY_CONG": 314,
+        "ProofRule.NOT_AND": 54,
+        "ProofRule.REFL": 605,
+        "ProofRule.REORDERING": 67,
+        "ProofRule.RESOLUTION": 12,
+        "ProofRule.SCOPE": 136,
+        "ProofRule.SYMM": 147,
+        "ProofRule.TRANS": 777,
+        "ProofRule.TRUE_ELIM": 185
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r1010",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_3_r1010.smt2",
+      "source_input_sha256": "53d0230afc763fb7c4e87402090da8ee65b22069d4f3b6c83e02704d7120da47",
+      "input_path": "certificates/det5_class5_y/0_3_r1010.smt2",
+      "input_sha256": "888bce3b2920f838833c4db8fbb01a54d80b2f15d182b7a6ec1e6daec9011ea3",
+      "proof_path": "certificates/det5_class5_y/0_3_r1010.cpc.gz",
+      "proof_sha256": "8ae1e6f7eb956e9752b0ae517b09f979be3a0e1cd0b219ad84ebfada265fc0cb",
+      "compressed_proof_sha256": "eb91f140e523a173e60d3b3117f230686f163524cc171a1344a352c655e8a04d",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.48190965200046776
+      },
+      "reference_sha256": "ba8aaea03ef30d1abe5f228623f7043d91b1290f9108ecc58a78b41a606c4c48"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.7798370400014392,
+      "proof_nodes": 6257,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 14,
+        "ProofRule.AND_INTRO": 433,
+        "ProofRule.ARITH_MULT_NEG": 224,
+        "ProofRule.ARITH_MULT_POS": 134,
+        "ProofRule.ARITH_POLY_NORM": 461,
+        "ProofRule.ARITH_POLY_NORM_REL": 145,
+        "ProofRule.ARITH_SUM_UB": 64,
+        "ProofRule.ASSUME": 472,
+        "ProofRule.CHAIN_M_RESOLUTION": 38,
+        "ProofRule.CNF_AND_NEG": 4,
+        "ProofRule.CONG": 353,
+        "ProofRule.CONTRA": 36,
+        "ProofRule.DSL_REWRITE": 366,
+        "ProofRule.EQ_RESOLVE": 585,
+        "ProofRule.EVALUATE": 469,
+        "ProofRule.IMPLIES_ELIM": 12,
+        "ProofRule.MODUS_PONENS": 433,
+        "ProofRule.NARY_CONG": 300,
+        "ProofRule.NOT_AND": 52,
+        "ProofRule.REFL": 378,
+        "ProofRule.REORDERING": 55,
+        "ProofRule.RESOLUTION": 4,
+        "ProofRule.SCOPE": 114,
+        "ProofRule.SYMM": 169,
+        "ProofRule.TRANS": 776,
+        "ProofRule.TRUE_ELIM": 159
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r1011",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_3_r1011.smt2",
+      "source_input_sha256": "b9c496170c475a1f8ebcd9b1425ce7d18aecf1d711a845e587d3b40ed1a933ed",
+      "input_path": "certificates/det5_class5_y/0_3_r1011.smt2",
+      "input_sha256": "6fb47452f02c2247e10d949caf81865c13cac7d66563e11259f13eda8bafec14",
+      "proof_path": "certificates/det5_class5_y/0_3_r1011.cpc.gz",
+      "proof_sha256": "810c027f93553d34577df852e44a991076a517a5e2b7dd410426f0d58b4775d6",
+      "compressed_proof_sha256": "c0477a67d1e832d31d7ce0edb686164a5c7393161c3b80f3dfef9ce647c6716a",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.45224901599794975
+      },
+      "reference_sha256": "8df096fdbcdb9f2ed441aa10dfc369471f519caeb2bbd63f2215c5ad44445fb3"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.418758578998677,
+      "proof_nodes": 8528,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 13,
+        "ProofRule.AND_INTRO": 675,
+        "ProofRule.ARITH_MULT_NEG": 308,
+        "ProofRule.ARITH_MULT_POS": 153,
+        "ProofRule.ARITH_POLY_NORM": 539,
+        "ProofRule.ARITH_POLY_NORM_REL": 155,
+        "ProofRule.ARITH_SUM_UB": 105,
+        "ProofRule.ASSUME": 787,
+        "ProofRule.CHAIN_M_RESOLUTION": 59,
+        "ProofRule.CNF_AND_NEG": 7,
+        "ProofRule.CONG": 476,
+        "ProofRule.CONTRA": 63,
+        "ProofRule.DSL_REWRITE": 441,
+        "ProofRule.EQ_RESOLVE": 855,
+        "ProofRule.EVALUATE": 445,
+        "ProofRule.IMPLIES_ELIM": 17,
+        "ProofRule.MODUS_PONENS": 675,
+        "ProofRule.NARY_CONG": 423,
+        "ProofRule.NOT_AND": 88,
+        "ProofRule.REFL": 510,
+        "ProofRule.REORDERING": 97,
+        "ProofRule.RESOLUTION": 7,
+        "ProofRule.SCOPE": 187,
+        "ProofRule.SYMM": 217,
+        "ProofRule.TRANS": 1097,
+        "ProofRule.TRUE_ELIM": 122
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r1100",
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_3_r1100.smt2",
+      "source_input_sha256": "b68eb365c56f6f82934c405c46b227c307046484543409b70b3d3840cd4fcdff",
+      "input_path": "certificates/det5_class5_y/0_3_r1100.smt2",
+      "input_sha256": "e96e20046ab74e97550da971a06845231eae71687eed36a28b6a785501841779",
+      "proof_path": "certificates/det5_class5_y/0_3_r1100.cpc.gz",
+      "proof_sha256": "5b815a432e7da264044281aab60a82adcbcd06ffc013cc7b85abaebb6c7f7d08",
+      "compressed_proof_sha256": "8906b695664abf1efe595284989881300c56a108b166be1615b29115dc976950",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 0.6156148390000453
+      },
+      "reference_sha256": "a8df2fa617b52531f2f93f450c2e38e4c016b581e9e6c0d03a0222d5c125eb5f"
+    },
+    {
+      "status": "unsat",
+      "elapsed_seconds": 1.5723913820002053,
+      "proof_nodes": 16936,
+      "proof_rules": {
+        "ProofRule.ACI_NORM": 7,
+        "ProofRule.AND_ELIM": 13,
+        "ProofRule.AND_INTRO": 1427,
+        "ProofRule.ARITH_MULT_NEG": 541,
+        "ProofRule.ARITH_MULT_POS": 258,
+        "ProofRule.ARITH_POLY_NORM": 949,
+        "ProofRule.ARITH_POLY_NORM_REL": 223,
+        "ProofRule.ARITH_SUM_UB": 236,
+        "ProofRule.ASSUME": 1670,
+        "ProofRule.CHAIN_M_RESOLUTION": 103,
+        "ProofRule.CNF_AND_NEG": 28,
+        "ProofRule.CONG": 962,
+        "ProofRule.CONTRA": 113,
+        "ProofRule.DSL_REWRITE": 823,
+        "ProofRule.EQ_RESOLVE": 1820,
+        "ProofRule.EVALUATE": 857,
+        "ProofRule.IMPLIES_ELIM": 43,
+        "ProofRule.MODUS_PONENS": 1427,
+        "ProofRule.NARY_CONG": 858,
+        "ProofRule.NOT_AND": 193,
+        "ProofRule.REFL": 918,
+        "ProofRule.REORDERING": 225,
+        "ProofRule.RESOLUTION": 29,
+        "ProofRule.SCOPE": 394,
+        "ProofRule.SYMM": 373,
+        "ProofRule.TRANS": 2219,
+        "ProofRule.TRUE_ELIM": 227
+      },
+      "internal_proof_check": true,
+      "check_proofs_complete": true,
+      "extrema": [
+        0,
+        3
+      ],
+      "node": "r1111",
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "source_input_path": "results/det5_height_5_0_3_r1111.smt2",
+      "source_input_sha256": "69f135b19a74eff21d44ae02427d8d64e030cd67d7aa0b50967a5270f8d70900",
+      "input_path": "certificates/det5_class5_y/0_3_r1111.smt2",
+      "input_sha256": "41b6a83e80ff717f5d6f9ab2e1d265e531b632e2b9ef631e8e25e402c98f699a",
+      "proof_path": "certificates/det5_class5_y/0_3_r1111.cpc.gz",
+      "proof_sha256": "7660f874472f093c69f309512093ca0bafbc5bb433fd3ddc34a906de3037c88b",
+      "compressed_proof_sha256": "189dea4996f8e4fbd521690ff92ab170d1fef590530ddf76921671d0b655090a",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 1.2525730070010468
+      },
+      "reference_sha256": "e297f80264bd77e22659ef3cb3156664374bdd395b7551f6ec27fad4664ab43d"
+    }
+  ]
+}

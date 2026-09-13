@@ -10,7 +10,37 @@ internally reviewed with AI assistance. Novelty remains unconfirmed.
 No new global bound, solution of the flatness
 conjecture, external peer review or journal/arXiv submission is claimed.**
 
-## Latest result: three further contact classes excluded
+## Latest research: certified height regions and a conditional bound
+
+For the remaining contact hull P=conv(0,(5,1,2),e2,e3), a hollow real
+tetrahedron K with p_i in the relative interior of the facet opposite v_i
+satisfies
+
+```text
+w(K) ≤ (10/7)(1 + 2/√3) ≈ 3.0781436263
+```
+
+**provided** its actual normalized Y vertex heights satisfy q0=0, q3=1
+and q1,q2 in [3/4,1]. This is a theorem on a specified height region;
+the whole contact class and the global flatness conjecture remain open.
+Other specified regions have the conditional bound approximately 3.38122.
+
+All twelve closed rectangles from the earlier Y campaign now have separate
+cvc5 proofs checked by Ethos. A dependency slice of the scaled-frame proof
+retains 69 assumptions and uses no U restrictions or additional width clauses.
+The previously highlighted box lies in an old closed Y rectangle: its
+certification upgrades an existing result rather than discovering a new region.
+The exact overlay covers one archived joint pending box fully and six halfway.
+The frozen archive still records 259 pending boxes; an exactly clipped queue
+has not yet been implemented. The 58-type count remains unchanged.
+
+- [Conditional theorem and precise hypotheses](proofs/DET5_CONDITIONAL_WIDTH_BOUNDS.md)
+- [Reduced proof and corrected history](proofs/DET5_Y_HIGH_CYLINDER_EXCLUSION.md)
+- [Certified rectangles and overlay](results/det5_certified_y_overlay.json)
+- [Complete scaled frame](proofs/DET5_SCALED_VERTEX_HEIGHT_FRAME.md), [independent transfer audit](proofs/DET5_SCALED_PENDING_TRANSFER_REVIEW.md), and [research status](proofs/DET5_RESEARCH_STATUS.md)
+- [Reproduce this update](reproduce_det5_partial.py) and [public validation](PUBLIC_VALIDATION.md)
+
+## Established result: three further contact classes excluded
 
 For a compact full-dimensional hollow **real tetrahedron** K with one
 prescribed lattice point in the relative interior of each of its four facets,
@@ -24,7 +54,7 @@ the following full contact hulls force **w(K) ≤ 17/5 = 3.4**:
 
 Each linear relaxation has a separately encoded cvc5 refutation, checked
 by the external Ethos proof checker with its assumptions bound to the archived
-input. There are **67 checked refutations** in total. The geometry-to-formula
+input. These three class exclusions use **67 checked refutations**. The geometry-to-formula
 arguments and symmetry coverage have independent internal reviews.
 External software checking is not external human peer review.
 
@@ -43,7 +73,7 @@ The other determinant-five class, conv(0,(5,1,2),e2,e3), remains open.
 The latest exact witness below shows why a two-direction approach cannot
 settle it. The 58-type count and the global bound remain unchanged.
 
-## Latest research: an exact obstruction to the two-direction model
+## Earlier result: an exact obstruction to the two-direction model
 
 A certified hollow tetrahedron in a retained normalized contact chart has
 Y-width and U-width greater than 17/5, where U=(1,-1,-2). Its full first
@@ -60,9 +90,10 @@ width directions and gauge vectors; this is not a floating-point diagnosis.
 The campaign is frozen at 953 archived queries: 27 of 36 charts have recorded
 complete covers and 259 boxes remain pending. Those partial UNSAT labels
 have encoding/frontier audits, not external proof-kernel certification.
-They add no class exclusion. The next step is to impose additional widths
-from the complete fifteen-direction formulation. Its bilinear and strengthened
-cubic target queries remain **UNKNOWN** under their archived time limits.
+They add no class exclusion. The complete scaled formulation now imposes all
+fifteen widths and has independent audits of 30 base and 36 transferred
+queries. Exact nonlinear targets remain **UNKNOWN** under their archived
+time limits; relaxed SAT assignments do not certify actual bodies.
 
 An elementary supporting lemma proves, for nested full-dimensional real
 tetrahedra P contained in K and every nonzero real covector u,
@@ -421,6 +452,31 @@ encoding audits need Z3 and run no satisfiability queries:
 
 See [the incremental validation record](PUBLIC_VALIDATION.md) for the remaining
 new-query audit and the distinction between formula checking and proof checking.
+
+Replay the latest conditional bounds and partial certificates:
+
+```sh
+python3 reproduce_det5_partial.py
+.venv/bin/python reproduce_det5_partial.py --encodings
+```
+
+The default performs three standard-library exact audits, including all 14
+independently reconstructed full-matrix inputs. The second command adds six
+scaled-encoding, proof-assumption and overlay audits with Z3 and cvc5. Neither runs an
+SMT search. To freshly check all **16 additional archived CPC proofs**, use
+pinned checker sources from the setup guide:
+
+```sh
+.venv/bin/python reproduce_det5_partial.py --encodings \
+  --ethos ETHOS/build/src/ethos --ethos-source ETHOS \
+  --cvc5-source CVC5
+```
+
+These comprise twelve old Y rectangles, two uniform-gauge corner proofs,
+the original scaled-box proof and its 69-assumption slice. They are overlapping
+partial certificates, not sixteen additional excluded contact classes.
+The wrapper refreshes audit receipts but leaves all archived solver inputs,
+proof payloads and original proof-check receipts unchanged.
 
 The core exact geometry uses only the standard library. SymPy supports the
 independent checks; SciPy supports exploration; Matplotlib produces figures.

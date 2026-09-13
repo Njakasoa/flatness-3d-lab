@@ -1,5 +1,26 @@
 # Determinant-five research status — 2026-09-14
 
+## Subsequent certification and corrected interpretation — 2026-09-14
+
+The scaled box below lies in the old Y-only leaf r1111, already recorded
+UNSAT. Its independent proof upgrades that label; it is not a newly discovered
+excluded region. A reference-bound Ethos check of a 69-assumption dependency
+slice shows that U restrictions and all additional lower-width clauses are
+unused. All twelve old Y rectangles now have independently encoded cvc5
+proofs checked with Ethos. The exact overlay covers one of the 259 joint
+pending boxes completely and six halfway; archives are unchanged and no
+clipped replacement queue is claimed.
+
+A separate uniform-gauge refutation at beta=3/10, with no volume premise,
+gives w(K)<=(10/7)(1+2/sqrt(3)) on the Y:[0,3] upper corner [3/4,1]^2.
+See [conditional theorem](DET5_CONDITIONAL_WIDTH_BOUNDS.md),
+[assumption audit](DET5_Y_HIGH_CYLINDER_EXCLUSION.md), and
+[overlay](../results/det5_certified_y_overlay.json).
+The older account below describes the formula as supplied, not the minimal
+hypotheses of its proof. The 58-type count and global bound are unchanged.
+The maintainer has authorized this checkpoint's GitHub publication.
+
+
 The two determinant-five lattice classes are distinct. CLAIM-0008 excludes
 only class 4, represented by P=conv(0,(5,1,1),e2,e3), for full relative-interior
 facet-contact tetrahedra of width greater than 17/5. Class 5,
@@ -181,3 +202,61 @@ inputs to frozen earlier archives. They do not prove the archived UNSAT
 labels. All selected witness properties are checked by independent rational
 arithmetic without importing solver or discovery code. The next experiment
 must add width directions from the complete fifteen-direction formulation.
+
+## Scaled complete-width frame and a first certified box
+
+The [new frame](DET5_SCALED_VERTEX_HEIGHT_FRAME.md) writes
+T_i=b(v_i-v_L), b=1/width(K,Y), and forces T_L=0 and normalized Y-extrema.
+Its 17 variables satisfy bilinear reconstruction; all fifteen width tests
+are linear. Reconstruction forces invertibility. With fixed rational free
+Y-heights, affine elimination gives a twelve-variable quadratic formulation;
+this is a slice representation, not a proof over a height box.
+
+Three complete exact targets timed out. A 27-query outer campaign has
+19 rational SAT assignments and eight recorded UNSAT leaves, with fourteen
+pending matrix boxes across three charts. The independent audit reconstructs
+all thirty formulas and frontiers. It supplies rational product completions
+for all nineteen saved assignments, each of which fails exact reconstruction.
+The pinned retained body passes every non-width exact assertion and fails
+exactly the Z and (1,-2,-2) lower-width clauses.
+
+A second formulation transfers frozen Y/U boxes linearly into the scaled
+frame, tightens Y products, and adds all-direction volume spans and shared
+barycentric-volume cuts. Thirty-six new queries give fourteen SAT, twenty-one
+UNKNOWN, and one UNSAT. Every full saved rational SAT assignment satisfies
+the corresponding outer formula, but none supplies a body at the target.
+All 36 encodings have independent exact audits and six corruption controls.
+
+The one new UNSAT box is Y:[0,3], U:[0,3], with free heights
+[3/4,1]^2 x [1/2,1]^2. The full formula did not replay within the cvc5 time
+limit. Removing twelve width disjunctions, while retaining Y and U through their
+direct span conditions, yields a simpler five-direction core: Y, U, Z, (0,1,-1), (1,-2,-2). That weaker formula is refuted by cvc5
+and its CPC proof is verified by Ethos, with referenced assumptions and
+final false conclusion bound to its input. The global-width hypothesis is
+still needed to derive the gauge and volume necessities. The
+[box exclusion](DET5_FIVE_DIRECTION_BOX_EXCLUSION.md) is standalone and does
+not depend on the old frontier's unverified UNSAT labels.
+
+Three strictly larger boxes were tried once: [1/2,1]^4 is relaxed SAT;
+[3/4,1]^2 x [0,1]^2 is UNKNOWN; [0,1]^2 x [1/2,1]^2 is relaxed SAT.
+No larger domain, full chart or additional contact class is excluded.
+The original 953-query archive is unchanged, including its 259 pending
+boxes; one of those boxes now has an independent continuous refutation.
+
+The exact known-witness analysis computes 300 widths across twenty labeled
+symmetry images (sixteen distinct bodies). Z rejects all known retained-chart
+Y/U witnesses. Some unnormalized images survive Y/U/Z, but all such images
+are outside the retained charts. No global sufficiency of three or five
+directions is inferred from this finite table. Twelve restricted numerical
+starts testing all fifteen directions observed a best width about 3.071883;
+this is neither an upper bound nor an independently certified new witness.
+
+- [Known-witness table and scope](DET5_KNOWN_WIDTH_OBSTRUCTIONS.md)
+- [Base encoding and rational-completion audit](../results/det5_scaled_frame_encoding_validation.json)
+- [Transfer audit](../results/det5_scaled_pending_transfer_validation.json)
+- [Five-direction core and proof producer](../results/det5_scaled_leaf_width_core.json)
+- [External proof-kernel receipt](../results/det5_scaled_width_core_ethos_validation.json)
+- [Larger-box outcomes](../results/det5_scaled_box_enlargement.json)
+
+This follow-up is included in the newly authorized public checkpoint. The global
+bound and 58-type list remain unchanged; no mathematical priority is claimed.

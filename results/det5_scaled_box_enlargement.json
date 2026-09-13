@@ -1,0 +1,158 @@
+{
+  "scope": "Independent enlarged continuous-box tests with five widths and global-target gauge/volume necessities. No class exclusion.",
+  "queries": [
+    {
+      "status": "sat",
+      "elapsed_seconds": 5.353514258997166,
+      "tag": "half_half",
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "path": "results/det5_scaled_enlarged_half_half.smt2",
+      "input_sha256": "1e65528b4b14bca106517933e7b0d9e6ad3bc96c9be8435360b224368badef80",
+      "additional_width_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          1,
+          -2,
+          -2
+        ]
+      ],
+      "retained_Y_U_targets": true
+    },
+    {
+      "status": "unknown (TIMEOUT)",
+      "elapsed_seconds": 10.000359933001164,
+      "tag": "three_quarters_zero",
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "path": "results/det5_scaled_enlarged_three_quarters_zero.smt2",
+      "input_sha256": "d1d4b8e76112ff5e99f8b886e617cffd68fa3fa515b1cbdad3a8bf4ab0c9b201",
+      "additional_width_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          1,
+          -2,
+          -2
+        ]
+      ],
+      "retained_Y_U_targets": true
+    },
+    {
+      "status": "sat",
+      "elapsed_seconds": 3.5457492819987237,
+      "tag": "zero_half",
+      "Y_extrema": [
+        0,
+        3
+      ],
+      "U_extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "path": "results/det5_scaled_enlarged_zero_half.smt2",
+      "input_sha256": "ed496c9da2444b8d09e8bbdeac025386ee6473afc45946e0a28c1552f6a31ea1",
+      "additional_width_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          1,
+          -2,
+          -2
+        ]
+      ],
+      "retained_Y_U_targets": true
+    }
+  ]
+}

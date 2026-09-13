@@ -101,3 +101,15 @@ all exact target gauge necessities while refuting the two-direction-only
 infeasibility approach. No new class exclusion or global bound is asserted.
 The earlier 67 externally checked proof payloads are unchanged. Operational
 session records and installed runtimes remain outside the public export.
+
+## Partial Y certificates and conditional bounds — 2026-09-14
+
+The maintainer explicitly requested GitHub publication following ihara-a2-lab.
+This update exports scientific checkpoint 2ae604dd301d1a572ed84eb3619c324385500f76
+with the complete scaled models, twelve certified old Y rectangles, a checked
+69-assumption proof slice and conditional height-domain bounds. An independent
+internal review found no scope or endpoint blocker. The prior interpretation
+of the scaled box is corrected: its Y region was already an old closed leaf.
+Public history continues from be1d735. Source session logs, private history,
+installed runtimes and third-party paper copies remain excluded.
+No additional contact class or global bound is claimed.

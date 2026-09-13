@@ -140,3 +140,14 @@ exhaustive rational checks. The elementary nested-tetrahedron width/volume
 lemma supplies formulation bounds; no novelty claim is made. A bounded
 six-query literature search found no exact match but is insufficient to
 establish priority. No global bound is changed.
+
+## Conditional Y-height bounds — 2026-09-14
+
+The independently reviewed conditional theorem gives (10/7)(1+2/sqrt(3))
+on one specified normalized-height corner, using a uniform beta=3/10
+refutation and the established ACMS inequality. Twelve older rectangles
+are now independently proof-certified; their geometry was already recorded.
+The proof slice corrects an earlier interpretation of the scaled-box result.
+No mathematical priority, new complete-class exclusion, global flatness
+bound or external human review is claimed. See the conditional proof and
+its explicit geometry-to-formula and ACMS hypotheses.
