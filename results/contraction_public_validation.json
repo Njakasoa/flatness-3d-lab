@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source_revision": "9072ef03ec1c725ebd303449675f27ac028b00ef",
+  "contraction_replay": "all_six_stages_passed",
+  "rejected_mutations": 48,
+  "weighted_candidates": 123,
+  "old_certificates_unchanged": 27,
+  "exact_payloads_matching_committed_source": {
+    "certificates/det13_contraction.json": "69b7b68ca5353285c431c09a0b36897565ca9b80eed45d240c9e9464f30cee6f",
+    "certificates/nonunimodular_observer_guards.json": "54e6c68d10604d262da0f704141e61e44fb067f20c53a5b4b2cdf69d15d1a426",
+    "certificates/weighted_two_vector_bounds.json": "3a32672b1ab58ec4f0c5a00ceb578620ea132c05e4cfe661fdbbcde0e871890f",
+    "results/two_vector_class_scan.json": "387198433ba7a8cf18e9f8ef19d5ee5287f307d0ddc8d7cf3f751398b27f9d34"
+  },
+  "encoding_audit": "PASS: two eight-variable cubic models, ten width directions and twenty guards each; exact pins checked",
+  "solver_queries_run": 0,
+  "uncommitted_research_exported": false,
+  "scope": "Incremental publication validation. Existing core and classification payloads unchanged; no external peer review or new global bound claimed."
+}

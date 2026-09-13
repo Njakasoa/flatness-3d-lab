@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "solver_queries_run": 0,
+  "models": [
+    {
+      "class_index": 6,
+      "variables": 8,
+      "maximum_degree": 3,
+      "complete_width_directions": 10,
+      "guards": 20,
+      "pin_false_constraint_counts": [
+        0,
+        10
+      ],
+      "target_status": "unknown"
+    },
+    {
+      "class_index": 7,
+      "variables": 8,
+      "maximum_degree": 3,
+      "complete_width_directions": 10,
+      "guards": 20,
+      "pin_false_constraint_counts": [
+        0,
+        10
+      ],
+      "target_status": "unknown"
+    }
+  ],
+  "scope": "Encoding and exact arithmetic audit, not independent mathematical peer review or infeasibility proof."
+}

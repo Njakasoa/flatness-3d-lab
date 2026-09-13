@@ -1,0 +1,7323 @@
+{
+  "status": "exact_generic_nonunimodular_observer_guard_enumeration",
+  "beta": "37/102",
+  "class_count": 9,
+  "hypotheses": [
+    "K is compact, convex, and full dimensional",
+    "P is contained in K and its four vertices lie on the boundary of K",
+    "gamma_(K-K)(v) > 37/102 for every primitive contact-edge direction"
+  ],
+  "construction": "Complete binary vertex-value slab enumeration; integer Bezout plane bases; strict rational gauge truncation",
+  "theorem_dependencies": [
+    "proofs/DET2_OBSERVER_LINES.md",
+    "proofs/DET2_OBSERVER_GAUGE_GUARDS.md"
+  ],
+  "scope": "Under the hypotheses, K is hollow if and only if its interior excludes the listed guards. No width bound or infeasibility is asserted.",
+  "classes": [
+    {
+      "class_index": 1,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_volume": 2,
+      "integer_points_in_contact_hull": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      "primitive_contact_edge_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      "width_one_normals": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          -1,
+          -1
+        ]
+      ],
+      "gauge_directions_used_by_truncation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      "line_count": 12,
+      "lines": [
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            2,
+            1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-195/74",
+            "343/74"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              1,
+              -2,
+              0
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              1,
+              3,
+              0
+            ],
+            [
+              1,
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -2,
+            -1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-269/74",
+            "269/74"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -1,
+              -3,
+              0
+            ],
+            [
+              -1,
+              -2,
+              0
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              2,
+              0
+            ],
+            [
+              -1,
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -2,
+            -1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            -1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-269/74",
+            "269/74"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              7,
+              4,
+              1
+            ],
+            [
+              5,
+              3,
+              1
+            ],
+            [
+              3,
+              2,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -3,
+              -1,
+              1
+            ],
+            [
+              -5,
+              -2,
+              1
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -2,
+            -1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            -1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            3,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            -1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-195/74",
+            "343/74"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              7,
+              3,
+              1
+            ],
+            [
+              5,
+              2,
+              1
+            ],
+            [
+              3,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              -3,
+              -2,
+              1
+            ],
+            [
+              -5,
+              -3,
+              1
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -2,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-269/74",
+            "269/74"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -1,
+              0,
+              -3
+            ],
+            [
+              -1,
+              0,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            2,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-195/74",
+            "343/74"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              1,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              3
+            ],
+            [
+              1,
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -2,
+            0,
+            -1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            -1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            3,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-195/74",
+            "343/74"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              7,
+              1,
+              3
+            ],
+            [
+              5,
+              1,
+              2
+            ],
+            [
+              3,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              -3,
+              1,
+              -2
+            ],
+            [
+              -5,
+              1,
+              -3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -2,
+            0,
+            -1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            -1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-269/74",
+            "269/74"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              7,
+              1,
+              4
+            ],
+            [
+              5,
+              1,
+              3
+            ],
+            [
+              3,
+              1,
+              2
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -3,
+              1,
+              -1
+            ],
+            [
+              -5,
+              1,
+              -2
+            ]
+          ]
+        },
+        {
+          "normal": [
+            1,
+            -1,
+            -1
+          ],
+          "level": -1,
+          "contact_indices": [
+            2,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            -1,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            1,
+            0
+          ],
+          "base_point": [
+            1,
+            2,
+            0
+          ],
+          "opposite_edge": [
+            2,
+            1,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-195/74",
+            "343/74"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              1,
+              4,
+              -2
+            ],
+            [
+              1,
+              3,
+              -1
+            ],
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              -1,
+              3
+            ],
+            [
+              1,
+              -2,
+              4
+            ]
+          ]
+        },
+        {
+          "normal": [
+            1,
+            -1,
+            -1
+          ],
+          "level": -1,
+          "contact_indices": [
+            2,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            -1,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            -1,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -2,
+            -1,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-269/74",
+            "269/74"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -1,
+              3,
+              -3
+            ],
+            [
+              -1,
+              2,
+              -2
+            ],
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              -2,
+              2
+            ],
+            [
+              -1,
+              -3,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            1,
+            -1,
+            -1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            1
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            2,
+            1,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            1,
+            0
+          ],
+          "base_point": [
+            1,
+            1,
+            0
+          ],
+          "opposite_edge": [
+            0,
+            1,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-269/74",
+            "269/74"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -5,
+              -2,
+              -3
+            ],
+            [
+              -3,
+              -1,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              3,
+              2,
+              1
+            ],
+            [
+              5,
+              3,
+              2
+            ],
+            [
+              7,
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            1,
+            -1,
+            -1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            1
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            2,
+            1,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            -1,
+            0
+          ],
+          "base_point": [
+            -1,
+            -1,
+            0
+          ],
+          "opposite_edge": [
+            0,
+            -1,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            2
+          ],
+          "open_parameter_interval": [
+            "-195/74",
+            "343/74"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              -5,
+              -3,
+              -2
+            ],
+            [
+              -3,
+              -2,
+              -1
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              3,
+              1,
+              2
+            ],
+            [
+              5,
+              2,
+              3
+            ],
+            [
+              7,
+              3,
+              4
+            ]
+          ]
+        }
+      ],
+      "point_occurrences": 84,
+      "guard_count": 64,
+      "guards": [
+        [
+          -5,
+          -3,
+          -2
+        ],
+        [
+          -5,
+          -3,
+          1
+        ],
+        [
+          -5,
+          -2,
+          -3
+        ],
+        [
+          -5,
+          -2,
+          1
+        ],
+        [
+          -5,
+          1,
+          -3
+        ],
+        [
+          -5,
+          1,
+          -2
+        ],
+        [
+          -3,
+          -2,
+          -1
+        ],
+        [
+          -3,
+          -2,
+          1
+        ],
+        [
+          -3,
+          -1,
+          -2
+        ],
+        [
+          -3,
+          -1,
+          1
+        ],
+        [
+          -3,
+          1,
+          -2
+        ],
+        [
+          -3,
+          1,
+          -1
+        ],
+        [
+          -1,
+          -3,
+          0
+        ],
+        [
+          -1,
+          -3,
+          3
+        ],
+        [
+          -1,
+          -2,
+          0
+        ],
+        [
+          -1,
+          -2,
+          2
+        ],
+        [
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1,
+          1
+        ],
+        [
+          -1,
+          0,
+          -3
+        ],
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          -1,
+          0,
+          3
+        ],
+        [
+          -1,
+          1,
+          -1
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          2,
+          -2
+        ],
+        [
+          -1,
+          2,
+          0
+        ],
+        [
+          -1,
+          3,
+          -3
+        ],
+        [
+          -1,
+          3,
+          0
+        ],
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          1,
+          -2,
+          4
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          1,
+          0,
+          -2
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          -1
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          4,
+          -2
+        ],
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ],
+        [
+          5,
+          2,
+          1
+        ],
+        [
+          5,
+          2,
+          3
+        ],
+        [
+          5,
+          3,
+          1
+        ],
+        [
+          5,
+          3,
+          2
+        ],
+        [
+          7,
+          1,
+          3
+        ],
+        [
+          7,
+          1,
+          4
+        ],
+        [
+          7,
+          3,
+          1
+        ],
+        [
+          7,
+          3,
+          4
+        ],
+        [
+          7,
+          4,
+          1
+        ],
+        [
+          7,
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "class_index": 2,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_volume": 3,
+      "integer_points_in_contact_hull": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ],
+      "primitive_contact_edge_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ],
+      "width_one_normals": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "gauge_directions_used_by_truncation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "line_count": 8,
+      "lines": [
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            3,
+            1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            3
+          ],
+          "open_parameter_interval": [
+            "-260/111",
+            "445/111"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              1,
+              -2,
+              0
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              1,
+              3,
+              0
+            ],
+            [
+              1,
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -3,
+            -1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            3
+          ],
+          "open_parameter_interval": [
+            "-334/111",
+            "371/111"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -1,
+              -3,
+              0
+            ],
+            [
+              -1,
+              -2,
+              0
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              2,
+              0
+            ],
+            [
+              -1,
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -3,
+            -1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            -1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            2,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            3
+          ],
+          "open_parameter_interval": [
+            "-334/111",
+            "371/111"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              11,
+              4,
+              1
+            ],
+            [
+              8,
+              3,
+              1
+            ],
+            [
+              5,
+              2,
+              1
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -4,
+              -1,
+              1
+            ],
+            [
+              -7,
+              -2,
+              1
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -3,
+            -1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            -1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            4,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            -1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            3
+          ],
+          "open_parameter_interval": [
+            "-260/111",
+            "445/111"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              10,
+              3,
+              1
+            ],
+            [
+              7,
+              2,
+              1
+            ],
+            [
+              4,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              -2,
+              -1,
+              1
+            ],
+            [
+              -5,
+              -2,
+              1
+            ],
+            [
+              -8,
+              -3,
+              1
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -3,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            3
+          ],
+          "open_parameter_interval": [
+            "-334/111",
+            "371/111"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -1,
+              0,
+              -3
+            ],
+            [
+              -1,
+              0,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            3,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            3
+          ],
+          "open_parameter_interval": [
+            "-260/111",
+            "445/111"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              1,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              3
+            ],
+            [
+              1,
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -3,
+            0,
+            -1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            -1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            4,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            3
+          ],
+          "open_parameter_interval": [
+            "-260/111",
+            "445/111"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "points": [
+            [
+              10,
+              1,
+              3
+            ],
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              4,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              -2,
+              1,
+              -1
+            ],
+            [
+              -5,
+              1,
+              -2
+            ],
+            [
+              -8,
+              1,
+              -3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -3,
+            0,
+            -1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            -1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            2,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            3
+          ],
+          "open_parameter_interval": [
+            "-334/111",
+            "371/111"
+          ],
+          "integer_parameters": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              11,
+              1,
+              4
+            ],
+            [
+              8,
+              1,
+              3
+            ],
+            [
+              5,
+              1,
+              2
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -4,
+              1,
+              -1
+            ],
+            [
+              -7,
+              1,
+              -2
+            ]
+          ]
+        }
+      ],
+      "point_occurrences": 56,
+      "guard_count": 48,
+      "guards": [
+        [
+          -8,
+          -3,
+          1
+        ],
+        [
+          -8,
+          1,
+          -3
+        ],
+        [
+          -7,
+          -2,
+          1
+        ],
+        [
+          -7,
+          1,
+          -2
+        ],
+        [
+          -5,
+          -2,
+          1
+        ],
+        [
+          -5,
+          1,
+          -2
+        ],
+        [
+          -4,
+          -1,
+          1
+        ],
+        [
+          -4,
+          1,
+          -1
+        ],
+        [
+          -2,
+          -1,
+          1
+        ],
+        [
+          -2,
+          1,
+          -1
+        ],
+        [
+          -1,
+          -3,
+          0
+        ],
+        [
+          -1,
+          -2,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -3
+        ],
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          -1,
+          0,
+          3
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0
+        ],
+        [
+          -1,
+          3,
+          0
+        ],
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          -2
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          2,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          7,
+          2,
+          1
+        ],
+        [
+          8,
+          1,
+          3
+        ],
+        [
+          8,
+          3,
+          1
+        ],
+        [
+          10,
+          1,
+          3
+        ],
+        [
+          10,
+          3,
+          1
+        ],
+        [
+          11,
+          1,
+          4
+        ],
+        [
+          11,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "class_index": 3,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_volume": 4,
+      "integer_points_in_contact_hull": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          1,
+          1
+        ]
+      ],
+      "primitive_contact_edge_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          4,
+          1,
+          1
+        ]
+      ],
+      "width_one_normals": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "gauge_directions_used_by_truncation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          4,
+          1,
+          0
+        ]
+      ],
+      "line_count": 8,
+      "lines": [
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            4,
+            1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            4
+          ],
+          "open_parameter_interval": [
+            "-325/148",
+            "547/148"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              1,
+              -2,
+              0
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              1,
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -4,
+            -1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            4
+          ],
+          "open_parameter_interval": [
+            "-399/148",
+            "473/148"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -1,
+              -2,
+              0
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              2,
+              0
+            ],
+            [
+              -1,
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -4,
+            -1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            -1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            3,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            4
+          ],
+          "open_parameter_interval": [
+            "-399/148",
+            "473/148"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              11,
+              3,
+              1
+            ],
+            [
+              7,
+              2,
+              1
+            ],
+            [
+              3,
+              1,
+              1
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -5,
+              -1,
+              1
+            ],
+            [
+              -9,
+              -2,
+              1
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -4,
+            -1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            -1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            5,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            -1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            4
+          ],
+          "open_parameter_interval": [
+            "-325/148",
+            "547/148"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              13,
+              3,
+              1
+            ],
+            [
+              9,
+              2,
+              1
+            ],
+            [
+              5,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              -3,
+              -1,
+              1
+            ],
+            [
+              -7,
+              -2,
+              1
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -4,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            4
+          ],
+          "open_parameter_interval": [
+            "-399/148",
+            "473/148"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -1,
+              0,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            4,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            4
+          ],
+          "open_parameter_interval": [
+            "-325/148",
+            "547/148"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              1,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -4,
+            0,
+            -1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            -1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            5,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            4
+          ],
+          "open_parameter_interval": [
+            "-325/148",
+            "547/148"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              13,
+              1,
+              3
+            ],
+            [
+              9,
+              1,
+              2
+            ],
+            [
+              5,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              -3,
+              1,
+              -1
+            ],
+            [
+              -7,
+              1,
+              -2
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -4,
+            0,
+            -1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            -1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            3,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            4
+          ],
+          "open_parameter_interval": [
+            "-399/148",
+            "473/148"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              11,
+              1,
+              3
+            ],
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              3,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -5,
+              1,
+              -1
+            ],
+            [
+              -9,
+              1,
+              -2
+            ]
+          ]
+        }
+      ],
+      "point_occurrences": 48,
+      "guard_count": 40,
+      "guards": [
+        [
+          -9,
+          -2,
+          1
+        ],
+        [
+          -9,
+          1,
+          -2
+        ],
+        [
+          -7,
+          -2,
+          1
+        ],
+        [
+          -7,
+          1,
+          -2
+        ],
+        [
+          -5,
+          -1,
+          1
+        ],
+        [
+          -5,
+          1,
+          -1
+        ],
+        [
+          -3,
+          -1,
+          1
+        ],
+        [
+          -3,
+          1,
+          -1
+        ],
+        [
+          -1,
+          -2,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          -1,
+          0,
+          3
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0
+        ],
+        [
+          -1,
+          3,
+          0
+        ],
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          -2
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          7,
+          2,
+          1
+        ],
+        [
+          9,
+          1,
+          2
+        ],
+        [
+          9,
+          2,
+          1
+        ],
+        [
+          11,
+          1,
+          3
+        ],
+        [
+          11,
+          3,
+          1
+        ],
+        [
+          13,
+          1,
+          3
+        ],
+        [
+          13,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "class_index": 4,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_volume": 5,
+      "integer_points_in_contact_hull": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "primitive_contact_edge_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          5,
+          0,
+          1
+        ],
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "width_one_normals": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "gauge_directions_used_by_truncation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          5,
+          0,
+          1
+        ],
+        [
+          5,
+          1,
+          0
+        ]
+      ],
+      "line_count": 8,
+      "lines": [
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            5,
+            1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            5
+          ],
+          "open_parameter_interval": [
+            "-78/37",
+            "649/185"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              1,
+              -2,
+              0
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              1,
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -5,
+            -1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            5
+          ],
+          "open_parameter_interval": [
+            "-464/185",
+            "115/37"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -1,
+              -2,
+              0
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              2,
+              0
+            ],
+            [
+              -1,
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -5,
+            -1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            -1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            4,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            5
+          ],
+          "open_parameter_interval": [
+            "-464/185",
+            "115/37"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              14,
+              3,
+              1
+            ],
+            [
+              9,
+              2,
+              1
+            ],
+            [
+              4,
+              1,
+              1
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -6,
+              -1,
+              1
+            ],
+            [
+              -11,
+              -2,
+              1
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -5,
+            -1,
+            0
+          ],
+          "bezout_vector": [
+            0,
+            -1,
+            0
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            6,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            -1,
+            0
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            5
+          ],
+          "open_parameter_interval": [
+            "-78/37",
+            "649/185"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              16,
+              3,
+              1
+            ],
+            [
+              11,
+              2,
+              1
+            ],
+            [
+              6,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              -4,
+              -1,
+              1
+            ],
+            [
+              -9,
+              -2,
+              1
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -5,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            5
+          ],
+          "open_parameter_interval": [
+            "-464/185",
+            "115/37"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              -1,
+              0,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            5,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            5
+          ],
+          "open_parameter_interval": [
+            "-78/37",
+            "649/185"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              1,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -5,
+            0,
+            -1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            -1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            6,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            1,
+            5
+          ],
+          "open_parameter_interval": [
+            "-78/37",
+            "649/185"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              16,
+              1,
+              3
+            ],
+            [
+              11,
+              1,
+              2
+            ],
+            [
+              6,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              -4,
+              1,
+              -1
+            ],
+            [
+              -9,
+              1,
+              -2
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -5,
+            0,
+            -1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            -1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            4,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            -1,
+            5
+          ],
+          "open_parameter_interval": [
+            "-464/185",
+            "115/37"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              14,
+              1,
+              3
+            ],
+            [
+              9,
+              1,
+              2
+            ],
+            [
+              4,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -6,
+              1,
+              -1
+            ],
+            [
+              -11,
+              1,
+              -2
+            ]
+          ]
+        }
+      ],
+      "point_occurrences": 48,
+      "guard_count": 40,
+      "guards": [
+        [
+          -11,
+          -2,
+          1
+        ],
+        [
+          -11,
+          1,
+          -2
+        ],
+        [
+          -9,
+          -2,
+          1
+        ],
+        [
+          -9,
+          1,
+          -2
+        ],
+        [
+          -6,
+          -1,
+          1
+        ],
+        [
+          -6,
+          1,
+          -1
+        ],
+        [
+          -4,
+          -1,
+          1
+        ],
+        [
+          -4,
+          1,
+          -1
+        ],
+        [
+          -1,
+          -2,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          -1,
+          0,
+          3
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0
+        ],
+        [
+          -1,
+          3,
+          0
+        ],
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          -2
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          6,
+          1,
+          1
+        ],
+        [
+          9,
+          1,
+          2
+        ],
+        [
+          9,
+          2,
+          1
+        ],
+        [
+          11,
+          1,
+          2
+        ],
+        [
+          11,
+          2,
+          1
+        ],
+        [
+          14,
+          1,
+          3
+        ],
+        [
+          14,
+          3,
+          1
+        ],
+        [
+          16,
+          1,
+          3
+        ],
+        [
+          16,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "class_index": 5,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_volume": 5,
+      "integer_points_in_contact_hull": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "primitive_contact_edge_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "width_one_normals": [
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "gauge_directions_used_by_truncation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ]
+      ],
+      "line_count": 4,
+      "lines": [
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -5,
+            0,
+            -2
+          ],
+          "opposite_edge_coordinates": [
+            -2,
+            5
+          ],
+          "open_parameter_interval": [
+            "-501/185",
+            "538/185"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              -1,
+              0,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            5,
+            0,
+            2
+          ],
+          "opposite_edge_coordinates": [
+            2,
+            5
+          ],
+          "open_parameter_interval": [
+            "-353/185",
+            "686/185"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -5,
+            0,
+            -2
+          ],
+          "bezout_vector": [
+            -1,
+            0,
+            2
+          ],
+          "plane_basis_second_vector": [
+            -2,
+            0,
+            -1
+          ],
+          "base_point": [
+            3,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -2,
+            5
+          ],
+          "open_parameter_interval": [
+            "-501/185",
+            "538/185"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              13,
+              1,
+              5
+            ],
+            [
+              8,
+              1,
+              3
+            ],
+            [
+              3,
+              1,
+              1
+            ],
+            [
+              -2,
+              1,
+              -1
+            ],
+            [
+              -7,
+              1,
+              -3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -5,
+            0,
+            -2
+          ],
+          "bezout_vector": [
+            -1,
+            0,
+            2
+          ],
+          "plane_basis_second_vector": [
+            2,
+            0,
+            1
+          ],
+          "base_point": [
+            7,
+            1,
+            3
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            2,
+            5
+          ],
+          "open_parameter_interval": [
+            "-353/185",
+            "686/185"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              12,
+              1,
+              5
+            ],
+            [
+              7,
+              1,
+              3
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              -3,
+              1,
+              -1
+            ],
+            [
+              -8,
+              1,
+              -3
+            ]
+          ]
+        }
+      ],
+      "point_occurrences": 20,
+      "guard_count": 20,
+      "guards": [
+        [
+          -8,
+          1,
+          -3
+        ],
+        [
+          -7,
+          1,
+          -3
+        ],
+        [
+          -3,
+          1,
+          -1
+        ],
+        [
+          -2,
+          1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          7,
+          1,
+          3
+        ],
+        [
+          8,
+          1,
+          3
+        ],
+        [
+          12,
+          1,
+          5
+        ],
+        [
+          13,
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "class_index": 6,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_volume": 7,
+      "integer_points_in_contact_hull": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          7,
+          1,
+          2
+        ]
+      ],
+      "primitive_contact_edge_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          7,
+          0,
+          2
+        ],
+        [
+          7,
+          1,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ]
+      ],
+      "width_one_normals": [
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "gauge_directions_used_by_truncation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          7,
+          0,
+          2
+        ]
+      ],
+      "line_count": 4,
+      "lines": [
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -7,
+            0,
+            -2
+          ],
+          "opposite_edge_coordinates": [
+            -2,
+            7
+          ],
+          "open_parameter_interval": [
+            "-631/259",
+            "106/37"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              -1,
+              0,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            7,
+            0,
+            2
+          ],
+          "opposite_edge_coordinates": [
+            2,
+            7
+          ],
+          "open_parameter_interval": [
+            "-69/37",
+            "890/259"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -7,
+            0,
+            -2
+          ],
+          "bezout_vector": [
+            -1,
+            0,
+            3
+          ],
+          "plane_basis_second_vector": [
+            -3,
+            0,
+            -1
+          ],
+          "base_point": [
+            4,
+            1,
+            1
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -3,
+            7
+          ],
+          "open_parameter_interval": [
+            "-668/259",
+            "705/259"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              18,
+              1,
+              5
+            ],
+            [
+              11,
+              1,
+              3
+            ],
+            [
+              4,
+              1,
+              1
+            ],
+            [
+              -3,
+              1,
+              -1
+            ],
+            [
+              -10,
+              1,
+              -3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -7,
+            0,
+            -2
+          ],
+          "bezout_vector": [
+            -1,
+            0,
+            3
+          ],
+          "plane_basis_second_vector": [
+            3,
+            0,
+            1
+          ],
+          "base_point": [
+            10,
+            1,
+            3
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            3,
+            7
+          ],
+          "open_parameter_interval": [
+            "-446/259",
+            "927/259"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              17,
+              1,
+              5
+            ],
+            [
+              10,
+              1,
+              3
+            ],
+            [
+              3,
+              1,
+              1
+            ],
+            [
+              -4,
+              1,
+              -1
+            ],
+            [
+              -11,
+              1,
+              -3
+            ]
+          ]
+        }
+      ],
+      "point_occurrences": 20,
+      "guard_count": 20,
+      "guards": [
+        [
+          -11,
+          1,
+          -3
+        ],
+        [
+          -10,
+          1,
+          -3
+        ],
+        [
+          -4,
+          1,
+          -1
+        ],
+        [
+          -3,
+          1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          10,
+          1,
+          3
+        ],
+        [
+          11,
+          1,
+          3
+        ],
+        [
+          17,
+          1,
+          5
+        ],
+        [
+          18,
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "class_index": 7,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_volume": 8,
+      "integer_points_in_contact_hull": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          8,
+          1,
+          3
+        ]
+      ],
+      "primitive_contact_edge_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          8,
+          0,
+          3
+        ],
+        [
+          8,
+          1,
+          2
+        ],
+        [
+          8,
+          1,
+          3
+        ]
+      ],
+      "width_one_normals": [
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "gauge_directions_used_by_truncation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          8,
+          0,
+          3
+        ]
+      ],
+      "line_count": 4,
+      "lines": [
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -8,
+            0,
+            -3
+          ],
+          "opposite_edge_coordinates": [
+            -3,
+            8
+          ],
+          "open_parameter_interval": [
+            "-733/296",
+            "807/296"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              -1,
+              0,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            8,
+            0,
+            3
+          ],
+          "opposite_edge_coordinates": [
+            3,
+            8
+          ],
+          "open_parameter_interval": [
+            "-511/296",
+            "1029/296"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -8,
+            0,
+            -3
+          ],
+          "bezout_vector": [
+            1,
+            0,
+            -3
+          ],
+          "plane_basis_second_vector": [
+            3,
+            0,
+            1
+          ],
+          "base_point": [
+            11,
+            1,
+            4
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            3,
+            8
+          ],
+          "open_parameter_interval": [
+            "-511/296",
+            "1029/296"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              19,
+              1,
+              7
+            ],
+            [
+              11,
+              1,
+              4
+            ],
+            [
+              3,
+              1,
+              1
+            ],
+            [
+              -5,
+              1,
+              -2
+            ],
+            [
+              -13,
+              1,
+              -5
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -8,
+            0,
+            -3
+          ],
+          "bezout_vector": [
+            1,
+            0,
+            -3
+          ],
+          "plane_basis_second_vector": [
+            -3,
+            0,
+            -1
+          ],
+          "base_point": [
+            5,
+            1,
+            2
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            -3,
+            8
+          ],
+          "open_parameter_interval": [
+            "-733/296",
+            "807/296"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              21,
+              1,
+              8
+            ],
+            [
+              13,
+              1,
+              5
+            ],
+            [
+              5,
+              1,
+              2
+            ],
+            [
+              -3,
+              1,
+              -1
+            ],
+            [
+              -11,
+              1,
+              -4
+            ]
+          ]
+        }
+      ],
+      "point_occurrences": 20,
+      "guard_count": 20,
+      "guards": [
+        [
+          -13,
+          1,
+          -5
+        ],
+        [
+          -11,
+          1,
+          -4
+        ],
+        [
+          -5,
+          1,
+          -2
+        ],
+        [
+          -3,
+          1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          11,
+          1,
+          4
+        ],
+        [
+          13,
+          1,
+          5
+        ],
+        [
+          19,
+          1,
+          7
+        ],
+        [
+          21,
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "class_index": 8,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_volume": 10,
+      "integer_points_in_contact_hull": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          10,
+          1,
+          3
+        ]
+      ],
+      "primitive_contact_edge_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          10,
+          0,
+          3
+        ],
+        [
+          10,
+          1,
+          2
+        ],
+        [
+          10,
+          1,
+          3
+        ]
+      ],
+      "width_one_normals": [
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "gauge_directions_used_by_truncation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          10,
+          0,
+          3
+        ]
+      ],
+      "line_count": 4,
+      "lines": [
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -10,
+            0,
+            -3
+          ],
+          "opposite_edge_coordinates": [
+            -3,
+            10
+          ],
+          "open_parameter_interval": [
+            "-863/370",
+            "1011/370"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              -1,
+              0,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            10,
+            0,
+            3
+          ],
+          "opposite_edge_coordinates": [
+            3,
+            10
+          ],
+          "open_parameter_interval": [
+            "-641/370",
+            "1233/370"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -10,
+            0,
+            -3
+          ],
+          "bezout_vector": [
+            -1,
+            0,
+            3
+          ],
+          "plane_basis_second_vector": [
+            -3,
+            0,
+            -1
+          ],
+          "base_point": [
+            7,
+            1,
+            2
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -3,
+            10
+          ],
+          "open_parameter_interval": [
+            "-863/370",
+            "1011/370"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              27,
+              1,
+              8
+            ],
+            [
+              17,
+              1,
+              5
+            ],
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              -3,
+              1,
+              -1
+            ],
+            [
+              -13,
+              1,
+              -4
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -10,
+            0,
+            -3
+          ],
+          "bezout_vector": [
+            -1,
+            0,
+            3
+          ],
+          "plane_basis_second_vector": [
+            3,
+            0,
+            1
+          ],
+          "base_point": [
+            13,
+            1,
+            4
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            3,
+            10
+          ],
+          "open_parameter_interval": [
+            "-641/370",
+            "1233/370"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              23,
+              1,
+              7
+            ],
+            [
+              13,
+              1,
+              4
+            ],
+            [
+              3,
+              1,
+              1
+            ],
+            [
+              -7,
+              1,
+              -2
+            ],
+            [
+              -17,
+              1,
+              -5
+            ]
+          ]
+        }
+      ],
+      "point_occurrences": 20,
+      "guard_count": 20,
+      "guards": [
+        [
+          -17,
+          1,
+          -5
+        ],
+        [
+          -13,
+          1,
+          -4
+        ],
+        [
+          -7,
+          1,
+          -2
+        ],
+        [
+          -3,
+          1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          13,
+          1,
+          4
+        ],
+        [
+          17,
+          1,
+          5
+        ],
+        [
+          23,
+          1,
+          7
+        ],
+        [
+          27,
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "class_index": 9,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_volume": 13,
+      "integer_points_in_contact_hull": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          13,
+          1,
+          5
+        ]
+      ],
+      "primitive_contact_edge_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          13,
+          0,
+          5
+        ],
+        [
+          13,
+          1,
+          4
+        ],
+        [
+          13,
+          1,
+          5
+        ]
+      ],
+      "width_one_normals": [
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "gauge_directions_used_by_truncation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          13,
+          0,
+          5
+        ]
+      ],
+      "line_count": 4,
+      "lines": [
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            -1,
+            0,
+            0
+          ],
+          "base_point": [
+            -1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            -13,
+            0,
+            -5
+          ],
+          "opposite_edge_coordinates": [
+            -5,
+            13
+          ],
+          "open_parameter_interval": [
+            "-1132/481",
+            "1243/481"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              -1,
+              0,
+              -2
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 0,
+          "contact_indices": [
+            0,
+            3
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            0,
+            0,
+            1
+          ],
+          "bezout_vector": [
+            0,
+            0,
+            1
+          ],
+          "plane_basis_second_vector": [
+            1,
+            0,
+            0
+          ],
+          "base_point": [
+            1,
+            0,
+            0
+          ],
+          "opposite_edge": [
+            13,
+            0,
+            5
+          ],
+          "opposite_edge_coordinates": [
+            5,
+            13
+          ],
+          "open_parameter_interval": [
+            "-762/481",
+            "1613/481"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": -1,
+          "primitive_direction": [
+            -13,
+            0,
+            -5
+          ],
+          "bezout_vector": [
+            -2,
+            0,
+            5
+          ],
+          "plane_basis_second_vector": [
+            -5,
+            0,
+            -2
+          ],
+          "base_point": [
+            8,
+            1,
+            3
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            -1
+          ],
+          "opposite_edge_coordinates": [
+            -5,
+            13
+          ],
+          "open_parameter_interval": [
+            "-1132/481",
+            "1243/481"
+          ],
+          "integer_parameters": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "points": [
+            [
+              34,
+              1,
+              13
+            ],
+            [
+              21,
+              1,
+              8
+            ],
+            [
+              8,
+              1,
+              3
+            ],
+            [
+              -5,
+              1,
+              -2
+            ],
+            [
+              -18,
+              1,
+              -7
+            ]
+          ]
+        },
+        {
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "level": 1,
+          "contact_indices": [
+            1,
+            2
+          ],
+          "cross_sign": 1,
+          "primitive_direction": [
+            -13,
+            0,
+            -5
+          ],
+          "bezout_vector": [
+            -2,
+            0,
+            5
+          ],
+          "plane_basis_second_vector": [
+            5,
+            0,
+            2
+          ],
+          "base_point": [
+            18,
+            1,
+            7
+          ],
+          "opposite_edge": [
+            0,
+            0,
+            1
+          ],
+          "opposite_edge_coordinates": [
+            5,
+            13
+          ],
+          "open_parameter_interval": [
+            "-762/481",
+            "1613/481"
+          ],
+          "integer_parameters": [
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "points": [
+            [
+              31,
+              1,
+              12
+            ],
+            [
+              18,
+              1,
+              7
+            ],
+            [
+              5,
+              1,
+              2
+            ],
+            [
+              -8,
+              1,
+              -3
+            ],
+            [
+              -21,
+              1,
+              -8
+            ]
+          ]
+        }
+      ],
+      "point_occurrences": 20,
+      "guard_count": 20,
+      "guards": [
+        [
+          -21,
+          1,
+          -8
+        ],
+        [
+          -18,
+          1,
+          -7
+        ],
+        [
+          -8,
+          1,
+          -3
+        ],
+        [
+          -5,
+          1,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          8,
+          1,
+          3
+        ],
+        [
+          18,
+          1,
+          7
+        ],
+        [
+          21,
+          1,
+          8
+        ],
+        [
+          31,
+          1,
+          12
+        ],
+        [
+          34,
+          1,
+          13
+        ]
+      ]
+    }
+  ]
+}

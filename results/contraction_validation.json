@@ -1,0 +1,54 @@
+{
+  "status": "all_six_stages_passed",
+  "commands": [
+    {
+      "command": "python -m experiments.det13_contraction",
+      "returncode": 0,
+      "elapsed_seconds": 0.031014000998766278,
+      "output": "{\"status\": \"exact_finite_support_for_analytic_width_bound\", \"global_class_bound\": {\"expression\": \"(14+26/sqrt(3))/9\", \"rational_part\": \"14/9\", \"sqrt3_coefficient\": \"26/27\", \"verified_interval\": [\"43516660498395401/13500000000000000\", \"7252776749732569/2250000000000000\"]}, \"bijection_count\": 24, \"oscillation_elementary_checks\": 192}"
+    },
+    {
+      "command": "python -O tests/replay_det13_contraction_independent.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.18032803000096465,
+      "output": "{\"status\": \"PASS\", \"row_code_assignments\": 256, \"loss_patterns\": 16, \"oscillation_checks\": 192, \"remaining_full_contact_classes\": 62, \"rejected_mutations\": 24}"
+    },
+    {
+      "command": "python -m experiments.two_vector_class_scan",
+      "returncode": 0,
+      "elapsed_seconds": 0.10026099700007762,
+      "output": "{\"class_index\": 0, \"determinant\": 1, \"eligible_vectors\": 0, \"eligible_pairs\": 0, \"best_bound\": null, \"below_c\": null, \"below_candidate\": null}\n{\"class_index\": 1, \"determinant\": 2, \"eligible_vectors\": 0, \"eligible_pairs\": 0, \"best_bound\": null, \"below_c\": null, \"below_candidate\": null}\n{\"class_index\": 2, \"determinant\": 3, \"eligible_vectors\": 1, \"eligible_pairs\": 0, \"best_bound\": null, \"below_c\": null, \"below_candidate\": null}\n{\"class_index\": 3, \"determinant\": 4, \"eligible_vectors\": 1, \"eligible_pairs\": 0, \"best_bound\": null, \"below_c\": null, \"below_candidate\": null}\n{\"class_index\": 4, \"determinant\": 5, \"eligible_vectors\": 1, \"eligible_pairs\": 0, \"best_bound\": null, \"below_c\": null, \"below_candidate\": null}\n{\"class_index\": 5, \"determinant\": 5, \"eligible_vectors\": 4, \"eligible_pairs\": 4, \"best_bound\": \"(11/5)+(4/3)*sqrt(3)\", \"below_c\": false, \"below_candidate\": false}\n{\"class_index\": 6, \"determinant\": 7, \"eligible_vectors\": 5, \"eligible_pairs\": 6, \"best_bound\": \"(15/8)+(7/6)*sqrt(3)\", \"below_c\": false, \"below_candidate\": false}\n{\"class_index\": 7, \"determinant\": 8, \"eligible_vectors\": 5, \"eligible_pairs\": 6, \"best_bound\": \"(17/9)+(32/27)*sqrt(3)\", \"below_c\": false, \"below_candidate\": false}\n{\"class_index\": 8, \"determinant\": 10, \"eligible_vectors\": 6, \"eligible_pairs\": 9, \"best_bound\": \"(21/13)+(40/39)*sqrt(3)\", \"below_c\": false, \"below_candidate\": true}\n{\"class_index\": 9, \"determinant\": 13, \"eligible_vectors\": 8, \"eligible_pairs\": 16, \"best_bound\": \"(14/9)+(26/27)*sqrt(3)\", \"below_c\": true, \"below_candidate\": true}"
+    },
+    {
+      "command": "python -O tests/replay_two_vector_scan_independent.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.7929852640008903,
+      "output": "{\"status\": \"PASS\", \"eligible_vector_counts\": [0, 0, 1, 1, 1, 4, 5, 5, 6, 8], \"verified_pairs\": 41, \"excluded_above_c\": [9], \"excluded_at_candidate\": [8, 9], \"rejected_mutations\": 10}"
+    },
+    {
+      "command": "python -m experiments.nonunimodular_observer_guards",
+      "returncode": 0,
+      "elapsed_seconds": 0.05219229799877212,
+      "output": "{\"class_index\": 1, \"normalized_volume\": 2, \"width_one_normals\": [[0, 0, 1], [0, 1, 0], [1, -1, -1]], \"line_count\": 12, \"point_occurrences\": 84, \"guard_count\": 64}\n{\"class_index\": 2, \"normalized_volume\": 3, \"width_one_normals\": [[0, 0, 1], [0, 1, 0]], \"line_count\": 8, \"point_occurrences\": 56, \"guard_count\": 48}\n{\"class_index\": 3, \"normalized_volume\": 4, \"width_one_normals\": [[0, 0, 1], [0, 1, 0]], \"line_count\": 8, \"point_occurrences\": 48, \"guard_count\": 40}\n{\"class_index\": 4, \"normalized_volume\": 5, \"width_one_normals\": [[0, 0, 1], [0, 1, 0]], \"line_count\": 8, \"point_occurrences\": 48, \"guard_count\": 40}\n{\"class_index\": 5, \"normalized_volume\": 5, \"width_one_normals\": [[0, 1, 0]], \"line_count\": 4, \"point_occurrences\": 20, \"guard_count\": 20}\n{\"class_index\": 6, \"normalized_volume\": 7, \"width_one_normals\": [[0, 1, 0]], \"line_count\": 4, \"point_occurrences\": 20, \"guard_count\": 20}\n{\"class_index\": 7, \"normalized_volume\": 8, \"width_one_normals\": [[0, 1, 0]], \"line_count\": 4, \"point_occurrences\": 20, \"guard_count\": 20}\n{\"class_index\": 8, \"normalized_volume\": 10, \"width_one_normals\": [[0, 1, 0]], \"line_count\": 4, \"point_occurrences\": 20, \"guard_count\": 20}\n{\"class_index\": 9, \"normalized_volume\": 13, \"width_one_normals\": [[0, 1, 0]], \"line_count\": 4, \"point_occurrences\": 20, \"guard_count\": 20}"
+    },
+    {
+      "command": "python -O tests/replay_nonunimodular_guards_independent.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.5280214969989174,
+      "output": "{\"status\": \"PASS\", \"class_count\": 9, \"guard_counts\": [64, 48, 40, 40, 20, 20, 20, 20, 20], \"line_counts\": [12, 8, 8, 8, 4, 4, 4, 4, 4], \"rejected_mutations\": 10}"
+    }
+  ],
+  "payload_sha256": {
+    "certificates/det13_contraction.json": "69b7b68ca5353285c431c09a0b36897565ca9b80eed45d240c9e9464f30cee6f",
+    "certificates/nonunimodular_observer_guards.json": "54e6c68d10604d262da0f704141e61e44fb067f20c53a5b4b2cdf69d15d1a426",
+    "results/two_vector_class_scan.json": "387198433ba7a8cf18e9f8ef19d5ee5287f307d0ddc8d7cf3f751398b27f9d34"
+  },
+  "exact_payloads_byte_identical": true,
+  "mutation_counts": {
+    "det13": 24,
+    "two_vector_scan": 10,
+    "generic_guards": 10
+  },
+  "solver_queries_run": 0,
+  "scope": "Incremental exact arithmetic checks supporting the written containment bounds and conditional observer theorem. Prior classification and ACMS inputs are not reproved by this script."
+}

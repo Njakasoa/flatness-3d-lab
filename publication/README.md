@@ -31,3 +31,18 @@ criterion and conditional finite guard sets. The public companion includes
 proofs, exact data, figures and independent replay. Run
 `python reproduce_observer_guards.py` from the repository root with the
 baseline dependencies. No manuscript submission or novelty claim is implied.
+
+## Tetrahedral containment bounds
+
+[CLAIM-0006](../claims/CLAIM-0006.md) and its linked proofs now exclude two
+full tetrahedral contact classes at width at least 2+sqrt(2), leaving 61
+necessary full contact hulls. At the lower original threshold, 62 remain.
+These bounds assume a tetrahedral surrounding body; the global conjecture
+and optimization of the surviving types remain open.
+
+Run `python reproduce_contraction.py`, followed by
+`python -m experiments.weighted_two_vector_bounds` and
+`python -O tests/replay_weighted_trace_independent.py`. The optional Z3
+encoding audit `python tests/audit_nonunimodular_encoding.py` runs no solver.
+The written proofs and exact artifacts are the publication deliverable for
+this update; no separate manuscript or external review is claimed.

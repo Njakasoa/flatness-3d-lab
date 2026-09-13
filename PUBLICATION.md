@@ -5,7 +5,7 @@ Canonical repository: https://github.com/Njakasoa/flatness-3d-lab.
 
 The user explicitly authorized publishing this lab on their GitHub account
 following Njakasoa/ihara-a2-lab. This curated export derives from scientific
-source revision e84400e, following the pair update at 38fbeef, the continuous-family update at 9de72cf,
+source revision 9072ef0, following the observer update at e84400e, following the pair update at 38fbeef, the continuous-family update at 9de72cf,
 the contact reduction at da24c58
 and the first public baseline at b456770.
 SOURCE_MANIFEST.json records the full revision and
@@ -63,3 +63,14 @@ nine-stage reproduction. Source checkpoint: e84400e847c116809df46785c041197d4acb
 The column cubic formulation is implemented. All nonlinear target queries
 retain their original UNKNOWN results. Prior observer methods are explicitly
 credited; external novelty and width optimization remain unresolved.
+
+## Tetrahedral containment update
+
+The maintainer renewed GitHub publication authorization. This update exports
+committed scientific source 9072ef03ec1c725ebd303449675f27ac028b00ef,
+including the analytic determinant-13 and determinant-10 containment bounds,
+all nine nonunimodular observer lists, exact weighted refinements, independent
+counterexample checks and archived cubic model outcomes. At candidate width,
+61 necessary full facet-contact hulls remain. The global bound is unchanged.
+Uncommitted height-chart experiments are excluded. Public history continues
+from 1c5b667 without rewriting it. No journal or arXiv submission is made.

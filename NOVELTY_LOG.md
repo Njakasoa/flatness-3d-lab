@@ -47,7 +47,8 @@ and a strict inverse sign pattern. These specialize established matrix
 arguments; no novelty claim is made. Their role here is to preserve all
 boundary cases while simplifying the feasibility model. Complementary-minor
 identities yield a thirteen-variable cubic encoding. This is an algebraic
-reformulation, not a new width theorem, and its solver implementation was subsequently completed in the observer update. The two additional eight-variable queries returned UNKNOWN.
+reformulation, not a new width theorem, and its solver implementation remains
+a next step. The two additional eight-variable queries returned UNKNOWN.
 
 
 ## Complete observer guards and gauge truncation
@@ -70,3 +71,37 @@ sources and limitations. The continuous width optimization remains open.
 Two exact pair witnesses above 19/6, one with exactly 4 contacts, and two
 nonhollow false high-width samples are certification/control results;
 no optimum or global bound is asserted.
+
+## Analytic containment bounds for determinants 13 and 10
+
+The two-vector sign-loss argument now yields verified restricted bounds
+(14+26/sqrt(3))/9 and (21+40/sqrt(3))/13 for hollow real tetrahedra containing
+the specified contact configurations. This excludes two full tetrahedral
+contact types at candidate width. It does not delete nonsimplicial hulls
+containing those configurations or improve the global flatness upper bound.
+
+The independent primary-source audit in DET13_CONTRACTION_LITERATURE.md
+identifies the inherited ACMS gauge inequality and standard oscillation
+contraction antecedents. No matching index-13 bound was found in ten bounded
+queries, which is insufficient to establish novelty. Three additional
+queries for determinant 10 returned mostly irrelevant results and the
+Codenotti thesis record; no exhaustive determinant-10 priority check is
+claimed. Both exact class bounds have unconfirmed external priority.
+
+## Weighted determinant-eight bound
+
+The weighted cancellation argument is a direct refinement of the already
+reviewed two-vector proof. It gives (1+12A)/7 for the determinant-eight
+containment class, without deleting that class at candidate width. No
+separate priority audit establishes novelty of this numerical class bound.
+The strict trace examples are exact falsifications of a proposed sufficient
+intermediate condition. The complete seven/eight model timeouts are not
+mathematical exclusions. No new global flatness bound is asserted.
+
+## Public availability of this checkpoint
+
+The maintainer authorized GitHub publication of scientific checkpoint
+9072ef0. The containment bounds, weighted refinements, counterexamples and
+archived complete models are included in this public update. Earlier local-only
+status notes describe their research-session dates. External priority and
+peer review remain unconfirmed. See PUBLICATION.md and PUBLIC_VALIDATION.md.

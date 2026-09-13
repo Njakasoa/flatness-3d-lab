@@ -4,12 +4,51 @@ A reproducible research companion on the three-dimensional flatness constant,
 hollow convex bodies, lattice contacts and exact width certificates,
 maintained by [Njakasoa](https://github.com/Njakasoa).
 
-**Status: exact reproductions and an explicit contact-configuration reduction,
+**Status: exact reproductions, an explicit contact-configuration reduction and
+two restricted tetrahedral width bounds,
 internally reviewed with AI assistance. Novelty remains unconfirmed.
 No new global bound, solution of the flatness
 conjecture, external peer review or journal/arXiv submission is claimed.**
 
-## Structural result: 63 contact configurations, nine templates
+## Two tetrahedral containment classes excluded
+
+The internally verified analytic bounds apply to every compact, full-dimensional
+hollow **real tetrahedron** K containing an affine unimodular image of the
+indicated integer tetrahedron:
+
+| Contained configuration | Certified upper bound for w(K) |
+|---|---|
+| P13 = conv(0, (13,1,5), e2, e3) | (14 + 26/√3)/9 ≈ 3.2234563332 |
+| P10 = conv(0, (10,1,3), e2, e3) | (21 + 40/√3)/13 ≈ 3.3918469821 |
+
+The four contained points need not be boundary contacts. Two short lattice
+vectors, their sign patterns, and a stochastic-matrix oscillation estimate
+combine with the known ACMS gauge inequality to give these continuous bounds.
+The determinant-13 proof has an independent internal mathematical review;
+the parameterized extension and both arithmetic applications have independent
+exact checks. The bounds are not claimed sharp and external novelty is unconfirmed.
+
+Consequently, the original 63 necessary **full facet-contact hulls** reduce to
+**62 above (11/7)(1 + 2/√3)** and **61 at width at least 2 + √2**.
+At the latter threshold, eight tetrahedral types, 52 spatial hulls with five
+to eight contacts, and the planar square remain. Larger contact hulls are
+not deleted merely because they contain a P10 or P13 subset: the surrounding
+tetrahedron assumption is essential.
+
+- [Exact theorem and scope — CLAIM-0006](claims/CLAIM-0006.md)
+- [Determinant-13 proof](proofs/DET13_CONTRACTION_BOUND.md), [parameterized argument](proofs/TWO_VECTOR_CONTRACTION.md), and [internal review](proofs/DET13_CONTRACTION_REVIEW.md)
+- [Exact certificate](certificates/det13_contraction.json), [independent replay](tests/replay_det13_contraction_independent.py), and [primary-source novelty audit](proofs/DET13_CONTRACTION_LITERATURE.md)
+- [All nine nonunimodular guard lists](certificates/nonunimodular_observer_guards.json) and [independent guard verifier](tests/replay_nonunimodular_guards_independent.py)
+
+An exact weighted refinement checks 123 candidates across 41 separating
+vector pairs. It gives the determinant-eight bound (13 + 24/√3)/7 ≈ 3.8366294943,
+which removes no further class. Two exactly hollow counterexamples disprove
+a proposed total-leakage shortcut. The complete determinant-seven/eight
+cubic targets both remain **UNKNOWN (timeout)**; they supply no exclusion.
+See [weighted bounds and counterexamples](proofs/WEIGHTED_CONTRACTION_AND_TRACE_LIMIT.md)
+and [complete models with encoding audit](proofs/NONUNIMODULAR_COMPLETE_MODELS.md).
+
+## Original structural reduction: 63 configurations, nine templates
 
 For every compact full-dimensional hollow convex body K in the standard
 integer lattice with
@@ -73,7 +112,7 @@ column sums remain a separate boundedness condition.
 The cubic formulation is now implemented in a column-normalized chart with
 eight variables. Exact identities and independently verified pair witnesses
 support it. All bounded nonlinear target queries remain **UNKNOWN (timeout)**;
-no contact family has been eliminated.
+these queries establish no contact-family exclusion.
 
 - [Matrix proof](proofs/PAIR_MATRIX_STRUCTURE.md), [exact certificate](certificates/pair_matrix_structure.json), and [independent replay](tests/replay_pair_matrix_independent.py)
 - [Column formulation](proofs/PAIR_COLUMN_FORMULATION.md), [exact identities](certificates/pair_column_identities.json), and [encoding review](results/DET2_GAUGE_MODEL_REVIEW.md)
@@ -111,7 +150,8 @@ all 484 clauses of the larger model. This does not settle width optimization.
 
 ![The 64 lattice guards and 20 explicit pair exclusions](results/observer_guards.png)
 
-This update exports reviewed scientific source **e84400e**.
+This update exports committed scientific source **9072ef0**.
+Ongoing uncommitted experiments are excluded.
 See [public-copy validation](PUBLIC_VALIDATION.md) for reproduction evidence.
 
 ## Verified baseline
@@ -252,6 +292,21 @@ The optional `experiments.det2_adjugate_smt` and
 `experiments.det2_pair_structured_smt` modules reproduce the two additional
 bounded solver experiments. Their archived results are timeouts, not proofs
 of infeasibility.
+
+Replay the new containment bounds and all nine nonunimodular guard lists:
+
+```sh
+python3 reproduce_contraction.py
+python3 -m experiments.weighted_two_vector_bounds
+python3 -O tests/replay_weighted_trace_independent.py
+```
+
+The six-stage contraction replay checks three exact payloads byte for byte
+and rejects 44 mutations, without a numerical search or solver query. The
+weighted/trace checker adds four rejected mutations and independently verifies
+full hollowness, lattice width and difference minima for its counterexamples.
+With optional Z3 installed, `python3 tests/audit_nonunimodular_encoding.py`
+checks the archived cubic encodings without calling the solver.
 
 The core exact geometry uses only the standard library. SymPy supports the
 independent checks; SciPy supports exploration; Matplotlib produces figures.

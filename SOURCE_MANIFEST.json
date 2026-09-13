@@ -22,28 +22,28 @@
       "sha256": "96242f1080dc718b1553428ac296d66a04ba30dae8890acbd8c238b303ec3dd6"
     },
     "NEXT.md": {
-      "bytes": 3696,
-      "sha256": "706b7e3ecd8d2beb4ab3c3f55ab4f575725213e246e0b8c7ac040b83368fcad9"
+      "bytes": 4162,
+      "sha256": "bb2f2fd3bd708d7954098487f7fcfa9463c996c6d5e924df95bd41b32d22738d"
     },
     "NORMALIZATION.md": {
       "bytes": 2734,
       "sha256": "f03de491797472c84153de23ad188d90f756996b7d0b86bb4e7bb8d77ec849df"
     },
     "NOVELTY_LOG.md": {
-      "bytes": 4757,
-      "sha256": "da508f447bef2d8274df7d5e68b48fc6d0ae690a5ee5dd688df3782c9228cd8f"
+      "bytes": 6626,
+      "sha256": "71ab52c6d4f76af26e2c57a56d20d8d69f7ad74acf6938909dcf66d7872f48f1"
     },
     "PUBLICATION.md": {
-      "bytes": 3508,
-      "sha256": "797d2c0067d2960324415136d5a1a5158d7e6c16704c084ec07b09ad881ffbe5"
+      "bytes": 4194,
+      "sha256": "7af4891b8d30eb58b801630e4d6513b3037421ee3fc23581aa6b653220d119b7"
     },
     "PUBLIC_VALIDATION.md": {
-      "bytes": 6595,
-      "sha256": "076db0462287a244cee3277ef92dd02f8cbea707ef2eb4e0299248da31c25ed4"
+      "bytes": 7933,
+      "sha256": "3f5cb3a992fa822891b865ce05bdb7f7aae7f710de1d24647e1d61c2428b18db"
     },
     "README.md": {
-      "bytes": 15357,
-      "sha256": "28c4f5fea9a60c8e3c3c372f8774e425ea87a602e8abf518c7afd7c27aab9d9d"
+      "bytes": 18644,
+      "sha256": "31201be28c49e6ce685e7908429cd2fa850077a345f02f15c16db24b5b9ea2b4"
     },
     "STATE_OF_THE_ART.md": {
       "bytes": 16202,
@@ -72,6 +72,10 @@
     "certificates/contact_templates.json": {
       "bytes": 60426,
       "sha256": "c70f0e7c11534b748ef4fa3d4fc9f7d9323739aee51f4975cbe34b77d5be0ddf"
+    },
+    "certificates/det13_contraction.json": {
+      "bytes": 50458,
+      "sha256": "69b7b68ca5353285c431c09a0b36897565ca9b80eed45d240c9e9464f30cee6f"
     },
     "certificates/det2_cycle_rational.json": {
       "bytes": 10620,
@@ -145,6 +149,10 @@
       "bytes": 5008,
       "sha256": "7162e5ead5574260cbf9e0357aafc9893f1fa7f08db51bf8d7176f2e2149b8ec"
     },
+    "certificates/nonunimodular_observer_guards.json": {
+      "bytes": 116206,
+      "sha256": "54e6c68d10604d262da0f704141e61e44fb067f20c53a5b4b2cdf69d15d1a426"
+    },
     "certificates/pair_column_identities.json": {
       "bytes": 47623,
       "sha256": "b43c3d56538774860efa96fa43188eae694b86fe046365ede8a6e913990f1fd0"
@@ -165,6 +173,10 @@
       "bytes": 7810,
       "sha256": "7ccc454f343929f74b1b9cdc9214541408f4db8030b50232ccd0377b2dd4078d"
     },
+    "certificates/weighted_two_vector_bounds.json": {
+      "bytes": 64961,
+      "sha256": "3a32672b1ab58ec4f0c5a00ceb578620ea132c05e4cfe661fdbbcde0e871890f"
+    },
     "claims/CLAIM-0001.md": {
       "bytes": 1884,
       "sha256": "59c6aa70a93a7d96f4152c30f5992e935404b482ac27c8c4a929a5b55afb4e8f"
@@ -178,12 +190,16 @@
       "sha256": "44ae3b95ae4bbe928772d7d5c648494bb4a9418091e192fe61d2f069e927a79f"
     },
     "claims/CLAIM-0004.md": {
-      "bytes": 3187,
-      "sha256": "97b311e363305a3b3d891c9bcd574381dd0b75da7d616f6936bd80ca37513513"
+      "bytes": 3635,
+      "sha256": "29e96d635edb27401e11a1fac6dbce68912b1f58d1297cf7608e5f662dde569e"
     },
     "claims/CLAIM-0005.md": {
       "bytes": 7385,
       "sha256": "611b6eeaf2240a9ff2f55a974cf89f4545680bb34df8c01199d19cba2efe3ae3"
+    },
+    "claims/CLAIM-0006.md": {
+      "bytes": 5059,
+      "sha256": "50755946c0da1fe88482ae70f06feddab8e6479ee4353564f21ae9809f8a4356"
     },
     "contacts/CONTACT_SIGNATURE.md": {
       "bytes": 1714,
@@ -229,6 +245,10 @@
       "bytes": 3310,
       "sha256": "147ce5f8c921e5cab8b489259ad64c769579340d4a0088d52ca2dc66f1e157f6"
     },
+    "experiments/contact_contraction_trace_probe.py": {
+      "bytes": 4767,
+      "sha256": "7c2834a23cafffb27de294c5307462dea7af35cbfd6c6c0bf9ad673610de9e8c"
+    },
     "experiments/contact_hull_obstructions.py": {
       "bytes": 1687,
       "sha256": "2cc4d0fd70182e176ad29ffdd4e545d48409c511d104da9780737bddffe9bd28"
@@ -252,6 +272,10 @@
     "experiments/cube_contact_class.py": {
       "bytes": 8003,
       "sha256": "67271701409247b6db3d3cd6d04c46237d9f29be828fde25c846dc8de8e08d0e"
+    },
+    "experiments/det13_contraction.py": {
+      "bytes": 5169,
+      "sha256": "299262a3cca263655564165e101e7b0c5d857efc042bf89b6b177f58f37edb24"
     },
     "experiments/det2_adjugate_smt.py": {
       "bytes": 25918,
@@ -341,6 +365,14 @@
       "bytes": 4289,
       "sha256": "283c11176dd81430383cd9b0d92d79d94d8967ce7d81a84b679677c84e0cdecf"
     },
+    "experiments/nonunimodular_complete_smt.py": {
+      "bytes": 5448,
+      "sha256": "d8c4515772783072d52dd6a77b1ed0933e1de5ffe927fa050a0ac19baa726aa9"
+    },
+    "experiments/nonunimodular_observer_guards.py": {
+      "bytes": 9470,
+      "sha256": "1268287da43da7ab4db6ec8abd6a32d8a6f6525ac58b316d4057cfa5b74b6eb0"
+    },
     "experiments/pair_column_identities.py": {
       "bytes": 3861,
       "sha256": "5b9d35020e7fa54272ee4cced1f3f1192b1edeca8edaf2e5d9c55c270e474520"
@@ -377,6 +409,14 @@
       "bytes": 1083,
       "sha256": "7aa715b29c5ae0ed76f05bc28ed0cf079a1eedeeee501859b2614a25bb861ef2"
     },
+    "experiments/two_vector_class_scan.py": {
+      "bytes": 8250,
+      "sha256": "5686606d2df1f2e8145c02ff95a7a874303fbb8bef085822a5bead37865ec23d"
+    },
+    "experiments/weighted_two_vector_bounds.py": {
+      "bytes": 2616,
+      "sha256": "e14a2355f5b63fc48ea36e8b0bee6da17ad8ab302c324a63547edfdba408cbad"
+    },
     "lattices/README.md": {
       "bytes": 558,
       "sha256": "515479a0629a07c18bd7e62c38dcd81c3835aaa50b5880197008337079521046"
@@ -412,6 +452,18 @@
     "proofs/CUBE_CONTACT_CLASS.md": {
       "bytes": 9186,
       "sha256": "85972de1de3a6689b2bb60cc587c78dc451de4c82418acb071da7811ae92c487"
+    },
+    "proofs/DET13_CONTRACTION_BOUND.md": {
+      "bytes": 6163,
+      "sha256": "e17a8ae6eb62b704acefd58f4c5de2fb288fcc2aad2a6924caa77507953f1cb9"
+    },
+    "proofs/DET13_CONTRACTION_LITERATURE.md": {
+      "bytes": 7176,
+      "sha256": "441132e4b22cbf95fcfd500bd85c862764f776bb33b17e0207ec7e9352c960be"
+    },
+    "proofs/DET13_CONTRACTION_REVIEW.md": {
+      "bytes": 5210,
+      "sha256": "90e3925f5142f7a51b0b80050ca465213450a2c665efdeea680370db8e76f5ae"
     },
     "proofs/DET2_FINITE_ALGEBRAIC_REDUCTION.md": {
       "bytes": 8146,
@@ -453,6 +505,10 @@
       "bytes": 6608,
       "sha256": "ae01ff9e5b9ecd49c83f35210df70b1dd79201000ff4d4c11cd3cc0b8e8dc5cb"
     },
+    "proofs/NONUNIMODULAR_COMPLETE_MODELS.md": {
+      "bytes": 4334,
+      "sha256": "c79eb1872f3f8d8e0680483ef1ee4a1137839c88f7400f421ec4f759605adc65"
+    },
     "proofs/PAIR_COLUMN_FORMULATION.md": {
       "bytes": 7021,
       "sha256": "543014a0de9f3d11dd23ac1a77d4efa598c873b9c2a4efb9253cc6b6ea9fbcb5"
@@ -477,17 +533,25 @@
       "bytes": 1584,
       "sha256": "5bda87380d524f05f65dfdf07e74e2f5263f83591b63f5ebf746a680b95969e5"
     },
+    "proofs/TWO_VECTOR_CONTRACTION.md": {
+      "bytes": 3973,
+      "sha256": "72a0671509dd119a24d24cc2c3b1805d27b56e9719f09b57577b22acb2d77942"
+    },
     "proofs/UPPER_BOUND_SLACK.md": {
       "bytes": 5201,
       "sha256": "511c0f6d373d857d1f89e66b4d9dccba1be7138c560f5151236ec01c006eb1d0"
+    },
+    "proofs/WEIGHTED_CONTRACTION_AND_TRACE_LIMIT.md": {
+      "bytes": 5040,
+      "sha256": "46b5aa6a367adcab0014e2d59527d95bcfbb807d318343d76819f79159d1e8cc"
     },
     "proofs/WIDTH_CERTIFIER.md": {
       "bytes": 1687,
       "sha256": "c062a6ddbbd0b65eae8f3f2d1456e9bf4fc6a4ca647fa8cfbbfd51e8538ec683"
     },
     "publication/README.md": {
-      "bytes": 1501,
-      "sha256": "42582db235393ae87b03cb68eccb47882c068d59ac11b3e6cf33c8a2a46fddfb"
+      "bytes": 2286,
+      "sha256": "6da50678f3b4f57bc28a39cc5fd790c110d7b05f6405969180175ee4bef796e1"
     },
     "publication/RIGHTS.md": {
       "bytes": 877,
@@ -512,6 +576,10 @@
     "reproduce_contact_reduction.py": {
       "bytes": 2059,
       "sha256": "c63ba8f5469132d3ae8e9c6dc25d7720c99d21745c10f3b78c39f2f272d08e27"
+    },
+    "reproduce_contraction.py": {
+      "bytes": 2247,
+      "sha256": "e03de12fc4a1f6a6984f7d63c7d3304a7c6ce5f347bbd381d8ff1821ed3d719f"
     },
     "reproduce_observer_guards.py": {
       "bytes": 3122,
@@ -593,6 +661,14 @@
       "bytes": 2998,
       "sha256": "98a383dfc71e0b564cc0dba1b266329b85373898446dc075e68c961246e4af5c"
     },
+    "results/contact_contraction_trace_probe.json": {
+      "bytes": 22182,
+      "sha256": "f253ad3de972485f6edae8212a43beff7890dcb355d3d59892b54dc43ac398f3"
+    },
+    "results/contact_contraction_trace_probe_strict.json": {
+      "bytes": 22797,
+      "sha256": "81f1d92899e7bd5edbafcee8dd77567037cf56c13abfceac9ccc64ab8f5259f2"
+    },
     "results/contact_extensions.json": {
       "bytes": 25854,
       "sha256": "601d4e9f09556a0e75c87c76c8e7138eddd13160a692a25d42ab8e4a04762d1f"
@@ -620,6 +696,30 @@
     "results/contact_reduction_validation.json": {
       "bytes": 107460,
       "sha256": "e9303f3eb7b3458c6adb9e04212842e186ab8e2d8d6151ec36209882ef60a175"
+    },
+    "results/contraction_public_validation.json": {
+      "bytes": 1098,
+      "sha256": "9563f57995c7fc4880e66b3d744d8289dedbe235fe083a87f49ebf63e8774b6a"
+    },
+    "results/contraction_trace_class_6.smt2": {
+      "bytes": 31786,
+      "sha256": "5175404bd5b45acc8bd94753ee532c980eb6b4c2f110734accf0d5876d376744"
+    },
+    "results/contraction_trace_class_6_strict.smt2": {
+      "bytes": 32361,
+      "sha256": "d0b3b26b08f470f7cc159f8b2f8dd26596a76c9459665418e0e7db043f7f7460"
+    },
+    "results/contraction_trace_class_7.smt2": {
+      "bytes": 32231,
+      "sha256": "11e71d1217ea025d5e21586a9dcb670cf9980d85ab6a360ce1e466d67e974927"
+    },
+    "results/contraction_trace_class_7_strict.smt2": {
+      "bytes": 32806,
+      "sha256": "88742a2bd1a5b1c2de265992f6704e295ecad69eddcc6d539c508cad8924c8d7"
+    },
+    "results/contraction_validation.json": {
+      "bytes": 5836,
+      "sha256": "5817d668c47aa44515786ccd50eceb5169bb561efb0a2eaeb5ed82d29dba826e"
     },
     "results/cube_contact_class.json": {
       "bytes": 22480,
@@ -761,6 +861,22 @@
       "bytes": 34220744,
       "sha256": "fbd025d6eac9839f89fdf01c09b761c337750d8cbcff57f91f3874d992a6cefa"
     },
+    "results/nonunimodular_complete_class_6.smt2": {
+      "bytes": 66107,
+      "sha256": "a2c77618374ff73086649933b039847d6bdfec618bb0149c204676f380752d88"
+    },
+    "results/nonunimodular_complete_class_7.smt2": {
+      "bytes": 68260,
+      "sha256": "1c7e88a080752cbff0093d5cdbabbe60d8fed7e0baf55a498d142ae3c2a0d099"
+    },
+    "results/nonunimodular_complete_smt.json": {
+      "bytes": 4921,
+      "sha256": "386a94f870ea74b63721e4ba549b368fcd6619157bc87172a3c0c4a5b03a9279"
+    },
+    "results/nonunimodular_encoding_validation.json": {
+      "bytes": 680,
+      "sha256": "6d250be89181f61ad1bb91bc9e68bc4419c946aff1f6eadadb235df15b6ca772"
+    },
     "results/observer_guards.pdf": {
       "bytes": 24988,
       "sha256": "9b0a166c9a2a9f2d5a5ccd172a7deabb39dd0627e326ee4002aadba8f94ae680"
@@ -784,6 +900,10 @@
     "results/square_contacts.json": {
       "bytes": 9643,
       "sha256": "ced512750fec36f9896f356507b25e1b136a2eed8920a33e84501e17e88e4471"
+    },
+    "results/two_vector_class_scan.json": {
+      "bytes": 81877,
+      "sha256": "387198433ba7a8cf18e9f8ef19d5ee5287f307d0ddc8d7cf3f751398b27f9d34"
     },
     "results/upper_bound.json": {
       "bytes": 10503,
@@ -869,6 +989,14 @@
       "bytes": 496,
       "sha256": "09d6707b30b8dffa8ec9e9c541598c9daf8891f6ccc1c14817607b9ac9dde311"
     },
+    "results/weighted_campaign_validation.json": {
+      "bytes": 2099,
+      "sha256": "539e46b995f4bf72c462fc4d2ff7e87bd8b3a85932064793cfa1ddf73263876c"
+    },
+    "results/weighted_trace_validation.json": {
+      "bytes": 2177,
+      "sha256": "ebc93eb16135c84d1701ffde3c08dea785f4136b5a6257b2b7ce55e91a667b4d"
+    },
     "scripts/check_public_snapshot.py": {
       "bytes": 788,
       "sha256": "e4bb7ae4499cf99563073675364fe328238d6c43802405507089fc1c9e5d0efb"
@@ -901,6 +1029,10 @@
       "bytes": 3005,
       "sha256": "fb4459ae7efa29ba083c57ff5aba9876fe8053cad302a9c38282899e6f96e399"
     },
+    "tests/audit_nonunimodular_encoding.py": {
+      "bytes": 4650,
+      "sha256": "6e0f35918c356861d823c71f08135ee190c04faf9a3d143ee7095fe5b67764fc"
+    },
     "tests/independent_replay.py": {
       "bytes": 16160,
       "sha256": "bbd01783cc0af8007a0f475eb8f88556c14f33ea07e5654648812a11e5e9b79e"
@@ -908,6 +1040,10 @@
     "tests/replay_contact_minima_independent.py": {
       "bytes": 55797,
       "sha256": "b551b737fd24b75af96644af82bc63079736d7eef529ac5e6977d2f9900e2c51"
+    },
+    "tests/replay_det13_contraction_independent.py": {
+      "bytes": 11815,
+      "sha256": "9803653fa548c83c5714683722ba51aec2efee2a9126b08c1de84048083f8fca"
     },
     "tests/replay_det2_cycle_independent.py": {
       "bytes": 24880,
@@ -925,9 +1061,21 @@
       "bytes": 10963,
       "sha256": "4a9a1700e183d1310c89ba3a538f406a30cf076e42143393ae7328c899260ce3"
     },
+    "tests/replay_nonunimodular_guards_independent.py": {
+      "bytes": 7113,
+      "sha256": "230e1276ddd367c987f91a1e2f5777313fae7a244c1da5d4d8e3fefd23bdda2d"
+    },
     "tests/replay_pair_matrix_independent.py": {
       "bytes": 5371,
       "sha256": "54a765d1b279d0c1f155aaf331b856b41d3031b268f94cf56a7881be2dfaac0d"
+    },
+    "tests/replay_two_vector_scan_independent.py": {
+      "bytes": 7186,
+      "sha256": "5f2bcc4afc546f350cbbdc392b371ddfa83dfdae6edf488499f3d9f8a117f1a2"
+    },
+    "tests/replay_weighted_trace_independent.py": {
+      "bytes": 8725,
+      "sha256": "65341bb99e1cec1837723130a672398afa8bf1627f4f4ffbc8458fc1c8da6889"
     },
     "tests/test_canonical.py": {
       "bytes": 837,
@@ -943,5 +1091,5 @@
     }
   },
   "repository": "https://github.com/Njakasoa/flatness-3d-lab",
-  "source_revision": "e84400e847c116809df46785c041197d4acb3ea6"
+  "source_revision": "9072ef03ec1c725ebd303449675f27ac028b00ef"
 }

@@ -1,0 +1,4011 @@
+{
+  "status": "exact_finite_two_vector_class_scan",
+  "class_count": 10,
+  "ACMS_constant_A": {
+    "a": "1",
+    "b": "2/3",
+    "d": 3
+  },
+  "contact_threshold_c": {
+    "a": "11/7",
+    "b": "22/21",
+    "d": 3
+  },
+  "candidate_vector_domain": "Primitive nonzero lattice vectors z with gamma_P(z)<1 and all four difference barycentrics nonzero, identified up to sign",
+  "coordinate_bound_proof": "gamma_P(z) is the sum of positive difference barycentrics, so gamma_P(z)<1 implies z belongs to P-P. Every coordinate of P-P lies between minus and plus the corresponding coordinate range of P. The displayed closed box therefore contains every candidate in this domain.",
+  "pair_symmetry": "Flipping either vector preserves its mass, minimum absolute coefficient, distinctness of sign-code pairs and resulting bound, so one representative of each sign pair suffices.",
+  "bound_formula": "B=(m+2*A)/(m-S+2), S=a1+a2, m=minimum absolute value of all eight coefficients",
+  "bound_scope": "Assuming the reviewed two-vector contraction lemma and ACMS input, each recorded B bounds the lattice width of every full-dimensional hollow real tetrahedron containing an affine unimodular image of its contact hull. No boundary-contact hypothesis is needed. Nonsimplicial containing bodies are outside this statement.",
+  "search_scope": "Best means best among the displayed finite candidate domain only. No optimality is asserted outside gamma_P(z)<1, among nonprimitive vectors, or among other contraction arguments.",
+  "floating_point_decisions": false,
+  "classes": [
+    {
+      "class_index": 0,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 1,
+      "width_one_covector": [
+        0,
+        0,
+        1
+      ],
+      "coordinate_search_box": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 13,
+      "eligible_vector_count": 0,
+      "eligible_vectors": [],
+      "distinct_code_pair_count": 0,
+      "best_pair": null,
+      "all_eligible_pairs": []
+    },
+    {
+      "class_index": 1,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 2,
+      "width_one_covector": [
+        -1,
+        1,
+        1
+      ],
+      "coordinate_search_box": [
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 21,
+      "eligible_vector_count": 0,
+      "eligible_vectors": [],
+      "distinct_code_pair_count": 0,
+      "best_pair": null,
+      "all_eligible_pairs": []
+    },
+    {
+      "class_index": 2,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 3,
+      "width_one_covector": [
+        0,
+        0,
+        1
+      ],
+      "coordinate_search_box": [
+        [
+          -3,
+          3
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 29,
+      "eligible_vector_count": 1,
+      "eligible_vectors": [
+        {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "positive_mass": "2/3",
+          "difference_barycentrics": [
+            "1/3",
+            "1/3",
+            "-1/3",
+            "-1/3"
+          ]
+        }
+      ],
+      "distinct_code_pair_count": 0,
+      "best_pair": null,
+      "all_eligible_pairs": []
+    },
+    {
+      "class_index": 3,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 4,
+      "width_one_covector": [
+        0,
+        0,
+        1
+      ],
+      "coordinate_search_box": [
+        [
+          -4,
+          4
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 37,
+      "eligible_vector_count": 1,
+      "eligible_vectors": [
+        {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "positive_mass": "1/2",
+          "difference_barycentrics": [
+            "1/4",
+            "1/4",
+            "-1/4",
+            "-1/4"
+          ]
+        }
+      ],
+      "distinct_code_pair_count": 0,
+      "best_pair": null,
+      "all_eligible_pairs": []
+    },
+    {
+      "class_index": 4,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 5,
+      "width_one_covector": [
+        0,
+        0,
+        1
+      ],
+      "coordinate_search_box": [
+        [
+          -5,
+          5
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 45,
+      "eligible_vector_count": 1,
+      "eligible_vectors": [
+        {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "positive_mass": "2/5",
+          "difference_barycentrics": [
+            "1/5",
+            "1/5",
+            "-1/5",
+            "-1/5"
+          ]
+        }
+      ],
+      "distinct_code_pair_count": 0,
+      "best_pair": null,
+      "all_eligible_pairs": []
+    },
+    {
+      "class_index": 5,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 5,
+      "width_one_covector": [
+        0,
+        1,
+        0
+      ],
+      "coordinate_search_box": [
+        [
+          -5,
+          5
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 73,
+      "eligible_vector_count": 4,
+      "eligible_vectors": [
+        {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "positive_mass": "3/5",
+          "difference_barycentrics": [
+            "2/5",
+            "1/5",
+            "-1/5",
+            "-2/5"
+          ]
+        },
+        {
+          "vector": [
+            1,
+            0,
+            1
+          ],
+          "positive_mass": "4/5",
+          "difference_barycentrics": [
+            "-3/5",
+            "1/5",
+            "-1/5",
+            "3/5"
+          ]
+        },
+        {
+          "vector": [
+            2,
+            0,
+            1
+          ],
+          "positive_mass": "3/5",
+          "difference_barycentrics": [
+            "-1/5",
+            "2/5",
+            "-2/5",
+            "1/5"
+          ]
+        },
+        {
+          "vector": [
+            3,
+            0,
+            1
+          ],
+          "positive_mass": "4/5",
+          "difference_barycentrics": [
+            "1/5",
+            "3/5",
+            "-3/5",
+            "-1/5"
+          ]
+        }
+      ],
+      "distinct_code_pair_count": 4,
+      "best_pair": {
+        "vectors": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ],
+        "difference_barycentrics": [
+          [
+            "2/5",
+            "1/5",
+            "-1/5",
+            "-2/5"
+          ],
+          [
+            "-1/5",
+            "2/5",
+            "-2/5",
+            "1/5"
+          ]
+        ],
+        "positive_masses": [
+          "3/5",
+          "3/5"
+        ],
+        "column_sign_codes": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "minimum_absolute_coefficient": "1/5",
+        "mass_sum": "6/5",
+        "positive_bound_denominator": "1",
+        "global_class_bound": {
+          "a": "11/5",
+          "b": "4/3",
+          "d": 3
+        },
+        "bound_expression": "(11/5)+(4/3)*sqrt(3)",
+        "low_width_split": {
+          "a": "2",
+          "b": "4/3",
+          "d": 3
+        },
+        "strictly_below_contact_threshold_11A_over_7": false,
+        "strictly_below_candidate_2_plus_sqrt2": false
+      },
+      "all_eligible_pairs": [
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "2/5",
+              "1/5",
+              "-1/5",
+              "-2/5"
+            ],
+            [
+              "-1/5",
+              "2/5",
+              "-2/5",
+              "1/5"
+            ]
+          ],
+          "positive_masses": [
+            "3/5",
+            "3/5"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/5",
+          "mass_sum": "6/5",
+          "positive_bound_denominator": "1",
+          "global_class_bound": {
+            "a": "11/5",
+            "b": "4/3",
+            "d": 3
+          },
+          "bound_expression": "(11/5)+(4/3)*sqrt(3)",
+          "low_width_split": {
+            "a": "2",
+            "b": "4/3",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "2/5",
+              "1/5",
+              "-1/5",
+              "-2/5"
+            ],
+            [
+              "-3/5",
+              "1/5",
+              "-1/5",
+              "3/5"
+            ]
+          ],
+          "positive_masses": [
+            "3/5",
+            "4/5"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/5",
+          "mass_sum": "7/5",
+          "positive_bound_denominator": "4/5",
+          "global_class_bound": {
+            "a": "11/4",
+            "b": "5/3",
+            "d": 3
+          },
+          "bound_expression": "(11/4)+(5/3)*sqrt(3)",
+          "low_width_split": {
+            "a": "5/2",
+            "b": "5/3",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-1/5",
+              "2/5",
+              "-2/5",
+              "1/5"
+            ],
+            [
+              "1/5",
+              "3/5",
+              "-3/5",
+              "-1/5"
+            ]
+          ],
+          "positive_masses": [
+            "3/5",
+            "4/5"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/5",
+          "mass_sum": "7/5",
+          "positive_bound_denominator": "4/5",
+          "global_class_bound": {
+            "a": "11/4",
+            "b": "5/3",
+            "d": 3
+          },
+          "bound_expression": "(11/4)+(5/3)*sqrt(3)",
+          "low_width_split": {
+            "a": "5/2",
+            "b": "5/3",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-3/5",
+              "1/5",
+              "-1/5",
+              "3/5"
+            ],
+            [
+              "1/5",
+              "3/5",
+              "-3/5",
+              "-1/5"
+            ]
+          ],
+          "positive_masses": [
+            "4/5",
+            "4/5"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/5",
+          "mass_sum": "8/5",
+          "positive_bound_denominator": "3/5",
+          "global_class_bound": {
+            "a": "11/3",
+            "b": "20/9",
+            "d": 3
+          },
+          "bound_expression": "(11/3)+(20/9)*sqrt(3)",
+          "low_width_split": {
+            "a": "10/3",
+            "b": "20/9",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        }
+      ]
+    },
+    {
+      "class_index": 6,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 7,
+      "width_one_covector": [
+        0,
+        1,
+        0
+      ],
+      "coordinate_search_box": [
+        [
+          -7,
+          7
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 99,
+      "eligible_vector_count": 5,
+      "eligible_vectors": [
+        {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "positive_mass": "3/7",
+          "difference_barycentrics": [
+            "2/7",
+            "1/7",
+            "-1/7",
+            "-2/7"
+          ]
+        },
+        {
+          "vector": [
+            1,
+            0,
+            1
+          ],
+          "positive_mass": "6/7",
+          "difference_barycentrics": [
+            "-5/7",
+            "1/7",
+            "-1/7",
+            "5/7"
+          ]
+        },
+        {
+          "vector": [
+            2,
+            0,
+            1
+          ],
+          "positive_mass": "5/7",
+          "difference_barycentrics": [
+            "-3/7",
+            "2/7",
+            "-2/7",
+            "3/7"
+          ]
+        },
+        {
+          "vector": [
+            3,
+            0,
+            1
+          ],
+          "positive_mass": "4/7",
+          "difference_barycentrics": [
+            "-1/7",
+            "3/7",
+            "-3/7",
+            "1/7"
+          ]
+        },
+        {
+          "vector": [
+            4,
+            0,
+            1
+          ],
+          "positive_mass": "5/7",
+          "difference_barycentrics": [
+            "1/7",
+            "4/7",
+            "-4/7",
+            "-1/7"
+          ]
+        }
+      ],
+      "distinct_code_pair_count": 6,
+      "best_pair": {
+        "vectors": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "difference_barycentrics": [
+          [
+            "2/7",
+            "1/7",
+            "-1/7",
+            "-2/7"
+          ],
+          [
+            "-1/7",
+            "3/7",
+            "-3/7",
+            "1/7"
+          ]
+        ],
+        "positive_masses": [
+          "3/7",
+          "4/7"
+        ],
+        "column_sign_codes": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "minimum_absolute_coefficient": "1/7",
+        "mass_sum": "1",
+        "positive_bound_denominator": "8/7",
+        "global_class_bound": {
+          "a": "15/8",
+          "b": "7/6",
+          "d": 3
+        },
+        "bound_expression": "(15/8)+(7/6)*sqrt(3)",
+        "low_width_split": {
+          "a": "7/4",
+          "b": "7/6",
+          "d": 3
+        },
+        "strictly_below_contact_threshold_11A_over_7": false,
+        "strictly_below_candidate_2_plus_sqrt2": false
+      },
+      "all_eligible_pairs": [
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "2/7",
+              "1/7",
+              "-1/7",
+              "-2/7"
+            ],
+            [
+              "-1/7",
+              "3/7",
+              "-3/7",
+              "1/7"
+            ]
+          ],
+          "positive_masses": [
+            "3/7",
+            "4/7"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/7",
+          "mass_sum": "1",
+          "positive_bound_denominator": "8/7",
+          "global_class_bound": {
+            "a": "15/8",
+            "b": "7/6",
+            "d": 3
+          },
+          "bound_expression": "(15/8)+(7/6)*sqrt(3)",
+          "low_width_split": {
+            "a": "7/4",
+            "b": "7/6",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "2/7",
+              "1/7",
+              "-1/7",
+              "-2/7"
+            ],
+            [
+              "-3/7",
+              "2/7",
+              "-2/7",
+              "3/7"
+            ]
+          ],
+          "positive_masses": [
+            "3/7",
+            "5/7"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/7",
+          "mass_sum": "8/7",
+          "positive_bound_denominator": "1",
+          "global_class_bound": {
+            "a": "15/7",
+            "b": "4/3",
+            "d": 3
+          },
+          "bound_expression": "(15/7)+(4/3)*sqrt(3)",
+          "low_width_split": {
+            "a": "2",
+            "b": "4/3",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "2/7",
+              "1/7",
+              "-1/7",
+              "-2/7"
+            ],
+            [
+              "-5/7",
+              "1/7",
+              "-1/7",
+              "5/7"
+            ]
+          ],
+          "positive_masses": [
+            "3/7",
+            "6/7"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/7",
+          "mass_sum": "9/7",
+          "positive_bound_denominator": "6/7",
+          "global_class_bound": {
+            "a": "5/2",
+            "b": "14/9",
+            "d": 3
+          },
+          "bound_expression": "(5/2)+(14/9)*sqrt(3)",
+          "low_width_split": {
+            "a": "7/3",
+            "b": "14/9",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              4,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-1/7",
+              "3/7",
+              "-3/7",
+              "1/7"
+            ],
+            [
+              "1/7",
+              "4/7",
+              "-4/7",
+              "-1/7"
+            ]
+          ],
+          "positive_masses": [
+            "4/7",
+            "5/7"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/7",
+          "mass_sum": "9/7",
+          "positive_bound_denominator": "6/7",
+          "global_class_bound": {
+            "a": "5/2",
+            "b": "14/9",
+            "d": 3
+          },
+          "bound_expression": "(5/2)+(14/9)*sqrt(3)",
+          "low_width_split": {
+            "a": "7/3",
+            "b": "14/9",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              4,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-3/7",
+              "2/7",
+              "-2/7",
+              "3/7"
+            ],
+            [
+              "1/7",
+              "4/7",
+              "-4/7",
+              "-1/7"
+            ]
+          ],
+          "positive_masses": [
+            "5/7",
+            "5/7"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/7",
+          "mass_sum": "10/7",
+          "positive_bound_denominator": "5/7",
+          "global_class_bound": {
+            "a": "3",
+            "b": "28/15",
+            "d": 3
+          },
+          "bound_expression": "(3)+(28/15)*sqrt(3)",
+          "low_width_split": {
+            "a": "14/5",
+            "b": "28/15",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              4,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-5/7",
+              "1/7",
+              "-1/7",
+              "5/7"
+            ],
+            [
+              "1/7",
+              "4/7",
+              "-4/7",
+              "-1/7"
+            ]
+          ],
+          "positive_masses": [
+            "6/7",
+            "5/7"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/7",
+          "mass_sum": "11/7",
+          "positive_bound_denominator": "4/7",
+          "global_class_bound": {
+            "a": "15/4",
+            "b": "7/3",
+            "d": 3
+          },
+          "bound_expression": "(15/4)+(7/3)*sqrt(3)",
+          "low_width_split": {
+            "a": "7/2",
+            "b": "7/3",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        }
+      ]
+    },
+    {
+      "class_index": 7,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 8,
+      "width_one_covector": [
+        0,
+        1,
+        0
+      ],
+      "coordinate_search_box": [
+        [
+          -8,
+          8
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -3,
+          3
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 157,
+      "eligible_vector_count": 5,
+      "eligible_vectors": [
+        {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "positive_mass": "1/2",
+          "difference_barycentrics": [
+            "3/8",
+            "1/8",
+            "-1/8",
+            "-3/8"
+          ]
+        },
+        {
+          "vector": [
+            1,
+            0,
+            1
+          ],
+          "positive_mass": "3/4",
+          "difference_barycentrics": [
+            "-5/8",
+            "1/8",
+            "-1/8",
+            "5/8"
+          ]
+        },
+        {
+          "vector": [
+            2,
+            0,
+            1
+          ],
+          "positive_mass": "1/2",
+          "difference_barycentrics": [
+            "-1/4",
+            "1/4",
+            "-1/4",
+            "1/4"
+          ]
+        },
+        {
+          "vector": [
+            3,
+            0,
+            1
+          ],
+          "positive_mass": "1/2",
+          "difference_barycentrics": [
+            "1/8",
+            "3/8",
+            "-3/8",
+            "-1/8"
+          ]
+        },
+        {
+          "vector": [
+            5,
+            0,
+            2
+          ],
+          "positive_mass": "3/4",
+          "difference_barycentrics": [
+            "-1/8",
+            "5/8",
+            "-5/8",
+            "1/8"
+          ]
+        }
+      ],
+      "distinct_code_pair_count": 6,
+      "best_pair": {
+        "vectors": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ],
+        "difference_barycentrics": [
+          [
+            "3/8",
+            "1/8",
+            "-1/8",
+            "-3/8"
+          ],
+          [
+            "-1/4",
+            "1/4",
+            "-1/4",
+            "1/4"
+          ]
+        ],
+        "positive_masses": [
+          "1/2",
+          "1/2"
+        ],
+        "column_sign_codes": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "minimum_absolute_coefficient": "1/8",
+        "mass_sum": "1",
+        "positive_bound_denominator": "9/8",
+        "global_class_bound": {
+          "a": "17/9",
+          "b": "32/27",
+          "d": 3
+        },
+        "bound_expression": "(17/9)+(32/27)*sqrt(3)",
+        "low_width_split": {
+          "a": "16/9",
+          "b": "32/27",
+          "d": 3
+        },
+        "strictly_below_contact_threshold_11A_over_7": false,
+        "strictly_below_candidate_2_plus_sqrt2": false
+      },
+      "all_eligible_pairs": [
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "3/8",
+              "1/8",
+              "-1/8",
+              "-3/8"
+            ],
+            [
+              "-1/4",
+              "1/4",
+              "-1/4",
+              "1/4"
+            ]
+          ],
+          "positive_masses": [
+            "1/2",
+            "1/2"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/8",
+          "mass_sum": "1",
+          "positive_bound_denominator": "9/8",
+          "global_class_bound": {
+            "a": "17/9",
+            "b": "32/27",
+            "d": 3
+          },
+          "bound_expression": "(17/9)+(32/27)*sqrt(3)",
+          "low_width_split": {
+            "a": "16/9",
+            "b": "32/27",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-1/4",
+              "1/4",
+              "-1/4",
+              "1/4"
+            ],
+            [
+              "1/8",
+              "3/8",
+              "-3/8",
+              "-1/8"
+            ]
+          ],
+          "positive_masses": [
+            "1/2",
+            "1/2"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/8",
+          "mass_sum": "1",
+          "positive_bound_denominator": "9/8",
+          "global_class_bound": {
+            "a": "17/9",
+            "b": "32/27",
+            "d": 3
+          },
+          "bound_expression": "(17/9)+(32/27)*sqrt(3)",
+          "low_width_split": {
+            "a": "16/9",
+            "b": "32/27",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "3/8",
+              "1/8",
+              "-1/8",
+              "-3/8"
+            ],
+            [
+              "-5/8",
+              "1/8",
+              "-1/8",
+              "5/8"
+            ]
+          ],
+          "positive_masses": [
+            "1/2",
+            "3/4"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/8",
+          "mass_sum": "5/4",
+          "positive_bound_denominator": "7/8",
+          "global_class_bound": {
+            "a": "17/7",
+            "b": "32/21",
+            "d": 3
+          },
+          "bound_expression": "(17/7)+(32/21)*sqrt(3)",
+          "low_width_split": {
+            "a": "16/7",
+            "b": "32/21",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              2
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "3/8",
+              "1/8",
+              "-1/8",
+              "-3/8"
+            ],
+            [
+              "-1/8",
+              "5/8",
+              "-5/8",
+              "1/8"
+            ]
+          ],
+          "positive_masses": [
+            "1/2",
+            "3/4"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/8",
+          "mass_sum": "5/4",
+          "positive_bound_denominator": "7/8",
+          "global_class_bound": {
+            "a": "17/7",
+            "b": "32/21",
+            "d": 3
+          },
+          "bound_expression": "(17/7)+(32/21)*sqrt(3)",
+          "low_width_split": {
+            "a": "16/7",
+            "b": "32/21",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-5/8",
+              "1/8",
+              "-1/8",
+              "5/8"
+            ],
+            [
+              "1/8",
+              "3/8",
+              "-3/8",
+              "-1/8"
+            ]
+          ],
+          "positive_masses": [
+            "3/4",
+            "1/2"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/8",
+          "mass_sum": "5/4",
+          "positive_bound_denominator": "7/8",
+          "global_class_bound": {
+            "a": "17/7",
+            "b": "32/21",
+            "d": 3
+          },
+          "bound_expression": "(17/7)+(32/21)*sqrt(3)",
+          "low_width_split": {
+            "a": "16/7",
+            "b": "32/21",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              5,
+              0,
+              2
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "1/8",
+              "3/8",
+              "-3/8",
+              "-1/8"
+            ],
+            [
+              "-1/8",
+              "5/8",
+              "-5/8",
+              "1/8"
+            ]
+          ],
+          "positive_masses": [
+            "1/2",
+            "3/4"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/8",
+          "mass_sum": "5/4",
+          "positive_bound_denominator": "7/8",
+          "global_class_bound": {
+            "a": "17/7",
+            "b": "32/21",
+            "d": 3
+          },
+          "bound_expression": "(17/7)+(32/21)*sqrt(3)",
+          "low_width_split": {
+            "a": "16/7",
+            "b": "32/21",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        }
+      ]
+    },
+    {
+      "class_index": 8,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 10,
+      "width_one_covector": [
+        0,
+        1,
+        0
+      ],
+      "coordinate_search_box": [
+        [
+          -10,
+          10
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -3,
+          3
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 193,
+      "eligible_vector_count": 6,
+      "eligible_vectors": [
+        {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "positive_mass": "2/5",
+          "difference_barycentrics": [
+            "3/10",
+            "1/10",
+            "-1/10",
+            "-3/10"
+          ]
+        },
+        {
+          "vector": [
+            1,
+            0,
+            1
+          ],
+          "positive_mass": "4/5",
+          "difference_barycentrics": [
+            "-7/10",
+            "1/10",
+            "-1/10",
+            "7/10"
+          ]
+        },
+        {
+          "vector": [
+            2,
+            0,
+            1
+          ],
+          "positive_mass": "3/5",
+          "difference_barycentrics": [
+            "-2/5",
+            "1/5",
+            "-1/5",
+            "2/5"
+          ]
+        },
+        {
+          "vector": [
+            3,
+            0,
+            1
+          ],
+          "positive_mass": "2/5",
+          "difference_barycentrics": [
+            "-1/10",
+            "3/10",
+            "-3/10",
+            "1/10"
+          ]
+        },
+        {
+          "vector": [
+            4,
+            0,
+            1
+          ],
+          "positive_mass": "3/5",
+          "difference_barycentrics": [
+            "1/5",
+            "2/5",
+            "-2/5",
+            "-1/5"
+          ]
+        },
+        {
+          "vector": [
+            7,
+            0,
+            2
+          ],
+          "positive_mass": "4/5",
+          "difference_barycentrics": [
+            "1/10",
+            "7/10",
+            "-7/10",
+            "-1/10"
+          ]
+        }
+      ],
+      "distinct_code_pair_count": 9,
+      "best_pair": {
+        "vectors": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "difference_barycentrics": [
+          [
+            "3/10",
+            "1/10",
+            "-1/10",
+            "-3/10"
+          ],
+          [
+            "-1/10",
+            "3/10",
+            "-3/10",
+            "1/10"
+          ]
+        ],
+        "positive_masses": [
+          "2/5",
+          "2/5"
+        ],
+        "column_sign_codes": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "minimum_absolute_coefficient": "1/10",
+        "mass_sum": "4/5",
+        "positive_bound_denominator": "13/10",
+        "global_class_bound": {
+          "a": "21/13",
+          "b": "40/39",
+          "d": 3
+        },
+        "bound_expression": "(21/13)+(40/39)*sqrt(3)",
+        "low_width_split": {
+          "a": "20/13",
+          "b": "40/39",
+          "d": 3
+        },
+        "strictly_below_contact_threshold_11A_over_7": false,
+        "strictly_below_candidate_2_plus_sqrt2": true
+      },
+      "all_eligible_pairs": [
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "3/10",
+              "1/10",
+              "-1/10",
+              "-3/10"
+            ],
+            [
+              "-1/10",
+              "3/10",
+              "-3/10",
+              "1/10"
+            ]
+          ],
+          "positive_masses": [
+            "2/5",
+            "2/5"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/10",
+          "mass_sum": "4/5",
+          "positive_bound_denominator": "13/10",
+          "global_class_bound": {
+            "a": "21/13",
+            "b": "40/39",
+            "d": 3
+          },
+          "bound_expression": "(21/13)+(40/39)*sqrt(3)",
+          "low_width_split": {
+            "a": "20/13",
+            "b": "40/39",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": true
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "3/10",
+              "1/10",
+              "-1/10",
+              "-3/10"
+            ],
+            [
+              "-2/5",
+              "1/5",
+              "-1/5",
+              "2/5"
+            ]
+          ],
+          "positive_masses": [
+            "2/5",
+            "3/5"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/10",
+          "mass_sum": "1",
+          "positive_bound_denominator": "11/10",
+          "global_class_bound": {
+            "a": "21/11",
+            "b": "40/33",
+            "d": 3
+          },
+          "bound_expression": "(21/11)+(40/33)*sqrt(3)",
+          "low_width_split": {
+            "a": "20/11",
+            "b": "40/33",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              4,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-1/10",
+              "3/10",
+              "-3/10",
+              "1/10"
+            ],
+            [
+              "1/5",
+              "2/5",
+              "-2/5",
+              "-1/5"
+            ]
+          ],
+          "positive_masses": [
+            "2/5",
+            "3/5"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/10",
+          "mass_sum": "1",
+          "positive_bound_denominator": "11/10",
+          "global_class_bound": {
+            "a": "21/11",
+            "b": "40/33",
+            "d": 3
+          },
+          "bound_expression": "(21/11)+(40/33)*sqrt(3)",
+          "low_width_split": {
+            "a": "20/11",
+            "b": "40/33",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              4,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-2/5",
+              "1/5",
+              "-1/5",
+              "2/5"
+            ],
+            [
+              "1/5",
+              "2/5",
+              "-2/5",
+              "-1/5"
+            ]
+          ],
+          "positive_masses": [
+            "3/5",
+            "3/5"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/5",
+          "mass_sum": "6/5",
+          "positive_bound_denominator": "1",
+          "global_class_bound": {
+            "a": "11/5",
+            "b": "4/3",
+            "d": 3
+          },
+          "bound_expression": "(11/5)+(4/3)*sqrt(3)",
+          "low_width_split": {
+            "a": "2",
+            "b": "4/3",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "3/10",
+              "1/10",
+              "-1/10",
+              "-3/10"
+            ],
+            [
+              "-7/10",
+              "1/10",
+              "-1/10",
+              "7/10"
+            ]
+          ],
+          "positive_masses": [
+            "2/5",
+            "4/5"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/10",
+          "mass_sum": "6/5",
+          "positive_bound_denominator": "9/10",
+          "global_class_bound": {
+            "a": "7/3",
+            "b": "40/27",
+            "d": 3
+          },
+          "bound_expression": "(7/3)+(40/27)*sqrt(3)",
+          "low_width_split": {
+            "a": "20/9",
+            "b": "40/27",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              7,
+              0,
+              2
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-1/10",
+              "3/10",
+              "-3/10",
+              "1/10"
+            ],
+            [
+              "1/10",
+              "7/10",
+              "-7/10",
+              "-1/10"
+            ]
+          ],
+          "positive_masses": [
+            "2/5",
+            "4/5"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/10",
+          "mass_sum": "6/5",
+          "positive_bound_denominator": "9/10",
+          "global_class_bound": {
+            "a": "7/3",
+            "b": "40/27",
+            "d": 3
+          },
+          "bound_expression": "(7/3)+(40/27)*sqrt(3)",
+          "low_width_split": {
+            "a": "20/9",
+            "b": "40/27",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              4,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-7/10",
+              "1/10",
+              "-1/10",
+              "7/10"
+            ],
+            [
+              "1/5",
+              "2/5",
+              "-2/5",
+              "-1/5"
+            ]
+          ],
+          "positive_masses": [
+            "4/5",
+            "3/5"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/10",
+          "mass_sum": "7/5",
+          "positive_bound_denominator": "7/10",
+          "global_class_bound": {
+            "a": "3",
+            "b": "40/21",
+            "d": 3
+          },
+          "bound_expression": "(3)+(40/21)*sqrt(3)",
+          "low_width_split": {
+            "a": "20/7",
+            "b": "40/21",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              7,
+              0,
+              2
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-2/5",
+              "1/5",
+              "-1/5",
+              "2/5"
+            ],
+            [
+              "1/10",
+              "7/10",
+              "-7/10",
+              "-1/10"
+            ]
+          ],
+          "positive_masses": [
+            "3/5",
+            "4/5"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/10",
+          "mass_sum": "7/5",
+          "positive_bound_denominator": "7/10",
+          "global_class_bound": {
+            "a": "3",
+            "b": "40/21",
+            "d": 3
+          },
+          "bound_expression": "(3)+(40/21)*sqrt(3)",
+          "low_width_split": {
+            "a": "20/7",
+            "b": "40/21",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              7,
+              0,
+              2
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-7/10",
+              "1/10",
+              "-1/10",
+              "7/10"
+            ],
+            [
+              "1/10",
+              "7/10",
+              "-7/10",
+              "-1/10"
+            ]
+          ],
+          "positive_masses": [
+            "4/5",
+            "4/5"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/10",
+          "mass_sum": "8/5",
+          "positive_bound_denominator": "1/2",
+          "global_class_bound": {
+            "a": "21/5",
+            "b": "8/3",
+            "d": 3
+          },
+          "bound_expression": "(21/5)+(8/3)*sqrt(3)",
+          "low_width_split": {
+            "a": "4",
+            "b": "8/3",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        }
+      ]
+    },
+    {
+      "class_index": 9,
+      "contact_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "normalized_determinant": 13,
+      "width_one_covector": [
+        0,
+        1,
+        0
+      ],
+      "coordinate_search_box": [
+        [
+          -13,
+          13
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -5,
+          5
+        ]
+      ],
+      "primitive_vectors_up_to_sign_in_box": 393,
+      "eligible_vector_count": 8,
+      "eligible_vectors": [
+        {
+          "vector": [
+            1,
+            0,
+            0
+          ],
+          "positive_mass": "6/13",
+          "difference_barycentrics": [
+            "5/13",
+            "1/13",
+            "-1/13",
+            "-5/13"
+          ]
+        },
+        {
+          "vector": [
+            1,
+            0,
+            1
+          ],
+          "positive_mass": "9/13",
+          "difference_barycentrics": [
+            "-8/13",
+            "1/13",
+            "-1/13",
+            "8/13"
+          ]
+        },
+        {
+          "vector": [
+            2,
+            0,
+            1
+          ],
+          "positive_mass": "5/13",
+          "difference_barycentrics": [
+            "-3/13",
+            "2/13",
+            "-2/13",
+            "3/13"
+          ]
+        },
+        {
+          "vector": [
+            3,
+            0,
+            1
+          ],
+          "positive_mass": "5/13",
+          "difference_barycentrics": [
+            "2/13",
+            "3/13",
+            "-3/13",
+            "-2/13"
+          ]
+        },
+        {
+          "vector": [
+            4,
+            0,
+            1
+          ],
+          "positive_mass": "11/13",
+          "difference_barycentrics": [
+            "7/13",
+            "4/13",
+            "-4/13",
+            "-7/13"
+          ]
+        },
+        {
+          "vector": [
+            5,
+            0,
+            2
+          ],
+          "positive_mass": "6/13",
+          "difference_barycentrics": [
+            "-1/13",
+            "5/13",
+            "-5/13",
+            "1/13"
+          ]
+        },
+        {
+          "vector": [
+            7,
+            0,
+            3
+          ],
+          "positive_mass": "11/13",
+          "difference_barycentrics": [
+            "-4/13",
+            "7/13",
+            "-7/13",
+            "4/13"
+          ]
+        },
+        {
+          "vector": [
+            8,
+            0,
+            3
+          ],
+          "positive_mass": "9/13",
+          "difference_barycentrics": [
+            "1/13",
+            "8/13",
+            "-8/13",
+            "-1/13"
+          ]
+        }
+      ],
+      "distinct_code_pair_count": 16,
+      "best_pair": {
+        "vectors": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "difference_barycentrics": [
+          [
+            "-3/13",
+            "2/13",
+            "-2/13",
+            "3/13"
+          ],
+          [
+            "2/13",
+            "3/13",
+            "-3/13",
+            "-2/13"
+          ]
+        ],
+        "positive_masses": [
+          "5/13",
+          "5/13"
+        ],
+        "column_sign_codes": [
+          [
+            -1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "minimum_absolute_coefficient": "2/13",
+        "mass_sum": "10/13",
+        "positive_bound_denominator": "18/13",
+        "global_class_bound": {
+          "a": "14/9",
+          "b": "26/27",
+          "d": 3
+        },
+        "bound_expression": "(14/9)+(26/27)*sqrt(3)",
+        "low_width_split": {
+          "a": "13/9",
+          "b": "26/27",
+          "d": 3
+        },
+        "strictly_below_contact_threshold_11A_over_7": true,
+        "strictly_below_candidate_2_plus_sqrt2": true
+      },
+      "all_eligible_pairs": [
+        {
+          "vectors": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-3/13",
+              "2/13",
+              "-2/13",
+              "3/13"
+            ],
+            [
+              "2/13",
+              "3/13",
+              "-3/13",
+              "-2/13"
+            ]
+          ],
+          "positive_masses": [
+            "5/13",
+            "5/13"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "2/13",
+          "mass_sum": "10/13",
+          "positive_bound_denominator": "18/13",
+          "global_class_bound": {
+            "a": "14/9",
+            "b": "26/27",
+            "d": 3
+          },
+          "bound_expression": "(14/9)+(26/27)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/9",
+            "b": "26/27",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": true,
+          "strictly_below_candidate_2_plus_sqrt2": true
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "5/13",
+              "1/13",
+              "-1/13",
+              "-5/13"
+            ],
+            [
+              "-3/13",
+              "2/13",
+              "-2/13",
+              "3/13"
+            ]
+          ],
+          "positive_masses": [
+            "6/13",
+            "5/13"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "11/13",
+          "positive_bound_denominator": "16/13",
+          "global_class_bound": {
+            "a": "27/16",
+            "b": "13/12",
+            "d": 3
+          },
+          "bound_expression": "(27/16)+(13/12)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/8",
+            "b": "13/12",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              5,
+              0,
+              2
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "2/13",
+              "3/13",
+              "-3/13",
+              "-2/13"
+            ],
+            [
+              "-1/13",
+              "5/13",
+              "-5/13",
+              "1/13"
+            ]
+          ],
+          "positive_masses": [
+            "5/13",
+            "6/13"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "11/13",
+          "positive_bound_denominator": "16/13",
+          "global_class_bound": {
+            "a": "27/16",
+            "b": "13/12",
+            "d": 3
+          },
+          "bound_expression": "(27/16)+(13/12)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/8",
+            "b": "13/12",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              2
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "5/13",
+              "1/13",
+              "-1/13",
+              "-5/13"
+            ],
+            [
+              "-1/13",
+              "5/13",
+              "-5/13",
+              "1/13"
+            ]
+          ],
+          "positive_masses": [
+            "6/13",
+            "6/13"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "12/13",
+          "positive_bound_denominator": "15/13",
+          "global_class_bound": {
+            "a": "9/5",
+            "b": "52/45",
+            "d": 3
+          },
+          "bound_expression": "(9/5)+(52/45)*sqrt(3)",
+          "low_width_split": {
+            "a": "26/15",
+            "b": "52/45",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-8/13",
+              "1/13",
+              "-1/13",
+              "8/13"
+            ],
+            [
+              "2/13",
+              "3/13",
+              "-3/13",
+              "-2/13"
+            ]
+          ],
+          "positive_masses": [
+            "9/13",
+            "5/13"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "14/13",
+          "positive_bound_denominator": "1",
+          "global_class_bound": {
+            "a": "27/13",
+            "b": "4/3",
+            "d": 3
+          },
+          "bound_expression": "(27/13)+(4/3)*sqrt(3)",
+          "low_width_split": {
+            "a": "2",
+            "b": "4/3",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              8,
+              0,
+              3
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-3/13",
+              "2/13",
+              "-2/13",
+              "3/13"
+            ],
+            [
+              "1/13",
+              "8/13",
+              "-8/13",
+              "-1/13"
+            ]
+          ],
+          "positive_masses": [
+            "5/13",
+            "9/13"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "14/13",
+          "positive_bound_denominator": "1",
+          "global_class_bound": {
+            "a": "27/13",
+            "b": "4/3",
+            "d": 3
+          },
+          "bound_expression": "(27/13)+(4/3)*sqrt(3)",
+          "low_width_split": {
+            "a": "2",
+            "b": "4/3",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "5/13",
+              "1/13",
+              "-1/13",
+              "-5/13"
+            ],
+            [
+              "-8/13",
+              "1/13",
+              "-1/13",
+              "8/13"
+            ]
+          ],
+          "positive_masses": [
+            "6/13",
+            "9/13"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "15/13",
+          "positive_bound_denominator": "12/13",
+          "global_class_bound": {
+            "a": "9/4",
+            "b": "13/9",
+            "d": 3
+          },
+          "bound_expression": "(9/4)+(13/9)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/6",
+            "b": "13/9",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              5,
+              0,
+              2
+            ],
+            [
+              8,
+              0,
+              3
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-1/13",
+              "5/13",
+              "-5/13",
+              "1/13"
+            ],
+            [
+              "1/13",
+              "8/13",
+              "-8/13",
+              "-1/13"
+            ]
+          ],
+          "positive_masses": [
+            "6/13",
+            "9/13"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "15/13",
+          "positive_bound_denominator": "12/13",
+          "global_class_bound": {
+            "a": "9/4",
+            "b": "13/9",
+            "d": 3
+          },
+          "bound_expression": "(9/4)+(13/9)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/6",
+            "b": "13/9",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              4,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-3/13",
+              "2/13",
+              "-2/13",
+              "3/13"
+            ],
+            [
+              "7/13",
+              "4/13",
+              "-4/13",
+              "-7/13"
+            ]
+          ],
+          "positive_masses": [
+            "5/13",
+            "11/13"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "2/13",
+          "mass_sum": "16/13",
+          "positive_bound_denominator": "12/13",
+          "global_class_bound": {
+            "a": "7/3",
+            "b": "13/9",
+            "d": 3
+          },
+          "bound_expression": "(7/3)+(13/9)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/6",
+            "b": "13/9",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              7,
+              0,
+              3
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "2/13",
+              "3/13",
+              "-3/13",
+              "-2/13"
+            ],
+            [
+              "-4/13",
+              "7/13",
+              "-7/13",
+              "4/13"
+            ]
+          ],
+          "positive_masses": [
+            "5/13",
+            "11/13"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "2/13",
+          "mass_sum": "16/13",
+          "positive_bound_denominator": "12/13",
+          "global_class_bound": {
+            "a": "7/3",
+            "b": "13/9",
+            "d": 3
+          },
+          "bound_expression": "(7/3)+(13/9)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/6",
+            "b": "13/9",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              7,
+              0,
+              3
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "5/13",
+              "1/13",
+              "-1/13",
+              "-5/13"
+            ],
+            [
+              "-4/13",
+              "7/13",
+              "-7/13",
+              "4/13"
+            ]
+          ],
+          "positive_masses": [
+            "6/13",
+            "11/13"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "17/13",
+          "positive_bound_denominator": "10/13",
+          "global_class_bound": {
+            "a": "27/10",
+            "b": "26/15",
+            "d": 3
+          },
+          "bound_expression": "(27/10)+(26/15)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/5",
+            "b": "26/15",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              4,
+              0,
+              1
+            ],
+            [
+              5,
+              0,
+              2
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "7/13",
+              "4/13",
+              "-4/13",
+              "-7/13"
+            ],
+            [
+              "-1/13",
+              "5/13",
+              "-5/13",
+              "1/13"
+            ]
+          ],
+          "positive_masses": [
+            "11/13",
+            "6/13"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "17/13",
+          "positive_bound_denominator": "10/13",
+          "global_class_bound": {
+            "a": "27/10",
+            "b": "26/15",
+            "d": 3
+          },
+          "bound_expression": "(27/10)+(26/15)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/5",
+            "b": "26/15",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              8,
+              0,
+              3
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-8/13",
+              "1/13",
+              "-1/13",
+              "8/13"
+            ],
+            [
+              "1/13",
+              "8/13",
+              "-8/13",
+              "-1/13"
+            ]
+          ],
+          "positive_masses": [
+            "9/13",
+            "9/13"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "18/13",
+          "positive_bound_denominator": "9/13",
+          "global_class_bound": {
+            "a": "3",
+            "b": "52/27",
+            "d": 3
+          },
+          "bound_expression": "(3)+(52/27)*sqrt(3)",
+          "low_width_split": {
+            "a": "26/9",
+            "b": "52/27",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              4,
+              0,
+              1
+            ],
+            [
+              7,
+              0,
+              3
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "7/13",
+              "4/13",
+              "-4/13",
+              "-7/13"
+            ],
+            [
+              "-4/13",
+              "7/13",
+              "-7/13",
+              "4/13"
+            ]
+          ],
+          "positive_masses": [
+            "11/13",
+            "11/13"
+          ],
+          "column_sign_codes": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "minimum_absolute_coefficient": "4/13",
+          "mass_sum": "22/13",
+          "positive_bound_denominator": "8/13",
+          "global_class_bound": {
+            "a": "15/4",
+            "b": "13/6",
+            "d": 3
+          },
+          "bound_expression": "(15/4)+(13/6)*sqrt(3)",
+          "low_width_split": {
+            "a": "13/4",
+            "b": "13/6",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              4,
+              0,
+              1
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-8/13",
+              "1/13",
+              "-1/13",
+              "8/13"
+            ],
+            [
+              "7/13",
+              "4/13",
+              "-4/13",
+              "-7/13"
+            ]
+          ],
+          "positive_masses": [
+            "9/13",
+            "11/13"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "20/13",
+          "positive_bound_denominator": "7/13",
+          "global_class_bound": {
+            "a": "27/7",
+            "b": "52/21",
+            "d": 3
+          },
+          "bound_expression": "(27/7)+(52/21)*sqrt(3)",
+          "low_width_split": {
+            "a": "26/7",
+            "b": "52/21",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        },
+        {
+          "vectors": [
+            [
+              7,
+              0,
+              3
+            ],
+            [
+              8,
+              0,
+              3
+            ]
+          ],
+          "difference_barycentrics": [
+            [
+              "-4/13",
+              "7/13",
+              "-7/13",
+              "4/13"
+            ],
+            [
+              "1/13",
+              "8/13",
+              "-8/13",
+              "-1/13"
+            ]
+          ],
+          "positive_masses": [
+            "11/13",
+            "9/13"
+          ],
+          "column_sign_codes": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "minimum_absolute_coefficient": "1/13",
+          "mass_sum": "20/13",
+          "positive_bound_denominator": "7/13",
+          "global_class_bound": {
+            "a": "27/7",
+            "b": "52/21",
+            "d": 3
+          },
+          "bound_expression": "(27/7)+(52/21)*sqrt(3)",
+          "low_width_split": {
+            "a": "26/7",
+            "b": "52/21",
+            "d": 3
+          },
+          "strictly_below_contact_threshold_11A_over_7": false,
+          "strictly_below_candidate_2_plus_sqrt2": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "weighted": {
+    "weight_candidates": 123,
+    "best_bounds": {
+      "5": {
+        "a": "11/5",
+        "b": "4/3",
+        "d": 3
+      },
+      "7": {
+        "a": "7/4",
+        "b": "7/6",
+        "d": 3
+      },
+      "8": {
+        "a": "13/7",
+        "b": "8/7",
+        "d": 3
+      },
+      "10": {
+        "a": "21/13",
+        "b": "40/39",
+        "d": 3
+      },
+      "13": {
+        "a": "14/9",
+        "b": "26/27",
+        "d": 3
+      }
+    }
+  },
+  "nonstrict_trace_models": [
+    {
+      "class_index": 6,
+      "width": "3162/2515",
+      "integer_points_checked": 66,
+      "width_directions_checked": 6,
+      "total_leakage": "12/17",
+      "global_difference_minimum": "45/124",
+      "minimum_vectors": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "difference_box_bounds": [
+        10,
+        1,
+        2
+      ]
+    },
+    {
+      "class_index": 7,
+      "width": "596643152/315251935",
+      "integer_points_checked": 80,
+      "width_directions_checked": 29,
+      "total_leakage": "12/17",
+      "global_difference_minimum": "2799/7616",
+      "minimum_vectors": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "difference_box_bounds": [
+        10,
+        1,
+        4
+      ]
+    }
+  ],
+  "strict_trace_models": [
+    {
+      "class_index": 6,
+      "width": "2380/1893",
+      "integer_points_checked": 66,
+      "width_directions_checked": 6,
+      "total_leakage": "5041/7140",
+      "global_difference_minimum": "2591/7140",
+      "minimum_vectors": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "difference_box_bounds": [
+        10,
+        1,
+        2
+      ]
+    },
+    {
+      "class_index": 7,
+      "width": "579334934324160/305964690282487",
+      "integer_points_checked": 80,
+      "width_directions_checked": 29,
+      "total_leakage": "34613/48960",
+      "global_difference_minimum": "125857/342720",
+      "minimum_vectors": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "difference_box_bounds": [
+        10,
+        1,
+        4
+      ]
+    }
+  ],
+  "rejected_mutations": 4
+}

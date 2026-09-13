@@ -44,3 +44,12 @@
 
 Proofs: proofs/CONTACT_OBSTRUCTION_REDUCTION.md and
 proofs/CONTACT_HULL_FINITE_REDUCTION.md.
+
+## Subsequent analytic refinement
+
+[CLAIM-0006](CLAIM-0006.md) excludes the full determinant-13 tetrahedral
+contact hull above the threshold of this claim, reducing the necessary list
+to 62. At width at least 2+sqrt(2), the full determinant-10 tetrahedral hull
+is also excluded, leaving 61. The original 63-type certificate remains a
+valid necessary superset; no larger hull is deleted merely because it
+contains one of those tetrahedral subsets.

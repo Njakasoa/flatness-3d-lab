@@ -1,0 +1,32 @@
+{
+  "status": "verified_checkpoint",
+  "old_certificates_unchanged": 29,
+  "artifact_sha256": {
+    "certificates/weighted_two_vector_bounds.json": "3a32672b1ab58ec4f0c5a00ceb578620ea132c05e4cfe661fdbbcde0e871890f",
+    "results/contact_contraction_trace_probe.json": "f253ad3de972485f6edae8212a43beff7890dcb355d3d59892b54dc43ac398f3",
+    "results/contact_contraction_trace_probe_strict.json": "81f1d92899e7bd5edbafcee8dd77567037cf56c13abfceac9ccc64ab8f5259f2",
+    "results/contraction_trace_class_6.smt2": "5175404bd5b45acc8bd94753ee532c980eb6b4c2f110734accf0d5876d376744",
+    "results/contraction_trace_class_6_strict.smt2": "d0b3b26b08f470f7cc159f8b2f8dd26596a76c9459665418e0e7db043f7f7460",
+    "results/contraction_trace_class_7.smt2": "11e71d1217ea025d5e21586a9dcb670cf9980d85ab6a360ce1e466d67e974927",
+    "results/contraction_trace_class_7_strict.smt2": "88742a2bd1a5b1c2de265992f6704e295ecad69eddcc6d539c508cad8924c8d7",
+    "results/nonunimodular_complete_class_6.smt2": "a2c77618374ff73086649933b039847d6bdfec618bb0149c204676f380752d88",
+    "results/nonunimodular_complete_class_7.smt2": "1c7e88a080752cbff0093d5cdbabbe60d8fed7e0baf55a498d142ae3c2a0d099",
+    "results/nonunimodular_complete_smt.json": "386a94f870ea74b63721e4ba549b368fcd6619157bc87172a3c0c4a5b03a9279",
+    "results/nonunimodular_encoding_validation.json": "6d250be89181f61ad1bb91bc9e68bc4419c946aff1f6eadadb235df15b6ca772",
+    "results/weighted_trace_validation.json": "ebc93eb16135c84d1701ffde3c08dea785f4136b5a6257b2b7ce55e91a667b4d"
+  },
+  "new_width_class_exclusions": 0,
+  "remaining_classes_at_candidate": 61,
+  "weighted_bound_determinant8": "(13+24/sqrt(3))/7",
+  "exact_weight_candidates": 123,
+  "exact_trace_bodies_replayed": 4,
+  "independent_mutations_rejected": 4,
+  "encoding_audit_solver_queries": 0,
+  "new_bounded_LRA_queries": 4,
+  "new_bounded_NRA_target_queries": 2,
+  "NRA_target_outcomes": [
+    "unknown",
+    "unknown"
+  ],
+  "scope": "Source checkpoint with exact arithmetic replay and read-only encoding audit. No new independent mathematical review or external novelty confirmation."
+}

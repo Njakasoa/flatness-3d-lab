@@ -1,0 +1,312 @@
+{
+  "scope": "Complete hollow tetrahedron targets in the specified relative-interior facet-contact charts at width 17/5, with necessary rational ACMS cuts. UNKNOWN is not infeasibility; any SAT requires independent reconstruction.",
+  "z3_version": "5.1.0",
+  "results": [
+    {
+      "class_index": 6,
+      "determinant": 7,
+      "target": "17/5",
+      "beta": "37/102",
+      "real_variable_count": 8,
+      "width_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          -1
+        ],
+        [
+          1,
+          -3,
+          -3
+        ],
+        [
+          1,
+          -3,
+          -2
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -2
+        ],
+        [
+          1,
+          -1,
+          -3
+        ]
+      ],
+      "width_direction_count": 10,
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          7,
+          0,
+          2
+        ],
+        [
+          7,
+          1,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ]
+      ],
+      "guard_count": 20,
+      "controls": {
+        "F": [
+          [
+            "0",
+            "499/500",
+            "1/1000",
+            "1/1000"
+          ],
+          [
+            "499/500",
+            "0",
+            "1/1000",
+            "1/1000"
+          ],
+          [
+            "1/1000",
+            "1/1000",
+            "0",
+            "499/500"
+          ],
+          [
+            "1/1000",
+            "1/1000",
+            "499/500",
+            "0"
+          ]
+        ],
+        "width_one_control": "sat",
+        "target_width_control": "unsat",
+        "scope": "Lower-threshold pin is a control only; all completeness claims concern target 17/5."
+      },
+      "status": "unknown",
+      "elapsed_seconds": 11.536797315999138,
+      "timeout_ms": 10000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "class_index": 7,
+      "determinant": 8,
+      "target": "17/5",
+      "beta": "37/102",
+      "real_variable_count": 8,
+      "width_directions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          -1
+        ],
+        [
+          1,
+          -3,
+          -2
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -2
+        ],
+        [
+          1,
+          -1,
+          -3
+        ],
+        [
+          1,
+          -1,
+          -2
+        ],
+        [
+          1,
+          0,
+          -3
+        ]
+      ],
+      "width_direction_count": 10,
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          8,
+          0,
+          3
+        ],
+        [
+          8,
+          1,
+          2
+        ],
+        [
+          8,
+          1,
+          3
+        ]
+      ],
+      "guard_count": 20,
+      "controls": {
+        "F": [
+          [
+            "0",
+            "499/500",
+            "1/1000",
+            "1/1000"
+          ],
+          [
+            "499/500",
+            "0",
+            "1/1000",
+            "1/1000"
+          ],
+          [
+            "1/1000",
+            "1/1000",
+            "0",
+            "499/500"
+          ],
+          [
+            "1/1000",
+            "1/1000",
+            "499/500",
+            "0"
+          ]
+        ],
+        "width_one_control": "sat",
+        "target_width_control": "unsat",
+        "scope": "Lower-threshold pin is a control only; all completeness claims concern target 17/5."
+      },
+      "status": "unknown",
+      "elapsed_seconds": 10.099183565000203,
+      "timeout_ms": 10000,
+      "reason_unknown": "timeout"
+    }
+  ]
+}

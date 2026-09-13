@@ -111,3 +111,25 @@ paths or known credential patterns. The SHA-256 manifest covers all public
 files except itself, and a deliberately corrupted expected hash is rejected.
 The new figures are explanatory; classification inputs and the six gauge
 hypotheses remain explicit in the linked written proofs.
+
+## Tetrahedral containment update validation
+
+From committed source 9072ef03ec1c725ebd303449675f27ac028b00ef, all six
+stages of `reproduce_contraction.py` passed in the public checkout. The
+weighted generator and its independent trace/certificate verifier also passed,
+with 123 weight candidates checked. Together these checks reject 48 mutations.
+The three new certificate files and two-vector scan reproduce committed source
+bytes exactly; all 27 previously public certificates retain their hashes.
+
+The optional Z3 encoding audit passed for both eight-variable cubic models,
+including ten complete width directions, twenty guards and exact positive/
+negative pinned evaluations. It calls no solver. All archived solver outcomes
+are retained unchanged. See [the incremental receipt](results/contraction_public_validation.json)
+and [six-stage evidence](results/contraction_validation.json).
+
+The existing geometry engine and classification artifacts are unchanged;
+the earlier baseline/contact replays were not repeated for this incremental
+export. Public Markdown links resolve, and the text scan found no private
+machine paths or known credential patterns. The snapshot manifest is refreshed
+and checked, including rejection of an intentionally corrupted expected hash.
+The ongoing uncommitted research is excluded from this release.
