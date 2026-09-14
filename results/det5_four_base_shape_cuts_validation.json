@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "proof_note": {
+    "path": "proofs/DET5_FOUR_BASE_SHAPE_CUTS.md",
+    "sha256": "680bbb0e6c1d8cb2d6e074adcf66f73f78a7db74d6623e381789e2751778a30b"
+  },
+  "formal_rational_identities": 8,
+  "exact_domain_implication_checks": 307,
+  "four_gauge_satisfying_sample_counts": {
+    "gt": 29,
+    "lt": 43
+  },
+  "forward_piece_selections_before": 12,
+  "forward_piece_selections_after": 4,
+  "reverse_piece_selections_retained": 12,
+  "forward_base_cut": "B>183/200 OR B-A>83/200",
+  "both_order_base_cuts": [
+    "L*E>183*q/250 (lt)",
+    "L*E>549*q/500 (gt)"
+  ],
+  "reverse_extra_base_cut": "A-B<17/100",
+  "asymmetric_surviving_fixture": {
+    "x": "0",
+    "y": "3/5",
+    "C": "1/100",
+    "E": "4/5",
+    "a": "1/10",
+    "tau": "23/25",
+    "t": "1/10",
+    "h": "31/50",
+    "A": "1/100",
+    "B": "201/250",
+    "S": "81/100",
+    "u": "67/2500",
+    "r": "2761/3000",
+    "F": [
+      [
+        "0",
+        "89/7500",
+        "883/2500",
+        "4/5"
+      ],
+      [
+        "113/125",
+        "0",
+        "67/2500",
+        "1/10"
+      ],
+      [
+        "9/100",
+        "2761/3000",
+        "0",
+        "1/10"
+      ],
+      [
+        "3/500",
+        "339/5000",
+        "31/50",
+        "0"
+      ]
+    ],
+    "five_times_gauges": [
+      "37223/15000",
+      "246/125",
+      "3009/1000",
+      "17373/5000"
+    ],
+    "actual_Y_gap": "14/25",
+    "actual_Y_width": "25/14",
+    "scope": "Exact strict chart and four selected horizontal gauges with forced observer; not a large-width witness or hollowness assertion."
+  },
+  "solver_queries_run": 0,
+  "scope": "Universal analytical branch/cut derivations with exact formula replay; no global exclusion or sampled coverage claim."
+}

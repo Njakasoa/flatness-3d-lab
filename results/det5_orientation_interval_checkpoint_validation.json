@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "previous_goal_turn": "progress: verified public publication30c22ee and committed scientific checkpoint5e19922",
+  "current_goal_turn": "progress: strengthened determinant-sign theorem, forced observer, negative-gauge reduction, audited continuous interval compiler",
+  "new_solver_queries": 5,
+  "query_statuses": [
+    "sat",
+    "sat",
+    "unsat",
+    "sat",
+    "sat"
+  ],
+  "fresh_reference_bound_ethos_proofs": 1,
+  "full_contact_class_exclusions_added": 0,
+  "necessary_contact_types_at_candidate": 58,
+  "height_queue_entries_unchanged": 258,
+  "all_preexisting_scientific_payloads_unchanged": true,
+  "local_markdown_links_checked": 135,
+  "new_python_syntax": "PASS",
+  "records": {
+    "results/det5_positive_horizontal_determinant_validation.json": "483ac55ec66a99cf8619cf493995d4cb22eb4e6c16cb963207ca55db141dbc2c",
+    "results/det5_positive_determinant_independent_review.json": "f5c4ab4a75139f32b559cb531927dfa0dd5b03536ecabbbf1acdd3254f7a7e1a",
+    "results/det5_claim0011_scope_review.json": "a946e56367aff28f6d7347db5043f677b020d2fb8d0a8b77122db13b4c2ce356",
+    "results/det5_forced_observer_branch_validation.json": "a6a4d6f9bcf612dd715cf39e327cd91cfbe03a577272b1a9a4ef4b5dd896b71d",
+    "results/det5_forced_observer_independent_review.json": "3d5b500a4fabd1f43c85b9a35eda25ca6b5a031d2fc61539b07410970498ec72",
+    "results/det5_negative_determinant_gauges_validation.json": "dec9e53295e0cf2084b2bb698e1ce2f10b773b73d9633e203be8849dbb176926",
+    "results/det5_compact_interval_fiber_validation.json": "04ee15d236ab999f6110f8ca387fc8e03e29431ace771e26498445af11c6e8a2",
+    "results/det5_compact_interval_interior_lt_neg_ethos_validation.json": "377f3264102ab7991338c1bcdb50634edda392f439e4695ef8799f3e16cedd1d",
+    "results/det5_forced_observer_lra_validation.json": "9446e5f2f653016d98d99ea2e54ac72640fd6e9c6a39f4bb277f41647ccfa568"
+  },
+  "query_records": {
+    "results/det5_compact_interval_root_lt_pos.json": "720aa04b990d49bddd6b2f87216caa998c26a006434457a2a06474bec6749177",
+    "results/det5_compact_interval_root_lt_neg.json": "ba0ac787cf198eb7a8ae9bc01cb88e58ef8c9cb704c94a120a7156b25a0b121b",
+    "results/det5_compact_interval_interior_lt_neg.json": "610ee5e060d6e969fedf958809a3277629b6cf5e60cdd9fbe7b0622f4db67f2e",
+    "results/det5_forced_observer_lra_lt.json": "6dc748bbf3e73b8d356417d75ed1289ca2e0dbfbfc300a260991deaf8d6dea3d",
+    "results/det5_forced_observer_lra_gt.json": "9b5bc1b5c74f7ebb68633d29dbe0ccb2dfde9851e73a94b901ff40bfcfb2b011"
+  },
+  "negative_domain_sidecar_sha256": "d37672d20dda3b6bdc26aab9f30c074748a92bc4194775561a4b7ed5c4d96775",
+  "limitations": [
+    "Only originalYextrema0,3 with prescribed strict tetrahedral facet contacts",
+    "No negative-sign continuous cover or new global flatness bound",
+    "First intervalbox is already excluded by one shape-only gauge envelope",
+    "Forced-observerSATactualbodies have otherYextrema",
+    "Priority unconfirmed; current changes local afterpublic30c22ee"
+  ]
+}

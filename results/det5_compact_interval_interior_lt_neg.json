@@ -1,0 +1,55 @@
+{
+  "status": "unsat",
+  "elapsed_seconds": 0.02661106099913013,
+  "internal_complete_proof_check": true,
+  "order": "lt",
+  "determinant_sign": -1,
+  "positive_multiplier": "1-p*q",
+  "target": "17/5",
+  "sources": {
+    "certificates/det5_horizontal_fiber_structure.json": "48d40f6af85cd54056b1b814f066333fb61ebad21078bc00c2b0bad19ab5e82e",
+    "certificates/nonunimodular_observer_guards.json": "54e6c68d10604d262da0f704141e61e44fb067f20c53a5b4b2cdf69d15d1a426",
+    "results/det5_complete_geometry_validation.json": "1f01eb1ceae43976fd4536ff8e77d8713849836d72dbcb8102706352dbb1d87c",
+    "results/det5_class5_y_cvc5_validation.json": "18544642e2744a0f0bac4b5e94f2da2b37a4f3175c83bec0e7c4aa2bf0751d5e",
+    "results/det5_y_corner_enlarged_3_5.json": "19f889f83be6501b25ef1790193ba95a6d9f3966bffb1d342f9ab0907deddcf3",
+    "results/det5_strong_anchor_rectangle.json": "5cad782b2f86154e77257bae087348da29ede49a70a674c3cdcbd1208afefefd",
+    "proofs/DET5_COMPACT_SHAPE_CHART_REVIEW.md": "19d39ce7115036a3b9e276c4af6d46ae8360b44a88949a5997c36faedfe0eaea",
+    "proofs/DET5_HORIZONTAL_FIBER_INTERVAL_LIFTING.md": "4acb1405d7d591bb49f540773a9df12216ab049f9e8146ce0dea9501f7e8778e"
+  },
+  "box": [
+    [
+      "1/8",
+      "1/4"
+    ],
+    [
+      "3/8",
+      "1/2"
+    ],
+    [
+      "1/4",
+      "3/8"
+    ],
+    [
+      "3/8",
+      "1/2"
+    ],
+    [
+      "1/2",
+      "3/4"
+    ],
+    [
+      "1/8",
+      "1/4"
+    ]
+  ],
+  "closed_strict_atoms": false,
+  "rows": 89,
+  "enclosed_atoms": 473,
+  "envelopes_sha256": "32ce5e6eab2f4428af135f7d4e8bf9dc46bd7e1b5774cbae77350ba46422b5c3",
+  "scope": "Continuous compact-shape outer LRA in one order and determinant sign. UNSAT requires input audit and external proof replay before geometric exclusion.",
+  "input_path": "results/det5_compact_interval_interior_lt_neg.smt2",
+  "input_sha256": "8adb6879a967c7f70fb2592ae77d141efb2f7b4e384876614bb3386e59def1bb",
+  "solver_queries_run": 1,
+  "proof_path": "certificates/det5_compact_interval_interior_lt_neg.cpc.gz",
+  "proof_sha256": "43e88af3f8438b45ed73b2cf76bd9fac157051772931c6159bb643d6a14be72c"
+}

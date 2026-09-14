@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "proof_note": {
+    "path": "proofs/DET5_NEGATIVE_DETERMINANT_GAUGE_NORMAL_FORM.md",
+    "sha256": "0149467e7328441bb97833f92ec170025956a0b38213222b6342c5e3b3f2f343"
+  },
+  "formal_rational_identities": 41,
+  "generic_max_formula_checks": 496,
+  "physical_gauge_table_checks": 1080,
+  "target_corollary_checks": 274,
+  "orders": 2,
+  "physical_directions": 4,
+  "pieces_per_order": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "reverse_pieces": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "deltaD": "34728093/250000000",
+  "solver_queries_run": 0,
+  "scope": "Exact symbolic identities and rational formula checks. Universal sign argument appears in the note; no continuous coverage or global exclusion."
+}

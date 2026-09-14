@@ -1,0 +1,30 @@
+{
+  "scope": "Necessary supplementary shape restrictions for actual hollow strict facet-contact tetrahedra P=conv(0,(5,1,2),e2,e3), actual Yextrema0,3, global width>17/5. This does not certify nonempty residual entries.",
+  "height_queue": "results/det5_combined_residual_queue.json",
+  "retained_entries": 258,
+  "affected_Y03_entries": 70,
+  "target": "17/5",
+  "both_orders": true,
+  "necessary_sign": "D=u*(C+p*E)-r*(q*C+E)<0",
+  "negative_coordinates": {
+    "k": "3 if q1<q2, 2 if q1>q2",
+    "a": "k*u/(q*C+E)",
+    "tau": "(-D)/(q*C+E)",
+    "bounds": [
+      "0<a<=1",
+      "0<tau<1-a*(C+p*E)/k",
+      "tau*(q*C+E)>34728093/250000000"
+    ]
+  },
+  "sources": {
+    "results/det5_combined_residual_queue.json": "2a3914a210c379a35e36374fce74ba9836fbb6f9a0cf95906c9e8e6e01b5b040",
+    "claims/CLAIM-0011.md": "90f3600cc42c3256a1c750ccf62d449f69a2d36b1cfb9adf9bb25e4ba7642734",
+    "proofs/DET5_POSITIVE_HORIZONTAL_DETERMINANT.md": "3cd35cf3c98d9784c34f5cac1b4947f8ebc82dbb6cf12ada8ad84ed82e4fa808",
+    "proofs/DET5_NEGATIVE_DETERMINANT_GAUGE_NORMAL_FORM.md": "0149467e7328441bb97833f92ec170025956a0b38213222b6342c5e3b3f2f343",
+    "proofs/DET5_FORCED_OBSERVER_BRANCH.md": "32b3cd7c5f7613c3300d18dda179dd000521d5ff77e50fee05fad8ec355e5a6c",
+    "results/det5_claim0011_scope_review.json": "a946e56367aff28f6d7347db5043f677b020d2fb8d0a8b77122db13b4c2ce356"
+  },
+  "whole_class_excluded": false,
+  "forced_physical_observer_clause": "F03>=3*F01+2*F02",
+  "negative_forward_base_necessity": "C+E>183/200 OR (q*C+E)-(C+p*E)>83/200"
+}

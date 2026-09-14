@@ -10,7 +10,61 @@ internally reviewed with AI assistance. Novelty remains unconfirmed.
 No new global bound, solution of the flatness
 conjecture, external peer review or journal/arXiv submission is claimed.**
 
-## Latest research: quantitative height separation and exact linear fibers
+## Latest research: determinant orientation and exact horizontal projection
+
+For the remaining contact tetrahedron `P=conv(0,(5,1,2),e2,e3)`, let its
+four vertices lie in the relative interiors of the opposite facets of a
+hollow real tetrahedron K. Work in the actual Y=(0,1,0) height chart with
+normalized minimum at vertex 0 and maximum at vertex 3, allowing ties.
+Let F be its column-stochastic contact matrix and A₀=1+2/√3.
+
+[CLAIM-0011](claims/CLAIM-0011.md) proves, in both height orders,
+
+```text
+det(F) > 0  implies  w(K) < (5/4)A₀ ≈ 2.693375673.
+```
+
+Thus every candidate in this chart with width at least (5/4)A₀ has
+negative determinant. The proof also forces the original-label observer
+clause `F03 ≥ 3F01+2F02`. This is an analytic convexity argument with
+independent internal review; it does not eliminate the entire contact type.
+
+On the surviving negative branch, four horizontal gauge constraints are
+piecewise affine in two variables once four base parameters `(p,q,C,E)`
+are fixed. Exact strict Farkas certificates eliminate these two variables
+from a specified necessary relaxation. An independent Fourier–Motzkin
+replay checks all 864 coefficient identities and 384 archived branches.
+A feasible projected base is not a sufficient criterion for an actual body.
+
+In the forward height order, analytic identities reduce twelve gauge-piece
+selections to four. A closed four-parameter box is then excluded at global
+width >17/5, with every other admissible parameter left free:
+
+```text
+p ∈ [0,1/32],       q ∈ [31/64,33/64],
+C ∈ [3/64,5/64],    E ∈ [31/64,33/64].
+```
+
+The polynomial bound is `1−q+(1−pq)E/2+2(B−A) ≤ 3597/2048 < 183/100`,
+where `A=C+pE` and `B=qC+E`. The proof and independent review include
+strict endpoints. Its parameter volume is 1/1048576; this is not a
+physical volume or a fraction of all remaining bodies. The height enclosure
+alone is not an excluded rectangle: the C,E bounds are essential.
+
+The **58 necessary contact types** and the global flatness bound remain
+unchanged. The reverse order and the remaining continuous domain are open.
+The earlier interval-compiler experiment contributes one additional CPC
+refutation, freshly checked by Ethos; its SAT controls remain outer
+relaxations and the full nonlinear UNKNOWN records remain unresolved.
+
+- [Determinant theorem and forced observer](proofs/DET5_FORCED_OBSERVER_BRANCH.md), [independent review](proofs/DET5_FORCED_OBSERVER_INDEPENDENT_REVIEW.md)
+- [Exact horizontal projection and strict certificate audit](proofs/DET5_STRICT_HORIZONTAL_PROJECTION_REVIEW.md)
+- [Four-base cuts and branch reduction](proofs/DET5_FOUR_BASE_SHAPE_CUTS.md)
+- [Exact middle-gauge subsystem projection](proofs/DET5_FORWARD_MIDDLE_GAUGE_EXACT_PROJECTION.md)
+- [Continuous box proof](proofs/DET5_PROJECTED_BASE_BOX.md), [independent review](proofs/DET5_PROJECTED_BASE_BOX_INDEPENDENT_REVIEW.md)
+- [Reproduce this update](reproduce_det5_projection.py), [validation](PUBLIC_VALIDATION.md), [French summary](results/FINAL_SUMMARY.md)
+
+## Earlier research: quantitative height separation and exact linear fibers
 
 For the remaining contact tetrahedron P=conv(0,(5,1,2),e2,e3), assume
 its four vertices lie in the relative interiors of the opposite facets of
@@ -606,6 +660,34 @@ All archived scientific inputs, certificates and original receipts are restored
 after each check. The wrapper writes a separate public validation receipt.
 The partial rectangle and the fixed-height refutation do not certify the
 remaining continuous shape domain.
+
+## Reproduce the orientation and projection update
+
+After installing the dependencies above, run:
+
+```sh
+.venv/bin/python reproduce_det5_projection.py
+.venv/bin/python reproduce_det5_projection.py --encodings
+```
+
+The default runs nine exact checks with SymPy. The optional formula audits
+also use Z3 and cvc5. No SMT search is run. Strict inequalities, degenerate
+Farkas circuits and a deliberately corrupted certificate are tested.
+The public replay skips the unredistributed primary-article text check;
+the original literature review is retained as an identified archived record.
+
+For one fresh reference-bound CPC check with the
+[pinned external tools](proofs/HEIGHT_ETHOS_REPRODUCTION.md):
+
+```sh
+.venv/bin/python reproduce_det5_projection.py --encodings \
+  --ethos ETHOS/build/src/ethos --ethos-source ETHOS \
+  --cvc5-source CVC5
+```
+
+The wrapper preserves original scientific bytes and writes
+[its own replay receipt](results/public_det5_projection_validation.json).
+Run without Python's `-O`/`-OO` options; checkers require assertions.
 
 ## Public snapshot, license and citation
 

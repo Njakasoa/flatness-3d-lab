@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "solver_queries_run": 0,
+  "scope": "Restricted determinant sign, strict horizontal projection and one four-base box; no new class exclusion.",
+  "encodings_requested": true,
+  "fresh_kernel_checks_requested": true,
+  "checks": [
+    {
+      "check": "tests/replay_det5_positive_horizontal_determinant.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"proof_note\": {\n    \"path\": \"proofs/DET5_POSITIVE_HORIZONTAL_DETERMINANT.md\",\n    \"sha256\": \"3cd35cf3c98d9784c34f5cac1b4947f8ebc82dbb6cf12ada8ad84ed82e4fa808\"\n  },\n  \"formal_rational_identities\": 20,\n  \"exact_rational_ordered_triangle_fixtures\": 450,\n  \"forward_gauge_bound\": \"S/3\",\n  \"reverse_gauge_bound\": \"S/5\",\n  \"necessary_sign_at_beta_183_500\": \"D<0\",\n  \"solver_queries_run\": 0,\n  \"scope\": \"Formula replay and exact fixture checks; the universal analytic proof is the convex outer-triangle argument in the note. No negative-branch exclusion or new global flatness bound.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/replay_det5_positive_determinant_independent_review.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"primary_text_check\": \"SKIPPED_UNREDISTRIBUTED\",\n  \"sources\": [\n    {\n      \"path\": \"proofs/DET5_POSITIVE_HORIZONTAL_DETERMINANT.md\",\n      \"sha256\": \"3cd35cf3c98d9784c34f5cac1b4947f8ebc82dbb6cf12ada8ad84ed82e4fa808\"\n    },\n    {\n      \"path\": \"proofs/DET5_POSITIVE_DETERMINANT_INDEPENDENT_REVIEW.md\",\n      \"sha256\": \"ca52e0747ae63ef69159209df81220d12f21607ba93199ce235b414f7989ce61\"\n    },\n    {\n      \"path\": \"proofs/DET5_COMPACT_SHAPE_CHART_REVIEW.md\",\n      \"sha256\": \"19d39ce7115036a3b9e276c4af6d46ae8360b44a88949a5997c36faedfe0eaea\"\n    }\n  ],\n  \"independent_compact_shapes\": 75,\n  \"endpoint_shapes\": 27,\n  \"exact_vertex_gauges\": 450,\n  \"exact_convex_combination_checks\": 2250,\n  \"forward_universal_gauge_bound\": \"S/3 < 1/3\",\n  \"reverse_universal_gauge_bound\": \"S/5 < 1/5\",\n  \"forward_conditional_width_bound\": \"3*A0/2\",\n  \"reverse_conditional_width_bound\": \"5*A0/4\",\n  \"both_width_constants_below_17_5\": true,\n  \"necessary_target_determinant_sign\": \"D<0\",\n  \"corrections_required\": [],\n  \"solver_queries_run\": 0,\n  \"scope\": \"Independent analytic review supported by exact arithmetic; no negative-branch exclusion, other-height-chart theorem, priority claim, or global flatness improvement.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {
+        "results/det5_positive_determinant_independent_review.json": "9bad635f1f730074f9838356f42a8b34ab569d257dcd9e0f48d6cb8ba695302e"
+      }
+    },
+    {
+      "check": "tests/replay_det5_forced_observer_branch.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"proof_note\": {\n    \"path\": \"proofs/DET5_FORCED_OBSERVER_BRANCH.md\",\n    \"sha256\": \"32b3cd7c5f7613c3300d18dda179dd000521d5ff77e50fee05fad8ec355e5a6c\"\n  },\n  \"formal_rational_identities\": 24,\n  \"exact_rectangle_ordered_fixtures\": 750,\n  \"forward_obstructing_vector\": [\n    3,\n    0,\n    1\n  ],\n  \"reverse_obstructing_vector\": [\n    2,\n    0,\n    1\n  ],\n  \"main_branch_gauge_bound\": \"S/5<1/5\",\n  \"main_branch_width_bound\": \"w<(5/4)*(1+2/sqrt(3))\",\n  \"forced_forward\": \"3r>A AND F03>=3F01+2F02\",\n  \"forced_reverse\": \"2r>A AND F03>=2F01+3F02\",\n  \"determinant_consequence\": \"D<0\",\n  \"solver_queries_run\": 0,\n  \"scope\": \"Exact formula and fixture replay; universal convexity proof in note. No exceptional-branch or full-class exclusion.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/replay_det5_negative_determinant_gauges.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"proof_note\": {\n    \"path\": \"proofs/DET5_NEGATIVE_DETERMINANT_GAUGE_NORMAL_FORM.md\",\n    \"sha256\": \"0149467e7328441bb97833f92ec170025956a0b38213222b6342c5e3b3f2f343\"\n  },\n  \"formal_rational_identities\": 41,\n  \"generic_max_formula_checks\": 496,\n  \"physical_gauge_table_checks\": 1080,\n  \"target_corollary_checks\": 274,\n  \"orders\": 2,\n  \"physical_directions\": 4,\n  \"pieces_per_order\": [\n    3,\n    2,\n    2,\n    3\n  ],\n  \"reverse_pieces\": [\n    2,\n    3,\n    3,\n    2\n  ],\n  \"deltaD\": \"34728093/250000000\",\n  \"solver_queries_run\": 0,\n  \"scope\": \"Exact symbolic identities and rational formula checks. Universal sign argument appears in the note; no continuous coverage or global exclusion.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/replay_det5_four_base_shape_cuts.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"proof_note\": {\n    \"path\": \"proofs/DET5_FOUR_BASE_SHAPE_CUTS.md\",\n    \"sha256\": \"680bbb0e6c1d8cb2d6e074adcf66f73f78a7db74d6623e381789e2751778a30b\"\n  },\n  \"formal_rational_identities\": 8,\n  \"exact_domain_implication_checks\": 307,\n  \"four_gauge_satisfying_sample_counts\": {\n    \"gt\": 29,\n    \"lt\": 43\n  },\n  \"forward_piece_selections_before\": 12,\n  \"forward_piece_selections_after\": 4,\n  \"reverse_piece_selections_retained\": 12,\n  \"forward_base_cut\": \"B>183/200 OR B-A>83/200\",\n  \"both_order_base_cuts\": [\n    \"L*E>183*q/250 (lt)\",\n    \"L*E>549*q/500 (gt)\"\n  ],\n  \"reverse_extra_base_cut\": \"A-B<17/100\",\n  \"solver_queries_run\": 0,\n  \"scope\": \"Universal analytical branch/cut derivations with exact formula replay; no global exclusion or sampled coverage claim.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/replay_det5_forward_middle_projection.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"proof_note\": {\n    \"path\": \"proofs/DET5_FORWARD_MIDDLE_GAUGE_EXACT_PROJECTION.md\",\n    \"sha256\": \"2630d2814e9206887888f2ab52c41dcc178f9cbcab6829620d4535af818fe7ac\"\n  },\n  \"formal_rational_identities\": 7,\n  \"exact_interval_fixture_counts\": {\n    \"fixtures\": 260,\n    \"feasible\": 27,\n    \"infeasible\": 233,\n    \"q_zero\": 52\n  },\n  \"strict_equality_cases\": [\n    {\n      \"condition\": \"I\",\n      \"base\": [\n        \"0\",\n        \"0\",\n        \"1/10\",\n        \"103/200\"\n      ],\n      \"margins\": [\n        \"0\",\n        \"103/200\",\n        \"103/400\"\n      ]\n    },\n    {\n      \"condition\": \"II\",\n      \"base\": [\n        \"0\",\n        \"1/2\",\n        \"1/10\",\n        \"287/500\"\n      ],\n      \"margins\": [\n        \"109/500\",\n        \"0\",\n        \"1/200\"\n      ]\n    },\n    {\n      \"condition\": \"III\",\n      \"base\": [\n        \"0\",\n        \"2/5\",\n        \"1/10\",\n        \"27/50\"\n      ],\n      \"margins\": [\n        \"13/100\",\n        \"57/1250\",\n        \"0\"\n      ]\n    }\n  ],\n  \"base_conditions\": [\n    \"1+2*(B-A)>183/100\",\n    \"L*E+2*q*(B-A)>549*q/250\",\n    \"1-q+L*E/2+2*(B-A)>183/100\"\n  ],\n  \"solver_queries_run\": 0,\n  \"scope\": \"Exact IFF for the specified single-middle-gauge subsystem only. No full four-gauge, geometry, width or volume sufficiency.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "experiments/det5_horizontal_projection.py",
+      "exit_code": 0,
+      "stdout": "Existing controls retained; no repeated computation\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/audit_det5_horizontal_projection_independent.py",
+      "exit_code": 0,
+      "stdout": "HORIZONTAL_PROJECTION_INDEPENDENT=PASS\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "experiments/det5_projected_base_box.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"order\": \"lt\",\n  \"target_global_width\": \"17/5\",\n  \"base_parameters\": [\n    \"p\",\n    \"q\",\n    \"C\",\n    \"E\"\n  ],\n  \"closed_box\": [\n    [\n      \"0\",\n      \"1/32\"\n    ],\n    [\n      \"31/64\",\n      \"33/64\"\n    ],\n    [\n      \"3/64\",\n      \"5/64\"\n    ],\n    [\n      \"31/64\",\n      \"33/64\"\n    ]\n  ],\n  \"parameter_volume\": \"1/1048576\",\n  \"projected_H2_expression\": \"1-q+(1-p*q)*E/2+2*((q*C+E)-(C+p*E))\",\n  \"projected_H2_upper\": \"3597/2048\",\n  \"required_strict_lower\": \"183/100\",\n  \"strict_gap\": \"3771/51200\",\n  \"B_upper\": \"2277/4096\",\n  \"B_minus_A_lower\": \"1757/4096\",\n  \"L_lower\": \"2015/2048\",\n  \"LE_lower\": \"62465/131072\",\n  \"q_LE_comparison_upper\": \"6039/16000\",\n  \"derivative_q_upper\": \"-27/32\",\n  \"derivative_E_lower\": \"9951/4096\",\n  \"actual_forward_height_intervals\": [\n    [\n      \"0\",\n      \"33/2017\"\n    ],\n    [\n      \"31/64\",\n      \"1056/2017\"\n    ]\n  ],\n  \"all_previous_forward_base_cuts_hold_throughout_box\": true,\n  \"new_base_obstruction_beyond_previous_height_rectangles\": true,\n  \"solver_queries_run\": 0,\n  \"scope\": \"Analytic four-base closed box exclusion in originalY03 forwardorder. All admissible a,tau,t,h are excluded at the target. No whole class, reverse-order or global flatness exclusion; parameter volume is not residual-body measure.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/audit_det5_compact_interval_fiber.py",
+      "exit_code": 0,
+      "stdout": "Independent symbolic model reconstruction...\nSymbolic coefficients verified; testing interval enclosures...\nOuter interval formulas verified; testing point controls...\nCOMPACT_INTERVAL_FIBER_INDEPENDENT=PASS\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/audit_det5_forced_observer_lra.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"bodies\": [\n    {\n      \"order\": \"lt\",\n      \"hollow\": true,\n      \"lattice_points_checked\": 42,\n      \"Y_min\": [\n        1\n      ],\n      \"Y_max\": [\n        3\n      ],\n      \"Y_width\": \"7842723272620384500/3563191797218270663\",\n      \"full_lattice_width\": \"7842723272620384500/3563191797218270663\",\n      \"qualifies\": false\n    },\n    {\n      \"order\": \"gt\",\n      \"hollow\": true,\n      \"lattice_points_checked\": 72,\n      \"Y_min\": [\n        2\n      ],\n      \"Y_max\": [\n        3\n      ],\n      \"Y_width\": \"150574003572622336000/82289213611687187081\",\n      \"full_lattice_width\": \"150574003572622336000/82289213611687187081\",\n      \"qualifies\": false\n    }\n  ]\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/check_det5_fiber_proofs.py",
+      "exit_code": 0,
+      "stdout": "FIBER_PROOF_ETHOS=PASS\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {
+        "results/det5_compact_interval_interior_lt_neg_ethos_validation.json": "332a2491d91ede540d9ce1454c21bd7513463829558fcf1c8a2cdfc166e7c0c8"
+      }
+    }
+  ],
+  "archived_bytes_preserved": true,
+  "fresh_kernel_proofs_checked": 1
+}

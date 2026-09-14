@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "previous_source_revision": "78f6ac6",
+  "current_work": "exact strict horizontal projection, forward branch reduction and continuous four-base box",
+  "new_solver_queries": 0,
+  "necessary_contact_types_at_candidate": 58,
+  "height_queue_entries_unchanged": 258,
+  "preexisting_scientific_payloads_unchanged": true,
+  "records": {
+    "results/det5_forward_middle_projection_validation.json": "b7a4ec74be778d1073739d0297d58d82d3fdf0b96230047a37491690b46df313",
+    "results/det5_four_base_shape_cuts_independent_review.json": "c942eafcddb97462dcb390c5bb2f5440a131d8b9de463b36aa9181dcf9aec663",
+    "results/det5_four_base_shape_cuts_validation.json": "9beddb40ab9918c3d9a5f281b15e5b8336eb0b47e357c321464ffd18b33a7c19",
+    "results/det5_horizontal_projection_controls.json": "0545c1b78e37fb40ae5fbc6b4cd4dec16e32bb2bd8a187791c3375066c59d9d0",
+    "results/det5_horizontal_projection_validation.json": "16da9a0650c9e389ceac1d7313361c7c01de1999604bc042bd8e48903d8ace56",
+    "results/det5_projected_base_box.json": "761850525e46c87420f7b713788e0599b55bffcb008393e13e2e0b72895ad33d",
+    "results/det5_projected_base_box_independent_review.json": "9bdd2a94176120e6b49cafe66e481660fd1bc32a0c120505c4ebf7da9ea463b8"
+  },
+  "limitations": [
+    "Projection feasibility is only for the specified necessary relaxation",
+    "No whole-class exclusion, global improvement or full continuous cover",
+    "Parameter volume is not physical or residual-body measure"
+  ],
+  "publication": "Explicit user authorization; public-copy validation in progress"
+}

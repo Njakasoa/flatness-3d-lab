@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "proof_note": {
+    "path": "proofs/DET5_FORWARD_MIDDLE_GAUGE_EXACT_PROJECTION.md",
+    "sha256": "2630d2814e9206887888f2ab52c41dcc178f9cbcab6829620d4535af818fe7ac"
+  },
+  "formal_rational_identities": 7,
+  "exact_interval_fixture_counts": {
+    "fixtures": 260,
+    "feasible": 27,
+    "infeasible": 233,
+    "q_zero": 52
+  },
+  "constructive_subsystem_witnesses": [
+    {
+      "base": [
+        "0",
+        "0",
+        "1/100",
+        "3/5"
+      ],
+      "a": "1/2",
+      "tau": "131/150",
+      "base_cut_margins": [
+        "7/20",
+        "3/5",
+        "13/20"
+      ]
+    },
+    {
+      "base": [
+        "0",
+        "0",
+        "1/100",
+        "4/5"
+      ],
+      "a": "1/2",
+      "tau": "69/100",
+      "base_cut_margins": [
+        "3/4",
+        "4/5",
+        "23/20"
+      ]
+    },
+    {
+      "base": [
+        "0",
+        "0",
+        "1/10",
+        "3/5"
+      ],
+      "a": "17/40",
+      "tau": "283/300",
+      "base_cut_margins": [
+        "17/100",
+        "3/5",
+        "47/100"
+      ]
+    },
+    {
+      "base": [
+        "0",
+        "0",
+        "1/10",
+        "4/5"
+      ],
+      "a": "1/2",
+      "tau": "153/200",
+      "base_cut_margins": [
+        "57/100",
+        "4/5",
+        "97/100"
+      ]
+    },
+    {
+      "base": [
+        "0",
+        "1/10",
+        "1/100",
+        "3/5"
+      ],
+      "a": "1/2",
+      "tau": "10469/12000",
+      "base_cut_margins": [
+        "44/125",
+        "2493/5000",
+        "69/125"
+      ]
+    }
+  ],
+  "strict_equality_cases": [
+    {
+      "condition": "I",
+      "base": [
+        "0",
+        "0",
+        "1/10",
+        "103/200"
+      ],
+      "margins": [
+        "0",
+        "103/200",
+        "103/400"
+      ]
+    },
+    {
+      "condition": "II",
+      "base": [
+        "0",
+        "1/2",
+        "1/10",
+        "287/500"
+      ],
+      "margins": [
+        "109/500",
+        "0",
+        "1/200"
+      ]
+    },
+    {
+      "condition": "III",
+      "base": [
+        "0",
+        "2/5",
+        "1/10",
+        "27/50"
+      ],
+      "margins": [
+        "13/100",
+        "57/1250",
+        "0"
+      ]
+    }
+  ],
+  "base_conditions": [
+    "1+2*(B-A)>183/100",
+    "L*E+2*q*(B-A)>549*q/250",
+    "1-q+L*E/2+2*(B-A)>183/100"
+  ],
+  "solver_queries_run": 0,
+  "scope": "Exact IFF for the specified single-middle-gauge subsystem only. No full four-gauge, geometry, width or volume sufficiency."
+}

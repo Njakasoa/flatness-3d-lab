@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "proof_note": {
+    "path": "proofs/DET5_FORCED_OBSERVER_BRANCH.md",
+    "sha256": "32b3cd7c5f7613c3300d18dda179dd000521d5ff77e50fee05fad8ec355e5a6c"
+  },
+  "formal_rational_identities": 24,
+  "exact_rectangle_ordered_fixtures": 750,
+  "forward_obstructing_vector": [
+    3,
+    0,
+    1
+  ],
+  "reverse_obstructing_vector": [
+    2,
+    0,
+    1
+  ],
+  "main_branch_gauge_bound": "S/5<1/5",
+  "main_branch_width_bound": "w<(5/4)*(1+2/sqrt(3))",
+  "forced_forward": "3r>A AND F03>=3F01+2F02",
+  "forced_reverse": "2r>A AND F03>=2F01+3F02",
+  "determinant_consequence": "D<0",
+  "solver_queries_run": 0,
+  "scope": "Exact formula and fixture replay; universal convexity proof in note. No exceptional-branch or full-class exclusion."
+}

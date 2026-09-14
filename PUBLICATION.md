@@ -4,12 +4,10 @@ Date: 2026-09-13. Maintainer: Njakasoa.
 Canonical repository: https://github.com/Njakasoa/flatness-3d-lab.
 
 The user explicitly authorized publishing this lab on their GitHub account
-following Njakasoa/ihara-a2-lab. This curated export derives from scientific
-source revision 9072ef0, following the observer update at e84400e, following the pair update at 38fbeef, the continuous-family update at 9de72cf,
-the contact reduction at da24c58
-and the first public baseline at b456770.
-SOURCE_MANIFEST.json records the full revision and
-exported byte hashes. The original research history is not pushed to this public repository.
+following Njakasoa/ihara-a2-lab, and authorized this update. The latest curated
+snapshot derives from scientific source revision `d92d08d66e3282db9b525aa46b6f50ab09c73569`.
+SOURCE_MANIFEST.json records the full revision and public byte hashes.
+The original research history is not pushed to this public repository.
 
 Included: exact geometry, independent checkers, proof reconstructions,
 certificates, bounded enumeration, exploratory data, figures and scientific
@@ -142,3 +140,18 @@ witness, the combined residual queue, and two freshly replayed CPC proofs.
 All 13 incremental checks pass; no new SMT search was run.
 No new whole contact class, global flatness bound, established priority,
 external peer review or journal/arXiv submission is claimed.
+
+## Determinant orientation and projection update — 2026-09-14
+
+Source `d92d08d66e3282db9b525aa46b6f50ab09c73569`; previous public commit `30c22ee0954fe60dd77627669c8f9c94ab620a84`.
+This authorized update continues public main without rewriting history. It
+includes CLAIM-0011, negative-determinant gauge formulas, an audited interval
+compiler, strict four-base projection, forward branch reduction and a
+continuous four-base box proof. All 12 incremental public-copy stages pass,
+including one fresh external CPC check. No solver search was repeated.
+
+The [validation record](PUBLIC_VALIDATION.md) distinguishes partial subsystem
+sufficiency from actual geometry, and exact box arithmetic from sampled
+controls. The global bound, 58-type list and 258-entry height queue remain
+unchanged. No journal/arXiv submission, outreach or established priority is
+implied by this GitHub publication.

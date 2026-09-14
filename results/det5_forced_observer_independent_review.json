@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "review_type": "Independent analytic review; no new or repeated solver/arithmetic campaign",
+  "sources": [
+    {
+      "path": "proofs/DET5_FORCED_OBSERVER_BRANCH.md",
+      "sha256": "32b3cd7c5f7613c3300d18dda179dd000521d5ff77e50fee05fad8ec355e5a6c"
+    },
+    {
+      "path": "proofs/DET5_FORCED_OBSERVER_INDEPENDENT_REVIEW.md",
+      "sha256": "7c6a6945eaec31ec6531e959911c4b341377dcd801a79e3c9872e3c33bad5f49"
+    },
+    {
+      "path": "proofs/DET5_COMPACT_SHAPE_CHART_REVIEW.md",
+      "sha256": "19d39ce7115036a3b9e276c4af6d46ae8360b44a88949a5997c36faedfe0eaea"
+    },
+    {
+      "path": "results/det5_forced_observer_branch_validation.json",
+      "sha256": "a6a4d6f9bcf612dd715cf39e327cd91cfbe03a577272b1a9a4ef4b5dd896b71d"
+    }
+  ],
+  "reviewed_conclusions": [
+    "The complete main-branch rectangle has selected gauge<=S/5<1/5 in both original orders.",
+    "Forward physical vector301 and reverse physical vector201 and their signs are correct.",
+    "All tied height endpoints and closed rectangle boundary cases are included.",
+    "Universal main-branch width<5*A0/4 needs no high-width or volume premise.",
+    "Width>=5*A0/4 forces kr>A, R0 with non-strict facet inequality, and D<0.",
+    "Both positive-determinant width bounds improve to5*A0/4.",
+    "Original physical R0 is F03>=3F01+2F02 in both orders."
+  ],
+  "corrections_required": [],
+  "solver_queries_run": 0,
+  "previous_arithmetic_replays_rerun": false,
+  "limitation": "No exclusion of the forced exceptional negative branch or whole contact class."
+}

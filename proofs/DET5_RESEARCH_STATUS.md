@@ -1,5 +1,88 @@
 # Determinant-five research status — 2026-09-14
 
+Public snapshot: this authorized GitHub update includes the determinant-sign
+theorem and four-base projection/box results from source d92d08d. Historical
+statements below about local-only work describe earlier research checkpoints.
+The global conjecture remains open.
+
+## 2026-09-14 — exact four-base projection and continuous analytic box
+
+The negative-determinant horizontal necessary system is now projected exactly
+over four compact base parameters. For each fixed rational base and each
+piece selection, strict feasibility has either a checked rational interior
+witness or a nonnegative Farkas certificate supported on at most three rows.
+The independent audit checks 864 symbolic coefficient identities and 32 archived
+fixed-base cases, comprising 384 branch outcomes. No SMT or optimization
+solver was called in this work. The stored twelve selections per order are
+conservative; the forward analytic reduction needs only four.
+
+These are exact answers for the stated necessary relaxation. Feasible bases
+need not admit actual t,h geometry, all observers, full widths or a hollow
+body. In particular, the exact three-condition IFF for the single forward
+H2 subsystem is not a sufficiency theorem for the four-gauge or full problem.
+Its strict inequalities and q=0 endpoint have separate exact checks.
+
+A new universal consequence excludes the closed compact base box
+[0,1/32] x [31/64,33/64] x [3/64,5/64] x [31/64,33/64], in the forward
+Y[0,3] order at true global width>17/5. Throughout it, B<183/200 and
+f=1-q+LE/2+2(B-A)<=3597/2048<183/100, so neither surviving first-gauge
+alternative can meet the target. A monotonicity proof, independently
+reviewed, covers the entire real box and all admissible remaining parameters.
+Its compact-coordinate volume 1/1048576 is not a physical or residual-body
+measure. Its height enclosure is not an independently excluded Y rectangle.
+
+The box satisfies the earlier simple base cuts and lies beyond the previous
+height rectangle exclusions. The 258-entry height queue, 58 necessary contact
+types and global flatness bound remain unchanged. This update is prepared
+for the user-authorized GitHub export; publication is not asserted here.
+Mathematical novelty remains unestablished.
+
+- [Analytic box proof](DET5_PROJECTED_BASE_BOX.md) and [independent review](DET5_PROJECTED_BASE_BOX_INDEPENDENT_REVIEW.md)
+- [Four-base cuts and branch reduction](DET5_FOUR_BASE_SHAPE_CUTS.md)
+- [Exact one-gauge subsystem projection](DET5_FORWARD_MIDDLE_GAUGE_EXACT_PROJECTION.md)
+- [Projection encoding and controls audit](../results/det5_horizontal_projection_validation.json)
+
+
+## 2026-09-14 — determinant-sign obstruction and continuous compact fibers
+
+Previous goal turn: progress. Publication 30c22ee was completed and verified;
+source checkpoint 5e19922 was committed. The scientific objective stays open.
+This research turn makes analytic and implementation progress; it is local
+and does not update the public repository.
+
+CLAIM-0011 proves that the positive contact-matrix determinant branch in
+Y[0,3] has width<(5/4)(1+2/sqrt(3)) in BOTH orders. The initial triangle
+argument was strengthened by a rectangle argument with a different forward
+physical vector. It also forces the second observer to its row-0 alternative,
+F03>=3F01+2F02 in original physical labels.
+An independent review confirms the whole sign-branch result, including
+endpoint ties and target-free width corollaries. Thus all candidates here
+of width>=(5/4)(1+2/sqrt(3)) require det(F)<0. This is not an additional eliminated
+contact type;58 necessary types and the global flatness bound remain.
+
+The compact fiber coefficients all clear with the same positive multiplier
+L=1-pq. A polynomial coefficient-interval compiler now builds sound outer
+linear formulas on closed six-dimensional shape boxes. Exactly three fresh
+interval queries were recorded: forward whole-cube roots of each sign SAT, one interior
+negative-sign box UNSAT. Its CPC proof passes fresh reference-bound Ethos
+checking. That box is already excluded by a single horizontal-gauge envelope;
+it validates continuous assembly but is not a fiber-interaction breakthrough.
+The positive-root SAT relaxation is not a body and loses the correlations
+used by the analytic sign proof. Two further newly justified forced-observer
+linear patterns are SAT; their reconstructed heights have minimum vertex1
+or2, not0, and Y-width below17/5. They do not close the actual-height chart.
+There were five new solver queries in total, four SAT and one UNSAT.
+No unchanged solver target was repeated.
+
+On the surviving negative branch, set a=ku/B and tau=(-D)/B. The four
+horizontal gauges now each have two or three exact affine pieces for fixed
+(x,y,C,E), instead of fourteen generic subset alternatives. The normal form
+also proves B>(-D)>34728093/250000000 on the true global target. One of
+those gauge clauses collapses to a single strict inequality in each order;
+a further forward pure-shape necessity is S>183/200 OR B-A>83/200. All other
+contact, observer, gauge and width requirements remain necessary; no complete
+four-parameter optimization or continuous cover has been obtained.
+
 ## 2026-09-14 — quantitative height bands, bounded shape coordinates and checked rectangle
 
 CLAIM-0010 gives w(K)<(500/317)(1+2/sqrt(3))<17/5 in two closed
@@ -50,7 +133,7 @@ have successful reference-bound Ethos checks. The broader 11/20 square has a
 saved exact relaxed SAT assignment whose six product identities all fail.
 
 The union-aware [new queue](../results/det5_enlarged_residual_queue.json)
-has258 entries, including strict removal of all certified boundaries. The
+has 258 entries, including strict removal of all certified boundaries. The
 new square adds 3/40 of Y-chart area and trims three entries by 3/5 of their
 previous residual measure, without eliminating any whole additional box.
 The old 953-query archive and all earlier proof receipts remain unchanged.

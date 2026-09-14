@@ -1,0 +1,100 @@
+{
+  "status": "sat",
+  "elapsed_seconds": 0.9197310759991524,
+  "assignment": {
+    "F_0_1": "(/ 221657 2450250)",
+    "F_0_2": "(/ 334151 1225125)",
+    "F_0_3": "(/ 403739 490050)",
+    "F_1_0": "(/ 6213679 9801000)",
+    "F_1_2": "(/ 317 9000)",
+    "F_1_3": "(/ 317 1800)",
+    "F_2_0": "(/ 103441 1633500)",
+    "F_2_1": "(/ 298709 363000)",
+    "F_2_3": "(/ 31 1960200)",
+    "F_3_0": "(/ 118667 392040)",
+    "F_3_1": "(/ 849229 9801000)",
+    "F_3_2": "(/ 6782579 9801000)"
+  },
+  "order": "lt",
+  "target": "17/5",
+  "beta": "183/500",
+  "gauge_vectors": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      2
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      5,
+      1,
+      2
+    ],
+    [
+      1,
+      -1,
+      1
+    ]
+  ],
+  "forced_observers": [
+    {
+      "point": [
+        2,
+        1,
+        1
+      ],
+      "facet": 1
+    },
+    {
+      "point": [
+        3,
+        1,
+        1
+      ],
+      "facet": 0
+    }
+  ],
+  "scope": "Necessary linear contact-matrix relaxation with newly proved forced observers; omits actual-height reconstruction, widths and volume. SAT is not an actual high-width body.",
+  "input_path": "results/det5_forced_observer_lra_lt.smt2",
+  "input_sha256": "593107df67a0792288d5df5302badcdf2033fb1bafa50b968b83d59b9a86cde4",
+  "solver_queries_run": 1
+}

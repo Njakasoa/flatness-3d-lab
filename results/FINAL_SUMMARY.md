@@ -6,6 +6,24 @@ réseau. Les résultats ci-dessous sont vérifiés en interne avec assistance IA
 La conjecture Flt(3)=2+√2 reste ouverte ; aucune nouvelle borne globale ni
 nouveauté mathématique établie n'est revendiquée.
 
+## Dernière avancée : orientation et projection exacte
+
+Dans la classe restante de déterminant cinq et le domaine réel Y[0,3],
+avec les quatre contacts prescrits dans les intérieurs relatifs des facettes
+opposées du tétraèdre creux, CLAIM-0011 impose un déterminant négatif dès que la largeur atteint
+(5/4)(1+2/√3), et force une clause précise d'observateur entier.
+Sur cette branche négative, deux variables ont été éliminées exactement
+d'un sous-système nécessaire de jauges, avec certificats stricts vérifiés
+indépendamment. Les douze sélections directes se réduisent à quatre.
+Une boîte continue en quatre paramètres est exclue pour une largeur globale >17/5,
+pour toutes les valeurs admissibles des autres paramètres.
+
+Cela ne ferme ni la classe entière ni le problème global : 58 types
+nécessaires restent. Les paramètres satisfaisant une projection partielle
+ne sont pas nécessairement réalisables par un corps creux de grande largeur.
+Voir [la preuve de la boîte](../proofs/DET5_PROJECTED_BASE_BOX.md) et
+[la reproduction publique](../reproduce_det5_projection.py).
+
 ## Résultats certifiés
 
 - Reproduction exacte du tétraèdre de Codenotti–Santos, de largeur 2+√2 :

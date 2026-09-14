@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "review_type": "Independent adversarial analytic review with direct rational fixture reconstruction",
+  "sources": [
+    {
+      "path": "proofs/DET5_FOUR_BASE_SHAPE_CUTS.md",
+      "sha256": "680bbb0e6c1d8cb2d6e074adcf66f73f78a7db74d6623e381789e2751778a30b"
+    },
+    {
+      "path": "proofs/DET5_FOUR_BASE_SHAPE_CUTS_INDEPENDENT_REVIEW.md",
+      "sha256": "de1e80b2b12cb1e5f91621e8a25754d99c9aa3422f287545307745a702b5ed71"
+    },
+    {
+      "path": "proofs/DET5_NEGATIVE_DETERMINANT_GAUGE_NORMAL_FORM.md",
+      "sha256": "0149467e7328441bb97833f92ec170025956a0b38213222b6342c5e3b3f2f343"
+    },
+    {
+      "path": "proofs/DET5_FORCED_OBSERVER_BRANCH.md",
+      "sha256": "32b3cd7c5f7613c3300d18dda179dd000521d5ff77e50fee05fad8ec355e5a6c"
+    },
+    {
+      "path": "results/det5_four_base_shape_cuts_validation.json",
+      "sha256": "9beddb40ab9918c3d9a5f281b15e5b8336eb0b47e357c321464ffd18b33a7c19"
+    }
+  ],
+  "projected_R0": "Strict two-sided projection checked; Q is necessary, with infeasible endpoint a=1,y=1 identified.",
+  "forward_full_piece_selection_equivalence": "12 to4, under the stated domain and Q>0; H3 incompatible with the second target and third-gauge first piece automatically witnesses the target.",
+  "forward_base_cut": "B>183/200 OR B-A>83/200 (necessary, strict)",
+  "both_order_base_cuts": [
+    "L*E>183*q/250 (forward)",
+    "L*E>549*q/500 (reverse)"
+  ],
+  "reverse_base_cut": "A-B<17/100 (necessary, strict)",
+  "endpoint_caveats_verified": true,
+  "fixture_direct_five_times_gauges": [
+    "37223/15000",
+    "246/125",
+    "3009/1000",
+    "17373/5000"
+  ],
+  "fixture_actual_Y_width": "25/14",
+  "fixture_cannot_meet_global_target": true,
+  "corrections_required": [],
+  "solver_queries_run": 0,
+  "old_replays_rerun": false,
+  "scope": "No complete continuous cover, exceptional-branch exclusion, global-width witness, or finite-gauge sufficiency claim."
+}

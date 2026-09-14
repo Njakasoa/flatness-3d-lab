@@ -308,3 +308,48 @@ Local Markdown links, Python syntax, privacy-pattern and oversized-file checks,
 source-byte comparisons and the snapshot corruption control pass; see
 [the publication receipt](results/det5_fiber_publication_validation.json).
 Private operational history and third-party papers are excluded.
+
+## Determinant orientation and strict horizontal projection — 2026-09-14
+
+Scientific source: `d92d08d66e3282db9b525aa46b6f50ab09c73569`. This update selects 63 scientific
+source files; 59 match source bytes exactly. Three status documents have a
+public-snapshot preface. One checker adds an explicit `--skip-primary-text`
+option for the unredistributed primary article. All 209 previously
+public certificate files remain unchanged.
+
+All **12 fresh public-copy replay stages pass**: nine exact symbolic,
+arithmetic and certificate checks; two independent encoding/actual-body
+audits; and one reference-bound external Ethos check. The projection audit
+checks all 864 coefficient identities and 384 archived branches, including
+strict witnesses, Farkas circuits, degeneracies and a corrupted-weight
+control. The separate monotonicity proof covers the real four-base box;
+finite point checks are not represented as a continuous cover.
+
+The new public determinant-review replay explicitly skips only the
+unredistributed `papers/ACMS-1907.06199.txt` inspection. Its live output marks
+`primary_text_check=SKIPPED_UNREDISTRIBUTED`; the exact arithmetic and local
+source bindings run. The original identified literature-review receipt is
+restored with every other archived scientific payload after each command.
+The [fresh public replay receipt](results/public_det5_projection_validation.json)
+records the distinction. This publication did not perform a new literature
+priority audit or claim external human peer review.
+
+One new CPC refutation is freshly checked with pinned Ethos revision
+221641668d75eaffd308e0511d63962cea937110 and cvc5 signatures at
+f3b21c4483d3b88dc63cb7cd3e5eb092eee5e341. The unrelated-assumption negative
+control is rejected. No SMT or numerical optimization search is run.
+The interval UNSAT box is a restricted gauge-envelope exclusion; the
+archived SAT relaxations and nonlinear UNKNOWN results retain their limits.
+
+CLAIM-0011 concerns the prescribed relative-interior facet contacts and
+actual Y[0,3] chart. Strict horizontal projection concerns a necessary
+relaxation; its feasible bases need not realize bodies. The new four-base
+box leaves all other admissible parameters free, but does not exclude its
+height enclosure alone. Parameter volume is not a physical or residual-body
+measure. The 58 necessary contact types and global flatness bound are unchanged.
+
+The independent internal publication review confirms the stated scope and
+public dependency adaptation. Syntax, local Markdown links, privacy/size
+screening and source-byte comparisons pass. The final SHA-256 manifest and
+a deliberate hash-corruption control pass. Private research history,
+session settings, runtimes and third-party articles are excluded.

@@ -92,3 +92,10 @@ and [exact linear fibers](../proofs/DET5_HORIZONTAL_FIBER_REVIEW.md).
 Run `python reproduce_det5_fiber.py --encodings` with the dependencies in
 the main README. The [validation record](../PUBLIC_VALIDATION.md) distinguishes
 exact arithmetic, independent formula auditing and fresh external proof checks.
+
+The orientation/projection update is documented in
+[CLAIM-0011](../claims/CLAIM-0011.md) and the
+[four-base box proof](../proofs/DET5_PROJECTED_BASE_BOX.md).
+Run `python reproduce_det5_projection.py --encodings`; optional Ethos paths
+and dependencies are documented in the main README. The exact projection
+concerns a specified necessary relaxation, not the full body-existence problem.

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "date": "2026-09-14",
+  "source_revision": "d92d08d66e3282db9b525aa46b6f50ab09c73569",
+  "public_base_revision": "30c22ee0954fe60dd77627669c8f9c94ab620a84",
+  "source_scientific_files_selected": 63,
+  "scientific_files_byte_equal": 59,
+  "public_adaptations": [
+    "NEXT.md",
+    "NOVELTY_LOG.md",
+    "proofs/DET5_RESEARCH_STATUS.md",
+    "tests/replay_det5_positive_determinant_independent_review.py"
+  ],
+  "unchanged_prior_certificate_files": 209,
+  "public_replay_stages": 12,
+  "fresh_reference_bound_ethos_proofs": 1,
+  "solver_queries_run": 0,
+  "local_markdown_links_checked": 528,
+  "new_python_syntax": "PASS",
+  "privacy_and_size_scan": "PASS",
+  "scope": "Restricted determinant sign, necessary strict horizontal projection and one four-base box; no new whole-class exclusion or global flatness bound."
+}

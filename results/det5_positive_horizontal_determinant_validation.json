@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "proof_note": {
+    "path": "proofs/DET5_POSITIVE_HORIZONTAL_DETERMINANT.md",
+    "sha256": "3cd35cf3c98d9784c34f5cac1b4947f8ebc82dbb6cf12ada8ad84ed82e4fa808"
+  },
+  "formal_rational_identities": 20,
+  "exact_rational_ordered_triangle_fixtures": 450,
+  "forward_gauge_bound": "S/3",
+  "reverse_gauge_bound": "S/5",
+  "necessary_sign_at_beta_183_500": "D<0",
+  "solver_queries_run": 0,
+  "scope": "Formula replay and exact fixture checks; the universal analytic proof is the convex outer-triangle argument in the note. No negative-branch exclusion or new global flatness bound."
+}

@@ -1,5 +1,10 @@
 # Next scientific actions — 58 candidate contact types remain
 
+Public snapshot: this authorized GitHub update includes the determinant-sign
+theorem and four-base projection/box results from source d92d08d. Historical
+statements below about local-only work describe earlier research checkpoints.
+The global conjecture remains open.
+
 CLAIM-0008 proves w<=17/5 for the full relative-interior facet-contact type
 P=conv(0,(5,1,1),e2,e3). Five complete height squares have independently
 encoded cvc5 refutations checked by Ethos. Combined with CLAIM-0006 and
@@ -7,41 +12,56 @@ CLAIM-0007, 58 necessary full hulls remain at width at least 2+sqrt(2):
 five tetrahedral classes (indices 0,1,2,3,5), 52 larger spatial hulls and
 the square. The list above (11/7)(1+2/sqrt(3)) remains 62.
 
-1. Keep results/det5_combined_residual_queue.json as the exact pending
-   domain: 258 entries, with strict boundaries and all prior cuts preserved.
-   The new proof slices strengthen CLAIM-0009 to (102/65)A on the entire
-   [3/5,1]^2 corner, below the original contact-reduction threshold (11/7)A.
-   The remaining queue still targets 17/5; do not lower all inherited cuts.
+1. Use the unchanged 258-entry combined height queue together with the new
+   necessary sign det(F)<0 throughout Y[0,3]. CLAIM-0011 removes the entire
+   opposite sign in both orders already at width>=(5/4)(1+2/sqrt(3)),
+   and forces the original physical row clause F03>=3F01+2F02. Do not rerun
+   positive-sign searches or mistake their SAT outer relaxations for bodies.
 
-   The exact ordered chart now has eight quadratic parameters, with no
-   lifted products. Six horizontal parameters sigma=(x,y,c,e,r,u) determine
-   D and the whole horizontal gauge norm. Over each fixed rational sigma,
-   the remaining theta,h parameters become a rational linear-arithmetic
-   fiber after T=theta/b,H=h/b,R=1/b, H-xR-(y-x)T=1. This includes all
-   fifteen target widths, finite guards and chosen gauge necessities.
+   The exact compact interval compiler is implemented; independent auditing
+   and one reference-bound CPC replay check the first continuous six-shape
+   box. That box is a simple horizontal-gauge exclusion. Whole-cube negative
+   root remains SAT as an outer relaxation; no cover or actual body follows.
+   Preserve the three interval-query archives. Two additional forced-observer
+   matrix relaxations are SAT with actual extrema outside Y[0,3]; retain those
+   controls too. A stronger target must restore the actual-height conditions.
 
-   The exact fiber oracle is implemented and independently audited.
-   Implement rigorous interval lifting from the stored coefficient certificate.
-   Its purpose is to optimize/eliminate both fiber variables completely,
-   then derive conditions covering the six-dimensional shape domain.
-   Do not count sampled shapes as a continuous cover. The compact coordinates (p,q,C,E,r,u) are bounded and 1-pq has a
-   proved positive margin. The old c,e coordinates have no uniform unit bound;
-   D=0 is singular, and empty strict branches
-   must be rejected before taking closures for a supremum.
+   The surviving negative-determinant horizontal subsystem now has an exact
+   strict projection over (p,q,C,E). Its stored implementation retains twelve
+   piece selections per order; an independent analytic reduction shows that
+   four suffice in the forward order. Exact rational witnesses establish only
+   feasibility of this necessary subsystem, not actual body existence.
+   Carry the remaining t,h chart conditions, full widths and other observers
+   into the next structural step; do not repeat the archived fixed-base probe.
 
-   The weak ten-gauge Y-only chart has an actual hollow counterexample:
-   q=(0,0,1/8,1), widthY=2048/593. Thus mere exact height reconstruction
-   cannot close that target. Full lambda=801/2560 fails at (1,-1,1), and
-   even a previously tested gauge fails strong beta=183/500. Preserve this
-   witness; it does not show the missing vector remains decisive after
-   strengthening beta. Its global width is only about 2.442 in U.
+   Use the new forward cuts B>183/200 OR B-A>83/200 and LE>183q/250;
+   the reverse cuts are LE>549q/500 and A-B<17/100. For the forward H2
+   alternative, its one-gauge subsystem is feasible exactly when
+   1+2(B-A)>183/100, LE+2q(B-A)>549q/250, and
+   1-q+LE/2+2(B-A)>183/100. This limited sufficiency does not extend to
+   the full four-gauge, volume, observer or complete-width problem.
 
-   The new complete eight-variable model uses strong beta, eleven gauges
-   and all fifteen widths. Both order branches are UNKNOWN after 20 seconds.
-   Do not repeat those unchanged targets, the old 22-variable UNKNOWN models,
-   or the six SAT linear relaxations. See [chart](proofs/DET5_RATIONAL_HEIGHT_CHART_REVIEW.md),
-   [linear fiber theorem](proofs/DET5_HORIZONTAL_FIBER_REVIEW.md), and
-   [complete model](proofs/DET5_QUADRATIC_FULL_WIDTH_REVIEW.md).
+   The closed four-base box [0,1/32] x [31/64,33/64] x [3/64,5/64] x
+   [31/64,33/64] is now continuously excluded in the forward order by
+   the last expression's upper bound 3597/2048. Its independent analytic
+   review covers every remaining admissible a,tau,t,h. Retain restrictions
+   on C,E: its height enclosure cannot be inserted as an excluded Y rectangle.
+   The 258-entry height queue stays unchanged. See
+   [box proof](proofs/DET5_PROJECTED_BASE_BOX.md),
+   [exact H2 projection](proofs/DET5_FORWARD_MIDDLE_GAUGE_EXACT_PROJECTION.md),
+   [base cuts](proofs/DET5_FOUR_BASE_SHAPE_CUTS.md), and
+   [projection audit](results/det5_horizontal_projection_validation.json).
+
+   The single multiplier L=1-pq clears all original fiber coefficients.
+   On the true target both L and B have positive margins. Use these proven
+   bounds for interval arithmetic and eliminate empty strict branches before
+   closing optimization domains. See [normal form](proofs/DET5_NEGATIVE_DETERMINANT_GAUGE_NORMAL_FORM.md),
+   [denominator proof](proofs/DET5_COMPACT_FIBER_DENOMINATOR_REVIEW.md), and
+   [interval compiler](proofs/DET5_COMPACT_INTERVAL_FIBER_REVIEW.md).
+
+   Keep the exact weak-model hollow witness, its complete gauge minimum and
+   all prior UNKNOWN records. Its failure at strong gauges remains a useful
+   control; it is not a counterexample to global flatness or the new sign.
 2. Keep the contact hypothesis precise. The P5/P7/P8 bounds require one
    prescribed relative-interior point per facet of a tetrahedron. They do
    not exclude larger contact hulls by containment. The P10/P13 analytic
@@ -61,7 +81,7 @@ Reproduce the completed exclusions with `reproduce_height_cover.py` and
 actual external proof-kernel checking uses the pinned sources documented in
 [HEIGHT_ETHOS_REPRODUCTION.md](proofs/HEIGHT_ETHOS_REPRODUCTION.md).
 
-The curated GitHub snapshot is being updated under explicit user authorization.
-The new band cut refines 70 of 258 residual entries; it preserves 188 other
-charts. The combined queue also removes the separately checked continuous rectangle. Neither operation establishes
-that every retained entry is nonempty. The scientific objective remains open.
+The latest four-base projection and analytic box exclusion are prepared for
+the GitHub publication now authorized by the user; this source update does
+not itself establish that export has completed. The active scientific
+objective remains open.

@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "order": "lt",
+  "target_global_width": "17/5",
+  "base_parameters": [
+    "p",
+    "q",
+    "C",
+    "E"
+  ],
+  "closed_box": [
+    [
+      "0",
+      "1/32"
+    ],
+    [
+      "31/64",
+      "33/64"
+    ],
+    [
+      "3/64",
+      "5/64"
+    ],
+    [
+      "31/64",
+      "33/64"
+    ]
+  ],
+  "parameter_volume": "1/1048576",
+  "projected_H2_expression": "1-q+(1-p*q)*E/2+2*((q*C+E)-(C+p*E))",
+  "projected_H2_upper": "3597/2048",
+  "required_strict_lower": "183/100",
+  "strict_gap": "3771/51200",
+  "B_upper": "2277/4096",
+  "B_minus_A_lower": "1757/4096",
+  "L_lower": "2015/2048",
+  "LE_lower": "62465/131072",
+  "q_LE_comparison_upper": "6039/16000",
+  "derivative_q_upper": "-27/32",
+  "derivative_E_lower": "9951/4096",
+  "actual_forward_height_intervals": [
+    [
+      "0",
+      "33/2017"
+    ],
+    [
+      "31/64",
+      "1056/2017"
+    ]
+  ],
+  "all_previous_forward_base_cuts_hold_throughout_box": true,
+  "new_base_obstruction_beyond_previous_height_rectangles": true,
+  "solver_queries_run": 0,
+  "scope": "Analytic four-base closed box exclusion in originalY03 forwardorder. All admissible a,tau,t,h are excluded at the target. No whole class, reverse-order or global flatness exclusion; parameter volume is not residual-body measure."
+}

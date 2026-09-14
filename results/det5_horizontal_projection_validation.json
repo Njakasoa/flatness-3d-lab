@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "scope": "Independent strict projection coefficient and exact-control audit. Four-dimensional continuous feasibility remains unresolved; no solver calls.",
+  "certificate_sha256": "d8163ebd7272d2aeb627a872ee3be9f3c47cc729425852842635fad621850e71",
+  "control_archive_sha256": "0545c1b78e37fb40ae5fbc6b4cd4dec16e32bb2bd8a187791c3375066c59d9d0",
+  "symbolic_coefficient_identities": 864,
+  "branches_per_order": 12,
+  "strict_rows_per_branch": 12,
+  "controls": [
+    {
+      "base": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "order": "lt",
+      "status": "infeasible",
+      "branches": 12
+    },
+    {
+      "base": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "order": "gt",
+      "status": "infeasible",
+      "branches": 12
+    },
+    {
+      "base": [
+        "1/8",
+        "1/2",
+        "1/8",
+        "3/4"
+      ],
+      "order": "lt",
+      "status": "feasible",
+      "branches": 12
+    },
+    {
+      "base": [
+        "1/8",
+        "1/2",
+        "1/8",
+        "3/4"
+      ],
+      "order": "gt",
+      "status": "feasible",
+      "branches": 12
+    },
+    {
+      "base": [
+        "0",
+        "1/2",
+        "1/10",
+        "4/5"
+      ],
+      "order": "lt",
+      "status": "feasible",
+      "branches": 12
+    },
+    {
+      "base": [
+        "0",
+        "1/2",
+        "1/10",
+        "4/5"
+      ],
+      "order": "gt",
+      "status": "feasible",
+      "branches": 12
+    },
+    {
+      "base": [
+        "1/3",
+        "1/3",
+        "2/5",
+        "1/2"
+      ],
+      "order": "lt",
+      "status": "infeasible",
+      "branches": 12
+    },
+    {
+      "base": [
+        "1/3",
+        "1/3",
+        "2/5",
+        "1/2"
+      ],
+      "order": "gt",
+      "status": "infeasible",
+      "branches": 12
+    },
+    {
+      "base": [
+        "1/2",
+        "1/2",
+        "1/4",
+        "1/3"
+      ],
+      "order": "lt",
+      "status": "infeasible",
+      "branches": 12
+    },
+    {
+      "base": [
+        "1/2",
+        "1/2",
+        "1/4",
+        "1/3"
+      ],
+      "order": "gt",
+      "status": "infeasible",
+      "branches": 12
+    }
+  ],
+  "archived_branch_outcomes": {
+    "feasible": 16,
+    "infeasible": 104
+  },
+  "additional_probe_sha256": "723a6889e40a1fe91704593e294ee9d367d34935f3ebe5466df36f1f66803476",
+  "additional_probe_bases": 22,
+  "additional_probe_branch_outcomes": {
+    "feasible": 36,
+    "infeasible": 228
+  },
+  "additional_point_obstructions": [
+    {
+      "order": "lt",
+      "base": [
+        "0",
+        "1/2",
+        "1/16",
+        "1/2"
+      ]
+    },
+    {
+      "order": "lt",
+      "base": [
+        "0",
+        "1/2",
+        "1/8",
+        "1/2"
+      ]
+    },
+    {
+      "order": "lt",
+      "base": [
+        "0",
+        "1/2",
+        "1/4",
+        "5/8"
+      ]
+    },
+    {
+      "order": "lt",
+      "base": [
+        "0",
+        "3/4",
+        "1/16",
+        "5/8"
+      ]
+    }
+  ],
+  "infeasibility_support_sizes": {
+    "1": 0,
+    "2": 67,
+    "3": 37
+  },
+  "named_degenerate_kernel_controls": [
+    {
+      "name": "unit square",
+      "strict_feasible": true
+    },
+    {
+      "name": "zero atom",
+      "strict_feasible": false
+    },
+    {
+      "name": "negative constant",
+      "strict_feasible": false
+    },
+    {
+      "name": "positive constant",
+      "strict_feasible": true
+    },
+    {
+      "name": "closed segment only",
+      "strict_feasible": false
+    },
+    {
+      "name": "closed point only",
+      "strict_feasible": false
+    },
+    {
+      "name": "integer nonterminating pair",
+      "strict_feasible": false
+    },
+    {
+      "name": "parallel feasible",
+      "strict_feasible": true
+    },
+    {
+      "name": "positive cofactor triangle",
+      "strict_feasible": false
+    },
+    {
+      "name": "negative cofactor triangle",
+      "strict_feasible": false
+    },
+    {
+      "name": "rank-two zero-cofactor triple",
+      "strict_feasible": false
+    },
+    {
+      "name": "negative-constant triangle",
+      "strict_feasible": false
+    }
+  ],
+  "random_bounded_kernel_controls": 160,
+  "a_equals_one_strictification_fixture": {
+    "epsilon": "1/2",
+    "moved_point": [
+      "1/2",
+      "1/4"
+    ]
+  },
+  "mutated_weight_rejected": true,
+  "solver_queries_run": 0,
+  "optimization_solver_calls_run": 0
+}
