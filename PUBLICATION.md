@@ -113,3 +113,20 @@ of the scaled box is corrected: its Y region was already an old closed leaf.
 Public history continues from be1d735. Source session logs, private history,
 installed runtimes and third-party paper copies remain excluded.
 No additional contact class or global bound is claimed.
+
+## Stronger height corners and exact ordering — 2026-09-14
+
+The maintainer explicitly renewed publication authorization, following the
+Ihara A(2) companion. This update exports scientific checkpoint e42b25df01d966b7d7200dfff8391b962e35fdff
+and continues public history from 175896f. It includes CLAIM-0009, the
+three original corner proofs and their three reduced statements, exact
+strict-complement residual queues, the contact-ordering lemma, six audited
+linear models and two unresolved exact-product models. No complete additional
+contact class or new global flatness bound is claimed.
+
+A public-copy replay exposed a tuple/list mismatch in an archived JSON
+comparison. The checker was corrected in the scientific checkpoint above;
+the actual-body certificate and all mathematical results retain their bytes.
+The public README, French summary, reproduction wrapper and this publication
+record are adapted for this snapshot. Source runtime installations, private
+history, session logs and third-party paper copies remain excluded.

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "scope": "Checkpoint bindings to independently executed input, residual-domain and proof-kernel checks. No whole-class result, no rerun of earlier solver archives.",
+  "validation_records": [
+    {
+      "path": "results/det5_certified_residual_queue.json",
+      "sha256": "b715803ac0c51033410001f71725dbfe162b9f3edcbd4936c3868e30357d7aa9",
+      "status": "READY"
+    },
+    {
+      "path": "results/det5_enlarged_residual_queue.json",
+      "sha256": "4f45561261a82b4d4a4c35e49e3cac071f8abd8cc693efa00c7764d871949f64",
+      "status": "READY"
+    },
+    {
+      "path": "results/det5_coupled_interval_validation.json",
+      "sha256": "f8d73f7bab5c2ecce346df68169a2ae475dcc66e9e210f5606cd191d93c80cea",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_coupled_scaled_encoding_validation.json",
+      "sha256": "567bae62c55907c90b08970c1a5c2e7a85bb09f3f168a36a601018bd3268b9ee",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_coupled_z_encoding_validation.json",
+      "sha256": "35dab1231c929553019812005986d77d97b2085e689ed152ed1d0cc9e40479e2",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_y_corner_supplement_validation.json",
+      "sha256": "aea00906d0f3762dae82a2e5919a1dc4fa8cb7d6a7c641274a917b69ebc97b11",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_y_corner_supplement_ethos_validation.json",
+      "sha256": "df20cd06962bccc5980324da28ec900e4304e0c14a89832859a990669deec6c1",
+      "status": "PASS"
+    }
+  ],
+  "old_tracked_scientific_payloads_unchanged": true,
+  "new_fixed_threshold_proofs": 3,
+  "new_global_flatness_bound": false,
+  "new_full_class_exclusions": 0,
+  "remaining_necessary_types": 58,
+  "current_residual_entries": 258,
+  "new_certified_Y_chart_area": "3/40",
+  "independent_internal_claim_review": "PASS; explicit Y=(0,1,0) clarity finding fixed",
+  "syntax_and_local_markdown_links": "PASS",
+  "previous_goal_turn": "progress: authorized publication175896f completed",
+  "current_goal_turn": "progress: enlarged exact height-domain exclusion and conditional bounds; objective remains active"
+}

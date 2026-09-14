@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Four formal polynomial identities; exact rational contact matrices over both height order branches, including endpoints; equivalent two-branch reductions of two integer guards. Written positivity proof supplies universal sign conclusions. No solver queries.",
+  "formal_polynomial_identities": 4,
+  "exact_contact_matrix_regressions": 416,
+  "guard_equivalence_regressions": 832,
+  "proved_lemmas": [
+    "equal free heights impossible for strict actual contacts",
+    "offset lies strictly between the two free heights",
+    "Z has fixed alternating row signs on each height order branch",
+    "Z gauge is one linear expression in F on each branch",
+    "guards (2,1,1) and (3,1,1) each reduce to two alternatives"
+  ],
+  "solver_queries_run": 0,
+  "limitation": "No new numerical gauge threshold or complete domain exclusion follows from these lemmas alone."
+}

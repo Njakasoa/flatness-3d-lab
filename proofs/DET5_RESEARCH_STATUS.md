@@ -1,4 +1,51 @@
+> Publication note (2026-09-14): this snapshot includes the subsequent corner
+> bounds, exact residual queue and ordering results below. Historical references
+> to local-only work describe earlier checkpoints; see ../PUBLICATION.md.
+
 # Determinant-five research status — 2026-09-14
+
+## Current local refinement: exact ordering and reduced proof premises
+
+The actual-subset checks in [the slice analysis](DET5_CORNER_PROOF_SLICES.md)
+remove gap<5/17 from all three corner proofs. Thus CLAIM-0009 now gives
+(102/65)A on the entire [3/5,1]^2 square, not only [12/17,1]^2. Its region
+area and the residual queue are unchanged. The sharper inner bound remains
+(23/19)A, with neither a volume premise nor an initial large-width premise.
+
+The [exact contact-order lemma](DET5_Y_CORNER_ANALYTIC_PROBE.md) proves
+q1≠q2, strict offset interlacing, a fixed Z-gauge sign pattern, and two
+simplified guard clauses throughout Y[0,3]. Six new linear models with
+successive order, offset and shared row-difference cuts are all SAT; all six
+assignments fail their six exact product identities. Independent body
+reconstruction finds hollow bodies with actual extrema [1,3] or [3,0], every
+Y-width below 17/5. They are not actual counterexamples in the retained chart.
+Two new nonlinear formulations restore all six products and remain UNKNOWN.
+Their exact polynomial inputs have independent source/encoding audits.
+No complete chart or further contact type is excluded by these models.
+
+
+## Current local advance after public 175896f
+
+[CLAIM-0009](../claims/CLAIM-0009.md) proves w<=17/5 on the actual Y:[0,3]
+height square [3/5,1]^2, and stronger nested bounds (102/65)A on
+[12/17,1]^2 and (23/19)A on [3/4,1]^2. Three new independent cvc5 refutations
+have successful reference-bound Ethos checks. The broader 11/20 square has a
+saved exact relaxed SAT assignment whose six product identities all fail.
+
+The union-aware [new queue](../results/det5_enlarged_residual_queue.json)
+has258 entries, including strict removal of all certified boundaries. The
+new square adds 3/40 of Y-chart area and trims three entries by 3/5 of their
+previous residual measure, without eliminating any whole additional box.
+The old 953-query archive and all earlier proof receipts remain unchanged.
+
+All14saved SAT assignments of the prior scaled transfer violate the new
+static directional product envelopes. Nevertheless9 coupled targets and12
+exhaustive Z-extrema branches are UNKNOWN under their archived time limits.
+These are strictly stronger models with audited formulas, not new exclusions.
+The 58-type count and unrestricted flatness bound are unchanged. See the
+[supplementary proof](DET5_Y_CORNER_SHARP_SUPPLEMENT.md) and
+[coupled formulation review](DET5_COUPLED_FRAME_REVIEW.md).
+
 
 ## Subsequent certification and corrected interpretation — 2026-09-14
 

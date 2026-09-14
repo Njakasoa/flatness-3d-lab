@@ -1,0 +1,31 @@
+{
+  "scope": "Six exact height products restored on the two structurally ordered Y[0,3] residual branches. Recorded nonlinear outcomes require exact body/proof checking before any geometric conclusion.",
+  "source_archive_path": "results/det5_y_ordered_root_difference.json",
+  "source_archive_sha256": "d7d8dfd934094b15b9cf907bda577f8b7772067949dc50812e209929291078ea",
+  "queries": [
+    {
+      "order": "lt",
+      "source_path": "results/det5_y_ordered_root_difference_lt.smt2",
+      "source_sha256": "22ce8296b9e2e778428247453e0e44c2b05da35b091e5e2eb7a3fb2e8ecbf3ad",
+      "input_path": "results/det5_y_ordered_exact_lt.smt2",
+      "input_sha256": "93d9cd62c43c0ed772aacc7a8c68d8b142ee5e5fad904e1d0dd0bcd70cecd849",
+      "status": "unknown",
+      "elapsed_seconds": 15.109394950999558,
+      "timeout_ms": 15000,
+      "z3_version": "5.1.0",
+      "reason_unknown": "timeout"
+    },
+    {
+      "order": "gt",
+      "source_path": "results/det5_y_ordered_root_difference_gt.smt2",
+      "source_sha256": "569e959fdf813e23cc8d597029dbd99888b18f45794d17047bc6add6a70537d8",
+      "input_path": "results/det5_y_ordered_exact_gt.smt2",
+      "input_sha256": "65869377894e404a6b29cabc2221b5edfcb0ad7cadd15b3d8f7d9919b40542e8",
+      "status": "unknown",
+      "elapsed_seconds": 15.091454676003195,
+      "timeout_ms": 15000,
+      "z3_version": "5.1.0",
+      "reason_unknown": "timeout"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "status": "unsat",
+  "elapsed_seconds": 2.1835589350012015,
+  "internal_complete_proof_check": true,
+  "scope": "One enlarged Y-only square at the weak necessary global-target gauge. Partial height-domain obstruction only if independently certified; SAT is outer feasibility.",
+  "extrema": [
+    0,
+    3
+  ],
+  "box": [
+    [
+      "3/5",
+      "1"
+    ],
+    [
+      "3/5",
+      "1"
+    ]
+  ],
+  "beta": "37/102",
+  "target": "17/5",
+  "gauge_vectors": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      2
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      5,
+      1,
+      2
+    ]
+  ],
+  "input_path": "results/det5_y_enlarged_3_5.smt2",
+  "input_sha256": "cb5fdc3b105badbde60099a603eda1488fade0f2eecbd88ba6f9c7f3947c2832",
+  "proof_path": "certificates/det5_y_enlarged_3_5.cpc.gz",
+  "proof_sha256": "300d32e6bb6cef311fd30cfc74e704930ed364ac36d7f1674c2b7b2bc181d843",
+  "compressed_proof_sha256": "455416302628d5f5cdf8b2635c97e982e5fd956e2812458fc2545b497a5da876",
+  "reference_sha256": "51c9f7d9e584a7d6bd748326ad19413dd2e924554bf2586c3f4ee6588e96bfbb",
+  "ethos": {
+    "exit_code": 0,
+    "stdout": "correct",
+    "stderr": "",
+    "elapsed_seconds": 1.2106987069964816
+  },
+  "ethos_revision": "221641668d75eaffd308e0511d63962cea937110",
+  "cvc5_signature_revision": "f3b21c4483d3b88dc63cb7cd3e5eb092eee5e341"
+}

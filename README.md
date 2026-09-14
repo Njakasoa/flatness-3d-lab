@@ -10,35 +10,48 @@ internally reviewed with AI assistance. Novelty remains unconfirmed.
 No new global bound, solution of the flatness
 conjecture, external peer review or journal/arXiv submission is claimed.**
 
-## Latest research: certified height regions and a conditional bound
+## Latest research: stronger height-region bounds and exact contact ordering
 
-For the remaining contact hull P=conv(0,(5,1,2),e2,e3), a hollow real
-tetrahedron K with p_i in the relative interior of the facet opposite v_i
-satisfies
+For P=conv(0,(5,1,2),e2,e3), let K=conv(v0,v1,v2,v3) be a hollow real
+tetrahedron with each prescribed p_i in the relative interior of the facet
+opposite v_i. In these coordinates put Y=(0,1,0),
+q_i=(Y(v_i)-min_j Y(v_j))/width(K,Y), and A=1+2/√3.
+When q0=0 and q3=1, the following bounds hold for the full lattice width:
 
-```text
-w(K) ≤ (10/7)(1 + 2/√3) ≈ 3.0781436263
-```
+| Actual normalized heights | Certified bound for w(K) |
+|---|---|
+| q1,q2 in [3/5,1] | (102/65)A ≈ 3.3812223833 |
+| q1,q2 in [3/4,1] | (23/19)A ≈ 2.6083217044 |
 
-**provided** its actual normalized Y vertex heights satisfy q0=0, q3=1
-and q1,q2 in [3/4,1]. This is a theorem on a specified height region;
-the whole contact class and the global flatness conjecture remain open.
-Other specified regions have the conditional bound approximately 3.38122.
+All endpoints are included. Y need not minimize the width, and no preliminary
+large-width assumption is required. These results concern the specified
+height regions; the full contact class and the global conjecture remain open.
+The necessary list still has **58 types** at width at least 2+√2.
 
-All twelve closed rectangles from the earlier Y campaign now have separate
-cvc5 proofs checked by Ethos. A dependency slice of the scaled-frame proof
-retains 69 assumptions and uses no U restrictions or additional width clauses.
-The previously highlighted box lies in an old closed Y rectangle: its
-certification upgrades an existing result rather than discovering a new region.
-The exact overlay covers one archived joint pending box fully and six halfway.
-The frozen archive still records 259 pending boxes; an exactly clipped queue
-has not yet been implemented. The 58-type count remains unchanged.
+Three new original CPC refutations and their three smaller dependency slices
+have reference-bound Ethos checks. The reduced statements have 60, 49 and
+51 assumptions. Removing the unused upper bound on 1/width(K,Y) strengthens
+the conclusion on the entire [3/5,1]² square. Its excluded area outside the
+old certified Y rectangles is exactly 3/40 in this coordinate chart.
 
-- [Conditional theorem and precise hypotheses](proofs/DET5_CONDITIONAL_WIDTH_BOUNDS.md)
-- [Reduced proof and corrected history](proofs/DET5_Y_HIGH_CYLINDER_EXCLUSION.md)
-- [Certified rectangles and overlay](results/det5_certified_y_overlay.json)
-- [Complete scaled frame](proofs/DET5_SCALED_VERTEX_HEIGHT_FRAME.md), [independent transfer audit](proofs/DET5_SCALED_PENDING_TRANSFER_REVIEW.md), and [research status](proofs/DET5_RESEARCH_STATUS.md)
-- [Reproduce this update](reproduce_det5_partial.py) and [public validation](PUBLIC_VALIDATION.md)
+An exact geometric lemma on the whole Y[0,3] chart gives q1≠q2 and places the
+common Y height of p0,p3 strictly between those of v1,v2. It fixes the signs
+in the Z-gauge and gives one linear formula for each height order. The
+corresponding planar section is a quadrilateral with the two contacts on
+adjacent edges.
+
+The frozen 953-query archive still records 259 pending boxes. A separate exact
+queue now has **258 residual entries**, retaining strict complements and all
+prior U bounds. Six new linear relaxations are SAT, but reconstructing their
+actual tetrahedra gives different Y extrema and Y-width below 17/5. They are
+not counterexamples in the requested chart. The two models restoring all six
+exact products remain **UNKNOWN** after their recorded time limits.
+
+- [Theorem and precise hypotheses — CLAIM-0009](claims/CLAIM-0009.md)
+- [Checked reduced proofs](proofs/DET5_CORNER_PROOF_SLICES.md) and [original supplement](proofs/DET5_Y_CORNER_SHARP_SUPPLEMENT.md)
+- [Height-ordering lemma](proofs/DET5_Y_CORNER_ANALYTIC_PROBE.md) and [ordered-model audit](proofs/DET5_Y_ORDERED_PRODUCT_COUPLING.md)
+- [Exact residual queue](proofs/DET5_ENLARGED_RESIDUAL_QUEUE.md) and [actual-body checks](results/det5_ordered_actual_matrices.json)
+- [Reproduce this update](reproduce_det5_corner.py), [public validation](PUBLIC_VALIDATION.md), and [French summary](results/FINAL_SUMMARY.md)
 
 ## Established result: three further contact classes excluded
 
@@ -255,7 +268,7 @@ all 484 clauses of the larger model. This does not settle width optimization.
 
 ![The 64 lattice guards and 20 explicit pair exclusions](results/observer_guards.png)
 
-This update exports the committed determinant-five model and exact obstruction checkpoint.
+This update exports the committed height-region bounds, contact-ordering lemma and exact residual queue.
 Its exact revision is recorded in SOURCE_MANIFEST.json; partial experiments are
 labelled explicitly and are not counted as proofs.
 See [public-copy validation](PUBLIC_VALIDATION.md) for reproduction evidence.
@@ -477,6 +490,30 @@ the original scaled-box proof and its 69-assumption slice. They are overlapping
 partial certificates, not sixteen additional excluded contact classes.
 The wrapper refreshes audit receipts but leaves all archived solver inputs,
 proof payloads and original proof-check receipts unchanged.
+
+Replay the stronger corner bounds, exact ordering, residual queues and new
+archived models without running any SMT search:
+
+```sh
+python3 reproduce_det5_corner.py
+.venv/bin/python reproduce_det5_corner.py --encodings
+```
+
+The default runs ten exact audits/reconstructions with the standard library.
+The optional encoding audits require the pinned solver Python packages.
+To freshly check the three new original proofs and their three reduced
+statements, use the same pinned external checker setup:
+
+```sh
+.venv/bin/python reproduce_det5_corner.py --encodings \
+  --ethos ETHOS/build/src/ethos --ethos-source ETHOS \
+  --cvc5-source CVC5
+```
+
+The six refutations concern overlapping height regions, not six excluded
+contact classes. Default proof bindings are distinct from fresh kernel checks.
+The wrapper preserves archived scientific files and proof receipts; it writes
+its own public validation receipt.
 
 The core exact geometry uses only the standard library. SymPy supports the
 independent checks; SciPy supports exploration; Matplotlib produces figures.

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Exact endpoint/sign/reference tests supporting the continuous interval proof; no solver queries or full-model feasibility claims.",
+  "U_endpoint_cases_checked": 18432,
+  "representative_directional_checks": 25920,
+  "strictly_tighter_interval_records": 23862,
+  "Bmin": "2042829/50000000",
+  "Bmax": "5/17",
+  "U_scaled_span_closed_bounds": [
+    "34728093/250000000",
+    "500000000/34728093"
+  ],
+  "solver_queries_run": 0
+}

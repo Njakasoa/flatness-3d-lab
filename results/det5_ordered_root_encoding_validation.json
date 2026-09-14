@@ -1,0 +1,334 @@
+{
+  "status": "PASS",
+  "scope": "Independent full reconstruction and exact saved SAT substitution for ordered-root variants. Eight same-chart certified rectangle complements. Existing rectangle proof receipts bound; no solver calls or proof-kernel reruns. SAT witnesses are outer feasibility only.",
+  "source_archive_sha256": {
+    "results/det5_y_ordered_root.json": "b0e173e578f29126b9e37e4d3ba5e9efc0419e9cd179aab5f7d1fbc1284fbe66",
+    "results/det5_y_ordered_root_offset.json": "c2bb6831c0a45ba8fff8a0f5fd3e3dca1b26caeea8724740ced9dc0158ad4375",
+    "results/det5_y_ordered_root_difference.json": "d7d8dfd934094b15b9cf907bda577f8b7772067949dc50812e209929291078ea"
+  },
+  "rectangle_proof_bindings": [
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0011.smt2",
+      "input_sha256": "e37cc05e0b78da8b3ea77b2fb6abfe1d6d5b83643b1f1d563b03d802b26e1d30",
+      "proof_path": "certificates/det5_class5_y/0_3_r0011.cpc.gz",
+      "proof_sha256": "73b300c32d68dcdd1df367c27af0f47567bcc3f10d22ae7733cbc38c2d170439",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0101.smt2",
+      "input_sha256": "2c96e6e26c0eb84c15d7ff473f02334ec490de5c704578c3f45af741718a9ae9",
+      "proof_path": "certificates/det5_class5_y/0_3_r0101.cpc.gz",
+      "proof_sha256": "cdfb2e7c3e83ce48077fec9a0b185d3e9ada54e46d8b7f613ffd9f8032e97060",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0111.smt2",
+      "input_sha256": "47a860f6a0d60250359bef0bbc01dbe6f3cb76cdd4f6fb2a7a52614c087c468d",
+      "proof_path": "certificates/det5_class5_y/0_3_r0111.cpc.gz",
+      "proof_sha256": "d84c63cfa67b1476342f5d99a171b95b6ae596896e3e6704d5f7354bfe4bb99a",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1010.smt2",
+      "input_sha256": "888bce3b2920f838833c4db8fbb01a54d80b2f15d182b7a6ec1e6daec9011ea3",
+      "proof_path": "certificates/det5_class5_y/0_3_r1010.cpc.gz",
+      "proof_sha256": "8ae1e6f7eb956e9752b0ae517b09f979be3a0e1cd0b219ad84ebfada265fc0cb",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1011.smt2",
+      "input_sha256": "6fb47452f02c2247e10d949caf81865c13cac7d66563e11259f13eda8bafec14",
+      "proof_path": "certificates/det5_class5_y/0_3_r1011.cpc.gz",
+      "proof_sha256": "810c027f93553d34577df852e44a991076a517a5e2b7dd410426f0d58b4775d6",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1100.smt2",
+      "input_sha256": "e96e20046ab74e97550da971a06845231eae71687eed36a28b6a785501841779",
+      "proof_path": "certificates/det5_class5_y/0_3_r1100.cpc.gz",
+      "proof_sha256": "5b815a432e7da264044281aab60a82adcbcd06ffc013cc7b85abaebb6c7f7d08",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1111.smt2",
+      "input_sha256": "41b6a83e80ff717f5d6f9ab2e1d265e531b632e2b9ef631e8e25e402c98f699a",
+      "proof_path": "certificates/det5_class5_y/0_3_r1111.cpc.gz",
+      "proof_sha256": "7660f874472f093c69f309512093ca0bafbc5bb433fd3ddc34a906de3037c88b",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "results/det5_y_enlarged_3_5.smt2",
+      "input_sha256": "cb5fdc3b105badbde60099a603eda1488fade0f2eecbd88ba6f9c7f3947c2832",
+      "proof_path": "certificates/det5_y_enlarged_3_5.cpc.gz",
+      "proof_sha256": "300d32e6bb6cef311fd30cfc74e704930ed364ac36d7f1674c2b7b2bc181d843",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/5",
+          "1"
+        ],
+        [
+          "3/5",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    }
+  ],
+  "inputs_checked": [
+    {
+      "archive_path": "results/det5_y_ordered_root.json",
+      "order": "lt",
+      "input_path": "results/det5_y_ordered_root_lt.smt2",
+      "input_sha256": "bcda7e86657a88d78159dee9138ea95f370353cd216ac6a95268813e5e35375f",
+      "assertions_checked": 93,
+      "variables_checked": 22,
+      "all_assertions_true": true,
+      "product_minus_exact_qF": {
+        "product_1_0": "5284848689/477130464096",
+        "product_1_2": "665478877/477130464096",
+        "product_1_3": "55681434521/318086976064",
+        "product_2_0": "-384565/23659361856",
+        "product_2_1": "-9555582265/130126490208",
+        "product_2_3": "9255506759/260252980416"
+      },
+      "difference_product_residuals": {
+        "1": "156474606185/954260928192",
+        "2": "4629868487/130126490208"
+      },
+      "offset_cuts_failed": 0,
+      "difference_cuts_failed": 1
+    },
+    {
+      "archive_path": "results/det5_y_ordered_root.json",
+      "order": "gt",
+      "input_path": "results/det5_y_ordered_root_gt.smt2",
+      "input_sha256": "93c9ffc9bb917f478aea70d4871ad676456e61f91f86cac7e3c5ddfc7b01840d",
+      "assertions_checked": 93,
+      "variables_checked": 22,
+      "all_assertions_true": true,
+      "product_minus_exact_qF": {
+        "product_1_0": "-887685040/6306392403",
+        "product_1_2": "1538333461/11211364272",
+        "product_1_3": "-1487168767/33634092816",
+        "product_2_0": "-796620394/6306392403",
+        "product_2_1": "94355/4204261602",
+        "product_2_3": "-137097815/8408523204"
+      },
+      "difference_product_residuals": {
+        "1": "9741454339/100902278448",
+        "2": "2775188131/25225569612"
+      },
+      "offset_cuts_failed": 1,
+      "difference_cuts_failed": 0
+    },
+    {
+      "archive_path": "results/det5_y_ordered_root_offset.json",
+      "order": "lt",
+      "input_path": "results/det5_y_ordered_root_offset_lt.smt2",
+      "input_sha256": "6f114584ba4716955eb536b56ccc5e3ec7f57be5ddcad7b284e8a3ed9da6296c",
+      "assertions_checked": 95,
+      "variables_checked": 22,
+      "all_assertions_true": true,
+      "product_minus_exact_qF": {
+        "product_1_0": "26330869/1413919206",
+        "product_1_2": "136579799/5655676824",
+        "product_1_3": "134515/2827838412",
+        "product_2_0": "198785/8483515236",
+        "product_2_1": "-1685736557/16967030472",
+        "product_2_3": "55779071/471306402"
+      },
+      "difference_product_residuals": {
+        "1": "-7503889/403976916",
+        "2": "143403499/1211930748"
+      },
+      "offset_cuts_failed": 0,
+      "difference_cuts_failed": 0
+    },
+    {
+      "archive_path": "results/det5_y_ordered_root_offset.json",
+      "order": "gt",
+      "input_path": "results/det5_y_ordered_root_offset_gt.smt2",
+      "input_sha256": "5a1f41223ed3da21446eaf79e2caa4436f32a8a0b1cd6c88be592aadb28e29ca",
+      "assertions_checked": 95,
+      "variables_checked": 22,
+      "all_assertions_true": true,
+      "product_minus_exact_qF": {
+        "product_1_0": "-8233225225/61131573504",
+        "product_1_2": "8520486541/61131573504",
+        "product_1_3": "-2271435023/61131573504",
+        "product_2_0": "-2078432161/15282893376",
+        "product_2_1": "-1658957/1698099264",
+        "product_2_3": "-231046777/5094297792"
+      },
+      "difference_product_residuals": {
+        "1": "2980895101/30565786752",
+        "2": "692645915/7641446688"
+      },
+      "offset_cuts_failed": 0,
+      "difference_cuts_failed": 0
+    },
+    {
+      "archive_path": "results/det5_y_ordered_root_difference.json",
+      "order": "lt",
+      "input_path": "results/det5_y_ordered_root_difference_lt.smt2",
+      "input_sha256": "22ce8296b9e2e778428247453e0e44c2b05da35b091e5e2eb7a3fb2e8ecbf3ad",
+      "assertions_checked": 103,
+      "variables_checked": 22,
+      "all_assertions_true": true,
+      "product_minus_exact_qF": {
+        "product_1_0": "22979/375584400",
+        "product_1_2": "-22979/751168800",
+        "product_1_3": "362631599/1502337600",
+        "product_2_0": "1459/250389600",
+        "product_2_1": "-1459/125194800",
+        "product_2_3": "1459/125194800"
+      },
+      "difference_product_residuals": {
+        "1": "40282187/166926400",
+        "2": "1459/250389600"
+      },
+      "offset_cuts_failed": 0,
+      "difference_cuts_failed": 0
+    },
+    {
+      "archive_path": "results/det5_y_ordered_root_difference.json",
+      "order": "gt",
+      "input_path": "results/det5_y_ordered_root_difference_gt.smt2",
+      "input_sha256": "569e959fdf813e23cc8d597029dbd99888b18f45794d17047bc6add6a70537d8",
+      "assertions_checked": 103,
+      "variables_checked": 22,
+      "all_assertions_true": true,
+      "product_minus_exact_qF": {
+        "product_1_0": "-49778642963/318695249961",
+        "product_1_2": "81025078531/637390499922",
+        "product_1_3": "-3124925305/70821166658",
+        "product_2_0": "-24572150159/212463499974",
+        "product_2_1": "1197695/6438287878",
+        "product_2_3": "-8197743197/212463499974"
+      },
+      "difference_product_residuals": {
+        "1": "71432958181/637390499922",
+        "2": "2729067827/35410583329"
+      },
+      "offset_cuts_failed": 0,
+      "difference_cuts_failed": 0
+    }
+  ],
+  "rejected_corruption_controls": [
+    "reversed order branch",
+    "missing enlarged-square complement",
+    "zero-gap assignment"
+  ],
+  "solver_queries_run": 0,
+  "proof_kernel_reruns": 0
+}

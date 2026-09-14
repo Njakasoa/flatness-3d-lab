@@ -1,0 +1,179 @@
+{
+  "scope": "Exhaustive Z-extrema split of one coupled residual outer model. Status-only UNSAT is not a checked exclusion.",
+  "source_archive_sha256": "48386c88da3f9eccf0135cb9ad75604e583f6bc708d87f5622beebe3ab713610",
+  "source_path": "results/det5_coupled_0_3_0_3_r0000000.smt2",
+  "source_sha256": "5b9b0cbad6838693b9053d249b1e0266c2c39fc357da3edd17a5190a7d4e245f",
+  "Y_extrema": [
+    0,
+    3
+  ],
+  "U_extrema": [
+    0,
+    3
+  ],
+  "node": "r0000000",
+  "box": [
+    [
+      "0",
+      "1/4"
+    ],
+    [
+      "0",
+      "1/4"
+    ],
+    [
+      "0",
+      "1/4"
+    ],
+    [
+      "0",
+      "1/2"
+    ]
+  ],
+  "queries": [
+    {
+      "Z_extrema": [
+        0,
+        1
+      ],
+      "path": "results/det5_coupled_z_0_1.smt2",
+      "input_sha256": "9d7e949ce754cccce71c29411049df0f99f676424c000b9d381d011c6643fac2",
+      "status": "unknown",
+      "elapsed_seconds": 3.03770047999933,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        0,
+        2
+      ],
+      "path": "results/det5_coupled_z_0_2.smt2",
+      "input_sha256": "c96edbc41c6925f8d177d842bc547adf4e55b8e22f5e6604461180775a1b7e2c",
+      "status": "unknown",
+      "elapsed_seconds": 3.025206474998413,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        0,
+        3
+      ],
+      "path": "results/det5_coupled_z_0_3.smt2",
+      "input_sha256": "59e1dd5a3eaa1d79ec88e790eef02c15c0a9f3d8691c692cd68e0b531007d7bd",
+      "status": "unknown",
+      "elapsed_seconds": 3.0349128159978136,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        1,
+        0
+      ],
+      "path": "results/det5_coupled_z_1_0.smt2",
+      "input_sha256": "c1762dd8782cde736c5ad3e45bbb72a9154ee288feda2b385f03cfda1099f300",
+      "status": "unknown",
+      "elapsed_seconds": 3.04903552900214,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        1,
+        2
+      ],
+      "path": "results/det5_coupled_z_1_2.smt2",
+      "input_sha256": "fedae33009a73606e7ef9e8a26b4bab24beef20e86a1ae0c72c9e2fe4e232dce",
+      "status": "unknown",
+      "elapsed_seconds": 3.019130642998789,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        1,
+        3
+      ],
+      "path": "results/det5_coupled_z_1_3.smt2",
+      "input_sha256": "5d0afb5430ca4725b69c985e0bfb09e5b77c0aaa2c91bf40f38803e43c4e4a56",
+      "status": "unknown",
+      "elapsed_seconds": 3.0168455879975227,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        2,
+        0
+      ],
+      "path": "results/det5_coupled_z_2_0.smt2",
+      "input_sha256": "897b6514e10fd2b1396ded15c95a9b99b9b671e61eb53f31f0971e7b92bafa15",
+      "status": "unknown",
+      "elapsed_seconds": 3.0058614870031306,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        2,
+        1
+      ],
+      "path": "results/det5_coupled_z_2_1.smt2",
+      "input_sha256": "c5c0ca8cdab9db303368074d4145a29b2694e9c2f773830f8ab160b5f2f36cb7",
+      "status": "unknown",
+      "elapsed_seconds": 3.004461062999326,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        2,
+        3
+      ],
+      "path": "results/det5_coupled_z_2_3.smt2",
+      "input_sha256": "53ee9b74d15943548b088fe80cb5e18600d08749adbdacd655aaf1075695af37",
+      "status": "unknown",
+      "elapsed_seconds": 3.010305358999176,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        3,
+        0
+      ],
+      "path": "results/det5_coupled_z_3_0.smt2",
+      "input_sha256": "714c6f55e5bc5a872decaa53a3336dff81b0a17467a2ae447b2fabe216378521",
+      "status": "unknown",
+      "elapsed_seconds": 4.790441762997943,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        3,
+        1
+      ],
+      "path": "results/det5_coupled_z_3_1.smt2",
+      "input_sha256": "16c32be4ca9fecb76a7e83adbeaeed98db9c787b11ea65fce18c854fc392bebe",
+      "status": "unknown",
+      "elapsed_seconds": 3.0101906179988873,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    },
+    {
+      "Z_extrema": [
+        3,
+        2
+      ],
+      "path": "results/det5_coupled_z_3_2.smt2",
+      "input_sha256": "dcdb8e2757d85ac055f3521e563a0503de76a3af4dda629c2387f9b99825e377",
+      "status": "unknown",
+      "elapsed_seconds": 3.048023616000137,
+      "timeout_ms": 3000,
+      "reason_unknown": "timeout"
+    }
+  ]
+}

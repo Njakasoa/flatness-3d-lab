@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "Exact polynomial input and inherited-source audit only; nonlinear UNKNOWN remains unresolved. Completeness of two orders follows from the independently proved strict contact-ordering lemma.",
+  "source_archive_sha256": "5bead0c92fb046b95ebbc420cc0943ea24374192744688b378490f8d1373dad1",
+  "queries": [
+    {
+      "order": "lt",
+      "status": "unknown",
+      "assertions": 109,
+      "exact_products": 6,
+      "input_sha256": "93d9cd62c43c0ed772aacc7a8c68d8b142ee5e5fad904e1d0dd0bcd70cecd849"
+    },
+    {
+      "order": "gt",
+      "status": "unknown",
+      "assertions": 109,
+      "exact_products": 6,
+      "input_sha256": "65869377894e404a6b29cabc2221b5edfcb0ad7cadd15b3d8f7d9919b40542e8"
+    }
+  ],
+  "missing_product_control": true,
+  "solver_queries_run": 0,
+  "proof_kernel_calls_run": 0
+}

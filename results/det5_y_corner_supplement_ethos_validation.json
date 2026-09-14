@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "Fresh kernel replay of three archived partial corner refutations, not a geometric completeness theorem.",
+  "ethos_revision": "221641668d75eaffd308e0511d63962cea937110",
+  "cvc5_signature_revision": "f3b21c4483d3b88dc63cb7cd3e5eb092eee5e341",
+  "proofs": [
+    {
+      "input_path": "results/det5_y_corner_beta_4_23.smt2",
+      "input_sha256": "cd76d3e28a4c9ff113b42bab924a130edc43a08ebe75d8beea5f1162c3d6fabd",
+      "proof_path": "certificates/det5_y_corner_beta_4_23.cpc.gz",
+      "proof_sha256": "a1ed92ec4e299f66f670d3d38e70a225152a80433c0ca764224028a4bd7f3db3",
+      "reference_sha256": "0ca6ae8c8f6f5bdbe99e54d884ac3fe5650559ee5799614f323e7ab9ec5e2949",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 1.4795837999990908
+      }
+    },
+    {
+      "input_path": "results/det5_y_enlarged_two_thirds.smt2",
+      "input_sha256": "2478a31d06eb99827a9c8079e416ac6ad4568de49a0b59d29b12aee84032aa73",
+      "proof_path": "certificates/det5_y_enlarged_two_thirds.cpc.gz",
+      "proof_sha256": "36c7694fefc9ad90564e72c5123a30e6e5d0897cee4a9c2aa1e9afea0f592db6",
+      "reference_sha256": "29dd4f19168d52d5da8699fb3c9f1fd294d7832dff8c9c262536fcfa942360d1",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 1.0465740319996257
+      }
+    },
+    {
+      "input_path": "results/det5_y_enlarged_3_5.smt2",
+      "input_sha256": "cb5fdc3b105badbde60099a603eda1488fade0f2eecbd88ba6f9c7f3947c2832",
+      "proof_path": "certificates/det5_y_enlarged_3_5.cpc.gz",
+      "proof_sha256": "300d32e6bb6cef311fd30cfc74e704930ed364ac36d7f1674c2b7b2bc181d843",
+      "reference_sha256": "51c9f7d9e584a7d6bd748326ad19413dd2e924554bf2586c3f4ee6588e96bfbb",
+      "ethos": {
+        "exit_code": 0,
+        "stdout": "correct",
+        "stderr": "",
+        "elapsed_seconds": 1.1792556699983834
+      }
+    }
+  ],
+  "solver_queries_run": 0,
+  "unreferenced_assumption_rejected": true
+}

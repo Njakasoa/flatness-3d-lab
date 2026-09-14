@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "Checkpoint bindings to executed structural, input, exact-body and reduced-proof checks; no new complete chart or class exclusion.",
+  "records": [
+    {
+      "path": "results/det5_corner_proof_slice.json",
+      "sha256": "353746d00b8b8fa21dfc2bdb7f3188dc867e65f7f4d3f3ef9fb937e022188230",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_y_corner_ordering_validation.json",
+      "sha256": "725cf80281ab084bcc6e06251d351c84c6a28b47138d047966a4134d60f6901f",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_ordered_root_encoding_validation.json",
+      "sha256": "11ad18d87250947c655e703bfe266bc0154c5589f717b61d886f8df980b0456f",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_ordered_actual_matrices.json",
+      "sha256": "5d7be4eafd84828adef148750dd2cbcb9f8bd606832b3be1f7040637bc41ee5a",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_ordered_exact_encoding_validation.json",
+      "sha256": "0d9059c8b5c4c0bbf69c727a7401028db0d45a4e7066a028889c2fa0d6de379f",
+      "status": "PASS"
+    }
+  ],
+  "checked_reduced_proofs": 3,
+  "retained_assumption_counts": [
+    60,
+    49,
+    51
+  ],
+  "all_gap_upper_bounds_unused": true,
+  "old_tracked_scientific_payloads_unchanged": true,
+  "linear_queries": 6,
+  "linear_statuses": "all SAT",
+  "exact_product_queries": 2,
+  "exact_product_statuses": "both UNKNOWN",
+  "actual_retained_chart_counterexamples": 0,
+  "general_lemma_internal_review": "PASS after explicitly requiring a nonconstant linear functional",
+  "full_contact_types_remaining": 58,
+  "residual_queue_entries": 258,
+  "global_flatness_improvement": false,
+  "syntax_and_markdown_links": "PASS",
+  "previous_goal_turn": "progress: enlarged conditional domain6ffebe7",
+  "current_goal_turn": "progress: stronger sufficient theorem and exact ordering/section structure; objective remains active"
+}

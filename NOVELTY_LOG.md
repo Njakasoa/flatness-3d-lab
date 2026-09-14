@@ -141,13 +141,75 @@ lemma supplies formulation bounds; no novelty claim is made. A bounded
 six-query literature search found no exact match but is insufficient to
 establish priority. No global bound is changed.
 
-## Conditional Y-height bounds — 2026-09-14
+## 2026-09-14 — scaled frame and five-direction continuous-box obstruction
 
-The independently reviewed conditional theorem gives (10/7)(1+2/sqrt(3))
-on one specified normalized-height corner, using a uniform beta=3/10
-refutation and the established ACMS inequality. Twelve older rectangles
-are now independently proof-certified; their geometry was already recorded.
-The proof slice corrects an earlier interpretation of the scaled-box result.
-No mathematical priority, new complete-class exclusion, global flatness
-bound or external human review is claimed. See the conditional proof and
-its explicit geometry-to-formula and ACMS hypotheses.
+Homogeneous vertex differences reduce the contact model to17variables with
+linear width tests; fixed rational heights reduce it to12variables. These
+are elementary formulation tools, not claimed new geometry-of-numbers
+principles. One retained four-dimensional height rectangle is now refuted
+with a cvc5 proof checked by Ethos. This is a restricted continuous-box
+obstruction, not a new class bound or global flatness bound. No dedicated
+priority audit or external human review has been completed for this box;
+novelty is unconfirmed. The broader ACMS finite-contact programme remains
+credited. Larger-box probes are not promoted to certificates.
+
+## 2026-09-14 — Y-only proof audit and publication checkpoint
+
+The previous turn made progress in complete modeling and certification, but
+its certified box was an old Y-only closed region not inherited by the joint
+frontier. All twelve old rectangles now have cvc5/Ethos certificates. A lexical
+proof slice retains 69 hypotheses and needs no U condition or extra width.
+The independently audited uniform beta=3/10 corner refutation yields the
+conditional bound (10/7)(1+2/sqrt(3)); it uses no volume premise. This remains
+a partial height-domain theorem, with no new class exclusion, global bound
+or established mathematical priority. The 953-query archive is unchanged.
+The exact overlay identifies one fully and six partly covered pending boxes.
+Closed-model optimization returns a degenerate relaxed point at gap zero;
+it supplies no additional geometric bound. The user explicitly requested
+GitHub publication following the Ihara companion. Export the reviewed
+scientific checkpoint and preserve the existing curated public history.
+
+## 2026-09-14 — enlarged conditional corner and exact residual frontier
+
+Previous goal turn: progress; publication 175896f completed and verified.
+Current turn: progress. The old Y exclusions now have an exact258-entry
+residual queue with strict boundary complements. Three new cvc5/Ethos
+refutations prove the nested conditional bounds in CLAIM-0009, enlarging
+the Y square to [3/5,1]^2 and strengthening its inner corner to(23/19)A.
+The larger11/20 probe is exact relaxed SAT, with all six product identities
+failing. A union-aware update removes new Y-area 3/40 and trims three queue
+entries by 3/5 of their prior measure. The final queue still has 258 entries.
+
+Independent agents verified the continuous interval/tau reasoning, all nine
+coupled inputs, all four newcorner inputs, saved SAT values and exact residual
+subtraction. Root verified all twelve Z-extrema branch inputs and ran a
+standalone reference-bound replay of the three new proofs. Directional
+coupling rejects all 14prior saved SAT assignments; nine strengthened queries
+and twelve Z branches remain UNKNOWN. No old solver node was rerun. These
+exploratory targets are frozen pending a structural simplification.
+A bounded primary-source recency/priority audit found no basis for a novelty
+claim. All 58 necessary types and the global bound remain unchanged. Work is
+local after 175896f; the broad research objective is still active.
+
+## 2026-09-14 — structural ordering and smaller sufficient proof premises
+
+Previous goal turn: progress, committed as 6ffebe7. Current turn: progress.
+Three lexical proof slices passed Ethos against their actual 60/49/51
+assumptions; gap<5/17 is absent throughout. This strengthens CLAIM-0009
+to (102/65)A on the entire 3/5 square, with the same certified region area.
+Four planar lattice gauges suffice for that result. No new global bound
+or whole contact-class exclusion follows.
+
+A separate exact lemma forces unequal free heights, offset interlacing and
+fixed Z-gauge signs; two guards reduce to two alternatives each. Root added
+the general quadrilateral-section interpretation and independently reviewed
+the reduced-premise implication. Six structurally strengthened linear
+models are SAT, all independently reconstructed and rationally checked.
+Their six actual F bodies are hollow and pass ten gauges, but have wrong
+Y extrema and Y-width<17/5. Both nonlinear product-restored models remain
+UNKNOWN under 15-second limits. Root audited both exact encodings.
+The original archives remain unchanged and these new targets are frozen.
+The next step should use the geometric section/order structure rather than
+repeat the current product-envelope strengthening. Mathematical priority
+is unconfirmed; the established ACMS inequality remains the main antecedent.
+The work stays local after public 175896f and the broad goal remains active.

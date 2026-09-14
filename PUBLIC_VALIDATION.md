@@ -238,3 +238,36 @@ findings were fixed: the stale publication footer and the cvc5 dependency of
 pass. Manifest and deliberate hash-corruption checks are performed on the
 final snapshot. This is AI-assisted internal review, not external human
 peer review or an established mathematical priority claim.
+
+## Stronger corner bounds and exact ordering — 2026-09-14
+
+Export source: e42b25df01d966b7d7200dfff8391b962e35fdff. Public predecessor: 175896f.
+The [incremental public-copy replay](results/public_det5_corner_validation.json)
+passed all ten standard-library stages, three optional encoding audits and
+both external-checker stages. Six CPC refutations were freshly checked:
+three original corner proofs and their three actual reduced-assumption
+statements. An unrelated assumption was rejected as a negative control.
+These checks invoked zero SMT searches. The checker uses pinned Ethos commit
+221641668d75eaffd308e0511d63962cea937110 and cvc5 signatures at
+f3b21c4483d3b88dc63cb7cd3e5eb092eee5e341.
+
+The exact stages reproduce the strict residual queues, height-ordering
+identities, six saved linear assignments and their actual bodies. The
+optional audits reconstruct nine coupled inputs, twelve Z branches and two
+exact-product inputs; their recorded UNKNOWN outcomes remain unresolved.
+All 197 previously published certificate files retain their SHA-256 values.
+Of 98 selected source files, 96 match source bytes; NEXT.md and the research
+status note have explicit public-snapshot wording. Archived inputs, proof
+payloads and original receipts are restored after each replay command.
+
+A fresh replay caught a tuple/list mismatch when comparing a computed
+bounding box with its stored JSON. The source checker now builds JSON list
+types directly; all six actual-body records reproduce unchanged. No numerical
+result or mathematical claim was altered by this correction.
+
+Independent internal publication review found no scope, endpoint, dependency,
+link or privacy blocker. All 23 traced local module dependencies are present.
+Python syntax, local Markdown links, oversized-file screening and private-path/
+credential-pattern checks pass. Snapshot hashes and a deliberate manifest
+corruption control pass. No full contact class or global bound is added;
+external software checking is not external human peer review.

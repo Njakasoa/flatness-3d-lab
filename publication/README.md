@@ -66,3 +66,23 @@ python tests/replay_det5_height_witness_independent.py
 The first command needs the optional pinned Z3 and cvc5 Python packages.
 These default replays audit archived data and proof bindings. Actual proof
 kernel replay requires Ethos and the pinned signatures.
+
+## Height-region bounds and exact ordering
+
+[CLAIM-0009](../claims/CLAIM-0009.md) now proves the bound (102/65)(1+2/√3)
+on the specified [3/5,1]² actual-height region and (23/19)(1+2/√3) on its
+[3/4,1]² subregion, with no preliminary large-width hypothesis. It includes
+six new proof payloads (three originals and three reduced statements), the
+[ordering lemma](../proofs/DET5_Y_CORNER_ANALYTIC_PROBE.md), and the exact
+258-entry residual queue. All chart/contact hypotheses remain essential.
+
+```sh
+python3 reproduce_det5_corner.py
+.venv/bin/python reproduce_det5_corner.py --encodings
+```
+
+The default performs ten standard-library checks; `--encodings` adds three
+Z3-based input audits without invoking an SMT search. Add the three pinned
+external-checker path flags described in the main README to freshly check
+all six proofs. The wrapper preserves archived inputs, certificates and
+original receipts. See [public validation](../PUBLIC_VALIDATION.md).

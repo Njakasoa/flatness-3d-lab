@@ -7,22 +7,28 @@ CLAIM-0007, 58 necessary full hulls remain at width at least 2+sqrt(2):
 five tetrahedral classes (indices 0,1,2,3,5), 52 larger spatial hulls and
 the square. The list above (11/7)(1+2/sqrt(3)) remains 62.
 
-1. Reuse the twelve independently certified Y rectangles before extending
-   the complete-width model. The exact overlay wholly covers one of the
-   259 archived joint pending boxes and half of six others; 105 further
-   intersections are boundary-only. The archive remains immutable. Removing
-   the whole box leaves 258 entries; partial subtraction still needs an
-   explicit queue with exact endpoint handling. No new queue is claimed here.
-   On the Y:[0,3] upper corner, the independently checked uniform threshold
-   3/10 gives the conditional bound (10/7)(1+2/sqrt(3)); this removes neither
-   the entire chart nor the contact class. The 69-assumption proof slice
-   shows the previous box certificate uses no U conditions or extra widths.
-   Its Y square was already an old closed leaf. Use the 17-variable complete
-   scaled frame and the direction-coupled envelopes on the residual domain.
-   Do not repeat archived solver queries or infer bodies from relaxed SAT.
-   See [conditional bounds](proofs/DET5_CONDITIONAL_WIDTH_BOUNDS.md),
-   [cylinder correction](proofs/DET5_Y_HIGH_CYLINDER_EXCLUSION.md), and
-   [overlay](results/det5_certified_y_overlay.json).
+1. Keep results/det5_enlarged_residual_queue.json as the exact pending
+   domain: 258 entries, with strict boundaries and all prior cuts preserved.
+   The new proof slices strengthen CLAIM-0009 to (102/65)A on the entire
+   [3/5,1]^2 corner, below the original contact-reduction threshold (11/7)A.
+   The remaining queue still targets 17/5; do not lower all inherited cuts.
+
+   Use the exact geometric reduction on the whole Y[0,3] chart: q1≠q2,
+   min(q1,q2)<offset<max(q1,q2), and a fixed linear Z-gauge formula per
+   order branch. The common contact section is a quadrilateral with two
+   adjacent contact edges. This is a possible entry to a planar section
+   argument or a smaller exact parameterization.
+
+   Six ordered linear models are SAT. Their reconstructed bodies are hollow
+   and pass the ten gauges, but all have different actual Y extrema and
+   Y-width<17/5. They do not refute the remaining chart target. Two nonlinear
+   models restoring all six products are UNKNOWN after 15 seconds. Preserve
+   these archives and derive a smaller exact system before more solver calls.
+   The eight row-difference envelopes already hold at both offset-model
+   witnesses, so repeating that particular strengthening is not useful.
+   See [proof slices](proofs/DET5_CORNER_PROOF_SLICES.md),
+   [ordering lemma](proofs/DET5_Y_CORNER_ANALYTIC_PROBE.md), and
+   [actual matrix audit](results/det5_ordered_actual_matrices.json).
 2. Keep the contact hypothesis precise. The P5/P7/P8 bounds require one
    prescribed relative-interior point per facet of a tetrahedron. They do
    not exclude larger contact hulls by containment. The P10/P13 analytic
@@ -42,6 +48,6 @@ Reproduce the completed exclusions with `reproduce_height_cover.py` and
 actual external proof-kernel checking uses the pinned sources documented in
 [HEIGHT_ETHOS_REPRODUCTION.md](proofs/HEIGHT_ETHOS_REPRODUCTION.md).
 
-The maintainer has authorized publication of this reviewed checkpoint.
-The curated public SOURCE_MANIFEST.json records its scientific source revision.
-The active scientific objective remains open; these are restricted advances.
+The new height-domain theorem, residual queue and coupled experiments are
+included in this public snapshot; SOURCE_MANIFEST.json identifies the source.
+The active scientific objective remains open.
