@@ -271,3 +271,40 @@ Python syntax, local Markdown links, oversized-file screening and private-path/
 credential-pattern checks pass. Snapshot hashes and a deliberate manifest
 corruption control pass. No full contact class or global bound is added;
 external software checking is not external human peer review.
+
+## Quantitative height separation and exact linear fibers — 2026-09-14
+
+Scientific source: `5e1992205620baedeb150359451234e913fda78b`. All 69 selected scientific files match that
+committed source byte for byte. All 206 previously public certificate
+files are unchanged. The independent internal publication review found no
+mathematical scope error; dependency documentation was corrected to include
+Z3 in the default replay and cvc5 for encoding/proof checks.
+
+The fresh public-copy replay passed **13 stages**:
+
+- Seven exact symbolic, complete-witness, arithmetic and queue checks,
+  including 158 fiber identities, 42 compact-chart identities, 2400 rational
+  fixtures, both height-band constants and all inherited residual constraints.
+- Four independent formula audits covering both eight-variable models,
+  the implemented linear fiber compiler and all 84 rectangle assertions.
+- Two fresh reference-bound Ethos checks of the fixed-height and continuous
+  rectangle CPC refutations; unrelated false assumptions were rejected.
+
+No SMT search was run. The wrapper preserves all original scientific inputs,
+certificates and archived receipts; it writes its own
+[public replay receipt](results/public_det5_fiber_validation.json).
+The public CLAIM-0010 replay explicitly skips the unredistributed primary
+article text; it verifies the arithmetic and local bindings. The original
+primary-source review remains an archived, identified internal review.
+
+The analytic bands prove a restricted strict bound near 3.39858129. The
+separate rectangle excludes global width above 17/5 and adds area 1/32768
+in the specified Y chart. The combined queue has 258 retained entries,
+including 70 refined entries; their nonemptiness and full continuous coverage
+are not claimed. The 58 necessary contact types and the global bound are
+unchanged. Exact fixed-shape fibers do not settle the continuous shape domain.
+
+Local Markdown links, Python syntax, privacy-pattern and oversized-file checks,
+source-byte comparisons and the snapshot corruption control pass; see
+[the publication receipt](results/det5_fiber_publication_validation.json).
+Private operational history and third-party papers are excluded.

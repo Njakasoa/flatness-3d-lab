@@ -1,0 +1,583 @@
+{
+  "scope": "Complete fifteen-width >17/5 target in two ordered Y[0,3] charts. Degree-five cleared widths, strong necessary gauges, exact facet/height reconstruction. Status alone proves no class exclusion.",
+  "beta": "183/500",
+  "target": "17/5",
+  "variables": [
+    "low",
+    "high",
+    "theta",
+    "c",
+    "e",
+    "r",
+    "u",
+    "h"
+  ],
+  "extra_gauges": [
+    [
+      1,
+      -1,
+      1
+    ]
+  ],
+  "maximum_polynomial_degree": 5,
+  "queries": [
+    {
+      "order": "lt",
+      "input_path": "results/det5_quadratic_full_width_lt.smt2",
+      "input_sha256": "a630d5b11701938d982a110c60be0dcae4b18b57890ea739db774a7fe50bd879",
+      "status": "unknown",
+      "elapsed_seconds": 20.12591931100178,
+      "timeout_ms": 20000,
+      "z3_version": "5.1.0",
+      "assertions": 75,
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "excluded_rectangles": [
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1/4"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "0",
+            "1/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "1/2",
+            "3/4"
+          ],
+          [
+            "1/2",
+            "3/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/5",
+            "1"
+          ],
+          [
+            "3/5",
+            "1"
+          ]
+        ]
+      ],
+      "cleared_widths": [
+        {
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            0,
+            1,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            0,
+            1,
+            1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            0,
+            2,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -3,
+            -2
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -3,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -2,
+            -3
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -2,
+            -2
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -2,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -1,
+            -3
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -1,
+            -2
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -1,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            0,
+            -3
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            0,
+            -2
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        }
+      ],
+      "Y_width_encoded_by_gap": true,
+      "reason_unknown": "timeout"
+    },
+    {
+      "order": "gt",
+      "input_path": "results/det5_quadratic_full_width_gt.smt2",
+      "input_sha256": "31f43733f69d6721fd8ad75765b5df603266051a9b402d890c9e165b8b4fbbe8",
+      "status": "unknown",
+      "elapsed_seconds": 20.084216874001868,
+      "timeout_ms": 20000,
+      "z3_version": "5.1.0",
+      "assertions": 75,
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "excluded_rectangles": [
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1/4"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "0",
+            "1/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "1/2",
+            "3/4"
+          ],
+          [
+            "1/2",
+            "3/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/5",
+            "1"
+          ],
+          [
+            "3/5",
+            "1"
+          ]
+        ]
+      ],
+      "cleared_widths": [
+        {
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            0,
+            1,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            0,
+            1,
+            1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            0,
+            2,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -3,
+            -2
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -3,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -2,
+            -3
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -2,
+            -2
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -2,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -1,
+            -3
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -1,
+            -2
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            -1,
+            -1
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            0,
+            -3
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        },
+        {
+          "direction": [
+            1,
+            0,
+            -2
+          ],
+          "pairs": 6,
+          "maximum_numerator_degree": 4
+        }
+      ],
+      "Y_width_encoded_by_gap": true,
+      "reason_unknown": "timeout"
+    }
+  ]
+}

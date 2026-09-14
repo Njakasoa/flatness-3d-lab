@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "solver_queries_run": 0,
+  "scope": "Restricted height bands, exact fibers and a continuous rectangle; no new class exclusion.",
+  "encodings_requested": true,
+  "fresh_kernel_checks_requested": true,
+  "checks": [
+    {
+      "check": "tests/replay_det5_rational_height_chart_review.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"symbolic_identities\": 24,\n  \"branch_count\": 2,\n  \"positive_singular_fixture\": true,\n  \"singular_fixture_gauges\": [\n    \"3/50\",\n    \"9/50\",\n    \"6/25\",\n    \"3/25\"\n  ],\n  \"solver_queries\": 0,\n  \"scope\": \"Exact chart identities and singularity control; no width exclusion.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/replay_det5_horizontal_fiber_independent.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"Independent invariant-subspace and coefficient replay; no shape-domain cover.\",\n  \"certificate_sha256\": \"48d40f6af85cd54056b1b814f066333fb61ebad21078bc00c2b0bad19ab5e82e\",\n  \"symbolic_identities\": 158,\n  \"branches\": 2,\n  \"coordinate_pairs\": 36,\n  \"scaled_entries\": 32,\n  \"coefficient_corruption_rejected\": true,\n  \"coverage_mutations_rejected\": [\n    \"missing pair\",\n    \"duplicate branch\"\n  ],\n  \"horizontal_image_expressions\": 8,\n  \"solver_queries_run\": 0\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/replay_det5_quadratic_witness_independent.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"hollow\": true,\n  \"Y_minimizer_indices\": [\n    0,\n    1\n  ],\n  \"Y_maximizer_indices\": [\n    3\n  ],\n  \"Y_width\": \"2048/593\",\n  \"global_lattice_width\": \"218301984/89395343\",\n  \"full_difference_minimum\": \"801/2560\",\n  \"minimum_gauge_vectors_mod_sign\": [\n    [\n      1,\n      -1,\n      1\n    ]\n  ],\n  \"full_minimum_exceeds_exact_ACMS_17_5_threshold\": false,\n  \"primitive_gauge_vectors_checked\": 335\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/replay_det5_compact_shape_chart.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"formal_rational_identities\": 42,\n  \"exact_matrix_fixtures\": 2400,\n  \"guard_equivalence_checks\": 9600,\n  \"R0_fixtures\": 81,\n  \"R3_impossibility_fixtures\": 2400,\n  \"combined_gauge_bound_fixtures\": 205,\n  \"reverse_order_gauge_bound_fixtures\": 438,\n  \"uniform_denominator_lower_bound\": \"49/1500\",\n  \"reverse_order_stronger_lower_bound\": \"249/1700\",\n  \"hypotheses\": \"Both Y[0,3] height orders, exact chart, original two observer guards, gamma(2,0,1)>183/500. Global width >17/5 for hollow bodies implies these conditions.\",\n  \"solver_queries_run\": 0,\n  \"limitation\": \"No global shape coverage or determinant-five exclusion.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/audit_det5_separated_residual_queue.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"source_queue\": {\n    \"path\": \"results/det5_separated_residual_queue.json\",\n    \"sha256\": \"6307e579d2b35581fc2fc73d8f2fd6ba6928eb9d84f08511b460843a43b4b8f0\"\n  },\n  \"predecessor_queue\": {\n    \"path\": \"results/det5_enlarged_residual_queue.json\",\n    \"sha256\": \"4f45561261a82b4d4a4c35e49e3cac071f8abd8cc693efa00c7764d871949f64\"\n  },\n  \"entries_preserved\": 258,\n  \"entries_refined\": 70,\n  \"other_chart_entries_unchanged\": 188,\n  \"exact_branches_per_refined_entry\": 2,\n  \"new_rectangle_area\": \"1/1000000\",\n  \"previous_residual_entries_containing_whole_rectangle\": [\n    \"0_3_0_2_r00110010\",\n    \"0_3_0_2_r00110011\",\n    \"0_3_0_3_r0000000\",\n    \"0_3_0_3_r0000001\",\n    \"0_3_0_3_r0001000\",\n    \"0_3_0_3_r0001001\",\n    \"0_3_0_3_r0011000\",\n    \"0_3_0_3_r0011001\"\n  ],\n  \"universal_rectangle_method\": \"Exact interval bounds and disjoint closed boxes; no sampling or grid coverage.\",\n  \"mutation_controls_rejected\": [\n    \"lost_entry\",\n    \"weakened_polynomial\",\n    \"changed_old_bound\"\n  ],\n  \"solver_queries_run\": 0,\n  \"scope\": \"Encoding and rigorous interval audit; analytic source proofs retain their stated scope. No updated total area or complete coverage proof.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/audit_det5_combined_residual_queue.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"source_queue\": {\n    \"path\": \"results/det5_combined_residual_queue.json\",\n    \"sha256\": \"2a3914a210c379a35e36374fce74ba9836fbb6f9a0cf95906c9e8e6e01b5b040\"\n  },\n  \"predecessor_queue\": {\n    \"path\": \"results/det5_separated_residual_queue.json\",\n    \"sha256\": \"6307e579d2b35581fc2fc73d8f2fd6ba6928eb9d84f08511b460843a43b4b8f0\"\n  },\n  \"entries_retained\": 258,\n  \"entries_with_appended_clause\": 70,\n  \"other_entries_unchanged\": 188,\n  \"all_predecessor_values_and_separation_constraints_preserved\": true,\n  \"strict_complement_endpoint_open_cells\": 35,\n  \"new_rectangle_area\": \"1/32768\",\n  \"whole_rectangle_minimum_gap\": \"15/128\",\n  \"whole_rectangle_maximum_separation_rhs\": \"539/128000\",\n  \"previous_residual_entries_containing_whole_rectangle\": [\n    \"0_3_0_2_r00110010\",\n    \"0_3_0_2_r00110011\",\n    \"0_3_0_3_r0000000\",\n    \"0_3_0_3_r0000001\",\n    \"0_3_0_3_r0001000\",\n    \"0_3_0_3_r0001001\",\n    \"0_3_0_3_r0011000\",\n    \"0_3_0_3_r0011001\"\n  ],\n  \"mutation_controls_rejected\": [\n    \"nonstrict_complement\",\n    \"changed_old_clause\",\n    \"lost_separation\"\n  ],\n  \"solver_queries_run\": 0,\n  \"proof_kernel_calls_run\": 0,\n  \"scope\": \"Exact queue and continuous rectangle integration. Existing externally checked proof and independent geometry receipt are hash-bound, not rerun. No entry nonemptiness, total residual area, or complete coverage assertion.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/replay_det5_claim0010_review.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"review_type\": \"Independent internal analytic review, not external human peer review\",\n  \"sources\": [\n    {\n      \"path\": \"claims/CLAIM-0010.md\",\n      \"sha256\": \"b4068f554fa996353b2f7c150c4eb084d1e52fe254776e11a2c1d92c76e387fc\"\n    },\n    {\n      \"path\": \"proofs/DET5_COMPACT_SHAPE_CHART_REVIEW.md\",\n      \"sha256\": \"19d39ce7115036a3b9e276c4af6d46ae8360b44a88949a5997c36faedfe0eaea\"\n    },\n    {\n      \"path\": \"proofs/DET5_CLAIM0010_INDEPENDENT_REVIEW.md\",\n      \"sha256\": \"750418a729d7b5612e42cb4a692865e17742fdaad447ddb8141d4124f828731f\"\n    },\n    {\n      \"path\": \"results/det5_compact_shape_chart_validation.json\",\n      \"sha256\": \"e3e98f2839493204bfae9fb9810b73b52ba56c9de967e9f110936a114959c7db\"\n    },\n    {\n      \"path\": \"results/det5_separated_residual_queue_validation.json\",\n      \"sha256\": \"7ada0bc8f67b9d96b048642a7f61116c68c9a5be9f493143037cfe8a027d5e11\"\n    }\n  ],\n  \"primary_source_checked\": false,\n  \"primary_source\": \"https://arxiv.org/abs/1907.06199; Lemma 5.1, equation (14)\",\n  \"exact_height_endpoint_and_clearing_regressions\": 527,\n  \"band_endpoint_gauge\": \"183/500\",\n  \"width_coefficient\": \"500/317\",\n  \"width_bound_decimal_60_digit_context\": \"3.39858129081900872084904978076327273074953233839156743223533\",\n  \"strict_band_endpoints_verified\": true,\n  \"both_height_orders_verified\": true,\n  \"requires_no_prior_high_width_for_gauge_upper_bounds\": true,\n  \"corrections_required\": [],\n  \"solver_queries_run\": 0,\n  \"scope\": \"CLAIM-0010 analytic corollaries, endpoints and stated limitations; not a finite coverage proof or priority audit.\"\n}\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {
+        "results/det5_claim0010_review_validation.json": "76ff5e38965583c55cf7879ab2096a98671624cb3faf64aec57cb85f4d0ba5e5"
+      }
+    },
+    {
+      "check": "tests/audit_det5_quadratic_chart_independent.py",
+      "exit_code": 0,
+      "stdout": "QUADRATIC_CHART_INDEPENDENT=PASS\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/audit_det5_quadratic_full_width_independent.py",
+      "exit_code": 0,
+      "stdout": "QUADRATIC_FULL_WIDTH_INDEPENDENT=PASS\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/audit_det5_fiber_oracle_independent.py",
+      "exit_code": 0,
+      "stdout": "FIBER_ORACLE_INDEPENDENT=PASS\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/audit_det5_strong_anchor_rectangle.py",
+      "exit_code": 0,
+      "stdout": "STRONG_ANCHOR_RECTANGLE_INDEPENDENT=PASS\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {}
+    },
+    {
+      "check": "tests/check_det5_fiber_proofs.py",
+      "exit_code": 0,
+      "stdout": "FIBER_PROOF_ETHOS=PASS\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {
+        "results/det5_fiber_anchor_ethos_validation.json": "004537b8f2d6f8239960169ae5167c38aafa9e137c6977e5809d9d30d5e81cc1"
+      }
+    },
+    {
+      "check": "tests/check_det5_fiber_proofs.py",
+      "exit_code": 0,
+      "stdout": "FIBER_PROOF_ETHOS=PASS\n",
+      "stderr": "",
+      "refreshed_receipt_hashes": {
+        "results/det5_strong_anchor_rectangle_ethos_validation.json": "f9c9341eb738698e00ea4ec9599733faa9eb62cbeeb60b271ed82680066edd41"
+      }
+    }
+  ],
+  "archived_bytes_preserved": true,
+  "fresh_kernel_proofs_checked": 2
+}

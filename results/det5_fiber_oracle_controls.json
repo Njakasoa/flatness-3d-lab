@@ -1,0 +1,471 @@
+{
+  "scope": "Exact compiler controls at an independently certified rational shape; no solver calls.",
+  "source_witness_sha256": "f546b5be860c449124e6e0f75c5d505d3152016c1c8487445496248683fdfcd6",
+  "controls": [
+    {
+      "shape": {
+        "low": "0",
+        "high": "1/8",
+        "c": "7/128",
+        "e": "15/2",
+        "r": "3/4",
+        "u": "259/816"
+      },
+      "order": "lt",
+      "D": "-150751/208896",
+      "beta": "3/10",
+      "target": "17/5",
+      "full_width": false,
+      "volume_cuts": false,
+      "coefficient_certificate_sha256": "48d40f6af85cd54056b1b814f066333fb61ebad21078bc00c2b0bad19ab5e82e",
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          1
+        ]
+      ],
+      "excluded_rectangles": [
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1/4"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "0",
+            "1/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "1/2",
+            "3/4"
+          ],
+          [
+            "1/2",
+            "3/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/5",
+            "1"
+          ],
+          [
+            "3/5",
+            "1"
+          ]
+        ]
+      ],
+      "tag": "positive",
+      "input_path": "results/det5_fiber_control_positive.smt2",
+      "input_sha256": "ae093c9b6e0a964805cf4252c623a8c25ff950403c43ec3ebcc5715eb5238b59",
+      "assignment": {
+        "alpha": "120/593",
+        "eta": "608/593",
+        "rho": "2048/593"
+      },
+      "assertions": 56,
+      "assertion_truth": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "shape": {
+        "low": "0",
+        "high": "1/8",
+        "c": "7/128",
+        "e": "15/2",
+        "r": "3/4",
+        "u": "259/816"
+      },
+      "order": "lt",
+      "D": "-150751/208896",
+      "beta": "183/500",
+      "target": "17/5",
+      "full_width": true,
+      "volume_cuts": true,
+      "coefficient_certificate_sha256": "48d40f6af85cd54056b1b814f066333fb61ebad21078bc00c2b0bad19ab5e82e",
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          1
+        ]
+      ],
+      "excluded_rectangles": [
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1/4"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "0",
+            "1/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "1/2",
+            "3/4"
+          ],
+          [
+            "1/2",
+            "3/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/5",
+            "1"
+          ],
+          [
+            "3/5",
+            "1"
+          ]
+        ]
+      ],
+      "tag": "full_target",
+      "input_path": "results/det5_fiber_control_full_target.smt2",
+      "input_sha256": "230b475b5d19daf0a750c1c4fc67f11752af17efd8db9273b55f8a799541477f",
+      "assignment": {
+        "alpha": "120/593",
+        "eta": "608/593",
+        "rho": "2048/593"
+      },
+      "assertions": 74,
+      "assertion_truth": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "solver_queries_run": 0
+}

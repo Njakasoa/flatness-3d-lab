@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "Quantitative height bands, bounded shape coordinates, exact fixed-shape fibers, and two partial LRA exclusions; no new global bound or whole contact class exclusion.",
+  "new_solver_queries": 2,
+  "new_solver_results": [
+    "UNSAT",
+    "UNSAT"
+  ],
+  "fresh_reference_bound_ethos_checks": 2,
+  "remaining_necessary_contact_types_at_candidate": 58,
+  "retained_queue_entries": 258,
+  "receipts": {
+    "results/det5_compact_shape_chart_validation.json": "e3e98f2839493204bfae9fb9810b73b52ba56c9de967e9f110936a114959c7db",
+    "results/det5_claim0010_review_validation.json": "1eaac8944bfedb016333f4f9483c4b8c64d0d22958653e8d5b4a8457a01da3b4",
+    "results/det5_fiber_oracle_encoding_validation.json": "c01b158521de1b9002a6a372b353f8745813adc0d35771a56d6e42970a7422e1",
+    "results/det5_fiber_anchor_ethos_validation.json": "38d52850520485b12039fb807c8969f3cdd3fe4017a26ff0755021f228813c61",
+    "results/det5_strong_anchor_rectangle_ethos_validation.json": "7fbaa2d6b0310e6a96d4b4f0505fbcd63a2339d08fbb4fcfcf0c05abed093788",
+    "results/det5_strong_anchor_rectangle_validation.json": "ef3affa29f07f5e75e60204a8ab796ef12a0473a3951eda1ddb220f0968beb03",
+    "results/det5_combined_residual_queue_validation.json": "19087f0b6cfa0d04df39bf2ae7fd50228d9322ac62c3b1af4e7ae2c901cfa8dc"
+  }
+}

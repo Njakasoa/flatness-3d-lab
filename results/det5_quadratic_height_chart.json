@@ -1,0 +1,320 @@
+{
+  "scope": "Eight-parameter exact Y[0,3] charts with necessary gauges and strict complements of certified regions. No full-width exclusion from a solver status.",
+  "beta": "37/102",
+  "target": "17/5",
+  "variables": [
+    "low",
+    "high",
+    "theta",
+    "c",
+    "e",
+    "r",
+    "u",
+    "h"
+  ],
+  "maximum_polynomial_degree": 2,
+  "lifted_product_variables": 0,
+  "queries": [
+    {
+      "order": "lt",
+      "input_path": "results/det5_quadratic_height_chart_lt.smt2",
+      "input_sha256": "9c0f257ff154f22a7957c2a3e5cdeff853db51a6e3b4697fd53019a7518d88a8",
+      "assertions": 59,
+      "status": "sat",
+      "elapsed_seconds": 2.372481111000525,
+      "timeout_ms": 20000,
+      "z3_version": "5.1.0",
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "excluded_rectangles": [
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1/4"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "0",
+            "1/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "1/2",
+            "3/4"
+          ],
+          [
+            "1/2",
+            "3/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/5",
+            "1"
+          ],
+          [
+            "3/5",
+            "1"
+          ]
+        ]
+      ],
+      "assignment": {
+        "low": "0.0",
+        "high": "(/ 1.0 8.0)",
+        "theta": "(/ 15.0 256.0)",
+        "c": "(/ 7.0 128.0)",
+        "e": "(/ 15.0 2.0)",
+        "r": "(/ 3.0 4.0)",
+        "u": "(/ 259.0 816.0)",
+        "h": "(/ 19.0 64.0)"
+      },
+      "rational_assignment": true,
+      "all_assertions_true": true
+    },
+    {
+      "order": "gt",
+      "input_path": "results/det5_quadratic_height_chart_gt.smt2",
+      "input_sha256": "546ce3050038ae8ca7a7863eb3174ab47fb9b38f379189849ae6a183c84e461e",
+      "assertions": 59,
+      "status": "unknown",
+      "elapsed_seconds": 21.29986787300004,
+      "timeout_ms": 20000,
+      "z3_version": "5.1.0",
+      "gauge_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "excluded_rectangles": [
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1/4"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1/4",
+            "1/2"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "0",
+            "1/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "1/4",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "1/2",
+            "3/4"
+          ],
+          [
+            "1/2",
+            "3/4"
+          ]
+        ],
+        [
+          [
+            "3/4",
+            "1"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3/5",
+            "1"
+          ],
+          [
+            "3/5",
+            "1"
+          ]
+        ]
+      ],
+      "reason_unknown": "timeout"
+    }
+  ]
+}

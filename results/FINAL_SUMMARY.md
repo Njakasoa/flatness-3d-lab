@@ -20,7 +20,33 @@ nouveauté mathématique établie n'est revendiquée.
   2+√2. Les dernières exclusions reposent sur 67 réfutations vérifiées
   par le logiciel indépendant Ethos ; cela ne constitue pas une revue humaine.
 
-## Derniers résultats : hauteurs et ordre des contacts
+## Nouvelle étape : séparation quantitative et fibres linéaires
+
+Dans le même domaine de contacts Y[0,3], posons x=min(q1,q2),
+y=max(q1,q2) et L=(y-x)/(y(1-x)). [CLAIM-0010](../claims/CLAIM-0010.md)
+prouve une largeur strictement inférieure à (500/317)(1+2/√3), environ
+3,39858129, si q1<q2 et L≤49/1500, ou si q1>q2 et L≤249/1700.
+L'argument analytique emploie deux exclusions de points entiers et vaut
+aux extrémités des bandes, sans hypothèse préalable de grande largeur.
+
+La géométrie admet six paramètres de forme bornés ; une fois fixés, les
+deux paramètres restants se traitent par contraintes linéaires exactes.
+Le compilateur et ses contrôles sont vérifiés indépendamment. La couverture
+du domaine continu des six paramètres reste à établir.
+
+Un rectangle supplémentaire q1∈[0,1/256], q2∈[31/256,33/256] est exclu
+au seuil global 17/5 par une preuve CPC vérifiée par Ethos. Son aire
+1/32768 est entièrement nouvelle par rapport aux régions précédentes.
+La file combinée conserve 258 entrées, dont 70 affinées. Cela ne prouve
+ni leur non-vacuité ni l'exclusion de toute la classe. Un témoin creux
+exact explique aussi l'échec du modèle faible : sa largeur Y dépasse
+17/5 mais sa largeur entière complète vaut environ 2,442.
+
+[Reproduction](../reproduce_det5_fiber.py),
+[preuve du rectangle](../proofs/DET5_STRONG_ANCHOR_RECTANGLE_REVIEW.md),
+[file combinée](../proofs/DET5_COMBINED_RESIDUAL_QUEUE.md).
+
+## Résultats précédents : hauteurs et ordre des contacts
 
 Dans la classe restante P=conv(0,(5,1,2),e2,e3), avec les contacts prescrits
 dans les intérieurs relatifs des facettes opposées, normalisons les hauteurs

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "source_queue": {
+    "path": "results/det5_combined_residual_queue.json",
+    "sha256": "2a3914a210c379a35e36374fce74ba9836fbb6f9a0cf95906c9e8e6e01b5b040"
+  },
+  "predecessor_queue": {
+    "path": "results/det5_separated_residual_queue.json",
+    "sha256": "6307e579d2b35581fc2fc73d8f2fd6ba6928eb9d84f08511b460843a43b4b8f0"
+  },
+  "entries_retained": 258,
+  "entries_with_appended_clause": 70,
+  "other_entries_unchanged": 188,
+  "all_predecessor_values_and_separation_constraints_preserved": true,
+  "strict_complement_endpoint_open_cells": 35,
+  "new_rectangle_area": "1/32768",
+  "whole_rectangle_minimum_gap": "15/128",
+  "whole_rectangle_maximum_separation_rhs": "539/128000",
+  "previous_residual_entries_containing_whole_rectangle": [
+    "0_3_0_2_r00110010",
+    "0_3_0_2_r00110011",
+    "0_3_0_3_r0000000",
+    "0_3_0_3_r0000001",
+    "0_3_0_3_r0001000",
+    "0_3_0_3_r0001001",
+    "0_3_0_3_r0011000",
+    "0_3_0_3_r0011001"
+  ],
+  "mutation_controls_rejected": [
+    "nonstrict_complement",
+    "changed_old_clause",
+    "lost_separation"
+  ],
+  "solver_queries_run": 0,
+  "proof_kernel_calls_run": 0,
+  "scope": "Exact queue and continuous rectangle integration. Existing externally checked proof and independent geometry receipt are hash-bound, not rerun. No entry nonemptiness, total residual area, or complete coverage assertion."
+}

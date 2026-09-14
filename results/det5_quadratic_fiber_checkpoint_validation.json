@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scope": "Exact chart, actual weak-model obstruction and linear-fiber structural reduction; no continuous shape cover or new full class exclusion.",
+  "previous_goal_turn": "progress: publication c5cbbd2 and exact replay fix",
+  "current_goal_turn": "progress: smaller exact formulation, actual chart witness, invariant-subspace linear fiber theorem",
+  "records": [
+    {
+      "path": "results/det5_rational_height_chart_review_validation.json",
+      "sha256": "56e28f418570f84f3cdd4bda49a6562b2d2cbaf553a7317d1d8d6dcf9dd08d6f",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_quadratic_chart_encoding_validation.json",
+      "sha256": "2aec2c5078e8cfb4b4c3e3b3735cf3c58331ec0e6d7ada70b313e4fccd0f0db5",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_quadratic_witness_validation.json",
+      "sha256": "f546b5be860c449124e6e0f75c5d505d3152016c1c8487445496248683fdfcd6",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_quadratic_full_width_encoding_validation.json",
+      "sha256": "b87cc7f82b12b8f420b532dc099cbcc6476a47e621419df68fbf8ddbbd931911",
+      "status": "PASS"
+    },
+    {
+      "path": "results/det5_horizontal_fiber_validation.json",
+      "sha256": "99e0fd9f4e349a5ab53cdbf36962d1a402da9492f0f017e7217d5609b0cfb487",
+      "status": "PASS"
+    },
+    {
+      "path": "certificates/det5_horizontal_fiber_structure.json",
+      "sha256": "48d40f6af85cd54056b1b814f066333fb61ebad21078bc00c2b0bad19ab5e82e",
+      "status": "PASS"
+    }
+  ],
+  "new_solver_queries": 4,
+  "statuses": [
+    "sat",
+    "unknown",
+    "unknown",
+    "unknown"
+  ],
+  "full_width_queries_certified": false,
+  "old_scientific_payloads_unchanged": true,
+  "independent_fiber_symbolic_identities": 158,
+  "coverage_and_coefficient_mutations_rejected": 3,
+  "final_review_findings_resolved": [
+    "README scope explicitly Y[0,3]",
+    "exact branch/entry coverage checks",
+    "all eight horizontal image expressions independently checked"
+  ],
+  "syntax_and_local_links": "PASS",
+  "full_contact_types_remaining": 58,
+  "residual_queue_entries": 258,
+  "global_flatness_improvement": false,
+  "goal_remains_active": true,
+  "public_checkpoint_unchanged": "c5cbbd24463d811e85e6a9494367f56c0819608c"
+}

@@ -7,28 +7,41 @@ CLAIM-0007, 58 necessary full hulls remain at width at least 2+sqrt(2):
 five tetrahedral classes (indices 0,1,2,3,5), 52 larger spatial hulls and
 the square. The list above (11/7)(1+2/sqrt(3)) remains 62.
 
-1. Keep results/det5_enlarged_residual_queue.json as the exact pending
+1. Keep results/det5_combined_residual_queue.json as the exact pending
    domain: 258 entries, with strict boundaries and all prior cuts preserved.
    The new proof slices strengthen CLAIM-0009 to (102/65)A on the entire
    [3/5,1]^2 corner, below the original contact-reduction threshold (11/7)A.
    The remaining queue still targets 17/5; do not lower all inherited cuts.
 
-   Use the exact geometric reduction on the whole Y[0,3] chart: q1≠q2,
-   min(q1,q2)<offset<max(q1,q2), and a fixed linear Z-gauge formula per
-   order branch. The common contact section is a quadrilateral with two
-   adjacent contact edges. This is a possible entry to a planar section
-   argument or a smaller exact parameterization.
+   The exact ordered chart now has eight quadratic parameters, with no
+   lifted products. Six horizontal parameters sigma=(x,y,c,e,r,u) determine
+   D and the whole horizontal gauge norm. Over each fixed rational sigma,
+   the remaining theta,h parameters become a rational linear-arithmetic
+   fiber after T=theta/b,H=h/b,R=1/b, H-xR-(y-x)T=1. This includes all
+   fifteen target widths, finite guards and chosen gauge necessities.
 
-   Six ordered linear models are SAT. Their reconstructed bodies are hollow
-   and pass the ten gauges, but all have different actual Y extrema and
-   Y-width<17/5. They do not refute the remaining chart target. Two nonlinear
-   models restoring all six products are UNKNOWN after 15 seconds. Preserve
-   these archives and derive a smaller exact system before more solver calls.
-   The eight row-difference envelopes already hold at both offset-model
-   witnesses, so repeating that particular strengthening is not useful.
-   See [proof slices](proofs/DET5_CORNER_PROOF_SLICES.md),
-   [ordering lemma](proofs/DET5_Y_CORNER_ANALYTIC_PROBE.md), and
-   [actual matrix audit](results/det5_ordered_actual_matrices.json).
+   The exact fiber oracle is implemented and independently audited.
+   Implement rigorous interval lifting from the stored coefficient certificate.
+   Its purpose is to optimize/eliminate both fiber variables completely,
+   then derive conditions covering the six-dimensional shape domain.
+   Do not count sampled shapes as a continuous cover. The compact coordinates (p,q,C,E,r,u) are bounded and 1-pq has a
+   proved positive margin. The old c,e coordinates have no uniform unit bound;
+   D=0 is singular, and empty strict branches
+   must be rejected before taking closures for a supremum.
+
+   The weak ten-gauge Y-only chart has an actual hollow counterexample:
+   q=(0,0,1/8,1), widthY=2048/593. Thus mere exact height reconstruction
+   cannot close that target. Full lambda=801/2560 fails at (1,-1,1), and
+   even a previously tested gauge fails strong beta=183/500. Preserve this
+   witness; it does not show the missing vector remains decisive after
+   strengthening beta. Its global width is only about 2.442 in U.
+
+   The new complete eight-variable model uses strong beta, eleven gauges
+   and all fifteen widths. Both order branches are UNKNOWN after 20 seconds.
+   Do not repeat those unchanged targets, the old 22-variable UNKNOWN models,
+   or the six SAT linear relaxations. See [chart](proofs/DET5_RATIONAL_HEIGHT_CHART_REVIEW.md),
+   [linear fiber theorem](proofs/DET5_HORIZONTAL_FIBER_REVIEW.md), and
+   [complete model](proofs/DET5_QUADRATIC_FULL_WIDTH_REVIEW.md).
 2. Keep the contact hypothesis precise. The P5/P7/P8 bounds require one
    prescribed relative-interior point per facet of a tetrahedron. They do
    not exclude larger contact hulls by containment. The P10/P13 analytic
@@ -48,6 +61,7 @@ Reproduce the completed exclusions with `reproduce_height_cover.py` and
 actual external proof-kernel checking uses the pinned sources documented in
 [HEIGHT_ETHOS_REPRODUCTION.md](proofs/HEIGHT_ETHOS_REPRODUCTION.md).
 
-The new height-domain theorem, residual queue and coupled experiments are
-included in this public snapshot; SOURCE_MANIFEST.json identifies the source.
-The active scientific objective remains open.
+The curated GitHub snapshot is being updated under explicit user authorization.
+The new band cut refines 70 of 258 residual entries; it preserves 188 other
+charts. The combined queue also removes the separately checked continuous rectangle. Neither operation establishes
+that every retained entry is nonempty. The scientific objective remains open.

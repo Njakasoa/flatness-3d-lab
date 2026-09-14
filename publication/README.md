@@ -86,3 +86,9 @@ Z3-based input audits without invoking an SMT search. Add the three pinned
 external-checker path flags described in the main README to freshly check
 all six proofs. The wrapper preserves archived inputs, certificates and
 original receipts. See [public validation](../PUBLIC_VALIDATION.md).
+
+The latest update adds [quantitative height separation](../claims/CLAIM-0010.md)
+and [exact linear fibers](../proofs/DET5_HORIZONTAL_FIBER_REVIEW.md).
+Run `python reproduce_det5_fiber.py --encodings` with the dependencies in
+the main README. The [validation record](../PUBLIC_VALIDATION.md) distinguishes
+exact arithmetic, independent formula auditing and fresh external proof checks.

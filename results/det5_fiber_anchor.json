@@ -1,0 +1,157 @@
+{
+  "status": "unsat",
+  "elapsed_seconds": 0.2518262590019731,
+  "internal_complete_proof_check": true,
+  "scope": "One exact fixed-height anchor with strong eleven gauges; no full-width conclusion.",
+  "fixed_heights": [
+    "0",
+    "1/8"
+  ],
+  "order": "lt",
+  "beta": "183/500",
+  "target": "17/5",
+  "input_path": "results/det5_fiber_anchor.smt2",
+  "input_sha256": "039f0effef263925430bb0e59327df0e68c055608434444ac663505b772b7950",
+  "gauge_vectors": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      -1,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      2
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      5,
+      1,
+      2
+    ]
+  ],
+  "excluded_rectangles": [
+    [
+      [
+        "1/4",
+        "1/2"
+      ],
+      [
+        "1/4",
+        "1/2"
+      ]
+    ],
+    [
+      [
+        "0",
+        "1/4"
+      ],
+      [
+        "3/4",
+        "1"
+      ]
+    ],
+    [
+      [
+        "1/4",
+        "1/2"
+      ],
+      [
+        "3/4",
+        "1"
+      ]
+    ],
+    [
+      [
+        "3/4",
+        "1"
+      ],
+      [
+        "0",
+        "1/4"
+      ]
+    ],
+    [
+      [
+        "3/4",
+        "1"
+      ],
+      [
+        "1/4",
+        "1/2"
+      ]
+    ],
+    [
+      [
+        "1/2",
+        "3/4"
+      ],
+      [
+        "1/2",
+        "3/4"
+      ]
+    ],
+    [
+      [
+        "3/4",
+        "1"
+      ],
+      [
+        "3/4",
+        "1"
+      ]
+    ],
+    [
+      [
+        "3/5",
+        "1"
+      ],
+      [
+        "3/5",
+        "1"
+      ]
+    ]
+  ],
+  "solver_queries_run": 1,
+  "proof_path": "certificates/det5_fiber_anchor.cpc.gz",
+  "proof_sha256": "266ec10ec0ef1bf94dee52f83c6d8c5f2c2e3b75252ac26ecf8443b3b3406f68"
+}

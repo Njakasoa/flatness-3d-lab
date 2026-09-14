@@ -1,0 +1,624 @@
+{
+  "status": "PASS",
+  "scope": "Independent fixed-height anchor and exact fixed-shape LRA compilation audit. Finite fibers do not cover the continuous shape domain. Recorded UNSAT still needs separately bound external proofs.",
+  "anchor": {
+    "input_path": "results/det5_fiber_anchor.smt2",
+    "input_sha256": "039f0effef263925430bb0e59327df0e68c055608434444ac663505b772b7950",
+    "assertions": 59,
+    "variables": 6,
+    "gauges": 11,
+    "guards": 20,
+    "complements": 8,
+    "status_recorded": "unsat"
+  },
+  "archived_fibers": [
+    {
+      "input_path": "results/det5_fiber_control_positive.smt2",
+      "input_sha256": "ae093c9b6e0a964805cf4252c623a8c25ff950403c43ec3ebcc5715eb5238b59",
+      "assertions": 55,
+      "original_assertions": 56,
+      "true_assertions": 55,
+      "false_assertions": 0,
+      "tag": "positive"
+    },
+    {
+      "input_path": "results/det5_fiber_control_full_target.smt2",
+      "input_sha256": "230b475b5d19daf0a750c1c4fc67f11752af17efd8db9273b55f8a799541477f",
+      "assertions": 74,
+      "original_assertions": 74,
+      "true_assertions": 69,
+      "false_assertions": 5,
+      "tag": "full_target"
+    }
+  ],
+  "in_memory_fixtures": [
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "lt",
+      "D": "3/800",
+      "full_width": false,
+      "volume_cuts": false,
+      "assertions": 56
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "lt",
+      "D": "3/800",
+      "full_width": true,
+      "volume_cuts": false,
+      "assertions": 70
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "lt",
+      "D": "3/800",
+      "full_width": true,
+      "volume_cuts": true,
+      "assertions": 74
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "gt",
+      "D": "3/800",
+      "full_width": false,
+      "volume_cuts": false,
+      "assertions": 56
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "gt",
+      "D": "3/800",
+      "full_width": true,
+      "volume_cuts": false,
+      "assertions": 70
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "gt",
+      "D": "3/800",
+      "full_width": true,
+      "volume_cuts": true,
+      "assertions": 74
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "3/20",
+        "1/10"
+      ],
+      "order": "lt",
+      "D": "-11/1600",
+      "full_width": false,
+      "volume_cuts": false,
+      "assertions": 56
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "3/20",
+        "1/10"
+      ],
+      "order": "lt",
+      "D": "-11/1600",
+      "full_width": true,
+      "volume_cuts": false,
+      "assertions": 70
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "3/20",
+        "1/10"
+      ],
+      "order": "lt",
+      "D": "-11/1600",
+      "full_width": true,
+      "volume_cuts": true,
+      "assertions": 74
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "3/20",
+        "1/10"
+      ],
+      "order": "gt",
+      "D": "-11/1600",
+      "full_width": false,
+      "volume_cuts": false,
+      "assertions": 56
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "3/20",
+        "1/10"
+      ],
+      "order": "gt",
+      "D": "-11/1600",
+      "full_width": true,
+      "volume_cuts": false,
+      "assertions": 70
+    },
+    {
+      "shape": [
+        "0",
+        "1/8",
+        "1/10",
+        "1/5",
+        "3/20",
+        "1/10"
+      ],
+      "order": "gt",
+      "D": "-11/1600",
+      "full_width": true,
+      "volume_cuts": true,
+      "assertions": 74
+    },
+    {
+      "shape": [
+        "3/5",
+        "1",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "lt",
+      "D": "1/250",
+      "full_width": false,
+      "volume_cuts": false,
+      "assertions": 56
+    },
+    {
+      "shape": [
+        "3/5",
+        "1",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "lt",
+      "D": "1/250",
+      "full_width": true,
+      "volume_cuts": false,
+      "assertions": 70
+    },
+    {
+      "shape": [
+        "3/5",
+        "1",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "lt",
+      "D": "1/250",
+      "full_width": true,
+      "volume_cuts": true,
+      "assertions": 74
+    },
+    {
+      "shape": [
+        "3/5",
+        "1",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "gt",
+      "D": "1/250",
+      "full_width": false,
+      "volume_cuts": false,
+      "assertions": 56
+    },
+    {
+      "shape": [
+        "3/5",
+        "1",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "gt",
+      "D": "1/250",
+      "full_width": true,
+      "volume_cuts": false,
+      "assertions": 70
+    },
+    {
+      "shape": [
+        "3/5",
+        "1",
+        "1/10",
+        "1/5",
+        "1/10",
+        "3/20"
+      ],
+      "order": "gt",
+      "D": "1/250",
+      "full_width": true,
+      "volume_cuts": true,
+      "assertions": 74
+    }
+  ],
+  "complete_width_directions": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      2,
+      -1
+    ],
+    [
+      1,
+      -3,
+      -2
+    ],
+    [
+      1,
+      -3,
+      -1
+    ],
+    [
+      1,
+      -2,
+      -3
+    ],
+    [
+      1,
+      -2,
+      -2
+    ],
+    [
+      1,
+      -2,
+      -1
+    ],
+    [
+      1,
+      -1,
+      -3
+    ],
+    [
+      1,
+      -1,
+      -2
+    ],
+    [
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      0,
+      -3
+    ],
+    [
+      1,
+      0,
+      -2
+    ]
+  ],
+  "rectangle_proof_bindings": [
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0011.smt2",
+      "input_sha256": "e37cc05e0b78da8b3ea77b2fb6abfe1d6d5b83643b1f1d563b03d802b26e1d30",
+      "proof_path": "certificates/det5_class5_y/0_3_r0011.cpc.gz",
+      "proof_sha256": "73b300c32d68dcdd1df367c27af0f47567bcc3f10d22ae7733cbc38c2d170439",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0101.smt2",
+      "input_sha256": "2c96e6e26c0eb84c15d7ff473f02334ec490de5c704578c3f45af741718a9ae9",
+      "proof_path": "certificates/det5_class5_y/0_3_r0101.cpc.gz",
+      "proof_sha256": "cdfb2e7c3e83ce48077fec9a0b185d3e9ada54e46d8b7f613ffd9f8032e97060",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r0111.smt2",
+      "input_sha256": "47a860f6a0d60250359bef0bbc01dbe6f3cb76cdd4f6fb2a7a52614c087c468d",
+      "proof_path": "certificates/det5_class5_y/0_3_r0111.cpc.gz",
+      "proof_sha256": "d84c63cfa67b1476342f5d99a171b95b6ae596896e3e6704d5f7354bfe4bb99a",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1010.smt2",
+      "input_sha256": "888bce3b2920f838833c4db8fbb01a54d80b2f15d182b7a6ec1e6daec9011ea3",
+      "proof_path": "certificates/det5_class5_y/0_3_r1010.cpc.gz",
+      "proof_sha256": "8ae1e6f7eb956e9752b0ae517b09f979be3a0e1cd0b219ad84ebfada265fc0cb",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1011.smt2",
+      "input_sha256": "6fb47452f02c2247e10d949caf81865c13cac7d66563e11259f13eda8bafec14",
+      "proof_path": "certificates/det5_class5_y/0_3_r1011.cpc.gz",
+      "proof_sha256": "810c027f93553d34577df852e44a991076a517a5e2b7dd410426f0d58b4775d6",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1100.smt2",
+      "input_sha256": "e96e20046ab74e97550da971a06845231eae71687eed36a28b6a785501841779",
+      "proof_path": "certificates/det5_class5_y/0_3_r1100.cpc.gz",
+      "proof_sha256": "5b815a432e7da264044281aab60a82adcbcd06ffc013cc7b85abaebb6c7f7d08",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "certificates/det5_class5_y/0_3_r1111.smt2",
+      "input_sha256": "41b6a83e80ff717f5d6f9ab2e1d265e531b632e2b9ef631e8e25e402c98f699a",
+      "proof_path": "certificates/det5_class5_y/0_3_r1111.cpc.gz",
+      "proof_sha256": "7660f874472f093c69f309512093ca0bafbc5bb433fd3ddc34a906de3037c88b",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    },
+    {
+      "input_path": "results/det5_y_enlarged_3_5.smt2",
+      "input_sha256": "cb5fdc3b105badbde60099a603eda1488fade0f2eecbd88ba6f9c7f3947c2832",
+      "proof_path": "certificates/det5_y_enlarged_3_5.cpc.gz",
+      "proof_sha256": "300d32e6bb6cef311fd30cfc74e704930ed364ac36d7f1674c2b7b2bc181d843",
+      "beta": "37/102",
+      "extrema": [
+        0,
+        3
+      ],
+      "box": [
+        [
+          "3/5",
+          "1"
+        ],
+        [
+          "3/5",
+          "1"
+        ]
+      ],
+      "assertions": 82
+    }
+  ],
+  "rectangle_endpoint_checks": [
+    {
+      "rectangle_index": 0,
+      "q1": "1/4",
+      "q2": "1/2",
+      "order": "lt"
+    },
+    {
+      "rectangle_index": 1,
+      "q1": "0",
+      "q2": "1",
+      "order": "lt"
+    },
+    {
+      "rectangle_index": 2,
+      "q1": "1/4",
+      "q2": "1",
+      "order": "lt"
+    },
+    {
+      "rectangle_index": 3,
+      "q1": "3/4",
+      "q2": "1/4",
+      "order": "gt"
+    },
+    {
+      "rectangle_index": 4,
+      "q1": "3/4",
+      "q2": "1/2",
+      "order": "gt"
+    },
+    {
+      "rectangle_index": 5,
+      "q1": "1/2",
+      "q2": "3/4",
+      "order": "lt"
+    },
+    {
+      "rectangle_index": 6,
+      "q1": "3/4",
+      "q2": "1",
+      "order": "lt"
+    },
+    {
+      "rectangle_index": 7,
+      "q1": "3/5",
+      "q2": "1",
+      "order": "lt"
+    }
+  ],
+  "invalid_inputs_rejected": [
+    "singular",
+    "unordered",
+    "invalid volume"
+  ],
+  "mutation_controls": [
+    "missing normalization",
+    "missing gauge",
+    "missing full-width direction",
+    "nonstrict outside of closed rectangle"
+  ],
+  "solver_queries_run": 0,
+  "proof_kernel_calls_run": 0
+}

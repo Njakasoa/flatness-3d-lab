@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "formal_rational_identities": 42,
+  "exact_matrix_fixtures": 2400,
+  "guard_equivalence_checks": 9600,
+  "R0_fixtures": 81,
+  "R3_impossibility_fixtures": 2400,
+  "combined_gauge_bound_fixtures": 205,
+  "reverse_order_gauge_bound_fixtures": 438,
+  "uniform_denominator_lower_bound": "49/1500",
+  "reverse_order_stronger_lower_bound": "249/1700",
+  "hypotheses": "Both Y[0,3] height orders, exact chart, original two observer guards, gamma(2,0,1)>183/500. Global width >17/5 for hollow bodies implies these conditions.",
+  "solver_queries_run": 0,
+  "limitation": "No global shape coverage or determinant-five exclusion."
+}

@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "scope": "One continuous Y[0,3] rectangle excluded under hollow global width >17/5, via exact necessary full-matrix relaxation and externally checked refutation. No whole-class or global-bound conclusion.",
+  "source_archive_sha256": "5cad782b2f86154e77257bae087348da29ede49a70a674c3cdcbd1208afefefd",
+  "input_path": "results/det5_strong_anchor_rectangle.smt2",
+  "input_sha256": "087ab1ead9643620b8e1817d0e7eaa8d9f41e5dce228130fbc838a802036ab40",
+  "proof_path": "certificates/det5_strong_anchor_rectangle.cpc.gz",
+  "proof_sha256": "e22ea59b96fb66acddc7ee94effd772f3f6865706ca9575bfa96deaba9608d84",
+  "external_proof_receipt_sha256": "7fbaa2d6b0310e6a96d4b4f0505fbcd63a2339d08fbb4fcfcf0c05abed093788",
+  "assertions": 84,
+  "variables": 22,
+  "gauges": 11,
+  "guards": 20,
+  "lifted_products": 6,
+  "mccormick_inequalities": 24,
+  "box": [
+    [
+      "0",
+      "1/256"
+    ],
+    [
+      "31/256",
+      "33/256"
+    ]
+  ],
+  "beta": "183/500",
+  "gap_lower": "2042829/50000000",
+  "new_height_area": "1/32768",
+  "old_union_separations": [
+    {
+      "old_box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "strictly_separating_axes": [
+        0,
+        1
+      ]
+    },
+    {
+      "old_box": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "strictly_separating_axes": [
+        1
+      ]
+    },
+    {
+      "old_box": [
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "strictly_separating_axes": [
+        0,
+        1
+      ]
+    },
+    {
+      "old_box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "strictly_separating_axes": [
+        0
+      ]
+    },
+    {
+      "old_box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "strictly_separating_axes": [
+        0,
+        1
+      ]
+    },
+    {
+      "old_box": [
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ]
+      ],
+      "strictly_separating_axes": [
+        0,
+        1
+      ]
+    },
+    {
+      "old_box": [
+        [
+          "3/4",
+          "1"
+        ],
+        [
+          "3/4",
+          "1"
+        ]
+      ],
+      "strictly_separating_axes": [
+        0,
+        1
+      ]
+    },
+    {
+      "old_box": [
+        [
+          "3/5",
+          "1"
+        ],
+        [
+          "3/5",
+          "1"
+        ]
+      ],
+      "strictly_separating_axes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "analytic_diagonal_L_lower": "10/11",
+  "reference_audit": {
+    "reference_sha256": "616226b11a29f60d1d6e55c7116834a5be5ba5c3b183f41b2c2137dfcbbbaf76",
+    "assertions": 84,
+    "variables": 22
+  },
+  "reference_controls": [
+    {
+      "input_path": "results/det5_fiber_anchor.smt2",
+      "reference_sha256": "f9a9223c7cae33e234193110dea43b85c1a81eaccc749247c1dcbe0557324236",
+      "assertions": 59,
+      "variables": 6
+    },
+    {
+      "input_path": "results/det5_fiber_control_full_target.smt2",
+      "reference_sha256": "2f0ab3727bf4c98c7bea2307e3fd88e0772addee2bf4b7736229be966c2e5341",
+      "assertions": 74,
+      "variables": 3
+    },
+    {
+      "input_path": "synthetic nested/Boolean/shadowing lets and false",
+      "reference_sha256": "a4122ac07092899056687d33bfbc77bc5a4067d57ee2604cc7fefd15892b33a9",
+      "assertions": 3,
+      "variables": 3
+    }
+  ],
+  "mutation_controls": [
+    "missing lower gap",
+    "weaker beta",
+    "missing eleventh gauge",
+    "altered height endpoint"
+  ],
+  "solver_queries_run": 0,
+  "proof_kernel_calls_run": 0
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Independent invariant-subspace and coefficient replay; no shape-domain cover.",
+  "certificate_sha256": "48d40f6af85cd54056b1b814f066333fb61ebad21078bc00c2b0bad19ab5e82e",
+  "symbolic_identities": 158,
+  "branches": 2,
+  "coordinate_pairs": 36,
+  "scaled_entries": 32,
+  "coefficient_corruption_rejected": true,
+  "coverage_mutations_rejected": [
+    "missing pair",
+    "duplicate branch"
+  ],
+  "horizontal_image_expressions": 8,
+  "solver_queries_run": 0
+}

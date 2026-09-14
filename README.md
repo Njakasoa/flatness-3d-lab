@@ -10,7 +10,55 @@ internally reviewed with AI assistance. Novelty remains unconfirmed.
 No new global bound, solution of the flatness
 conjecture, external peer review or journal/arXiv submission is claimed.**
 
-## Latest research: stronger height-region bounds and exact contact ordering
+## Latest research: quantitative height separation and exact linear fibers
+
+For the remaining contact tetrahedron P=conv(0,(5,1,2),e2,e3), assume
+its four vertices lie in the relative interiors of the opposite facets of
+a hollow real tetrahedron K. Normalize actual Y=(0,1,0) vertex heights to
+q0=0 and q3=1, allowing tied extrema. Set x=min(q1,q2), y=max(q1,q2),
+L=(y-x)/(y(1-x)) and A=1+2/√3. The ordering lemma gives x<y.
+
+The new analytic result proves
+
+```text
+w(K) < (500/317)A ≈ 3.3985812908190087 < 17/5
+```
+
+whenever q1<q2 and L≤49/1500, or q1>q2 and L≤249/1700.
+These closed height bands follow from two lattice-point exclusions and the
+known ACMS gauge inequality. No initial large-width assumption is needed.
+The [precise statement and proof](claims/CLAIM-0010.md) include the more
+general bounds depending on L and distinguish both height orders.
+
+The contact geometry also reduces exactly to six bounded shape parameters
+and two remaining variables. At each fixed rational shape, projective
+scaling makes the full target a Boolean combination of rational linear
+constraints. An independent replay checks 158 symbolic identities; the
+implemented fiber compiler has exact positive and negative controls.
+**A continuous cover of the six-dimensional shape domain remains open.**
+
+A separate CPC refutation, freshly checked by Ethos, excludes global width
+>17/5 throughout q1∈[0,1/256], q2∈[31/256,33/256]. This rectangle has
+area 1/32768 and lies outside the earlier certified Y rectangles and the
+new analytic bands. Its 84-assertion encoding is independently audited.
+A second checked refutation concerns the fixed heights q1=0, q2=1/8.
+These are partial region exclusions, not additional eliminated contact types.
+
+The weaker ten-gauge model has an exact hollow witness with Y-width
+2048/593>17/5 but full lattice width only 218301984/89395343≈2.442.
+It fails the strengthened gauge assumptions. The two complete nonlinear
+order models remain UNKNOWN under their archived time limits.
+The **58 necessary contact types** and the global flatness bound are unchanged.
+
+- [Bounded coordinates and analytic proof](proofs/DET5_COMPACT_SHAPE_CHART_REVIEW.md)
+- [Linear-fiber theorem](proofs/DET5_HORIZONTAL_FIBER_REVIEW.md) and [compiler audit](proofs/DET5_FIBER_ORACLE_INDEPENDENT_REVIEW.md)
+- [Continuous rectangle and independent review](proofs/DET5_STRONG_ANCHOR_RECTANGLE_REVIEW.md)
+- [Exact weak-model witness](proofs/DET5_QUADRATIC_CHART_ACTUAL_WITNESS.md)
+- [Combined residual queue](proofs/DET5_COMBINED_RESIDUAL_QUEUE.md): 258 retained entries, 70 refined; no nonemptiness claim
+- [Independent claim review](proofs/DET5_CLAIM0010_INDEPENDENT_REVIEW.md)
+- [Limits of continuous interval lifting](proofs/DET5_HORIZONTAL_FIBER_INTERVAL_LIFTING.md)
+
+## Earlier height-region bounds and exact contact ordering
 
 For P=conv(0,(5,1,2),e2,e3), let K=conv(v0,v1,v2,v3) be a hollow real
 tetrahedron with each prescribed p_i in the relative interior of the facet
@@ -268,7 +316,7 @@ all 484 clauses of the larger model. This does not settle width optimization.
 
 ![The 64 lattice guards and 20 explicit pair exclusions](results/observer_guards.png)
 
-This update exports the committed height-region bounds, contact-ordering lemma and exact residual queue.
+This update exports the quantitative height bands, exact linear fibers, checked partial rectangle and their reproducible evidence.
 Its exact revision is recorded in SOURCE_MANIFEST.json; partial experiments are
 labelled explicitly and are not counted as proofs.
 See [public-copy validation](PUBLIC_VALIDATION.md) for reproduction evidence.
@@ -528,6 +576,36 @@ Floating solver trajectories can vary across versions and platforms. Replays
 refresh timings, environment reports and generated graphics, so check the
 archived snapshot hashes **before** replaying. Exact scientific payloads are
 compared separately in [PUBLIC_VALIDATION.md](PUBLIC_VALIDATION.md).
+
+## Reproduce the height bands and linear fibers
+
+```sh
+.venv/bin/python reproduce_det5_fiber.py
+.venv/bin/python reproduce_det5_fiber.py --encodings
+```
+
+The default uses SymPy and Z3 for seven exact symbolic, witness, arithmetic
+and queue checks. Install the baseline dependencies and optional solver packages
+first; encoding and external-proof checks also require cvc5:
+
+```sh
+.venv/bin/python -m pip install -r requirements.lock \
+  -r experiments/requirements-smt.txt -r experiments/requirements-cvc5.txt
+```
+No SMT search is run. Primary articles are linked rather than redistributed;
+the public arithmetic replay does not repeat the archived primary-text review.
+To freshly check both new CPC proofs with the pinned external setup:
+
+```sh
+.venv/bin/python reproduce_det5_fiber.py --encodings \
+  --ethos ETHOS/build/src/ethos --ethos-source ETHOS \
+  --cvc5-source CVC5
+```
+
+All archived scientific inputs, certificates and original receipts are restored
+after each check. The wrapper writes a separate public validation receipt.
+The partial rectangle and the fixed-height refutation do not certify the
+remaining continuous shape domain.
 
 ## Public snapshot, license and citation
 

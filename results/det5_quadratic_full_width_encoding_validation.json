@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "scope": "Independent complete-width input and cofactor identities; no solver status is a proof.",
+  "source_archive_sha256": "394e1d4917102df8a39c0536dc13b4725739d8f72afc7dc243c2d321a2f534ca",
+  "queries": [
+    {
+      "order": "lt",
+      "status": "unknown",
+      "input_sha256": "a630d5b11701938d982a110c60be0dcae4b18b57890ea739db774a7fe50bd879",
+      "assertions": 75,
+      "variables": 8,
+      "maximum_polynomial_degree": 5,
+      "checked_absolute_determinant_terms": 168,
+      "widths": 15
+    },
+    {
+      "order": "gt",
+      "status": "unknown",
+      "input_sha256": "31f43733f69d6721fd8ad75765b5df603266051a9b402d890c9e165b8b4fbbe8",
+      "assertions": 75,
+      "variables": 8,
+      "maximum_polynomial_degree": 5,
+      "checked_absolute_determinant_terms": 168,
+      "widths": 15
+    }
+  ],
+  "adjugate_entry_identities": 32,
+  "complete_directions": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      2,
+      -1
+    ],
+    [
+      1,
+      -3,
+      -2
+    ],
+    [
+      1,
+      -3,
+      -1
+    ],
+    [
+      1,
+      -2,
+      -3
+    ],
+    [
+      1,
+      -2,
+      -2
+    ],
+    [
+      1,
+      -2,
+      -1
+    ],
+    [
+      1,
+      -1,
+      -3
+    ],
+    [
+      1,
+      -1,
+      -2
+    ],
+    [
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      0,
+      -3
+    ],
+    [
+      1,
+      0,
+      -2
+    ]
+  ],
+  "complete_geometry_receipt_sha256": "1f01eb1ceae43976fd4536ff8e77d8713849836d72dbcb8102706352dbb1d87c",
+  "prior_chart_encoding_receipt_sha256": "2aec2c5078e8cfb4b4c3e3b3735cf3c58331ec0e6d7ada70b313e4fccd0f0db5",
+  "weak_witness_rejection": {
+    "assertion_indices": [
+      24,
+      27,
+      63,
+      67,
+      71
+    ],
+    "failed_gauge_count": 2,
+    "failed_width_count": 3,
+    "failed_width_directions": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        -2,
+        -3
+      ],
+      [
+        1,
+        -1,
+        -2
+      ]
+    ]
+  },
+  "missing_width_control": true,
+  "missing_determinant_control": true,
+  "solver_queries_run": 0,
+  "proof_kernel_calls_run": 0
+}

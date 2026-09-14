@@ -1,0 +1,8792 @@
+{
+  "status": "PASS",
+  "scope": "Symbolic fiber structure, not a finite horizontal-domain cover or a flatness bound.",
+  "horizontal_variables": [
+    "low",
+    "high",
+    "c",
+    "e",
+    "r",
+    "u"
+  ],
+  "linear_variables": [
+    "alpha=theta/gap",
+    "eta=h/gap",
+    "rho=1/gap"
+  ],
+  "linear_equality": "eta-low*rho-(high-low)*alpha=1",
+  "horizontal_determinant": [
+    {
+      "powers": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "powers": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "coefficient": "1"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "1"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "powers": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "1"
+    }
+  ],
+  "branches": [
+    {
+      "order": "lt",
+      "adjugate_identities": 16,
+      "scaled_F_entries": [
+        {
+          "row": 0,
+          "column": 0,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ]
+        }
+      ],
+      "coordinate_pair_numerators": [
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            1,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            2,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            2,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-10"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            3,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            3,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-10"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            3,
+            2
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            1,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            2,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            2,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            3,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            3,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            3,
+            2
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            1,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            2,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            2,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-4"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            3,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            3,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            3,
+            2
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": "gt",
+      "adjugate_identities": 16,
+      "scaled_F_entries": [
+        {
+          "row": 0,
+          "column": 0,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ]
+        }
+      ],
+      "coordinate_pair_numerators": [
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            1,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            2,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            2,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-10"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            3,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            3,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "10"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ]
+        },
+        {
+          "coordinate": 0,
+          "vertex_pair": [
+            3,
+            2
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "5"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            1,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            2,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            2,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            3,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            3,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 1,
+          "vertex_pair": [
+            3,
+            2
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            1,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            2,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            2,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-4"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            3,
+            0
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "0"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            3,
+            1
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                2,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        },
+        {
+          "coordinate": 2,
+          "vertex_pair": [
+            3,
+            2
+          ],
+          "alpha": [
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1"
+            }
+          ],
+          "eta": [
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            }
+          ],
+          "rho": [
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "2"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "coefficient": "-1"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "solver_queries_run": 0,
+  "horizontal_images_lt": {
+    "R": [
+      [
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        }
+      ],
+      [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      [
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    ],
+    "Z": [
+      [
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      [
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      [
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      [
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    ]
+  },
+  "source_generator_sha256": "581623e5c48ba8db564061ad155ce7d8025d17d80e1444b88c984916cd7c7ba3"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "symbolic_identities": 24,
+  "branch_count": 2,
+  "positive_singular_fixture": true,
+  "singular_fixture_gauges": [
+    "3/50",
+    "9/50",
+    "6/25",
+    "3/25"
+  ],
+  "solver_queries": 0,
+  "scope": "Exact chart identities and singularity control; no width exclusion."
+}

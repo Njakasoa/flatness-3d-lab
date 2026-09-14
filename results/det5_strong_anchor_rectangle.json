@@ -1,0 +1,85 @@
+{
+  "status": "unsat",
+  "elapsed_seconds": 3.6964924700005213,
+  "internal_complete_proof_check": true,
+  "scope": "One continuous height rectangle with strengthened eleven gauges and a true-global-target volume gap necessity. Status alone is not a certificate.",
+  "extrema": [
+    0,
+    3
+  ],
+  "box": [
+    [
+      "0",
+      "1/256"
+    ],
+    [
+      "31/256",
+      "33/256"
+    ]
+  ],
+  "beta": "183/500",
+  "target": "17/5",
+  "gap_lower": "2042829/50000000",
+  "gauge_vectors": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      2
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      5,
+      1,
+      2
+    ],
+    [
+      1,
+      -1,
+      1
+    ]
+  ],
+  "input_path": "results/det5_strong_anchor_rectangle.smt2",
+  "input_sha256": "087ab1ead9643620b8e1817d0e7eaa8d9f41e5dce228130fbc838a802036ab40",
+  "solver_queries_run": 1,
+  "proof_path": "certificates/det5_strong_anchor_rectangle.cpc.gz",
+  "proof_sha256": "e22ea59b96fb66acddc7ee94effd772f3f6865706ca9575bfa96deaba9608d84"
+}

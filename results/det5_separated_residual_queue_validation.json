@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "source_queue": {
+    "path": "results/det5_separated_residual_queue.json",
+    "sha256": "6307e579d2b35581fc2fc73d8f2fd6ba6928eb9d84f08511b460843a43b4b8f0"
+  },
+  "predecessor_queue": {
+    "path": "results/det5_enlarged_residual_queue.json",
+    "sha256": "4f45561261a82b4d4a4c35e49e3cac071f8abd8cc693efa00c7764d871949f64"
+  },
+  "entries_preserved": 258,
+  "entries_refined": 70,
+  "other_chart_entries_unchanged": 188,
+  "exact_branches_per_refined_entry": 2,
+  "new_rectangle_area": "1/1000000",
+  "previous_residual_entries_containing_whole_rectangle": [
+    "0_3_0_2_r00110010",
+    "0_3_0_2_r00110011",
+    "0_3_0_3_r0000000",
+    "0_3_0_3_r0000001",
+    "0_3_0_3_r0001000",
+    "0_3_0_3_r0001001",
+    "0_3_0_3_r0011000",
+    "0_3_0_3_r0011001"
+  ],
+  "universal_rectangle_method": "Exact interval bounds and disjoint closed boxes; no sampling or grid coverage.",
+  "mutation_controls_rejected": [
+    "lost_entry",
+    "weakened_polynomial",
+    "changed_old_bound"
+  ],
+  "solver_queries_run": 0,
+  "scope": "Encoding and rigorous interval audit; analytic source proofs retain their stated scope. No updated total area or complete coverage proof."
+}

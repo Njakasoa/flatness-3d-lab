@@ -1,8 +1,25 @@
-> Publication note (2026-09-14): this snapshot includes the subsequent corner
-> bounds, exact residual queue and ordering results below. Historical references
-> to local-only work describe earlier checkpoints; see ../PUBLICATION.md.
-
 # Determinant-five research status — 2026-09-14
+
+## 2026-09-14 — quantitative height bands, bounded shape coordinates and checked rectangle
+
+CLAIM-0010 gives w(K)<(500/317)(1+2/sqrt(3))<17/5 in two closed
+height bands of the prescribed determinant-five Y[0,3] facet-contact chart.
+Two necessary observer exclusions prove the gauge estimates analytically;
+no prior large-width or volume assumption is used in this claim. Independent
+symbolic and exact fixture checks support the written universal argument.
+Six compact shape coordinates are bounded, with their rational denominator
+separated from zero under the true global target. Exact fixed-shape linear
+fibers are implemented and independently audited, with retained weak-model
+controls. This does not provide continuous six-dimensional coverage.
+
+Two new linear queries were UNSAT: fixed heights (0,1/8), and the continuous
+rectangle [0,1/256] x [31/256,33/256]. Both archived CPC proofs have fresh
+reference-bound Ethos checks and independent encoding audits. The rectangle
+uses the volume-derived gap bound under true global width>17/5; it cannot
+inherit the stronger analytic band bound. Its area outside the old rectangles
+and the analytic band is 1/32768. No new contact type or global bound is claimed.
+The original nonlinear queries and prior solver archives remain unchanged.
+Mathematical priority is unconfirmed. Publication now has explicit user authorization.
 
 ## Current local refinement: exact ordering and reduced proof premises
 
@@ -307,3 +324,24 @@ this is neither an upper bound nor an independently certified new witness.
 
 This follow-up is included in the newly authorized public checkpoint. The global
 bound and 58-type list remain unchanged; no mathematical priority is claimed.
+
+## Eight-variable exact chart and six-shape/two-fiber reduction
+
+The new chart removes all lifted products by solving the column sums and
+height equations exactly. Its weak ten-gauge Y-only target has a genuine
+rational hollow witness with Y width 2048/593, tied minimum vertices 0,1 and
+maximum 3. Full width is about 2.442; its full gauge minimum 801/2560 fails
+at (1,-1,1), and an existing gauge already fails the stronger 183/500 threshold.
+See [actual witness](DET5_QUADRATIC_CHART_ACTUAL_WITNESS.md).
+
+The complete fifteen-width model now has eight variables and degree at most five;
+both new 20-second queries remain UNKNOWN. Two independent input audits and
+exact geometry checks pass. See [full-width review](DET5_QUADRATIC_FULL_WIDTH_REVIEW.md).
+
+The stronger structural result is the [linear-fiber theorem](DET5_HORIZONTAL_FIBER_REVIEW.md):
+fixing six shape parameters leaves exact rational linear arithmetic in three
+scaled variables with one affine equation. An invariant-subspace rank-one
+argument explains the affine pair numerators;158 symbolic identities replay
+the coefficient certificate independently. The continuous shape domain is
+still unclassified. The 58-type count, 258 residual entries and global bound
+are unchanged. These results remain local after public c5cbbd2.

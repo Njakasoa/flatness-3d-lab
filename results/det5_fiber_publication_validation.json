@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "date": "2026-09-14",
+  "source_revision": "5e1992205620baedeb150359451234e913fda78b",
+  "public_base_revision": "c5cbbd24463d811e85e6a9494367f56c0819608c",
+  "scientific_files_byte_equal": 69,
+  "unchanged_prior_certificate_files": 206,
+  "public_replay_stages": 13,
+  "fresh_reference_bound_ethos_proofs": 2,
+  "solver_queries_run": 0,
+  "local_markdown_links_checked": 456,
+  "new_python_syntax": "PASS",
+  "privacy_and_size_scan": "PASS",
+  "scope": "Restricted height bands and linear fibers; no whole-class exclusion or new global flatness bound."
+}

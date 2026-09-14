@@ -213,3 +213,65 @@ The next step should use the geometric section/order structure rather than
 repeat the current product-envelope strengthening. Mathematical priority
 is unconfirmed; the established ACMS inequality remains the main antecedent.
 The work stays local after public 175896f and the broad goal remains active.
+
+## 2026-09-14 — exact quadratic chart and horizontal-fiber reduction
+
+Previous goal turn: progress. Publication c5cbbd2 was verified on GitHub,
+with scientific source e42b25d and a repaired JSON-list replay. The research
+objective remains open; no new publication is performed in this turn.
+Current turn: progress, with four structurally new bounded queries.
+
+Root derived an exact eight-parameter quadratic contact matrix, eliminating the
+six lifted products and all eight column/height equations by construction.
+Independent column elimination, endpoint fixtures and input audits pass.
+One weak-gauge branch is SAT with a rational actual hollow body; the other
+is UNKNOWN. Its widthY=2048/593, full width=218301984/89395343 and full
+difference minimum=801/2560 are independently certified, including 112 primal
+points, 15 complete width directions and 335 primitive gauge vectors. The weak
+Y-only target is feasible; the body fails both a stronger old gauge and the
+newly exposed vector (1,-1,1). No global counterexample follows.
+
+Root then imposed all fifteen widths, beta 183/500 and the additional gauge in
+an eight-variable degree-five formulation. Both 20-second targets are UNKNOWN.
+Independent audits reconstruct all 75 assertions per branch and their exact
+adjugate geometry. No old solver query was repeated.
+
+A further analytic reduction separates six horizontal shape variables from
+two fiber variables. Independent review proves that the restriction of F
+to the invariant zero-sum space varies by a single rank-one update, making
+all vertex-pair numerators jointly affine in the fiber. Projective scaling
+yields exact rational linear constraints for every fixed rational shape.
+The symbolic certificate has an independent 158-identity replay. The rational
+clipped-supremum statement respects empty strict branches and unattained
+limits. It gives no finite continuous shape cover and no new width bound.
+A separate review proves exact section interpolation within each band and
+identifies its possible one transition between the two contact planes.
+
+The eight-variable parameterization and linear-fiber formulation are recorded
+as structural progress. Standard barycentric algebra, rank-one determinant
+identities, projective linearization and the established ACMS/observer results
+are the antecedents; mathematical priority is unconfirmed. No new CLAIM number,
+complete class exclusion or global improvement is asserted. All 58 necessary
+types and the 258-entry residual queue remain. The next scientific step is
+exact fiber elimination plus a rigorous argument over all six shape variables.
+
+## 2026-09-14 — quantitative height bands, bounded shape coordinates and checked rectangle
+
+CLAIM-0010 gives w(K)<(500/317)(1+2/sqrt(3))<17/5 in two closed
+height bands of the prescribed determinant-five Y[0,3] facet-contact chart.
+Two necessary observer exclusions prove the gauge estimates analytically;
+no prior large-width or volume assumption is used in this claim. Independent
+symbolic and exact fixture checks support the written universal argument.
+Six compact shape coordinates are bounded, with their rational denominator
+separated from zero under the true global target. Exact fixed-shape linear
+fibers are implemented and independently audited, with retained weak-model
+controls. This does not provide continuous six-dimensional coverage.
+
+Two new linear queries were UNSAT: fixed heights (0,1/8), and the continuous
+rectangle [0,1/256] x [31/256,33/256]. Both archived CPC proofs have fresh
+reference-bound Ethos checks and independent encoding audits. The rectangle
+uses the volume-derived gap bound under true global width>17/5; it cannot
+inherit the stronger analytic band bound. Its area outside the old rectangles
+and the analytic band is 1/32768. No new contact type or global bound is claimed.
+The original nonlinear queries and prior solver archives remain unchanged.
+Mathematical priority is unconfirmed. Publication now has explicit user authorization.

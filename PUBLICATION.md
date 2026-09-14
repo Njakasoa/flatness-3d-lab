@@ -130,3 +130,15 @@ the actual-body certificate and all mathematical results retain their bytes.
 The public README, French summary, reproduction wrapper and this publication
 record are adapted for this snapshot. Source runtime installations, private
 history, session logs and third-party paper copies remain excluded.
+
+## Height bands and linear-fiber update — 2026-09-14
+
+Published under renewed explicit maintainer authorization, following the
+Ihara A(2) lab's reproducible companion format. Source `5e1992205620baedeb150359451234e913fda78b`;
+previous public checkpoint `c5cbbd24463d811e85e6a9494367f56c0819608c`. Public history is continued without
+exporting private research history. The update includes CLAIM-0010, bounded
+shape coordinates, exact fixed-shape linear constraints, the retained weak
+witness, the combined residual queue, and two freshly replayed CPC proofs.
+All 13 incremental checks pass; no new SMT search was run.
+No new whole contact class, global flatness bound, established priority,
+external peer review or journal/arXiv submission is claimed.
